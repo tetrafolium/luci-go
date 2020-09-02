@@ -17,10 +17,10 @@ package config
 import (
 	"time"
 
-	buildbucketpb "go.chromium.org/luci/buildbucket/proto"
-	"go.chromium.org/luci/gae/service/datastore"
+	buildbucketpb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
 
-	notifypb "go.chromium.org/luci/luci_notify/api/config"
+	notifypb "github.com/tetrafolium/luci-go/luci_notify/api/config"
 )
 
 // Builder represents the state of the last build seen from a particular

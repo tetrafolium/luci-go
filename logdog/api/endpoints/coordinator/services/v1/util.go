@@ -15,8 +15,8 @@
 package logdog
 
 import (
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/grpc/grpcutil"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
+	"github.com/tetrafolium/luci-go/grpc/grpcutil"
 
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

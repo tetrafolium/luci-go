@@ -8,7 +8,7 @@
 // versions:
 // 	protoc-gen-go v1.25.0-devel
 // 	protoc        v3.12.1
-// source: go.chromium.org/luci/luci_notify/api/config/settings.proto
+// source: github.com/tetrafolium/luci-go/luci_notify/api/config/settings.proto
 
 package config
 

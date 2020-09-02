@@ -17,7 +17,7 @@ package lucicfg
 import (
 	"go.starlark.net/starlark"
 
-	"go.chromium.org/luci/starlark/interpreter"
+	"github.com/tetrafolium/luci-go/starlark/interpreter"
 )
 
 func init() {

@@ -20,7 +20,7 @@ import (
 	"strconv"
 	"strings"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // canonicalVersionRE is a regular expression that can match canonical Python

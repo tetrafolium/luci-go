@@ -21,10 +21,10 @@ import (
 
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/flag/stringlistflag"
-	"go.chromium.org/luci/common/flag/stringmapflag"
-	"go.chromium.org/luci/led/job"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/flag/stringlistflag"
+	"github.com/tetrafolium/luci-go/common/flag/stringmapflag"
+	"github.com/tetrafolium/luci-go/led/job"
 )
 
 func editCmd(opts cmdBaseOptions) *subcommands.Command {

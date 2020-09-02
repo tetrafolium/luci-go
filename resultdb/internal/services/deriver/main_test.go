@@ -17,7 +17,7 @@ package deriver
 import (
 	"testing"
 
-	"go.chromium.org/luci/resultdb/internal/testutil"
+	"github.com/tetrafolium/luci-go/resultdb/internal/testutil"
 )
 
 const expectedResultExpiration = 60 * day

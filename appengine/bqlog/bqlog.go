@@ -48,21 +48,21 @@ import (
 	bqapi "google.golang.org/api/bigquery/v2"
 	"google.golang.org/api/googleapi"
 
-	"go.chromium.org/luci/gae/service/info"
-	"go.chromium.org/luci/gae/service/taskqueue"
+	"github.com/tetrafolium/luci-go/gae/service/info"
+	"github.com/tetrafolium/luci-go/gae/service/taskqueue"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry"
-	"go.chromium.org/luci/common/retry/transient"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/retry"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
 
-	"go.chromium.org/luci/common/tsmon/distribution"
-	"go.chromium.org/luci/common/tsmon/field"
-	"go.chromium.org/luci/common/tsmon/metric"
-	"go.chromium.org/luci/common/tsmon/types"
+	"github.com/tetrafolium/luci-go/common/tsmon/distribution"
+	"github.com/tetrafolium/luci-go/common/tsmon/field"
+	"github.com/tetrafolium/luci-go/common/tsmon/metric"
+	"github.com/tetrafolium/luci-go/common/tsmon/types"
 
-	"go.chromium.org/luci/server/auth"
+	"github.com/tetrafolium/luci-go/server/auth"
 )
 
 const (

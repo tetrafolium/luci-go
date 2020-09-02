@@ -23,8 +23,8 @@ import (
 	"strings"
 	"time"
 
-	"go.chromium.org/luci/common/errors"
-	gerritpb "go.chromium.org/luci/common/proto/gerrit"
+	"github.com/tetrafolium/luci-go/common/errors"
+	gerritpb "github.com/tetrafolium/luci-go/common/proto/gerrit"
 )
 
 // ActionType describes the type of the action taken by CV against a Gerrit

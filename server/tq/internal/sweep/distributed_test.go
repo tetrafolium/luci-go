@@ -26,16 +26,16 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"go.chromium.org/luci/common/clock/testclock"
+	"github.com/tetrafolium/luci-go/common/clock/testclock"
 
-	"go.chromium.org/luci/server/tq/internal/lessor"
-	"go.chromium.org/luci/server/tq/internal/partition"
-	"go.chromium.org/luci/server/tq/internal/reminder"
-	"go.chromium.org/luci/server/tq/internal/testutil"
-	"go.chromium.org/luci/server/tq/internal/tqpb"
+	"github.com/tetrafolium/luci-go/server/tq/internal/lessor"
+	"github.com/tetrafolium/luci-go/server/tq/internal/partition"
+	"github.com/tetrafolium/luci-go/server/tq/internal/reminder"
+	"github.com/tetrafolium/luci-go/server/tq/internal/testutil"
+	"github.com/tetrafolium/luci-go/server/tq/internal/tqpb"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestDistributed(t *testing.T) {

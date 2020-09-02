@@ -31,10 +31,10 @@ import (
 	taskspb "google.golang.org/genproto/googleapis/cloud/tasks/v2"
 	pubsubpb "google.golang.org/genproto/googleapis/pubsub/v1"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/data/stringset"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
 
-	"go.chromium.org/luci/server/tq/internal/reminder"
+	"github.com/tetrafolium/luci-go/server/tq/internal/reminder"
 )
 
 // ClockTag tags the clock used in scheduler's sleep.

@@ -8,7 +8,7 @@
 // versions:
 // 	protoc-gen-go v1.25.0-devel
 // 	protoc        v3.12.1
-// source: go.chromium.org/luci/luci_notify/internal/tq.proto
+// source: github.com/tetrafolium/luci-go/luci_notify/internal/tq.proto
 
 package internal
 

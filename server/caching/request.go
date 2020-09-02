@@ -17,7 +17,7 @@ package caching
 import (
 	"context"
 
-	"go.chromium.org/luci/common/data/caching/lru"
+	"github.com/tetrafolium/luci-go/common/data/caching/lru"
 )
 
 var requestCacheKey = "server.caching Per-Request Cache"

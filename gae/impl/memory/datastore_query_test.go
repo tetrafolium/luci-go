@@ -18,14 +18,14 @@ import (
 	"bytes"
 	"testing"
 
-	dstore "go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/gae/service/datastore/serialize"
+	dstore "github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/service/datastore/serialize"
 
-	"go.chromium.org/luci/common/data/cmpbin"
-	"go.chromium.org/luci/common/data/stringset"
+	"github.com/tetrafolium/luci-go/common/data/cmpbin"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 type sillyCursor string

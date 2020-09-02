@@ -23,7 +23,7 @@ import (
 
 	"google.golang.org/protobuf/reflect/protoreflect"
 
-	"go.chromium.org/luci/starlark/typed"
+	"github.com/tetrafolium/luci-go/starlark/typed"
 )
 
 // newStarlarkDict returns a new typed.Dict of an appropriate type.

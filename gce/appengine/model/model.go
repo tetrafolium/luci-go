@@ -21,10 +21,10 @@ import (
 
 	"google.golang.org/api/compute/v1"
 
-	"go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
 
-	"go.chromium.org/luci/gce/api/config/v1"
-	"go.chromium.org/luci/gce/api/projects/v1"
+	"github.com/tetrafolium/luci-go/gce/api/config/v1"
+	"github.com/tetrafolium/luci-go/gce/api/projects/v1"
 )
 
 // ConfigKind is a config entity's kind in the datastore.

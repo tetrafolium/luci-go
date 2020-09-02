@@ -13,7 +13,7 @@
 # limitations under the License.
 
 l = proto.new_loader(proto.new_descriptor_set(blob=read('./testprotos/all.pb')))
-testprotos = l.module('go.chromium.org/luci/starlark/starlarkproto/testprotos/test.proto')
+testprotos = l.module('github.com/tetrafolium/luci-go/starlark/starlarkproto/testprotos/test.proto')
 
 # Behavior and implementation if message-valued repeated fields isn't much
 # different from other repeated fields, so we test only special cases.

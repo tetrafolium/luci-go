@@ -21,14 +21,14 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry/transient"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
 
-	"go.chromium.org/luci/scheduler/appengine/internal"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/internal"
 )
 
 // invQuery abstracts a query that fetches invocations in order of their IDs,

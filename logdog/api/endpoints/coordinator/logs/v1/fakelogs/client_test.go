@@ -22,13 +22,13 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"go.chromium.org/luci/common/logging/gologger"
-	. "go.chromium.org/luci/common/testing/assertions"
-	logs "go.chromium.org/luci/logdog/api/endpoints/coordinator/logs/v1"
-	"go.chromium.org/luci/logdog/appengine/coordinator/coordinatorTest"
-	"go.chromium.org/luci/logdog/client/butlerlib/streamproto"
-	"go.chromium.org/luci/logdog/client/coordinator"
-	"go.chromium.org/luci/logdog/common/fetcher"
+	"github.com/tetrafolium/luci-go/common/logging/gologger"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
+	logs "github.com/tetrafolium/luci-go/logdog/api/endpoints/coordinator/logs/v1"
+	"github.com/tetrafolium/luci-go/logdog/appengine/coordinator/coordinatorTest"
+	"github.com/tetrafolium/luci-go/logdog/client/butlerlib/streamproto"
+	"github.com/tetrafolium/luci-go/logdog/client/coordinator"
+	"github.com/tetrafolium/luci-go/logdog/common/fetcher"
 )
 
 func TestFakeLogs(t *testing.T) {

@@ -25,12 +25,12 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/isolated"
-	"go.chromium.org/luci/common/isolatedclient"
-	. "go.chromium.org/luci/common/testing/assertions"
-	"go.chromium.org/luci/led/job"
-	swarmingpb "go.chromium.org/luci/swarming/proto/api"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/isolated"
+	"github.com/tetrafolium/luci-go/common/isolatedclient"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
+	"github.com/tetrafolium/luci-go/led/job"
+	swarmingpb "github.com/tetrafolium/luci-go/swarming/proto/api"
 )
 
 type fakePendingItem struct {

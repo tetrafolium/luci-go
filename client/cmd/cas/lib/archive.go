@@ -27,11 +27,11 @@ import (
 	"github.com/golang/protobuf/jsonpb"
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/client/cas"
-	"go.chromium.org/luci/client/isolated"
-	"go.chromium.org/luci/common/cli"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/system/signals"
+	"github.com/tetrafolium/luci-go/client/cas"
+	"github.com/tetrafolium/luci-go/client/isolated"
+	"github.com/tetrafolium/luci-go/common/cli"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/system/signals"
 )
 
 // CmdArchive returns an object for the `archive` subcommand.

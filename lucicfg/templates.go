@@ -23,7 +23,7 @@ import (
 
 	"go.starlark.net/starlark"
 
-	"go.chromium.org/luci/starlark/builtins"
+	"github.com/tetrafolium/luci-go/starlark/builtins"
 )
 
 type templateValue struct {

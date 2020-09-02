@@ -28,12 +28,12 @@ import (
 	"github.com/golang/protobuf/ptypes"
 	"google.golang.org/grpc/metadata"
 
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/grpc/prpc"
+	"github.com/tetrafolium/luci-go/common/clock/testclock"
+	"github.com/tetrafolium/luci-go/grpc/prpc"
 
-	"go.chromium.org/luci/resultdb/pbutil"
-	pb "go.chromium.org/luci/resultdb/proto/v1"
-	sinkpb "go.chromium.org/luci/resultdb/sink/proto/v1"
+	"github.com/tetrafolium/luci-go/resultdb/pbutil"
+	pb "github.com/tetrafolium/luci-go/resultdb/proto/v1"
+	sinkpb "github.com/tetrafolium/luci-go/resultdb/sink/proto/v1"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

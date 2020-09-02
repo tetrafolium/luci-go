@@ -15,8 +15,8 @@
 package ui
 
 import (
-	"go.chromium.org/luci/scheduler/appengine/engine"
-	"go.chromium.org/luci/server/router"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/engine"
+	"github.com/tetrafolium/luci-go/server/router"
 )
 
 // jobFromEngine fetches an *engine.Job and returns it, or writes HTTP Not Found

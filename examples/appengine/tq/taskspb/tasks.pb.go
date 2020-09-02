@@ -16,7 +16,7 @@
 // versions:
 // 	protoc-gen-go v1.25.0-devel
 // 	protoc        v3.12.1
-// source: go.chromium.org/luci/examples/appengine/tq/taskspb/tasks.proto
+// source: github.com/tetrafolium/luci-go/examples/appengine/tq/taskspb/tasks.proto
 
 package taskspb
 

@@ -24,7 +24,7 @@ import (
 	"sync"
 	"testing"
 
-	"go.chromium.org/luci/common/isolatedclient"
+	"github.com/tetrafolium/luci-go/common/isolatedclient"
 )
 
 type fakePushService struct {

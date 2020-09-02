@@ -18,8 +18,8 @@ import (
 	"testing"
 
 	. "github.com/smartystreets/goconvey/convey"
-	buildbucketpb "go.chromium.org/luci/buildbucket/proto"
-	"go.chromium.org/luci/milo/frontend/ui"
+	buildbucketpb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	"github.com/tetrafolium/luci-go/milo/frontend/ui"
 )
 
 func TestExcludeBuilds(t *testing.T) {

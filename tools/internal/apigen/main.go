@@ -33,14 +33,14 @@ import (
 	"text/template"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	log "go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry"
-	"go.chromium.org/luci/common/sync/parallel"
+	"github.com/tetrafolium/luci-go/common/clock"
+	log "github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/retry"
+	"github.com/tetrafolium/luci-go/common/sync/parallel"
 )
 
 const (
-	defaultPackageBase = "go.chromium.org/luci/common/api"
+	defaultPackageBase = "github.com/tetrafolium/luci-go/common/api"
 
 	// chromiumLicence is the standard Chromium license header.
 	chromiumLicense = `` +
@@ -352,7 +352,7 @@ func (a *Application) generateAPI(c context.Context, item *directoryItem, discov
 				// we can't refer to the internal one. See crbug.com/1003496.
 				line = strings.ReplaceAll(line,
 					`"google.golang.org/api/internal/gensupport"`,
-					`"go.chromium.org/luci/common/api/internal/gensupport"`)
+					`"github.com/tetrafolium/luci-go/common/api/internal/gensupport"`)
 				filtered.WriteString(line)
 				filtered.WriteRune('\n')
 				continue

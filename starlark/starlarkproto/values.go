@@ -21,7 +21,7 @@ import (
 
 	"google.golang.org/protobuf/reflect/protoreflect"
 
-	"go.chromium.org/luci/starlark/typed"
+	"github.com/tetrafolium/luci-go/starlark/typed"
 )
 
 // toStarlark converts a protobuf value (whose kind is described by the given

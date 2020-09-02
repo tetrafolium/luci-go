@@ -20,14 +20,14 @@ import (
 
 	"github.com/golang/protobuf/ptypes/timestamp"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/proto/google"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/proto/google"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
 
-	"go.chromium.org/luci/appengine/mapper/splitter"
+	"github.com/tetrafolium/luci-go/appengine/mapper/splitter"
 )
 
 // ErrNoSuchJob is returned by GetJob if there's no Job with requested ID.

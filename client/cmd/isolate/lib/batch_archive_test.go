@@ -20,7 +20,7 @@ import (
 	"strings"
 	"testing"
 
-	"go.chromium.org/luci/common/flag/stringmapflag"
+	"github.com/tetrafolium/luci-go/common/flag/stringmapflag"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

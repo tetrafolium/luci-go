@@ -23,9 +23,9 @@ import (
 
 	_ "github.com/go-sql-driver/mysql"
 
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/machine-db/appengine/settings"
-	"go.chromium.org/luci/server/router"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/machine-db/appengine/settings"
+	"github.com/tetrafolium/luci-go/server/router"
 )
 
 // The open database connection is intended to be reused and shared by multiple concurrent requests,

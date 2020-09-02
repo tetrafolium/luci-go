@@ -17,9 +17,9 @@ package realmset
 import (
 	"testing"
 
-	"go.chromium.org/luci/server/auth/authdb/internal/graph"
-	"go.chromium.org/luci/server/auth/realms"
-	"go.chromium.org/luci/server/auth/service/protocol"
+	"github.com/tetrafolium/luci-go/server/auth/authdb/internal/graph"
+	"github.com/tetrafolium/luci-go/server/auth/realms"
+	"github.com/tetrafolium/luci-go/server/auth/service/protocol"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

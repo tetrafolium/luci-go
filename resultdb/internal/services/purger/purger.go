@@ -21,15 +21,15 @@ import (
 
 	"cloud.google.com/go/spanner"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/server"
-	"go.chromium.org/luci/server/span"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/server"
+	"github.com/tetrafolium/luci-go/server/span"
 
-	"go.chromium.org/luci/resultdb/internal/artifacts"
-	"go.chromium.org/luci/resultdb/internal/cron"
-	"go.chromium.org/luci/resultdb/internal/invocations"
-	"go.chromium.org/luci/resultdb/internal/spanutil"
+	"github.com/tetrafolium/luci-go/resultdb/internal/artifacts"
+	"github.com/tetrafolium/luci-go/resultdb/internal/cron"
+	"github.com/tetrafolium/luci-go/resultdb/internal/invocations"
+	"github.com/tetrafolium/luci-go/resultdb/internal/spanutil"
 )
 
 // maxTestVariantsToFilter is the maximum number of test variants to include

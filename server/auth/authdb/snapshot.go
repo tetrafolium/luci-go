@@ -23,20 +23,20 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/trace"
-	"go.chromium.org/luci/server/auth/realms"
-	"go.chromium.org/luci/server/auth/service/protocol"
-	"go.chromium.org/luci/server/auth/signing"
+	"github.com/tetrafolium/luci-go/auth/identity"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/trace"
+	"github.com/tetrafolium/luci-go/server/auth/realms"
+	"github.com/tetrafolium/luci-go/server/auth/service/protocol"
+	"github.com/tetrafolium/luci-go/server/auth/signing"
 
-	"go.chromium.org/luci/server/auth/authdb/internal/certs"
-	"go.chromium.org/luci/server/auth/authdb/internal/graph"
-	"go.chromium.org/luci/server/auth/authdb/internal/ipaddr"
-	"go.chromium.org/luci/server/auth/authdb/internal/oauthid"
-	"go.chromium.org/luci/server/auth/authdb/internal/realmset"
-	"go.chromium.org/luci/server/auth/authdb/internal/seccfg"
+	"github.com/tetrafolium/luci-go/server/auth/authdb/internal/certs"
+	"github.com/tetrafolium/luci-go/server/auth/authdb/internal/graph"
+	"github.com/tetrafolium/luci-go/server/auth/authdb/internal/ipaddr"
+	"github.com/tetrafolium/luci-go/server/auth/authdb/internal/oauthid"
+	"github.com/tetrafolium/luci-go/server/auth/authdb/internal/realmset"
+	"github.com/tetrafolium/luci-go/server/auth/authdb/internal/seccfg"
 )
 
 // SnapshotDB implements DB using AuthDB proto message.
@@ -167,7 +167,7 @@ func (db *SnapshotDB) IsMember(c context.Context, id identity.Identity, groups [
 		return false, nil
 	}
 
-	_, span := trace.StartSpan(c, "go.chromium.org/luci/server/auth/authdb.IsMember")
+	_, span := trace.StartSpan(c, "github.com/tetrafolium/luci-go/server/auth/authdb.IsMember")
 	span.Attribute("cr.dev/groups", strings.Join(groups, ", "))
 	defer span.End(nil)
 
@@ -194,7 +194,7 @@ func (db *SnapshotDB) CheckMembership(c context.Context, id identity.Identity, g
 		return
 	}
 
-	_, span := trace.StartSpan(c, "go.chromium.org/luci/server/auth/authdb.CheckMembership")
+	_, span := trace.StartSpan(c, "github.com/tetrafolium/luci-go/server/auth/authdb.CheckMembership")
 	span.Attribute("cr.dev/groups", strings.Join(groups, ", "))
 	defer span.End(nil)
 
@@ -210,7 +210,7 @@ func (db *SnapshotDB) CheckMembership(c context.Context, id identity.Identity, g
 // HasPermission returns true if the identity has the given permission in any
 // of the realms.
 func (db *SnapshotDB) HasPermission(c context.Context, id identity.Identity, perm realms.Permission, realm string) (ok bool, err error) {
-	_, span := trace.StartSpan(c, "go.chromium.org/luci/server/auth/authdb.HasPermission")
+	_, span := trace.StartSpan(c, "github.com/tetrafolium/luci-go/server/auth/authdb.HasPermission")
 	span.Attribute("cr.dev/permission", perm.Name())
 	span.Attribute("cr.dev/realm", realm)
 	defer func() { span.End(err) }()

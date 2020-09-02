@@ -26,14 +26,14 @@ import (
 	"github.com/golang/protobuf/proto"
 	structpb "github.com/golang/protobuf/ptypes/struct"
 
-	bbpb "go.chromium.org/luci/buildbucket/proto"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/logdog/client/butlerlib/bootstrap"
-	"go.chromium.org/luci/logdog/client/butlerlib/streamclient"
-	"go.chromium.org/luci/luciexe"
+	bbpb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/logdog/client/butlerlib/bootstrap"
+	"github.com/tetrafolium/luci-go/logdog/client/butlerlib/streamclient"
+	"github.com/tetrafolium/luci-go/luciexe"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestExe(t *testing.T) {

@@ -26,9 +26,9 @@ import (
 	"sync"
 
 	humanize "github.com/dustin/go-humanize"
-	"go.chromium.org/luci/common/isolated"
-	"go.chromium.org/luci/common/isolatedclient"
-	"go.chromium.org/luci/common/system/filesystem"
+	"github.com/tetrafolium/luci-go/common/isolated"
+	"github.com/tetrafolium/luci-go/common/isolatedclient"
+	"github.com/tetrafolium/luci-go/common/system/filesystem"
 )
 
 const (

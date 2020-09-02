@@ -20,12 +20,12 @@ import (
 	"strings"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/clock/clockflag"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/logdog/api/logpb"
-	"go.chromium.org/luci/logdog/client/butlerlib/streamproto"
-	"go.chromium.org/luci/logdog/common/types"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/clock/clockflag"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/logdog/api/logpb"
+	"github.com/tetrafolium/luci-go/logdog/client/butlerlib/streamproto"
+	"github.com/tetrafolium/luci-go/logdog/common/types"
 )
 
 // This is populated via init() functions in this package.

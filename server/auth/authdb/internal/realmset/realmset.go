@@ -20,13 +20,13 @@ package realmset
 import (
 	"strings"
 
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
+	"github.com/tetrafolium/luci-go/common/errors"
 
-	"go.chromium.org/luci/server/auth/realms"
-	"go.chromium.org/luci/server/auth/service/protocol"
+	"github.com/tetrafolium/luci-go/server/auth/realms"
+	"github.com/tetrafolium/luci-go/server/auth/service/protocol"
 
-	"go.chromium.org/luci/server/auth/authdb/internal/graph"
+	"github.com/tetrafolium/luci-go/server/auth/authdb/internal/graph"
 )
 
 // ExpectedAPIVersion is the supported value of api_version field.

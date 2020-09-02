@@ -30,10 +30,10 @@ import (
 	"go.starlark.net/resolve"
 	"go.starlark.net/starlark"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/starlark/builtins"
-	"go.chromium.org/luci/starlark/interpreter"
-	"go.chromium.org/luci/starlark/starlarktest"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/starlark/builtins"
+	"github.com/tetrafolium/luci-go/starlark/interpreter"
+	"github.com/tetrafolium/luci-go/starlark/starlarktest"
 )
 
 func init() {

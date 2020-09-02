@@ -26,11 +26,11 @@ import (
 
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/client/archiver"
-	"go.chromium.org/luci/client/isolated"
-	"go.chromium.org/luci/common/errors"
-	isol "go.chromium.org/luci/common/isolated"
-	"go.chromium.org/luci/common/system/signals"
+	"github.com/tetrafolium/luci-go/client/archiver"
+	"github.com/tetrafolium/luci-go/client/isolated"
+	"github.com/tetrafolium/luci-go/common/errors"
+	isol "github.com/tetrafolium/luci-go/common/isolated"
+	"github.com/tetrafolium/luci-go/common/system/signals"
 )
 
 // CmdArchive returns an object for the `archive` subcommand.

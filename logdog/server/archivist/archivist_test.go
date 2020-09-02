@@ -22,16 +22,16 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/gcloud/gs"
-	"go.chromium.org/luci/common/proto/google"
-	"go.chromium.org/luci/common/retry/transient"
-	logdog "go.chromium.org/luci/logdog/api/endpoints/coordinator/services/v1"
-	"go.chromium.org/luci/logdog/api/logpb"
-	"go.chromium.org/luci/logdog/common/storage"
-	"go.chromium.org/luci/logdog/common/storage/memory"
-	"go.chromium.org/luci/logdog/common/types"
+	"github.com/tetrafolium/luci-go/common/clock/testclock"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/gcloud/gs"
+	"github.com/tetrafolium/luci-go/common/proto/google"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
+	logdog "github.com/tetrafolium/luci-go/logdog/api/endpoints/coordinator/services/v1"
+	"github.com/tetrafolium/luci-go/logdog/api/logpb"
+	"github.com/tetrafolium/luci-go/logdog/common/storage"
+	"github.com/tetrafolium/luci-go/logdog/common/storage/memory"
+	"github.com/tetrafolium/luci-go/logdog/common/types"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes/empty"
@@ -39,7 +39,7 @@ import (
 	"google.golang.org/grpc"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 // testServicesClient implements logdog.ServicesClient sufficient for testing

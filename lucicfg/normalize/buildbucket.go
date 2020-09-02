@@ -26,8 +26,8 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	pb "go.chromium.org/luci/buildbucket/proto"
-	"go.chromium.org/luci/common/logging"
+	pb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	"github.com/tetrafolium/luci-go/common/logging"
 )
 
 const (

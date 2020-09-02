@@ -21,7 +21,7 @@ import (
 	"github.com/golang/protobuf/proto"
 
 	. "github.com/smartystreets/goconvey/convey"
-	pb "go.chromium.org/luci/milo/api/config"
+	pb "github.com/tetrafolium/luci-go/milo/api/config"
 )
 
 const miloIn = `

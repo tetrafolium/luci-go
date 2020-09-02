@@ -23,8 +23,8 @@ import (
 	"net/http/httptest"
 	"net/url"
 
-	"go.chromium.org/luci/grpc/prpc"
-	"go.chromium.org/luci/server/router"
+	"github.com/tetrafolium/luci-go/grpc/prpc"
+	"github.com/tetrafolium/luci-go/server/router"
 )
 
 // Server is a pRPC test server.

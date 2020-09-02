@@ -25,11 +25,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"go.chromium.org/luci/common/flag/stringlistflag"
-	"go.chromium.org/luci/common/flag/stringmapflag"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/logging/gologger"
-	"go.chromium.org/luci/common/system/exitcode"
+	"github.com/tetrafolium/luci-go/common/flag/stringlistflag"
+	"github.com/tetrafolium/luci-go/common/flag/stringmapflag"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/logging/gologger"
+	"github.com/tetrafolium/luci-go/common/system/exitcode"
 )
 
 var (

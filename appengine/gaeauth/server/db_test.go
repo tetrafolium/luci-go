@@ -19,12 +19,12 @@ import (
 	"fmt"
 	"testing"
 
-	"go.chromium.org/luci/appengine/gaeauth/server/internal/authdbimpl"
-	"go.chromium.org/luci/appengine/gaetesting"
-	ds "go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/server/auth/authdb"
-	"go.chromium.org/luci/server/auth/service"
-	"go.chromium.org/luci/server/auth/service/protocol"
+	"github.com/tetrafolium/luci-go/appengine/gaeauth/server/internal/authdbimpl"
+	"github.com/tetrafolium/luci-go/appengine/gaetesting"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/server/auth/authdb"
+	"github.com/tetrafolium/luci-go/server/auth/service"
+	"github.com/tetrafolium/luci-go/server/auth/service/protocol"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

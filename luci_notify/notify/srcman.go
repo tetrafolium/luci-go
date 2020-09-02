@@ -23,16 +23,16 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"go.chromium.org/luci/common/api/gitiles"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/proto/srcman"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/grpc/grpcutil"
-	"go.chromium.org/luci/grpc/prpc"
-	"go.chromium.org/luci/logdog/client/coordinator"
-	"go.chromium.org/luci/logdog/common/renderer"
-	"go.chromium.org/luci/server/auth"
+	"github.com/tetrafolium/luci-go/common/api/gitiles"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/proto/srcman"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
+	"github.com/tetrafolium/luci-go/grpc/grpcutil"
+	"github.com/tetrafolium/luci-go/grpc/prpc"
+	"github.com/tetrafolium/luci-go/logdog/client/coordinator"
+	"github.com/tetrafolium/luci-go/logdog/common/renderer"
+	"github.com/tetrafolium/luci-go/server/auth"
 )
 
 // CheckoutFunc is a function that given a Build, produces a source checkout

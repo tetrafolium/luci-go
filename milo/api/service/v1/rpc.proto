@@ -16,11 +16,11 @@ syntax = "proto3";
 
 package luci.milo.v1;
 
-import "go.chromium.org/luci/common/proto/git/commit.proto";
-import "go.chromium.org/luci/buildbucket/proto/builder.proto";
-import "go.chromium.org/luci/buildbucket/proto/common.proto";
+import "github.com/tetrafolium/luci-go/common/proto/git/commit.proto";
+import "github.com/tetrafolium/luci-go/buildbucket/proto/builder.proto";
+import "github.com/tetrafolium/luci-go/buildbucket/proto/common.proto";
 
-option go_package = "go.chromium.org/luci/milo/api/service/v1;milopb";
+option go_package = "github.com/tetrafolium/luci-go/milo/api/service/v1;milopb";
 
 // Service to query data on the Milo server.
 //

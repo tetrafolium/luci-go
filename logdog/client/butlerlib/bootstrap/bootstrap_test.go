@@ -18,11 +18,11 @@ import (
 	"fmt"
 	"testing"
 
-	"go.chromium.org/luci/common/system/environ"
-	"go.chromium.org/luci/logdog/common/types"
+	"github.com/tetrafolium/luci-go/common/system/environ"
+	"github.com/tetrafolium/luci-go/logdog/common/types"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestBootstrap(t *testing.T) {

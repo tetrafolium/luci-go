@@ -20,14 +20,14 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/common/data/strpair"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/proto/mask"
-	"go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/auth/identity"
+	"github.com/tetrafolium/luci-go/common/data/strpair"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/proto/mask"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
 
-	pb "go.chromium.org/luci/buildbucket/proto"
-	"go.chromium.org/luci/buildbucket/protoutil"
+	pb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	"github.com/tetrafolium/luci-go/buildbucket/protoutil"
 )
 
 const (

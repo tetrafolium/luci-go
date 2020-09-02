@@ -25,12 +25,12 @@ import (
 	"cloud.google.com/go/spanner"
 	"google.golang.org/grpc/codes"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/spantest"
-	"go.chromium.org/luci/server/redisconn"
-	"go.chromium.org/luci/server/span"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/spantest"
+	"github.com/tetrafolium/luci-go/server/redisconn"
+	"github.com/tetrafolium/luci-go/server/span"
 
-	"go.chromium.org/luci/resultdb/internal/spanutil"
+	"github.com/tetrafolium/luci-go/resultdb/internal/spanutil"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

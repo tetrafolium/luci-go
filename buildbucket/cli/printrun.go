@@ -25,10 +25,10 @@ import (
 	"github.com/golang/protobuf/proto"
 	"google.golang.org/genproto/protobuf/field_mask"
 
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/sync/parallel"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
+	"github.com/tetrafolium/luci-go/common/sync/parallel"
 
-	pb "go.chromium.org/luci/buildbucket/proto"
+	pb "github.com/tetrafolium/luci-go/buildbucket/proto"
 )
 
 var idFieldMask = &field_mask.FieldMask{Paths: []string{"id"}}

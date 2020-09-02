@@ -22,21 +22,21 @@ import (
 	"net/url"
 	"strings"
 
-	"go.chromium.org/luci/common/data/rand/mathrand"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/proto/access"
-	"go.chromium.org/luci/grpc/prpc"
-	"go.chromium.org/luci/server"
-	"go.chromium.org/luci/server/gaeemulation"
-	"go.chromium.org/luci/server/module"
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/server/tq"
+	"github.com/tetrafolium/luci-go/common/data/rand/mathrand"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/proto/access"
+	"github.com/tetrafolium/luci-go/grpc/prpc"
+	"github.com/tetrafolium/luci-go/server"
+	"github.com/tetrafolium/luci-go/server/gaeemulation"
+	"github.com/tetrafolium/luci-go/server/module"
+	"github.com/tetrafolium/luci-go/server/router"
+	"github.com/tetrafolium/luci-go/server/tq"
 
 	// Enable datastore transactional tasks support.
-	_ "go.chromium.org/luci/server/tq/txn/datastore"
+	_ "github.com/tetrafolium/luci-go/server/tq/txn/datastore"
 
-	"go.chromium.org/luci/buildbucket/appengine/rpc"
-	pb "go.chromium.org/luci/buildbucket/proto"
+	"github.com/tetrafolium/luci-go/buildbucket/appengine/rpc"
+	pb "github.com/tetrafolium/luci-go/buildbucket/proto"
 )
 
 // isBeefy returns whether the request was intended for the beefy service.

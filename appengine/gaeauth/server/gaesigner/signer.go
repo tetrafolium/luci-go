@@ -22,11 +22,11 @@ import (
 	"strings"
 	"time"
 
-	"go.chromium.org/luci/gae/service/info"
+	"github.com/tetrafolium/luci-go/gae/service/info"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/server/auth/signing"
-	"go.chromium.org/luci/server/caching"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/server/auth/signing"
+	"github.com/tetrafolium/luci-go/server/caching"
 )
 
 // Signer implements signing.Signer using GAE App Identity API.

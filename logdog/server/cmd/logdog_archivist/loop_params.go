@@ -21,11 +21,11 @@ import (
 
 	"github.com/golang/protobuf/ptypes"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/logging"
 
-	logdog "go.chromium.org/luci/logdog/api/endpoints/coordinator/services/v1"
-	"go.chromium.org/luci/logdog/appengine/coordinator"
+	logdog "github.com/tetrafolium/luci-go/logdog/api/endpoints/coordinator/services/v1"
+	"github.com/tetrafolium/luci-go/logdog/appengine/coordinator"
 )
 
 // loopParams control the outer archivist loop.

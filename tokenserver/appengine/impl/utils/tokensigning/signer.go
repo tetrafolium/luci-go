@@ -20,8 +20,8 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/server/auth/signing"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
+	"github.com/tetrafolium/luci-go/server/auth/signing"
 )
 
 // Signer knows how to sign protos and serialize/encode signed result.

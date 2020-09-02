@@ -19,7 +19,7 @@ import (
 	"net/url"
 	"regexp"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 const (

@@ -18,7 +18,7 @@ import (
 	"net/http"
 	"strings"
 
-	commonAuth "go.chromium.org/luci/auth"
+	commonAuth "github.com/tetrafolium/luci-go/auth"
 )
 
 type serviceModifyingTransport struct {

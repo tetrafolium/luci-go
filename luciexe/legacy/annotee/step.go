@@ -23,20 +23,20 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes/timestamp"
 
-	"go.chromium.org/luci/buildbucket/protoutil"
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/buildbucket/protoutil"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
 
-	pb "go.chromium.org/luci/buildbucket/proto"
-	annotpb "go.chromium.org/luci/luciexe/legacy/annotee/proto"
+	pb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	annotpb "github.com/tetrafolium/luci-go/luciexe/legacy/annotee/proto"
 )
 
 // This code converts annotation step(s) to Buildbucket v2 steps or build.
 // See:
-//   * go.chromium.org/luci/buildbucket/proto#Build
-//   * go.chromium.org/luci/buildbucket/proto#Step
-//   * go.chromium.org/luci/luciexe/legacy/annotee/proto#Step
+//   * github.com/tetrafolium/luci-go/buildbucket/proto#Build
+//   * github.com/tetrafolium/luci-go/buildbucket/proto#Step
+//   * github.com/tetrafolium/luci-go/luciexe/legacy/annotee/proto#Step
 
 // StepSep separates parent and child steps.
 const StepSep = "|"

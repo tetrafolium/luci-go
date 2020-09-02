@@ -21,10 +21,10 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes"
-	bbpb "go.chromium.org/luci/buildbucket/proto"
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/errors"
-	api "go.chromium.org/luci/swarming/proto/api"
+	bbpb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
+	"github.com/tetrafolium/luci-go/common/errors"
+	api "github.com/tetrafolium/luci-go/swarming/proto/api"
 )
 
 type buildbucketEditor struct {

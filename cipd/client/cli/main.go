@@ -32,29 +32,29 @@ import (
 
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/client/versioncli"
-	"go.chromium.org/luci/common/cli"
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/flag/fixflagpos"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/logging/gologger"
-	"go.chromium.org/luci/common/retry/transient"
+	"github.com/tetrafolium/luci-go/auth"
+	"github.com/tetrafolium/luci-go/client/versioncli"
+	"github.com/tetrafolium/luci-go/common/cli"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/flag/fixflagpos"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/logging/gologger"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
 
-	"go.chromium.org/luci/auth/client/authcli"
+	"github.com/tetrafolium/luci-go/auth/client/authcli"
 
-	api "go.chromium.org/luci/cipd/api/cipd/v1"
-	"go.chromium.org/luci/cipd/client/cipd"
-	"go.chromium.org/luci/cipd/client/cipd/builder"
-	"go.chromium.org/luci/cipd/client/cipd/deployer"
-	"go.chromium.org/luci/cipd/client/cipd/digests"
-	"go.chromium.org/luci/cipd/client/cipd/ensure"
-	"go.chromium.org/luci/cipd/client/cipd/fs"
-	"go.chromium.org/luci/cipd/client/cipd/pkg"
-	"go.chromium.org/luci/cipd/client/cipd/reader"
-	"go.chromium.org/luci/cipd/client/cipd/template"
-	"go.chromium.org/luci/cipd/common"
+	api "github.com/tetrafolium/luci-go/cipd/api/cipd/v1"
+	"github.com/tetrafolium/luci-go/cipd/client/cipd"
+	"github.com/tetrafolium/luci-go/cipd/client/cipd/builder"
+	"github.com/tetrafolium/luci-go/cipd/client/cipd/deployer"
+	"github.com/tetrafolium/luci-go/cipd/client/cipd/digests"
+	"github.com/tetrafolium/luci-go/cipd/client/cipd/ensure"
+	"github.com/tetrafolium/luci-go/cipd/client/cipd/fs"
+	"github.com/tetrafolium/luci-go/cipd/client/cipd/pkg"
+	"github.com/tetrafolium/luci-go/cipd/client/cipd/reader"
+	"github.com/tetrafolium/luci-go/cipd/client/cipd/template"
+	"github.com/tetrafolium/luci-go/cipd/common"
 )
 
 // TODO(vadimsh): Add some tests.
@@ -746,7 +746,7 @@ type ensureFileOptions struct {
 func (opts *ensureFileOptions) registerFlags(f *flag.FlagSet, out ensureOutFlag, list legacyListFlag) {
 	f.StringVar(&opts.ensureFile, "ensure-file", "<path>",
 		`An "ensure" file. See syntax described here: `+
-			`https://godoc.org/go.chromium.org/luci/cipd/client/cipd/ensure.`+
+			`https://godoc.org/github.com/tetrafolium/luci-go/cipd/client/cipd/ensure.`+
 			` Providing '-' will read from stdin.`)
 	if out {
 		f.StringVar(&opts.ensureFileOut, "ensure-file-output", "",
@@ -1101,7 +1101,7 @@ folder has the packages at the versions specified:
 
 For the full syntax of the ensure file, see:
 
-   https://go.chromium.org/luci/cipd/client/cipd/ensure
+   https://github.com/tetrafolium/luci-go/cipd/client/cipd/ensure
 `,
 		CommandRun: func() subcommands.CommandRun {
 			c := &ensureRun{}

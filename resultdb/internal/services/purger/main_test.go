@@ -17,7 +17,7 @@ package purger
 import (
 	"testing"
 
-	"go.chromium.org/luci/resultdb/internal/testutil"
+	"github.com/tetrafolium/luci-go/resultdb/internal/testutil"
 )
 
 func TestMain(m *testing.M) {

@@ -24,8 +24,8 @@ import (
 
 	"google.golang.org/appengine"
 
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/server/warmup"
+	"github.com/tetrafolium/luci-go/server/router"
+	"github.com/tetrafolium/luci-go/server/warmup"
 )
 
 func main() {

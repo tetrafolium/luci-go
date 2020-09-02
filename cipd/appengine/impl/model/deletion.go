@@ -18,14 +18,14 @@ import (
 	"context"
 	"strings"
 
-	"go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/common/sync/parallel"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
+	"github.com/tetrafolium/luci-go/common/sync/parallel"
 
-	api "go.chromium.org/luci/cipd/api/cipd/v1"
+	api "github.com/tetrafolium/luci-go/cipd/api/cipd/v1"
 )
 
 // DeletePackage deletes all entities associated with a package.

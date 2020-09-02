@@ -21,11 +21,11 @@ import (
 
 	"golang.org/x/oauth2"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/server/auth/authdb"
-	"go.chromium.org/luci/server/auth/realms"
+	"github.com/tetrafolium/luci-go/auth/identity"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/server/auth/authdb"
+	"github.com/tetrafolium/luci-go/server/auth/realms"
 )
 
 // State is stored in the context when handling an incoming request. It

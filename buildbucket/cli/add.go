@@ -26,11 +26,11 @@ import (
 	"github.com/google/uuid"
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/buildbucket/protoutil"
-	"go.chromium.org/luci/common/cli"
+	"github.com/tetrafolium/luci-go/buildbucket/protoutil"
+	"github.com/tetrafolium/luci-go/common/cli"
 
 	structpb "github.com/golang/protobuf/ptypes/struct"
-	pb "go.chromium.org/luci/buildbucket/proto"
+	pb "github.com/tetrafolium/luci-go/buildbucket/proto"
 )
 
 func cmdAdd(p Params) *subcommands.Command {

@@ -19,12 +19,12 @@ import (
 	"fmt"
 	"strings"
 
-	"go.chromium.org/luci/auth/identity"
-	log "go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/gae/service/info"
-	"go.chromium.org/luci/logdog/api/config/svcconfig"
-	"go.chromium.org/luci/logdog/server/config"
-	"go.chromium.org/luci/server/auth"
+	"github.com/tetrafolium/luci-go/auth/identity"
+	log "github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/gae/service/info"
+	"github.com/tetrafolium/luci-go/logdog/api/config/svcconfig"
+	"github.com/tetrafolium/luci-go/logdog/server/config"
+	"github.com/tetrafolium/luci-go/server/auth"
 )
 
 // IsAdminUser tests whether the current user belongs to the administrative

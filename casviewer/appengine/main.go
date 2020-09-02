@@ -19,11 +19,11 @@ import (
 
 	"cloud.google.com/go/compute/metadata"
 
-	"go.chromium.org/luci/casviewer"
-	"go.chromium.org/luci/server"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/auth/iap"
-	"go.chromium.org/luci/server/router"
+	"github.com/tetrafolium/luci-go/casviewer"
+	"github.com/tetrafolium/luci-go/server"
+	"github.com/tetrafolium/luci-go/server/auth"
+	"github.com/tetrafolium/luci-go/server/auth/iap"
+	"github.com/tetrafolium/luci-go/server/router"
 )
 
 func main() {

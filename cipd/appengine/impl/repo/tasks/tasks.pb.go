@@ -16,13 +16,13 @@
 // versions:
 // 	protoc-gen-go v1.24.0-devel
 // 	protoc        v3.12.1
-// source: go.chromium.org/luci/cipd/appengine/impl/repo/tasks/tasks.proto
+// source: github.com/tetrafolium/luci-go/cipd/appengine/impl/repo/tasks/tasks.proto
 
 package tasks
 
 import (
 	proto "github.com/golang/protobuf/proto"
-	v1 "go.chromium.org/luci/cipd/api/cipd/v1"
+	v1 "github.com/tetrafolium/luci-go/cipd/api/cipd/v1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

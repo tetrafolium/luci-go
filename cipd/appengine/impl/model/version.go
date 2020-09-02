@@ -19,10 +19,10 @@ import (
 
 	"google.golang.org/grpc/codes"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/grpc/grpcutil"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/grpc/grpcutil"
 
-	"go.chromium.org/luci/cipd/common"
+	"github.com/tetrafolium/luci-go/cipd/common"
 )
 
 // ResolveVersion takes a version identifier (an instance ID, a ref or a tag)

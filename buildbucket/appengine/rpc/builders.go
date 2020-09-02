@@ -15,7 +15,7 @@
 package rpc
 
 import (
-	pb "go.chromium.org/luci/buildbucket/proto"
+	pb "github.com/tetrafolium/luci-go/buildbucket/proto"
 )
 
 // Builders implements pb.BuildersServer.

@@ -20,7 +20,7 @@ import (
 	"testing"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 func TestRunMulti(t *testing.T) {

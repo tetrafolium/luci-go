@@ -17,8 +17,8 @@ package cloud
 import (
 	"time"
 
-	infoS "go.chromium.org/luci/gae/service/info"
-	"go.chromium.org/luci/gae/service/info/support"
+	infoS "github.com/tetrafolium/luci-go/gae/service/info"
+	"github.com/tetrafolium/luci-go/gae/service/info/support"
 
 	"golang.org/x/net/context"
 	"golang.org/x/oauth2"

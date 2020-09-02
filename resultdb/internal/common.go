@@ -20,7 +20,7 @@ import (
 	"github.com/golang/protobuf/proto"
 	"golang.org/x/net/context"
 
-	"go.chromium.org/luci/grpc/appstatus"
+	"github.com/tetrafolium/luci-go/grpc/appstatus"
 )
 
 // CommonPostlude must be used as a postlude in all ResultDB services.

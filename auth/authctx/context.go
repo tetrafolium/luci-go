@@ -34,18 +34,18 @@ import (
 	"strings"
 	"sync"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/system/environ"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/system/environ"
 
-	"go.chromium.org/luci/lucictx"
+	"github.com/tetrafolium/luci-go/lucictx"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/auth/integration/devshell"
-	"go.chromium.org/luci/auth/integration/firebase"
-	"go.chromium.org/luci/auth/integration/gcemeta"
-	"go.chromium.org/luci/auth/integration/gsutil"
-	"go.chromium.org/luci/auth/integration/localauth"
+	"github.com/tetrafolium/luci-go/auth"
+	"github.com/tetrafolium/luci-go/auth/integration/devshell"
+	"github.com/tetrafolium/luci-go/auth/integration/firebase"
+	"github.com/tetrafolium/luci-go/auth/integration/gcemeta"
+	"github.com/tetrafolium/luci-go/auth/integration/gsutil"
+	"github.com/tetrafolium/luci-go/auth/integration/localauth"
 )
 
 // Context knows how to prepare an environment with ambient authentication for

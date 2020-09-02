@@ -20,7 +20,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"go.chromium.org/luci/common/system/environ"
+	"github.com/tetrafolium/luci-go/common/system/environ"
 )
 
 // Exported represents an exported on-disk LUCI_CONTEXT file.

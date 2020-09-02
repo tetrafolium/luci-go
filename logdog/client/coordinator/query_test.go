@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"testing"
 
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/common/proto/google"
-	"go.chromium.org/luci/common/testing/prpctest"
-	"go.chromium.org/luci/grpc/grpcutil"
-	"go.chromium.org/luci/logdog/api/endpoints/coordinator/logs/v1"
-	"go.chromium.org/luci/logdog/api/logpb"
+	"github.com/tetrafolium/luci-go/common/clock/testclock"
+	"github.com/tetrafolium/luci-go/common/proto/google"
+	"github.com/tetrafolium/luci-go/common/testing/prpctest"
+	"github.com/tetrafolium/luci-go/grpc/grpcutil"
+	"github.com/tetrafolium/luci-go/logdog/api/endpoints/coordinator/logs/v1"
+	"github.com/tetrafolium/luci-go/logdog/api/logpb"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

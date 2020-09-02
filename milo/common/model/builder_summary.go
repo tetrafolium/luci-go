@@ -20,10 +20,10 @@ import (
 	"strings"
 	"time"
 
-	"go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
 
-	buildbucketpb "go.chromium.org/luci/buildbucket/proto"
-	"go.chromium.org/luci/common/logging"
+	buildbucketpb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	"github.com/tetrafolium/luci-go/common/logging"
 )
 
 // InvalidBuilderIDURL is returned if a BuilderID cannot be parsed and a URL generated.

@@ -17,9 +17,9 @@ package middleware
 import (
 	"net/http"
 
-	log "go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/runtime/paniccatcher"
-	"go.chromium.org/luci/server/router"
+	log "github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/runtime/paniccatcher"
+	"github.com/tetrafolium/luci-go/server/router"
 )
 
 // WithPanicCatcher is a middleware that catches panics, dumps stack trace to

@@ -21,11 +21,11 @@ import (
 
 	"github.com/golang/protobuf/ptypes"
 
-	bbpb "go.chromium.org/luci/buildbucket/proto"
-	api "go.chromium.org/luci/swarming/proto/api"
+	bbpb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	api "github.com/tetrafolium/luci-go/swarming/proto/api"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestMakeDimensionEditCommands(t *testing.T) {

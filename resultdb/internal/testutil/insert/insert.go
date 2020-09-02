@@ -22,10 +22,10 @@ import (
 
 	"cloud.google.com/go/spanner"
 	durpb "github.com/golang/protobuf/ptypes/duration"
-	"go.chromium.org/luci/resultdb/internal/invocations"
-	"go.chromium.org/luci/resultdb/internal/spanutil"
-	"go.chromium.org/luci/resultdb/pbutil"
-	pb "go.chromium.org/luci/resultdb/proto/v1"
+	"github.com/tetrafolium/luci-go/resultdb/internal/invocations"
+	"github.com/tetrafolium/luci-go/resultdb/internal/spanutil"
+	"github.com/tetrafolium/luci-go/resultdb/pbutil"
+	pb "github.com/tetrafolium/luci-go/resultdb/proto/v1"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

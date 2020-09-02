@@ -17,7 +17,7 @@ package lucictx
 import (
 	"context"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // ErrNoLocalAuthAccount is returned by SwitchLocalAccount if requested account

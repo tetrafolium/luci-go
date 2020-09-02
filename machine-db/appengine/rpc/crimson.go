@@ -23,12 +23,12 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/grpc/grpcutil"
-	"go.chromium.org/luci/server/auth"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/grpc/grpcutil"
+	"github.com/tetrafolium/luci-go/server/auth"
 
-	"go.chromium.org/luci/machine-db/api/crimson/v1"
+	"github.com/tetrafolium/luci-go/machine-db/api/crimson/v1"
 )
 
 // authPrelude ensures the user is authorized to use the Crimson API.

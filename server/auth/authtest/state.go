@@ -19,10 +19,10 @@ import (
 
 	"golang.org/x/oauth2"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/auth/authdb"
-	"go.chromium.org/luci/server/auth/realms"
+	"github.com/tetrafolium/luci-go/auth/identity"
+	"github.com/tetrafolium/luci-go/server/auth"
+	"github.com/tetrafolium/luci-go/server/auth/authdb"
+	"github.com/tetrafolium/luci-go/server/auth/realms"
 )
 
 // FakeState implements auth.State by returning predefined values.

@@ -17,11 +17,11 @@ package main
 import (
 	"context"
 
-	"go.chromium.org/luci/common/gcloud/gs"
-	log "go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/logdog/api/config/svcconfig"
-	"go.chromium.org/luci/logdog/server/archivist"
-	"go.chromium.org/luci/logdog/server/config"
+	"github.com/tetrafolium/luci-go/common/gcloud/gs"
+	log "github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/logdog/api/config/svcconfig"
+	"github.com/tetrafolium/luci-go/logdog/server/archivist"
+	"github.com/tetrafolium/luci-go/logdog/server/config"
 )
 
 // GetSettingsLoader is an archivist.SettingsLoader implementation that merges

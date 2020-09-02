@@ -21,15 +21,15 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/auth/authctx"
-	bbpb "go.chromium.org/luci/buildbucket/proto"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/hardcoded/chromeinfra"
-	ldOutput "go.chromium.org/luci/logdog/client/butler/output"
-	"go.chromium.org/luci/logdog/client/butler/output/null"
-	"go.chromium.org/luci/logdog/client/butlerlib/streamproto"
+	"github.com/tetrafolium/luci-go/auth"
+	"github.com/tetrafolium/luci-go/auth/authctx"
+	bbpb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/hardcoded/chromeinfra"
+	ldOutput "github.com/tetrafolium/luci-go/logdog/client/butler/output"
+	"github.com/tetrafolium/luci-go/logdog/client/butler/output/null"
+	"github.com/tetrafolium/luci-go/logdog/client/butlerlib/streamproto"
 )
 
 // Options is an optional struct which allows you to control how Run operates.
@@ -37,7 +37,7 @@ type Options struct {
 	// Where the butler will sink its data to.
 	//
 	// This is typically one of the implementations in
-	// go.chromium.org/luci/logdog/client/butler/output.
+	// github.com/tetrafolium/luci-go/logdog/client/butler/output.
 	//
 	// If nil, will use the 'null' logdog Output.
 	LogdogOutput ldOutput.Output

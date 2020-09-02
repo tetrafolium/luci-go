@@ -17,11 +17,11 @@ package config
 import (
 	"testing"
 
-	"go.chromium.org/luci/appengine/gaetesting"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/logging/gologger"
-	"go.chromium.org/luci/config"
-	"go.chromium.org/luci/config/impl/memory"
+	"github.com/tetrafolium/luci-go/appengine/gaetesting"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/logging/gologger"
+	"github.com/tetrafolium/luci-go/config"
+	"github.com/tetrafolium/luci-go/config/impl/memory"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

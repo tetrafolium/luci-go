@@ -27,14 +27,14 @@ import (
 	"golang.org/x/oauth2"
 	"google.golang.org/grpc/credentials"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/trace"
-	"go.chromium.org/luci/common/tsmon/metric"
-	"go.chromium.org/luci/server/auth/delegation"
-	"go.chromium.org/luci/server/auth/internal"
+	"github.com/tetrafolium/luci-go/auth"
+	"github.com/tetrafolium/luci-go/auth/identity"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/trace"
+	"github.com/tetrafolium/luci-go/common/tsmon/metric"
+	"github.com/tetrafolium/luci-go/server/auth/delegation"
+	"github.com/tetrafolium/luci-go/server/auth/internal"
 )
 
 // CloudOAuthScopes is a list of OAuth scopes recommended to use when

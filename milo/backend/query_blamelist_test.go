@@ -21,15 +21,15 @@ import (
 	"github.com/golang/mock/gomock"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"go.chromium.org/luci/appengine/gaetesting"
-	buildbucketpb "go.chromium.org/luci/buildbucket/proto"
-	"go.chromium.org/luci/buildbucket/protoutil"
-	gitpb "go.chromium.org/luci/common/proto/git"
-	"go.chromium.org/luci/gae/service/datastore"
-	milopb "go.chromium.org/luci/milo/api/service/v1"
-	"go.chromium.org/luci/milo/common"
-	"go.chromium.org/luci/milo/common/model"
-	"go.chromium.org/luci/milo/git"
+	"github.com/tetrafolium/luci-go/appengine/gaetesting"
+	buildbucketpb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	"github.com/tetrafolium/luci-go/buildbucket/protoutil"
+	gitpb "github.com/tetrafolium/luci-go/common/proto/git"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
+	milopb "github.com/tetrafolium/luci-go/milo/api/service/v1"
+	"github.com/tetrafolium/luci-go/milo/common"
+	"github.com/tetrafolium/luci-go/milo/common/model"
+	"github.com/tetrafolium/luci-go/milo/git"
 )
 
 func TestPrepareQueryBlamelistRequest(t *testing.T) {

@@ -17,11 +17,11 @@ package cli
 import (
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/common/cli"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/flag"
+	"github.com/tetrafolium/luci-go/common/cli"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/flag"
 
-	"go.chromium.org/luci/machine-db/api/crimson/v1"
+	"github.com/tetrafolium/luci-go/machine-db/api/crimson/v1"
 )
 
 // printPlatforms prints platform data to stdout in tab-separated columns.

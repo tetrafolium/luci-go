@@ -6,18 +6,18 @@
 // versions:
 // 	protoc-gen-go v1.24.0-devel
 // 	protoc        v3.12.1
-// source: go.chromium.org/luci/logdog/api/endpoints/coordinator/logs/v1/logs.proto
+// source: github.com/tetrafolium/luci-go/logdog/api/endpoints/coordinator/logs/v1/logs.proto
 
 package logdog
 
-import prpc "go.chromium.org/luci/grpc/prpc"
+import prpc "github.com/tetrafolium/luci-go/grpc/prpc"
 
 import (
 	context "context"
 	proto "github.com/golang/protobuf/proto"
 	duration "github.com/golang/protobuf/ptypes/duration"
 	timestamp "github.com/golang/protobuf/ptypes/timestamp"
-	logpb "go.chromium.org/luci/logdog/api/logpb"
+	logpb "github.com/tetrafolium/luci-go/logdog/api/logpb"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"
@@ -1449,5 +1449,5 @@ var _Logs_serviceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "go.chromium.org/luci/logdog/api/endpoints/coordinator/logs/v1/logs.proto",
+	Metadata: "github.com/tetrafolium/luci-go/logdog/api/endpoints/coordinator/logs/v1/logs.proto",
 }

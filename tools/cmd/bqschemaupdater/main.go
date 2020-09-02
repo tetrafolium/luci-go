@@ -33,12 +33,12 @@ import (
 
 	"google.golang.org/api/option"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/common/errors"
-	luciflag "go.chromium.org/luci/common/flag"
-	"go.chromium.org/luci/common/flag/stringlistflag"
-	"go.chromium.org/luci/common/proto/google/descutil"
-	"go.chromium.org/luci/hardcoded/chromeinfra"
+	"github.com/tetrafolium/luci-go/auth"
+	"github.com/tetrafolium/luci-go/common/errors"
+	luciflag "github.com/tetrafolium/luci-go/common/flag"
+	"github.com/tetrafolium/luci-go/common/flag/stringlistflag"
+	"github.com/tetrafolium/luci-go/common/proto/google/descutil"
+	"github.com/tetrafolium/luci-go/hardcoded/chromeinfra"
 )
 
 var (
@@ -254,7 +254,7 @@ func schemaFromMessage(desc *descriptor.FileDescriptorSet, messageName string) (
 func protoImportPaths(dir string, userDefinedImportPaths []string) ([]string, error) {
 	// In Go mode, import paths are all $GOPATH/src directories because we like
 	// go-style absolute import paths,
-	// e.g. "go.chromium.org/luci/logdog/api/logpb/log.proto"
+	// e.g. "github.com/tetrafolium/luci-go/logdog/api/logpb/log.proto"
 	var goSources []string
 	inGopath := false
 	grpcProtoPath := ""

@@ -28,10 +28,10 @@ import (
 	"strconv"
 	"time"
 
-	"go.chromium.org/luci/common/clock/clockflag"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/server/portal"
-	"go.chromium.org/luci/server/settings"
+	"github.com/tetrafolium/luci-go/common/clock/clockflag"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/server/portal"
+	"github.com/tetrafolium/luci-go/server/settings"
 )
 
 const (

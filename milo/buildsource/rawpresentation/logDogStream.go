@@ -15,7 +15,7 @@
 package rawpresentation
 
 import (
-	annopb "go.chromium.org/luci/luciexe/legacy/annotee/proto"
+	annopb "github.com/tetrafolium/luci-go/luciexe/legacy/annotee/proto"
 )
 
 // Streams represents a group of LogDog Streams with a single entry point.

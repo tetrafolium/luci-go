@@ -24,15 +24,15 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/auth/signing"
+	"github.com/tetrafolium/luci-go/auth/identity"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
+	"github.com/tetrafolium/luci-go/server/auth"
+	"github.com/tetrafolium/luci-go/server/auth/signing"
 
-	"go.chromium.org/luci/tokenserver/api"
+	"github.com/tetrafolium/luci-go/tokenserver/api"
 )
 
 const (

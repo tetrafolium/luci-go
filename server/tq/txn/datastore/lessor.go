@@ -18,15 +18,15 @@ import (
 	"context"
 	"time"
 
-	ds "go.chromium.org/luci/gae/service/datastore"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry/transient"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
 
-	"go.chromium.org/luci/server/tq/internal/lessor"
-	"go.chromium.org/luci/server/tq/internal/partition"
+	"github.com/tetrafolium/luci-go/server/tq/internal/lessor"
+	"github.com/tetrafolium/luci-go/server/tq/internal/partition"
 )
 
 // dsLessor implements lessor.Lessor on top of Cloud Datastore.

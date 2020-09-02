@@ -24,8 +24,8 @@ import (
 	"golang.org/x/oauth2/google"
 	"golang.org/x/oauth2/jwt"
 
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry/transient"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
 )
 
 type serviceAccountTokenProvider struct {

@@ -25,14 +25,14 @@ import (
 	"fmt"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/data/caching/lazyslot"
-	"go.chromium.org/luci/common/retry/transient"
-	ds "go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/gae/service/info"
-	"go.chromium.org/luci/server/caching"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/data/caching/lazyslot"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/service/info"
+	"github.com/tetrafolium/luci-go/server/caching"
 
-	"go.chromium.org/luci/tokenserver/appengine/impl/certconfig"
+	"github.com/tetrafolium/luci-go/tokenserver/appengine/impl/certconfig"
 )
 
 // CN string => *CertChecker.

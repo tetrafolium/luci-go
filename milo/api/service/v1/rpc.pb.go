@@ -16,17 +16,17 @@
 // versions:
 // 	protoc-gen-go v1.25.0-devel
 // 	protoc        v3.12.1
-// source: go.chromium.org/luci/milo/api/service/v1/rpc.proto
+// source: github.com/tetrafolium/luci-go/milo/api/service/v1/rpc.proto
 
 package milopb
 
-import prpc "go.chromium.org/luci/grpc/prpc"
+import prpc "github.com/tetrafolium/luci-go/grpc/prpc"
 
 import (
 	context "context"
 	proto "github.com/golang/protobuf/proto"
-	proto1 "go.chromium.org/luci/buildbucket/proto"
-	git "go.chromium.org/luci/common/proto/git"
+	proto1 "github.com/tetrafolium/luci-go/buildbucket/proto"
+	git "github.com/tetrafolium/luci-go/common/proto/git"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"
@@ -506,5 +506,5 @@ var _MiloInternal_serviceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "go.chromium.org/luci/milo/api/service/v1/rpc.proto",
+	Metadata: "github.com/tetrafolium/luci-go/milo/api/service/v1/rpc.proto",
 }

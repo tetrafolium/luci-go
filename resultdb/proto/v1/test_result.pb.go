@@ -16,7 +16,7 @@
 // versions:
 // 	protoc-gen-go v1.25.0-devel
 // 	protoc        v3.12.1
-// source: go.chromium.org/luci/resultdb/proto/v1/test_result.proto
+// source: github.com/tetrafolium/luci-go/resultdb/proto/v1/test_result.proto
 
 package resultpb
 

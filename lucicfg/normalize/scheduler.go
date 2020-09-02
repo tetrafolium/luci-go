@@ -21,9 +21,9 @@ import (
 	"sort"
 	"strings"
 
-	"go.chromium.org/luci/common/data/stringset"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
 
-	pb "go.chromium.org/luci/scheduler/appengine/messages"
+	pb "github.com/tetrafolium/luci-go/scheduler/appengine/messages"
 )
 
 // Scheduler normalizes luci-scheduler.cfg config.

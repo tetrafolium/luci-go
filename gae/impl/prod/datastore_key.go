@@ -15,8 +15,8 @@
 package prod
 
 import (
-	"go.chromium.org/luci/common/errors"
-	ds "go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/common/errors"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
 	"golang.org/x/net/context"
 	"google.golang.org/appengine"
 	"google.golang.org/appengine/datastore"

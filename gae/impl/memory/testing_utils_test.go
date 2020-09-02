@@ -20,9 +20,9 @@ import (
 	"strings"
 	"time"
 
-	"go.chromium.org/luci/common/data/cmpbin"
-	ds "go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/gae/service/datastore/serialize"
+	"github.com/tetrafolium/luci-go/common/data/cmpbin"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/service/datastore/serialize"
 )
 
 func init() {

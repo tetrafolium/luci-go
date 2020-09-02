@@ -7,7 +7,7 @@ syntax = "proto3";
 package projects;
 
 import "google/protobuf/empty.proto";
-import "go.chromium.org/luci/gce/api/projects/v1/config.proto";
+import "github.com/tetrafolium/luci-go/gce/api/projects/v1/config.proto";
 
 // A request to delete a project.
 message DeleteRequest {

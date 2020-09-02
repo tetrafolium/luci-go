@@ -27,7 +27,7 @@ import (
 	"fmt"
 	"io"
 
-	"go.chromium.org/luci/logdog/api/logpb"
+	"github.com/tetrafolium/luci-go/logdog/api/logpb"
 )
 
 // DatagramWriter is a callback function that, given datagram bytes, writes them

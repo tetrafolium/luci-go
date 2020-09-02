@@ -17,9 +17,9 @@ package tsmon
 import (
 	"context"
 
-	"go.chromium.org/luci/common/tsmon/monitor"
-	"go.chromium.org/luci/common/tsmon/store"
-	"go.chromium.org/luci/common/tsmon/target"
+	"github.com/tetrafolium/luci-go/common/tsmon/monitor"
+	"github.com/tetrafolium/luci-go/common/tsmon/store"
+	"github.com/tetrafolium/luci-go/common/tsmon/target"
 )
 
 // WithState returns a new context holding the given State instance.

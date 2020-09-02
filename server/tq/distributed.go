@@ -22,13 +22,13 @@ import (
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/proto"
 
-	"go.chromium.org/luci/common/sync/parallel"
+	"github.com/tetrafolium/luci-go/common/sync/parallel"
 
-	"go.chromium.org/luci/server/tq/internal/db"
-	"go.chromium.org/luci/server/tq/internal/partition"
-	"go.chromium.org/luci/server/tq/internal/reminder"
-	"go.chromium.org/luci/server/tq/internal/sweep"
-	"go.chromium.org/luci/server/tq/internal/tqpb"
+	"github.com/tetrafolium/luci-go/server/tq/internal/db"
+	"github.com/tetrafolium/luci-go/server/tq/internal/partition"
+	"github.com/tetrafolium/luci-go/server/tq/internal/reminder"
+	"github.com/tetrafolium/luci-go/server/tq/internal/sweep"
+	"github.com/tetrafolium/luci-go/server/tq/internal/tqpb"
 )
 
 // DistributedSweeperOptions is configuration for the process of "sweeping" of

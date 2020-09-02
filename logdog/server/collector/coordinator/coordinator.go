@@ -18,10 +18,10 @@ import (
 	"context"
 	"fmt"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/config"
-	logdog "go.chromium.org/luci/logdog/api/endpoints/coordinator/services/v1"
-	"go.chromium.org/luci/logdog/common/types"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/config"
+	logdog "github.com/tetrafolium/luci-go/logdog/api/endpoints/coordinator/services/v1"
+	"github.com/tetrafolium/luci-go/logdog/common/types"
 )
 
 // Coordinator is an interface to a remote LogDog Coordinator service. This is

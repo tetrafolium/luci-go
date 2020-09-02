@@ -18,11 +18,11 @@ import (
 	"context"
 	"net"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/server/auth/realms"
-	"go.chromium.org/luci/server/auth/service/protocol"
-	"go.chromium.org/luci/server/auth/signing"
+	"github.com/tetrafolium/luci-go/auth/identity"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/server/auth/realms"
+	"github.com/tetrafolium/luci-go/server/auth/service/protocol"
+	"github.com/tetrafolium/luci-go/server/auth/signing"
 )
 
 // ErroringDB implements DB by forbidding all access and returning errors.

@@ -25,9 +25,9 @@ import (
 	"strings"
 	"time"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/led/job"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/led/job"
 )
 
 // EditRecipeBundleOpts are user-provided options for the recipe bundling

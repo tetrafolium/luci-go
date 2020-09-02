@@ -18,7 +18,7 @@ import (
 	"context"
 
 	"github.com/golang/protobuf/proto"
-	"go.chromium.org/luci/grpc/appstatus"
+	"github.com/tetrafolium/luci-go/grpc/appstatus"
 )
 
 // CommonPostlude converts an appstatus error to a gRPC error and logs it.

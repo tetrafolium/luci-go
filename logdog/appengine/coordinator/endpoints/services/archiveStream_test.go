@@ -19,14 +19,14 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/gae/filter/featureBreaker"
-	ds "go.chromium.org/luci/gae/service/datastore"
-	logdog "go.chromium.org/luci/logdog/api/endpoints/coordinator/services/v1"
-	"go.chromium.org/luci/logdog/appengine/coordinator"
-	ct "go.chromium.org/luci/logdog/appengine/coordinator/coordinatorTest"
+	"github.com/tetrafolium/luci-go/gae/filter/featureBreaker"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
+	logdog "github.com/tetrafolium/luci-go/logdog/api/endpoints/coordinator/services/v1"
+	"github.com/tetrafolium/luci-go/logdog/appengine/coordinator"
+	ct "github.com/tetrafolium/luci-go/logdog/appengine/coordinator/coordinatorTest"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestArchiveStream(t *testing.T) {

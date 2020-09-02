@@ -14,11 +14,11 @@
 
 syntax = "proto3";
 
-option go_package = "go.chromium.org/luci/common/proto/gitiles";
+option go_package = "github.com/tetrafolium/luci-go/common/proto/gitiles";
 
 package gitiles;
 
-import "go.chromium.org/luci/common/proto/git/commit.proto";
+import "github.com/tetrafolium/luci-go/common/proto/git/commit.proto";
 
 service Gitiles {
     // Log retrieves commit log.

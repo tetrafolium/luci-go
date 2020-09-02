@@ -27,16 +27,16 @@ import (
 	"github.com/golang/protobuf/jsonpb"
 	"github.com/golang/protobuf/proto"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry"
-	"go.chromium.org/luci/common/retry/transient"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/retry"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
 
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/auth/authdb"
-	"go.chromium.org/luci/server/auth/service"
-	"go.chromium.org/luci/server/auth/service/protocol"
-	"go.chromium.org/luci/server/auth/signing"
+	"github.com/tetrafolium/luci-go/server/auth"
+	"github.com/tetrafolium/luci-go/server/auth/authdb"
+	"github.com/tetrafolium/luci-go/server/auth/service"
+	"github.com/tetrafolium/luci-go/server/auth/service/protocol"
+	"github.com/tetrafolium/luci-go/server/auth/signing"
 )
 
 // Fetcher can fetch AuthDB snapshots from GCS dumps, requesting access through

@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
+	"github.com/tetrafolium/luci-go/common/clock"
 )
 
 // TestClock is a Clock interface with additional methods to help instrument it.

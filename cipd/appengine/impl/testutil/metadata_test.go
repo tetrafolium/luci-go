@@ -18,10 +18,10 @@ import (
 	"context"
 	"testing"
 
-	api "go.chromium.org/luci/cipd/api/cipd/v1"
+	api "github.com/tetrafolium/luci-go/cipd/api/cipd/v1"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestMetadataStore(t *testing.T) {

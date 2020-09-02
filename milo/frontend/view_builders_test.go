@@ -19,13 +19,13 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/appengine/gaetesting"
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/server/caching"
+	"github.com/tetrafolium/luci-go/appengine/gaetesting"
+	"github.com/tetrafolium/luci-go/common/clock/testclock"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/server/caching"
 
-	"go.chromium.org/luci/milo/common"
-	"go.chromium.org/luci/milo/common/model"
+	"github.com/tetrafolium/luci-go/milo/common"
+	"github.com/tetrafolium/luci-go/milo/common/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

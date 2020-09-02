@@ -18,12 +18,12 @@ import (
 	"context"
 	"testing"
 
-	configPB "go.chromium.org/luci/common/proto/config"
-	"go.chromium.org/luci/config"
-	"go.chromium.org/luci/config/impl/memory"
+	configPB "github.com/tetrafolium/luci-go/common/proto/config"
+	"github.com/tetrafolium/luci-go/config"
+	"github.com/tetrafolium/luci-go/config/impl/memory"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestHelpers(t *testing.T) {

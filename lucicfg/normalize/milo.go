@@ -21,7 +21,7 @@ import (
 	"sort"
 	"strings"
 
-	pb "go.chromium.org/luci/milo/api/config"
+	pb "github.com/tetrafolium/luci-go/milo/api/config"
 )
 
 // Milo normalizes luci-milo.cfg config.

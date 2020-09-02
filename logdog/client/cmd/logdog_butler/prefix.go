@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"os/user"
 
-	log "go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/logdog/common/types"
+	log "github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/logdog/common/types"
 )
 
 const (

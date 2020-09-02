@@ -15,7 +15,7 @@
 package spec
 
 import (
-	"go.chromium.org/luci/vpython/api/vpython"
+	"github.com/tetrafolium/luci-go/vpython/api/vpython"
 )
 
 // PackageMatches returns true if the package's match constraints are compatible

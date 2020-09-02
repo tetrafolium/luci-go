@@ -13,7 +13,7 @@
 // versions:
 // 	protoc-gen-go v1.25.0-devel
 // 	protoc        v3.12.1
-// source: go.chromium.org/luci/common/proto/config/service_config.proto
+// source: github.com/tetrafolium/luci-go/common/proto/config/service_config.proto
 
 package config
 

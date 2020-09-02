@@ -15,8 +15,8 @@
 package config
 
 import (
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/config/validation"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/config/validation"
 )
 
 // Normalize ensures this time period is in seconds.

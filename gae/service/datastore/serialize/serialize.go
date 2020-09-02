@@ -21,10 +21,10 @@ import (
 	"sort"
 	"time"
 
-	"go.chromium.org/luci/common/data/cmpbin"
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/gae/service/blobstore"
-	ds "go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/common/data/cmpbin"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
+	"github.com/tetrafolium/luci-go/gae/service/blobstore"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
 )
 
 // MaxIndexColumns is the maximum number of sort columns (e.g. sort orders) that

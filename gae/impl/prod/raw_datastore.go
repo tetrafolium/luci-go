@@ -15,10 +15,10 @@
 package prod
 
 import (
-	"go.chromium.org/luci/gae/impl/prod/constraints"
-	ds "go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/impl/prod/constraints"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 
 	"golang.org/x/net/context"
 	"google.golang.org/appengine"

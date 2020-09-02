@@ -24,17 +24,17 @@ import (
 
 	"google.golang.org/api/googleapi"
 
-	"go.chromium.org/luci/appengine/tq"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/data/rand/mathrand"
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/appengine/tq"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/data/rand/mathrand"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
 
-	"go.chromium.org/luci/gce/api/tasks/v1"
-	"go.chromium.org/luci/gce/appengine/backend/internal/metrics"
-	"go.chromium.org/luci/gce/appengine/model"
+	"github.com/tetrafolium/luci-go/gce/api/tasks/v1"
+	"github.com/tetrafolium/luci-go/gce/appengine/backend/internal/metrics"
+	"github.com/tetrafolium/luci-go/gce/appengine/model"
 )
 
 // countVMsQueue is the name of the count VMs task handler queue.

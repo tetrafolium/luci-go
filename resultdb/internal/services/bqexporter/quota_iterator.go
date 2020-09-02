@@ -21,8 +21,8 @@ import (
 
 	"google.golang.org/api/googleapi"
 
-	"go.chromium.org/luci/common/data/rand/mathrand"
-	"go.chromium.org/luci/common/retry"
+	"github.com/tetrafolium/luci-go/common/data/rand/mathrand"
+	"github.com/tetrafolium/luci-go/common/retry"
 )
 
 // quotaErrorIterator is an retry.Iterator implementation that only retries

@@ -19,7 +19,7 @@ import (
 	"path"
 	"strings"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // TODO(tandrii): Remove this hacky stuff.

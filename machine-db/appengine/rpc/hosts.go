@@ -26,10 +26,10 @@ import (
 	"github.com/VividCortex/mysqlerr"
 	"github.com/go-sql-driver/mysql"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 
-	"go.chromium.org/luci/machine-db/api/crimson/v1"
-	"go.chromium.org/luci/machine-db/appengine/database"
+	"github.com/tetrafolium/luci-go/machine-db/api/crimson/v1"
+	"github.com/tetrafolium/luci-go/machine-db/appengine/database"
 )
 
 // DeleteHost handles a request to delete an existing host.

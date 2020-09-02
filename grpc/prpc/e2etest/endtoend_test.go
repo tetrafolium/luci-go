@@ -23,10 +23,10 @@ import (
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"
 
-	"go.chromium.org/luci/common/testing/prpctest"
+	"github.com/tetrafolium/luci-go/common/testing/prpctest"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 type service struct {

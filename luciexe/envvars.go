@@ -14,7 +14,7 @@
 
 package luciexe
 
-import "go.chromium.org/luci/logdog/client/butlerlib/bootstrap"
+import "github.com/tetrafolium/luci-go/logdog/client/butlerlib/bootstrap"
 
 // TempDirEnvVars is the list of environment variable names which should be set
 // to point at the temporary directory for a luciexe.

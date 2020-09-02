@@ -18,7 +18,7 @@ import (
 	"context"
 	"testing"
 
-	"go.chromium.org/luci/gae/impl/memory"
+	"github.com/tetrafolium/luci-go/gae/impl/memory"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

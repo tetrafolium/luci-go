@@ -17,13 +17,13 @@ package notify
 import (
 	"testing"
 
-	"go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
 
-	"go.chromium.org/luci/appengine/gaetesting"
-	buildbucketpb "go.chromium.org/luci/buildbucket/proto"
+	"github.com/tetrafolium/luci-go/appengine/gaetesting"
+	buildbucketpb "github.com/tetrafolium/luci-go/buildbucket/proto"
 
-	notifypb "go.chromium.org/luci/luci_notify/api/config"
-	"go.chromium.org/luci/luci_notify/config"
+	notifypb "github.com/tetrafolium/luci-go/luci_notify/api/config"
+	"github.com/tetrafolium/luci-go/luci_notify/config"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

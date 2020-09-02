@@ -20,13 +20,13 @@ import (
 	"strings"
 	"time"
 
-	"go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/gae/service/info"
-	"go.chromium.org/luci/gae/service/mail"
-	"go.chromium.org/luci/gae/service/memcache"
-	"go.chromium.org/luci/gae/service/module"
-	"go.chromium.org/luci/gae/service/taskqueue"
-	"go.chromium.org/luci/gae/service/user"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/service/info"
+	"github.com/tetrafolium/luci-go/gae/service/mail"
+	"github.com/tetrafolium/luci-go/gae/service/memcache"
+	"github.com/tetrafolium/luci-go/gae/service/module"
+	"github.com/tetrafolium/luci-go/gae/service/taskqueue"
+	"github.com/tetrafolium/luci-go/gae/service/user"
 
 	"golang.org/x/net/context"
 )

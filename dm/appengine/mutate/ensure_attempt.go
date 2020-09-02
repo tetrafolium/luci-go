@@ -17,11 +17,11 @@ package mutate
 import (
 	"context"
 
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/dm/api/service/v1"
-	"go.chromium.org/luci/dm/appengine/model"
-	ds "go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/tumble"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/dm/api/service/v1"
+	"github.com/tetrafolium/luci-go/dm/appengine/model"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/tumble"
 )
 
 // EnsureAttempt ensures that the given Attempt exists. If it doesn't, it's

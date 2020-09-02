@@ -4,9 +4,9 @@
 
 syntax = "proto3";
 
-import "go.chromium.org/luci/common/data/text/templateproto/template.proto";
-import "go.chromium.org/luci/dm/api/service/v1/graph_data.proto";
-import "go.chromium.org/luci/dm/api/service/v1/types.proto";
+import "github.com/tetrafolium/luci-go/common/data/text/templateproto/template.proto";
+import "github.com/tetrafolium/luci-go/dm/api/service/v1/graph_data.proto";
+import "github.com/tetrafolium/luci-go/dm/api/service/v1/types.proto";
 
 package dm;
 

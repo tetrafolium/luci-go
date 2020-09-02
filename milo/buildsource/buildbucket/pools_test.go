@@ -17,17 +17,17 @@ package buildbucket
 import (
 	"testing"
 
-	"go.chromium.org/luci/appengine/gaetesting"
-	"go.chromium.org/luci/auth/identity"
-	swarmbucket "go.chromium.org/luci/common/api/buildbucket/swarmbucket/v1"
-	sv1 "go.chromium.org/luci/common/api/swarming/swarming/v1"
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/milo/buildsource/swarming"
-	"go.chromium.org/luci/milo/common/model"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/auth/authtest"
-	"go.chromium.org/luci/server/caching"
+	"github.com/tetrafolium/luci-go/appengine/gaetesting"
+	"github.com/tetrafolium/luci-go/auth/identity"
+	swarmbucket "github.com/tetrafolium/luci-go/common/api/buildbucket/swarmbucket/v1"
+	sv1 "github.com/tetrafolium/luci-go/common/api/swarming/swarming/v1"
+	"github.com/tetrafolium/luci-go/common/clock/testclock"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/milo/buildsource/swarming"
+	"github.com/tetrafolium/luci-go/milo/common/model"
+	"github.com/tetrafolium/luci-go/server/auth"
+	"github.com/tetrafolium/luci-go/server/auth/authtest"
+	"github.com/tetrafolium/luci-go/server/caching"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

@@ -24,16 +24,16 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/config/validation"
-	"go.chromium.org/luci/server/auth"
+	"github.com/tetrafolium/luci-go/auth/identity"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/config/validation"
+	"github.com/tetrafolium/luci-go/server/auth"
 
-	"go.chromium.org/luci/tokenserver/api/admin/v1"
-	"go.chromium.org/luci/tokenserver/appengine/impl/utils/identityset"
-	"go.chromium.org/luci/tokenserver/appengine/impl/utils/policy"
+	"github.com/tetrafolium/luci-go/tokenserver/api/admin/v1"
+	"github.com/tetrafolium/luci-go/tokenserver/appengine/impl/utils/identityset"
+	"github.com/tetrafolium/luci-go/tokenserver/appengine/impl/utils/policy"
 )
 
 // serviceAccountsCfg is name of the config file with the policy.

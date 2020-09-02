@@ -19,8 +19,8 @@ import (
 	"encoding/json"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // IDToken is verified deserialized ID token.

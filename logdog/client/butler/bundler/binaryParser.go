@@ -17,7 +17,7 @@ package bundler
 import (
 	"errors"
 
-	"go.chromium.org/luci/logdog/api/logpb"
+	"github.com/tetrafolium/luci-go/logdog/api/logpb"
 )
 
 // binaryThreshold is the amount of binary data that we will willingly yield

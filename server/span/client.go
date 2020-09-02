@@ -22,7 +22,7 @@ import (
 	"cloud.google.com/go/spanner"
 	"google.golang.org/grpc/codes"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // Transaction is a common interface of spanner.ReadOnlyTransaction and
@@ -300,8 +300,8 @@ func UpdateWithOptions(ctx context.Context, stmt spanner.Statement, opts spanner
 ////////////////////////////////////////////////////////////////////////////////
 
 var (
-	clientContextKey = "go.chromium.org/luci/server/span:client"
-	txnContextKey    = "go.chromium.org/luci/server/span:txn"
+	clientContextKey = "github.com/tetrafolium/luci-go/server/span:client"
+	txnContextKey    = "github.com/tetrafolium/luci-go/server/span:txn"
 )
 
 // client returns a Spanner client installed in the context.

@@ -15,7 +15,7 @@
 package cli
 
 import (
-	"go.chromium.org/luci/logdog/common/types"
+	"github.com/tetrafolium/luci-go/logdog/common/types"
 )
 
 func makeUnifiedPath(project string, path types.StreamPath) string {

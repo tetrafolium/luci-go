@@ -26,8 +26,8 @@ package symbols
 import (
 	"fmt"
 
-	"go.chromium.org/luci/lucicfg/docgen/ast"
-	"go.chromium.org/luci/lucicfg/docgen/docstring"
+	"github.com/tetrafolium/luci-go/lucicfg/docgen/ast"
+	"github.com/tetrafolium/luci-go/lucicfg/docgen/docstring"
 )
 
 // Symbol is something defined in a Starlark module.

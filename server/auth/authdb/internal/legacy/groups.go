@@ -20,8 +20,8 @@ package legacy
 import (
 	"fmt"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/server/auth/service/protocol"
+	"github.com/tetrafolium/luci-go/auth/identity"
+	"github.com/tetrafolium/luci-go/server/auth/service/protocol"
 )
 
 // Groups is a legacy representation of the groups graph.

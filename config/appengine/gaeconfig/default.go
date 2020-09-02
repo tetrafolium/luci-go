@@ -21,13 +21,13 @@ import (
 	"os"
 	"path/filepath"
 
-	"go.chromium.org/luci/config"
-	"go.chromium.org/luci/config/cfgclient"
-	"go.chromium.org/luci/config/impl/erroring"
-	"go.chromium.org/luci/config/vars"
-	"go.chromium.org/luci/server/auth"
+	"github.com/tetrafolium/luci-go/config"
+	"github.com/tetrafolium/luci-go/config/cfgclient"
+	"github.com/tetrafolium/luci-go/config/impl/erroring"
+	"github.com/tetrafolium/luci-go/config/vars"
+	"github.com/tetrafolium/luci-go/server/auth"
 
-	"go.chromium.org/luci/gae/service/info"
+	"github.com/tetrafolium/luci-go/gae/service/info"
 )
 
 // devCfgDir is a name of the directory with config files when running in

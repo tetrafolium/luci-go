@@ -17,7 +17,7 @@ package buffer
 import (
 	"time"
 
-	"go.chromium.org/luci/common/retry"
+	"github.com/tetrafolium/luci-go/common/retry"
 )
 
 // Batch represents a collection of individual work items and associated

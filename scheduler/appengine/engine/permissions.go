@@ -17,12 +17,12 @@ package engine
 import (
 	"context"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/auth/realms"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/server/auth"
+	"github.com/tetrafolium/luci-go/server/auth/realms"
 
-	"go.chromium.org/luci/scheduler/appengine/acl"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/acl"
 )
 
 const adminGroup = "administrators"

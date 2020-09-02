@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 	"golang.org/x/net/context"
 )
 

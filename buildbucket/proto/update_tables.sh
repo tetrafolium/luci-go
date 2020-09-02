@@ -8,7 +8,7 @@ set -e
 
 # Fist, make sure you run up-to-date bqschemaupdater,
 # since it's not installed by default in Infra's Go Env.
-go install go.chromium.org/luci/tools/cmd/bqschemaupdater
+go install github.com/tetrafolium/luci-go/tools/cmd/bqschemaupdater
 
 # Actually update BQ schemas, -dev before prod.
 bqschemaupdater -message buildbucket.v2.Build -table cr-buildbucket-dev.raw.completed_builds

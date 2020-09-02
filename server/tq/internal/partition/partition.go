@@ -25,7 +25,7 @@ import (
 	"sort"
 	"strings"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // Partition represents a range [Low..High).

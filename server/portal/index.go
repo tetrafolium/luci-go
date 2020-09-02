@@ -20,10 +20,10 @@ import (
 
 	"github.com/dustin/go-humanize"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/server/settings"
-	"go.chromium.org/luci/server/templates"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/server/router"
+	"github.com/tetrafolium/luci-go/server/settings"
+	"github.com/tetrafolium/luci-go/server/templates"
 )
 
 type pageIndexEntry struct {

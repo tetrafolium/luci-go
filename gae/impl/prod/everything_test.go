@@ -20,12 +20,12 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/gae/service/blobstore"
-	ds "go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/gae/service/info"
-	mc "go.chromium.org/luci/gae/service/memcache"
+	"github.com/tetrafolium/luci-go/gae/service/blobstore"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/service/info"
+	mc "github.com/tetrafolium/luci-go/gae/service/memcache"
 
-	"go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/common/logging"
 
 	"golang.org/x/net/context"
 	"google.golang.org/appengine/aetest"

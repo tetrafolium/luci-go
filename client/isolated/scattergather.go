@@ -19,7 +19,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // ScatterGather represents a mapping of working directories to relative paths.

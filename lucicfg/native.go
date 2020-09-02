@@ -21,7 +21,7 @@ import (
 	"go.starlark.net/starlark"
 	"go.starlark.net/starlarkstruct"
 
-	"go.chromium.org/luci/starlark/interpreter"
+	"github.com/tetrafolium/luci-go/starlark/interpreter"
 )
 
 // nativeCall carries arguments for nativeFunc to avoid ridiculously long

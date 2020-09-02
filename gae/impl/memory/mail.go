@@ -22,8 +22,8 @@ import (
 	"strings"
 	"sync"
 
-	"go.chromium.org/luci/gae/service/mail"
-	"go.chromium.org/luci/gae/service/user"
+	"github.com/tetrafolium/luci-go/gae/service/mail"
+	"github.com/tetrafolium/luci-go/gae/service/user"
 	"golang.org/x/net/context"
 )
 

@@ -17,7 +17,7 @@ package protoutil
 import (
 	"strings"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // StepNameSep is the separator between each node in step names.

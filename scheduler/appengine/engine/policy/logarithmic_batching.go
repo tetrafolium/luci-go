@@ -17,8 +17,8 @@ package policy
 import (
 	"math"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/scheduler/appengine/internal"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/internal"
 )
 
 // LogarithmicBatchingPolicy instantiates new LOGARITHMIC_BATCHING policy

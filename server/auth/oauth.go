@@ -27,16 +27,16 @@ import (
 
 	"golang.org/x/oauth2"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/gcloud/googleoauth"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/grpc/grpcutil"
-	"go.chromium.org/luci/server/caching"
-	"go.chromium.org/luci/server/caching/layered"
+	"github.com/tetrafolium/luci-go/auth/identity"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/gcloud/googleoauth"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/retry"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
+	"github.com/tetrafolium/luci-go/grpc/grpcutil"
+	"github.com/tetrafolium/luci-go/server/caching"
+	"github.com/tetrafolium/luci-go/server/caching/layered"
 )
 
 var (

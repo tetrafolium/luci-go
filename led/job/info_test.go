@@ -18,8 +18,8 @@ import (
 	"testing"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
-	api "go.chromium.org/luci/swarming/proto/api"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
+	api "github.com/tetrafolium/luci-go/swarming/proto/api"
 )
 
 func TestGetCurrentIsolated(t *testing.T) {

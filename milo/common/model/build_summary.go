@@ -24,17 +24,17 @@ import (
 	"strings"
 	"time"
 
-	"go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
 
-	"go.chromium.org/luci/buildbucket/deprecated"
-	buildbucketpb "go.chromium.org/luci/buildbucket/proto"
-	"go.chromium.org/luci/buildbucket/protoutil"
-	bbv1 "go.chromium.org/luci/common/api/buildbucket/buildbucket/v1"
-	"go.chromium.org/luci/common/data/cmpbin"
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/milo/common"
+	"github.com/tetrafolium/luci-go/buildbucket/deprecated"
+	buildbucketpb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	"github.com/tetrafolium/luci-go/buildbucket/protoutil"
+	bbv1 "github.com/tetrafolium/luci-go/common/api/buildbucket/buildbucket/v1"
+	"github.com/tetrafolium/luci-go/common/data/cmpbin"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/milo/common"
 )
 
 // ManifestKey is an index entry for BuildSummary, which looks like

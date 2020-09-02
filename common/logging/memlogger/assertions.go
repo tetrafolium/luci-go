@@ -19,7 +19,7 @@ import (
 	"reflect"
 	"strings"
 
-	"go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/common/logging"
 )
 
 // ShouldHaveLog is a goconvey custom assertion which asserts that the logger has

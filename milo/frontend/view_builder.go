@@ -8,12 +8,12 @@ import (
 	"fmt"
 	"net/http"
 
-	"go.chromium.org/luci/milo/buildsource/buildbucket"
+	"github.com/tetrafolium/luci-go/milo/buildsource/buildbucket"
 
-	"go.chromium.org/luci/buildbucket/deprecated"
-	buildbucketpb "go.chromium.org/luci/buildbucket/proto"
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/server/templates"
+	"github.com/tetrafolium/luci-go/buildbucket/deprecated"
+	buildbucketpb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	"github.com/tetrafolium/luci-go/server/router"
+	"github.com/tetrafolium/luci-go/server/templates"
 )
 
 // BuilderHandler renders the builder page.

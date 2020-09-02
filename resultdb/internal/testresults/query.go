@@ -26,15 +26,15 @@ import (
 	"golang.org/x/sync/errgroup"
 	"google.golang.org/genproto/protobuf/field_mask"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/proto/mask"
-	"go.chromium.org/luci/common/trace"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/proto/mask"
+	"github.com/tetrafolium/luci-go/common/trace"
 
-	"go.chromium.org/luci/resultdb/internal/invocations"
-	"go.chromium.org/luci/resultdb/internal/pagination"
-	"go.chromium.org/luci/resultdb/internal/spanutil"
-	"go.chromium.org/luci/resultdb/pbutil"
-	pb "go.chromium.org/luci/resultdb/proto/v1"
+	"github.com/tetrafolium/luci-go/resultdb/internal/invocations"
+	"github.com/tetrafolium/luci-go/resultdb/internal/pagination"
+	"github.com/tetrafolium/luci-go/resultdb/internal/spanutil"
+	"github.com/tetrafolium/luci-go/resultdb/pbutil"
+	pb "github.com/tetrafolium/luci-go/resultdb/proto/v1"
 )
 
 // AllFields is a field mask that selects all TestResults fields.

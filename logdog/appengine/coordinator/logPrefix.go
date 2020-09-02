@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/logging"
-	ds "go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/logdog/common/types"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/logging"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/logdog/common/types"
 )
 
 const (

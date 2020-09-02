@@ -15,8 +15,8 @@
 package projects
 
 import (
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/config/validation"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
+	"github.com/tetrafolium/luci-go/config/validation"
 )
 
 // Validate validates these configs.

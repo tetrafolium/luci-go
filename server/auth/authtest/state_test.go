@@ -19,8 +19,8 @@ import (
 	"net"
 	"testing"
 
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/auth/realms"
+	"github.com/tetrafolium/luci-go/server/auth"
+	"github.com/tetrafolium/luci-go/server/auth/realms"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

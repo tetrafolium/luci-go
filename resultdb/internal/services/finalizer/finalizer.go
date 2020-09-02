@@ -25,19 +25,19 @@ import (
 	"golang.org/x/sync/semaphore"
 	"google.golang.org/protobuf/proto"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/sync/parallel"
-	"go.chromium.org/luci/common/trace"
-	"go.chromium.org/luci/server"
-	"go.chromium.org/luci/server/span"
-	"go.chromium.org/luci/server/tq"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/sync/parallel"
+	"github.com/tetrafolium/luci-go/common/trace"
+	"github.com/tetrafolium/luci-go/server"
+	"github.com/tetrafolium/luci-go/server/span"
+	"github.com/tetrafolium/luci-go/server/tq"
 
-	"go.chromium.org/luci/resultdb/internal/invocations"
-	"go.chromium.org/luci/resultdb/internal/spanutil"
-	"go.chromium.org/luci/resultdb/internal/tasks"
-	"go.chromium.org/luci/resultdb/internal/tasks/taskspb"
-	pb "go.chromium.org/luci/resultdb/proto/v1"
+	"github.com/tetrafolium/luci-go/resultdb/internal/invocations"
+	"github.com/tetrafolium/luci-go/resultdb/internal/spanutil"
+	"github.com/tetrafolium/luci-go/resultdb/internal/tasks"
+	"github.com/tetrafolium/luci-go/resultdb/internal/tasks/taskspb"
+	pb "github.com/tetrafolium/luci-go/resultdb/proto/v1"
 )
 
 // Options is finalizer server configuration.

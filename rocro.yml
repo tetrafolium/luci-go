@@ -1,0 +1,7 @@
+inspecode:
+
+  errcheck:
+    input: 'gae/**'
+    ignore:
+      - '**/*_test.go'            #  51 issues
+    thresholds: { num-issues: 44 }

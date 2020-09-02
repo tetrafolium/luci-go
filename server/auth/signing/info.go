@@ -21,10 +21,10 @@ import (
 	"strings"
 	"time"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/server/auth/internal"
-	"go.chromium.org/luci/server/caching"
-	"go.chromium.org/luci/server/caching/layered"
+	"github.com/tetrafolium/luci-go/auth/identity"
+	"github.com/tetrafolium/luci-go/server/auth/internal"
+	"github.com/tetrafolium/luci-go/server/caching"
+	"github.com/tetrafolium/luci-go/server/caching/layered"
 )
 
 // See auth/cache.go for where __luciauth__ appears for the first time. We

@@ -21,8 +21,8 @@ import (
 	"github.com/golang/protobuf/jsonpb"
 	"github.com/golang/protobuf/proto"
 
-	luciProto "go.chromium.org/luci/common/proto"
-	"go.chromium.org/luci/config"
+	luciProto "github.com/tetrafolium/luci-go/common/proto"
+	"github.com/tetrafolium/luci-go/config"
 )
 
 // Destination receives a raw config file body, deserializes and stores it.

@@ -19,8 +19,8 @@ import (
 	"sort"
 	"sync"
 
-	"go.chromium.org/luci/server/tq/internal/db"
-	"go.chromium.org/luci/server/tq/internal/reminder"
+	"github.com/tetrafolium/luci-go/server/tq/internal/db"
+	"github.com/tetrafolium/luci-go/server/tq/internal/reminder"
 )
 
 var fakeDBKey = "FakeDB"

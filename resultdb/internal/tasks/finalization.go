@@ -17,18 +17,18 @@ package tasks
 import (
 	"context"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/server/experiments"
-	"go.chromium.org/luci/server/span"
-	"go.chromium.org/luci/server/tq"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/server/experiments"
+	"github.com/tetrafolium/luci-go/server/span"
+	"github.com/tetrafolium/luci-go/server/tq"
 
-	"go.chromium.org/luci/resultdb/internal/invocations"
-	"go.chromium.org/luci/resultdb/internal/spanutil"
-	"go.chromium.org/luci/resultdb/internal/tasks/taskspb"
-	pb "go.chromium.org/luci/resultdb/proto/v1"
+	"github.com/tetrafolium/luci-go/resultdb/internal/invocations"
+	"github.com/tetrafolium/luci-go/resultdb/internal/spanutil"
+	"github.com/tetrafolium/luci-go/resultdb/internal/tasks/taskspb"
+	pb "github.com/tetrafolium/luci-go/resultdb/proto/v1"
 
 	// Add support for Spanner transactions in TQ.
-	_ "go.chromium.org/luci/server/tq/txn/spanner"
+	_ "github.com/tetrafolium/luci-go/server/tq/txn/spanner"
 )
 
 // FinalizationTasks describes how to route finalization tasks.

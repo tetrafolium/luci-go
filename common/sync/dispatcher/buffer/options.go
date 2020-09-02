@@ -17,8 +17,8 @@ package buffer
 import (
 	"time"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/retry"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/retry"
 )
 
 // Options configures policy for the Buffer.

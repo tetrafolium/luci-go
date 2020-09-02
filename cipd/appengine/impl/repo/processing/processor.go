@@ -17,7 +17,7 @@ package processing
 import (
 	"context"
 
-	"go.chromium.org/luci/cipd/appengine/impl/model"
+	"github.com/tetrafolium/luci-go/cipd/appengine/impl/model"
 )
 
 // Processor runs some post-processing step on a package instance after it has

@@ -19,7 +19,7 @@ import (
 
 	"github.com/klauspost/compress/zstd"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 var zstdHeader = []byte("ztd\n")

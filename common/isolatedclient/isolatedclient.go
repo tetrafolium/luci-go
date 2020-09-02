@@ -29,12 +29,12 @@ import (
 	"net/http"
 	"strings"
 
-	isolateservice "go.chromium.org/luci/common/api/isolate/isolateservice/v1"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/isolated"
-	"go.chromium.org/luci/common/lhttp"
-	"go.chromium.org/luci/common/retry"
-	"go.chromium.org/luci/common/retry/transient"
+	isolateservice "github.com/tetrafolium/luci-go/common/api/isolate/isolateservice/v1"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/isolated"
+	"github.com/tetrafolium/luci-go/common/lhttp"
+	"github.com/tetrafolium/luci-go/common/retry"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
 )
 
 // DefaultNamespace is the namespace that should be used with the New function.

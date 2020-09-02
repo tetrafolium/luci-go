@@ -19,9 +19,9 @@ import (
 	"net/url"
 	"time"
 
-	buildbucketpb "go.chromium.org/luci/buildbucket/proto"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/milo/common/model"
+	buildbucketpb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/milo/common/model"
 )
 
 type BuilderPage struct {

@@ -24,7 +24,7 @@ import (
 	"reflect"
 	"strings"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // Ensure *StringRoundTripper implements http.RoundTripper.

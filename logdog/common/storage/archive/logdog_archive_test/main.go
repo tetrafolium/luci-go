@@ -26,24 +26,24 @@ import (
 	"os"
 	"strings"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/auth/client/authcli"
-	"go.chromium.org/luci/common/cli"
-	"go.chromium.org/luci/common/data/rand/mathrand"
-	"go.chromium.org/luci/common/data/recordio"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/gcloud/gs"
-	log "go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/logging/gologger"
-	"go.chromium.org/luci/logdog/api/logpb"
-	"go.chromium.org/luci/logdog/common/storage"
-	"go.chromium.org/luci/logdog/common/storage/archive"
-	"go.chromium.org/luci/logdog/common/types"
+	"github.com/tetrafolium/luci-go/auth"
+	"github.com/tetrafolium/luci-go/auth/client/authcli"
+	"github.com/tetrafolium/luci-go/common/cli"
+	"github.com/tetrafolium/luci-go/common/data/rand/mathrand"
+	"github.com/tetrafolium/luci-go/common/data/recordio"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/gcloud/gs"
+	log "github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/logging/gologger"
+	"github.com/tetrafolium/luci-go/logdog/api/logpb"
+	"github.com/tetrafolium/luci-go/logdog/common/storage"
+	"github.com/tetrafolium/luci-go/logdog/common/storage/archive"
+	"github.com/tetrafolium/luci-go/logdog/common/types"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/hardcoded/chromeinfra"
+	"github.com/tetrafolium/luci-go/hardcoded/chromeinfra"
 )
 
 ////////////////////////////////////////////////////////////////////////////////

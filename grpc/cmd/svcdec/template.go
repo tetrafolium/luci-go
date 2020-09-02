@@ -17,7 +17,7 @@ package main
 import (
 	"text/template"
 
-	"go.chromium.org/luci/grpc/internal/svctool"
+	"github.com/tetrafolium/luci-go/grpc/internal/svctool"
 )
 
 var (

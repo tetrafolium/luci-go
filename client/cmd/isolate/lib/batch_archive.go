@@ -26,13 +26,13 @@ import (
 
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/client/archiver"
-	"go.chromium.org/luci/client/cas"
-	"go.chromium.org/luci/client/isolate"
-	"go.chromium.org/luci/common/data/text/units"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/system/signals"
+	"github.com/tetrafolium/luci-go/auth"
+	"github.com/tetrafolium/luci-go/client/archiver"
+	"github.com/tetrafolium/luci-go/client/cas"
+	"github.com/tetrafolium/luci-go/client/isolate"
+	"github.com/tetrafolium/luci-go/common/data/text/units"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/system/signals"
 )
 
 // CmdBatchArchive returns an object for the `batcharchive` subcommand.

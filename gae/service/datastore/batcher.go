@@ -17,8 +17,8 @@ package datastore
 import (
 	"fmt"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/sync/parallel"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/sync/parallel"
 
 	"golang.org/x/net/context"
 )

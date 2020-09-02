@@ -24,18 +24,18 @@ import (
 
 	"golang.org/x/oauth2"
 
-	"go.chromium.org/luci/server/router"
+	"github.com/tetrafolium/luci-go/server/router"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/server/auth/authdb"
-	"go.chromium.org/luci/server/auth/realms"
-	"go.chromium.org/luci/server/auth/service/protocol"
-	"go.chromium.org/luci/server/auth/signing"
+	"github.com/tetrafolium/luci-go/auth/identity"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
+	"github.com/tetrafolium/luci-go/server/auth/authdb"
+	"github.com/tetrafolium/luci-go/server/auth/realms"
+	"github.com/tetrafolium/luci-go/server/auth/service/protocol"
+	"github.com/tetrafolium/luci-go/server/auth/signing"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestAuthenticate(t *testing.T) {

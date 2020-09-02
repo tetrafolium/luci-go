@@ -19,9 +19,9 @@ import (
 	"crypto/sha256"
 	"encoding/hex"
 
-	"go.chromium.org/luci/common/logging"
-	ds "go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/gae/service/datastore/serialize"
+	"github.com/tetrafolium/luci-go/common/logging"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/service/datastore/serialize"
 )
 
 // AddToJournal records one or more Mutation to the tumble journal, but does not

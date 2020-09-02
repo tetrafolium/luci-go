@@ -19,7 +19,7 @@ import (
 	"io"
 	"strconv"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // logParser parses output of git-log with options

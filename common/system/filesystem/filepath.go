@@ -23,8 +23,8 @@ import (
 	"strings"
 	"syscall"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
 )
 
 func setReadOnly(path string, fi os.FileInfo, readOnly bool) error {

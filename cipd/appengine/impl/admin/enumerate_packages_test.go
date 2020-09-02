@@ -17,12 +17,12 @@ package admin
 import (
 	"testing"
 
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/logging/memlogger"
-	"go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/logging/memlogger"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
 
-	api "go.chromium.org/luci/cipd/api/admin/v1"
-	"go.chromium.org/luci/cipd/appengine/impl/model"
+	api "github.com/tetrafolium/luci-go/cipd/api/admin/v1"
+	"github.com/tetrafolium/luci-go/cipd/appengine/impl/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

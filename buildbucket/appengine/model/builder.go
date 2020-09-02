@@ -17,9 +17,9 @@ package model
 import (
 	"context"
 
-	"go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
 
-	pb "go.chromium.org/luci/buildbucket/proto"
+	pb "github.com/tetrafolium/luci-go/buildbucket/proto"
 )
 
 // BuilderKind is the kind of the Builder entity.

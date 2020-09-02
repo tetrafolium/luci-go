@@ -22,11 +22,11 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"go.chromium.org/luci/common/data/caching/lazyslot"
-	"go.chromium.org/luci/common/data/rand/mathrand"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/config/validation"
+	"github.com/tetrafolium/luci-go/common/data/caching/lazyslot"
+	"github.com/tetrafolium/luci-go/common/data/rand/mathrand"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/config/validation"
 )
 
 // ErrNoPolicy is returned by Queryable(...) if a policy is not yet available.

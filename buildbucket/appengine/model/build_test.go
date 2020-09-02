@@ -21,15 +21,15 @@ import (
 	"github.com/golang/protobuf/proto"
 	structpb "github.com/golang/protobuf/ptypes/struct"
 
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/common/proto/mask"
-	"go.chromium.org/luci/gae/impl/memory"
-	"go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/common/clock/testclock"
+	"github.com/tetrafolium/luci-go/common/proto/mask"
+	"github.com/tetrafolium/luci-go/gae/impl/memory"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
 
-	pb "go.chromium.org/luci/buildbucket/proto"
+	pb "github.com/tetrafolium/luci-go/buildbucket/proto"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestBuild(t *testing.T) {

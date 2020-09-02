@@ -20,11 +20,11 @@
 package impl
 
 import (
-	"go.chromium.org/luci/appengine/tq"
+	"github.com/tetrafolium/luci-go/appengine/tq"
 
-	"go.chromium.org/luci/cipd/appengine/impl/admin"
-	"go.chromium.org/luci/cipd/appengine/impl/cas"
-	"go.chromium.org/luci/cipd/appengine/impl/repo"
+	"github.com/tetrafolium/luci-go/cipd/appengine/impl/admin"
+	"github.com/tetrafolium/luci-go/cipd/appengine/impl/cas"
+	"github.com/tetrafolium/luci-go/cipd/appengine/impl/repo"
 )
 
 var (

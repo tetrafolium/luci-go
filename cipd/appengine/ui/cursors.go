@@ -20,8 +20,8 @@ import (
 	"encoding/base64"
 	"time"
 
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/gae/service/memcache"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/gae/service/memcache"
 )
 
 type cursorKind string

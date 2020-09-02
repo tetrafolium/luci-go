@@ -23,11 +23,11 @@ import (
 	"github.com/maruel/subcommands"
 	"google.golang.org/grpc/metadata"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/common/cli"
-	"go.chromium.org/luci/common/data/text"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/grpc/prpc"
+	"github.com/tetrafolium/luci-go/auth"
+	"github.com/tetrafolium/luci-go/common/cli"
+	"github.com/tetrafolium/luci-go/common/data/text"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/grpc/prpc"
 )
 
 const rpcUsage = `rpc [flags] SERVICE METHOD`

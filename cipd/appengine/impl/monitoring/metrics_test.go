@@ -19,13 +19,13 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/common/tsmon"
-	"go.chromium.org/luci/gae/impl/memory"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/auth/authtest"
-	"go.chromium.org/luci/server/caching"
+	"github.com/tetrafolium/luci-go/common/tsmon"
+	"github.com/tetrafolium/luci-go/gae/impl/memory"
+	"github.com/tetrafolium/luci-go/server/auth"
+	"github.com/tetrafolium/luci-go/server/auth/authtest"
+	"github.com/tetrafolium/luci-go/server/caching"
 
-	api "go.chromium.org/luci/cipd/api/config/v1"
+	api "github.com/tetrafolium/luci-go/cipd/api/config/v1"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

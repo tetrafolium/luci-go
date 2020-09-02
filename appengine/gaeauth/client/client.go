@@ -25,15 +25,15 @@ import (
 
 	"golang.org/x/oauth2"
 
-	"go.chromium.org/luci/gae/service/info"
+	"github.com/tetrafolium/luci-go/gae/service/info"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/data/rand/mathrand"
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/server/caching"
+	"github.com/tetrafolium/luci-go/auth"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/data/rand/mathrand"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
+	"github.com/tetrafolium/luci-go/server/caching"
 )
 
 // GetAccessToken returns an OAuth access token representing app's service

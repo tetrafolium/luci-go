@@ -18,14 +18,14 @@ import (
 	"context"
 	"testing"
 
-	"go.chromium.org/luci/appengine/gaetesting"
-	configset "go.chromium.org/luci/config"
-	"go.chromium.org/luci/config/cfgclient"
-	"go.chromium.org/luci/config/impl/memory"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/auth/authtest"
+	"github.com/tetrafolium/luci-go/appengine/gaetesting"
+	configset "github.com/tetrafolium/luci-go/config"
+	"github.com/tetrafolium/luci-go/config/cfgclient"
+	"github.com/tetrafolium/luci-go/config/impl/memory"
+	"github.com/tetrafolium/luci-go/server/auth"
+	"github.com/tetrafolium/luci-go/server/auth/authtest"
 
-	"go.chromium.org/luci/tokenserver/appengine/impl/utils/projectidentity"
+	"github.com/tetrafolium/luci-go/tokenserver/appengine/impl/utils/projectidentity"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

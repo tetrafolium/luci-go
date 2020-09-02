@@ -23,8 +23,8 @@ import (
 
 	"github.com/julienschmidt/httprouter"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/server/router"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/server/router"
 )
 
 // Handler is the type for all request handlers. Of particular note, it's the

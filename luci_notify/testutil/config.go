@@ -21,7 +21,7 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	notifyConfig "go.chromium.org/luci/luci_notify/api/config"
+	notifyConfig "github.com/tetrafolium/luci-go/luci_notify/api/config"
 )
 
 // LoadProjectConfig returns a luci-notify configuration from api/config/testdata

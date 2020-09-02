@@ -22,9 +22,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"go.chromium.org/luci/common/proto/config"
-	"go.chromium.org/luci/config/validation"
-	"go.chromium.org/luci/server/router"
+	"github.com/tetrafolium/luci-go/common/proto/config"
+	"github.com/tetrafolium/luci-go/config/validation"
+	"github.com/tetrafolium/luci-go/server/router"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

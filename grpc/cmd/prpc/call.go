@@ -28,10 +28,10 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/common/cli"
-	"go.chromium.org/luci/common/flag"
-	"go.chromium.org/luci/grpc/prpc"
+	"github.com/tetrafolium/luci-go/auth"
+	"github.com/tetrafolium/luci-go/common/cli"
+	"github.com/tetrafolium/luci-go/common/flag"
+	"github.com/tetrafolium/luci-go/grpc/prpc"
 )
 
 const (

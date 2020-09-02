@@ -1331,7 +1331,7 @@ once declares a builder and an executable needed for this builder.
 * **name**: name of this executable entity, to refer to it from builders. Required.
 * **cipd_package**: a cipd package name with the executable. Supports the module-scoped default.
 * **cipd_version**: a version of the executable package to fetch, default is `refs/heads/master`. Supports the module-scoped default.
-* **cmd**: a list of strings which are the command line to use for this executable. If omitted, either `('recipes',)` or `('luciexe',)` will be used by Buildbucket, according to its global configuration. The special value of `('recipes',)` indicates that this executable should be run under the legacy kitchen runtime. All other values will be executed under the go.chromium.org/luci/luciexe protocol.
+* **cmd**: a list of strings which are the command line to use for this executable. If omitted, either `('recipes',)` or `('luciexe',)` will be used by Buildbucket, according to its global configuration. The special value of `('recipes',)` indicates that this executable should be run under the legacy kitchen runtime. All other values will be executed under the github.com/tetrafolium/luci-go/luciexe protocol.
 
 
 
@@ -2133,9 +2133,9 @@ from an external file via [io.read_file(...)](#io.read_file).
 #### Template input
 
 The input to both templates is a
-[TemplateInput](https://godoc.org/go.chromium.org/luci/luci_notify/api/config#TemplateInput)
+[TemplateInput](https://godoc.org/github.com/tetrafolium/luci-go/luci_notify/api/config#TemplateInput)
 Go struct derived from
-[TemplateInput](https://cs.chromium.org/chromium/infra/go/src/go.chromium.org/luci/luci_notify/api/config/notify.proto?q=TemplateInput)
+[TemplateInput](https://cs.chromium.org/chromium/infra/go/src/github.com/tetrafolium/luci-go/luci_notify/api/config/notify.proto?q=TemplateInput)
 proto message.
 
 #### Template functions
@@ -2197,7 +2197,7 @@ luci.notifier_template(
 
 #### Email preview
 
-[preview_email](http://godoc.org/go.chromium.org/luci/luci_notify/cmd/preview_email)
+[preview_email](http://godoc.org/github.com/tetrafolium/luci-go/luci_notify/cmd/preview_email)
 command can render a template file to stdout.
 ```shell
   bb get -json -A 8914184822697034512 | preview_email ./default.template

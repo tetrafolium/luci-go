@@ -21,10 +21,10 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/protoc-gen-go/descriptor"
 
-	"go.chromium.org/luci/common/proto/google/descutil"
+	"github.com/tetrafolium/luci-go/common/proto/google/descutil"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestUnmarshal(t *testing.T) {

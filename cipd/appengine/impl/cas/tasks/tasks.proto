@@ -16,7 +16,7 @@ syntax = "proto3";
 
 package tasks;
 
-option go_package = "go.chromium.org/luci/cipd/appengine/impl/cas/tasks";
+option go_package = "github.com/tetrafolium/luci-go/cipd/appengine/impl/cas/tasks";
 
 // VerifyUpload task verifies data uploaded by a user and closes the upload
 // session based on the result.

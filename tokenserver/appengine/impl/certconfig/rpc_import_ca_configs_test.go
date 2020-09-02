@@ -18,17 +18,17 @@ import (
 	"context"
 	"testing"
 
-	"go.chromium.org/luci/appengine/gaetesting"
-	"go.chromium.org/luci/config"
-	"go.chromium.org/luci/config/cfgclient"
-	"go.chromium.org/luci/config/impl/memory"
-	"go.chromium.org/luci/config/validation"
-	ds "go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/appengine/gaetesting"
+	"github.com/tetrafolium/luci-go/config"
+	"github.com/tetrafolium/luci-go/config/cfgclient"
+	"github.com/tetrafolium/luci-go/config/impl/memory"
+	"github.com/tetrafolium/luci-go/config/validation"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
 
-	"go.chromium.org/luci/tokenserver/api/admin/v1"
+	"github.com/tetrafolium/luci-go/tokenserver/api/admin/v1"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestImportCAConfigsRPC(t *testing.T) {

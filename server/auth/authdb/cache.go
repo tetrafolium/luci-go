@@ -18,8 +18,8 @@ import (
 	"context"
 	"time"
 
-	"go.chromium.org/luci/common/data/caching/lazyslot"
-	"go.chromium.org/luci/common/data/rand/mathrand"
+	"github.com/tetrafolium/luci-go/common/data/caching/lazyslot"
+	"github.com/tetrafolium/luci-go/common/data/rand/mathrand"
 )
 
 // DBCacheUpdater knows how to update local in-memory copy of DB.

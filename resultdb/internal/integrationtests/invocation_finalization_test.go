@@ -19,12 +19,12 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/server/experiments"
-	"go.chromium.org/luci/server/tq"
+	"github.com/tetrafolium/luci-go/server/experiments"
+	"github.com/tetrafolium/luci-go/server/tq"
 
-	"go.chromium.org/luci/resultdb/internal/tasks"
-	"go.chromium.org/luci/resultdb/internal/testutil"
-	pb "go.chromium.org/luci/resultdb/proto/v1"
+	"github.com/tetrafolium/luci-go/resultdb/internal/tasks"
+	"github.com/tetrafolium/luci-go/resultdb/internal/testutil"
+	pb "github.com/tetrafolium/luci-go/resultdb/proto/v1"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

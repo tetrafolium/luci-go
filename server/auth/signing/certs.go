@@ -26,8 +26,8 @@ import (
 	"sync"
 	"time"
 
-	"go.chromium.org/luci/server/auth/internal"
-	"go.chromium.org/luci/server/caching"
+	"github.com/tetrafolium/luci-go/server/auth/internal"
+	"github.com/tetrafolium/luci-go/server/caching"
 )
 
 // "url:..." | "email:..." | "google_auth2_certs" => *PublicCertificates.

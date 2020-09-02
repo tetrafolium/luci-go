@@ -22,16 +22,16 @@ import (
 	"strconv"
 	"strings"
 
-	"go.chromium.org/luci/buildbucket/deprecated"
-	buildbucketpb "go.chromium.org/luci/buildbucket/proto"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/grpc/grpcutil"
-	"go.chromium.org/luci/milo/buildsource/buildbucket"
-	"go.chromium.org/luci/milo/frontend/ui"
-	"go.chromium.org/luci/server/auth/xsrf"
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/server/templates"
+	"github.com/tetrafolium/luci-go/buildbucket/deprecated"
+	buildbucketpb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/grpc/grpcutil"
+	"github.com/tetrafolium/luci-go/milo/buildsource/buildbucket"
+	"github.com/tetrafolium/luci-go/milo/frontend/ui"
+	"github.com/tetrafolium/luci-go/server/auth/xsrf"
+	"github.com/tetrafolium/luci-go/server/router"
+	"github.com/tetrafolium/luci-go/server/templates"
 )
 
 // handleLUCIBuild renders a LUCI build.

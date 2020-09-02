@@ -17,9 +17,9 @@ package streamclient
 import (
 	"time"
 
-	"go.chromium.org/luci/common/clock/clockflag"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/logdog/client/butlerlib/streamproto"
+	"github.com/tetrafolium/luci-go/common/clock/clockflag"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/logdog/client/butlerlib/streamproto"
 )
 
 type options struct {

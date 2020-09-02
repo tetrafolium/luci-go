@@ -8,11 +8,11 @@
 // versions:
 // 	protoc-gen-go v1.25.0-devel
 // 	protoc        v3.12.1
-// source: go.chromium.org/luci/swarming/proto/api/plugin.proto
+// source: github.com/tetrafolium/luci-go/swarming/proto/api/plugin.proto
 
 package apipb
 
-import prpc "go.chromium.org/luci/grpc/prpc"
+import prpc "github.com/tetrafolium/luci-go/grpc/prpc"
 
 import (
 	context "context"
@@ -1557,5 +1557,5 @@ var _ExternalScheduler_serviceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "go.chromium.org/luci/swarming/proto/api/plugin.proto",
+	Metadata: "github.com/tetrafolium/luci-go/swarming/proto/api/plugin.proto",
 }

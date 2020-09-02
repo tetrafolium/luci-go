@@ -22,9 +22,9 @@ import (
 	"net/url"
 	"strings"
 
-	"go.chromium.org/luci/appengine/gaeauth/server/internal/authdbimpl"
-	"go.chromium.org/luci/gae/service/info"
-	"go.chromium.org/luci/server/portal"
+	"github.com/tetrafolium/luci-go/appengine/gaeauth/server/internal/authdbimpl"
+	"github.com/tetrafolium/luci-go/gae/service/info"
+	"github.com/tetrafolium/luci-go/server/portal"
 )
 
 type settingsPage struct {

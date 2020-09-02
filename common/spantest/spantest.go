@@ -33,9 +33,9 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/hardcoded/chromeinfra"
+	"github.com/tetrafolium/luci-go/auth"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/hardcoded/chromeinfra"
 )
 
 // TempDBConfig specifies how to create a temporary database.

@@ -20,14 +20,14 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/tsmon/distribution"
-	"go.chromium.org/luci/common/tsmon/field"
-	"go.chromium.org/luci/common/tsmon/metric"
-	"go.chromium.org/luci/common/tsmon/types"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/tsmon/distribution"
+	"github.com/tetrafolium/luci-go/common/tsmon/field"
+	"github.com/tetrafolium/luci-go/common/tsmon/metric"
+	"github.com/tetrafolium/luci-go/common/tsmon/types"
 
-	"go.chromium.org/luci/server/cmd/statsd-to-tsmon/config"
+	"github.com/tetrafolium/luci-go/server/cmd/statsd-to-tsmon/config"
 )
 
 // NameComponentIndex is an index of a statsd metric name components.

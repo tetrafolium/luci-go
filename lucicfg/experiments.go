@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"strings"
 
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
+	"github.com/tetrafolium/luci-go/common/logging"
 
 	"go.starlark.net/starlark"
 )

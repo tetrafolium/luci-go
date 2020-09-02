@@ -22,14 +22,14 @@ import (
 
 	"google.golang.org/appengine"
 
-	"go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
 
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/server/router"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/server/router"
 
-	"go.chromium.org/luci/appengine/gaemiddleware/standard"
-	"go.chromium.org/luci/appengine/mapper"
-	"go.chromium.org/luci/appengine/tq"
+	"github.com/tetrafolium/luci-go/appengine/gaemiddleware/standard"
+	"github.com/tetrafolium/luci-go/appengine/mapper"
+	"github.com/tetrafolium/luci-go/appengine/tq"
 )
 
 func makeDumpingMapper(ctx context.Context, j *mapper.Job, shardIdx int) (mapper.Mapper, error) {

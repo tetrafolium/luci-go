@@ -16,9 +16,9 @@ syntax = "proto3";
 
 package buildbucket.v2;
 
-option go_package = "go.chromium.org/luci/buildbucket/proto;buildbucketpb";
+option go_package = "github.com/tetrafolium/luci-go/buildbucket/proto;buildbucketpb";
 
-import "go.chromium.org/luci/buildbucket/proto/build.proto";
+import "github.com/tetrafolium/luci-go/buildbucket/proto/build.proto";
 
 // This file is meant for protos passed and used internally.
 

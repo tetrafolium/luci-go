@@ -25,7 +25,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/common/logging"
 )
 
 type fileAndType struct {

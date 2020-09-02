@@ -20,15 +20,15 @@
 //
 // This package is normally imported unnamed:
 //
-//   import _ "go.chromium.org/luci/server/tq/txn/spanner"
+//   import _ "github.com/tetrafolium/luci-go/server/tq/txn/spanner"
 package spanner
 
 import (
 	"context"
 
-	"go.chromium.org/luci/server/span"
+	"github.com/tetrafolium/luci-go/server/span"
 
-	"go.chromium.org/luci/server/tq/internal/db"
+	"github.com/tetrafolium/luci-go/server/tq/internal/db"
 )
 
 var impl spanDB

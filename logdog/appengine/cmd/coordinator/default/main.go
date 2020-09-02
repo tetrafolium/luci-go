@@ -24,16 +24,16 @@ import (
 
 	"google.golang.org/appengine"
 
-	logsPb "go.chromium.org/luci/logdog/api/endpoints/coordinator/logs/v1"
-	registrationPb "go.chromium.org/luci/logdog/api/endpoints/coordinator/registration/v1"
-	servicesPb "go.chromium.org/luci/logdog/api/endpoints/coordinator/services/v1"
-	"go.chromium.org/luci/logdog/server/config"
+	logsPb "github.com/tetrafolium/luci-go/logdog/api/endpoints/coordinator/logs/v1"
+	registrationPb "github.com/tetrafolium/luci-go/logdog/api/endpoints/coordinator/registration/v1"
+	servicesPb "github.com/tetrafolium/luci-go/logdog/api/endpoints/coordinator/services/v1"
+	"github.com/tetrafolium/luci-go/logdog/server/config"
 
-	"go.chromium.org/luci/appengine/gaemiddleware/standard"
-	"go.chromium.org/luci/grpc/discovery"
-	"go.chromium.org/luci/grpc/grpcmon"
-	"go.chromium.org/luci/grpc/prpc"
-	"go.chromium.org/luci/server/router"
+	"github.com/tetrafolium/luci-go/appengine/gaemiddleware/standard"
+	"github.com/tetrafolium/luci-go/grpc/discovery"
+	"github.com/tetrafolium/luci-go/grpc/grpcmon"
+	"github.com/tetrafolium/luci-go/grpc/prpc"
+	"github.com/tetrafolium/luci-go/server/router"
 )
 
 // Run installs and executes this site.

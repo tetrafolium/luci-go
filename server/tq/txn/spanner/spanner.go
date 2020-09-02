@@ -19,11 +19,11 @@ import (
 
 	"cloud.google.com/go/spanner"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/server/span"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
+	"github.com/tetrafolium/luci-go/server/span"
 
-	"go.chromium.org/luci/server/tq/internal/reminder"
+	"github.com/tetrafolium/luci-go/server/tq/internal/reminder"
 )
 
 // tableName is the name of the table that user must create in their Spanner

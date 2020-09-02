@@ -20,10 +20,10 @@ import (
 	"strings"
 	"testing"
 
-	"go.chromium.org/luci/cipd/common"
+	"github.com/tetrafolium/luci-go/cipd/common"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestVersionsFile(t *testing.T) {

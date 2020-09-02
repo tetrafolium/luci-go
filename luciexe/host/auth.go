@@ -18,9 +18,9 @@ import (
 	"context"
 	"os"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/system/environ"
-	"go.chromium.org/luci/lucictx"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/system/environ"
+	"github.com/tetrafolium/luci-go/lucictx"
 )
 
 func startAuthServices(ctx context.Context, opts *Options) (cleanupSlice, error) {

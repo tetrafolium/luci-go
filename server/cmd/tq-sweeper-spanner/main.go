@@ -25,15 +25,15 @@ import (
 	"flag"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/server"
-	"go.chromium.org/luci/server/module"
-	"go.chromium.org/luci/server/span"
-	"go.chromium.org/luci/server/tq"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/server"
+	"github.com/tetrafolium/luci-go/server/module"
+	"github.com/tetrafolium/luci-go/server/span"
+	"github.com/tetrafolium/luci-go/server/tq"
 
 	// Sweep Spanner DB.
-	_ "go.chromium.org/luci/server/tq/txn/spanner"
+	_ "github.com/tetrafolium/luci-go/server/tq/txn/spanner"
 )
 
 func main() {

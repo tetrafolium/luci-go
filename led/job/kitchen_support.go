@@ -17,8 +17,8 @@ package job
 import (
 	"context"
 
-	swarming "go.chromium.org/luci/common/api/swarming/swarming/v1"
-	"go.chromium.org/luci/common/errors"
+	swarming "github.com/tetrafolium/luci-go/common/api/swarming/swarming/v1"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // KitchenSupport is the object for an interface to support 'LegacyKitchen' job

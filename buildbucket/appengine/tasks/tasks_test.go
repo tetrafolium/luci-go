@@ -18,15 +18,15 @@ import (
 	"context"
 	"testing"
 
-	"go.chromium.org/luci/gae/filter/txndefer"
-	"go.chromium.org/luci/gae/impl/memory"
-	"go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/server/tq"
+	"github.com/tetrafolium/luci-go/gae/filter/txndefer"
+	"github.com/tetrafolium/luci-go/gae/impl/memory"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/server/tq"
 
-	taskdef "go.chromium.org/luci/buildbucket/appengine/tasks/defs"
+	taskdef "github.com/tetrafolium/luci-go/buildbucket/appengine/tasks/defs"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestTasks(t *testing.T) {

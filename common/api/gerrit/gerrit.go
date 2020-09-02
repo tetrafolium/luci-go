@@ -26,8 +26,8 @@ import (
 	"strings"
 	"time"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/retry/transient"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
 
 	"golang.org/x/net/context/ctxhttp"
 )
@@ -43,7 +43,7 @@ const contentType = "application/json; charset=UTF-8"
 // Gerrit-supported keys will be populated).
 //
 // TODO(nodir): replace this type with
-// https://godoc.org/go.chromium.org/luci/common/proto/gerrit#ChangeInfo.
+// https://godoc.org/github.com/tetrafolium/luci-go/common/proto/gerrit#ChangeInfo.
 type Change struct {
 	ChangeNumber           int                     `json:"_number"`
 	ID                     string                  `json:"id"`

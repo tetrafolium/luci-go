@@ -1,6 +1,6 @@
 # luci-go: LUCI services and tools in Go
 
-[![GoDoc](https://godoc.org/go.chromium.org/luci?status.svg)](https://godoc.org/go.chromium.org/luci)
+[![GoDoc](https://godoc.org/github.com/tetrafolium/luci-go?status.svg)](https://godoc.org/github.com/tetrafolium/luci-go)
 
 
 ## Installing
@@ -14,7 +14,7 @@ then run:
     fetch infra
     cd infra/go
     eval `./env.py`
-    cd src/go.chromium.org/luci
+    cd src/github.com/tetrafolium/luci-go
 
 
 ## Contributing

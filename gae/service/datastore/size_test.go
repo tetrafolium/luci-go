@@ -22,7 +22,7 @@ import (
 	"testing"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"go.chromium.org/luci/gae/service/blobstore"
+	"github.com/tetrafolium/luci-go/gae/service/blobstore"
 )
 
 func mps(vals ...interface{}) PropertySlice {

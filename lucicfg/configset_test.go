@@ -22,10 +22,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"go.chromium.org/luci/common/api/luci_config/config/v1"
+	"github.com/tetrafolium/luci-go/common/api/luci_config/config/v1"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestConfigSet(t *testing.T) {

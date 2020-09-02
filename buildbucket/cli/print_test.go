@@ -25,9 +25,9 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/mgutz/ansi"
 
-	"go.chromium.org/luci/common/clock/testclock"
+	"github.com/tetrafolium/luci-go/common/clock/testclock"
 
-	pb "go.chromium.org/luci/buildbucket/proto"
+	pb "github.com/tetrafolium/luci-go/buildbucket/proto"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

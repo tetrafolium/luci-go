@@ -5,10 +5,10 @@ package test
 import (
 	"context"
 
-	svcmux "go.chromium.org/luci/server/svcmux"
+	svcmux "github.com/tetrafolium/luci-go/server/svcmux"
 
 	empty "github.com/golang/protobuf/ptypes/empty"
-	sub "go.chromium.org/luci/grpc/internal/svctool/testdata/sub"
+	sub "github.com/tetrafolium/luci-go/grpc/internal/svctool/testdata/sub"
 )
 
 type VersionedS1 struct {

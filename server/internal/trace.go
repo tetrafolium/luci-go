@@ -24,8 +24,8 @@ import (
 	"go.opencensus.io/exporter/stackdriver/propagation"
 	octrace "go.opencensus.io/trace"
 
-	"go.chromium.org/luci/common/trace"
-	"go.chromium.org/luci/grpc/grpcutil"
+	"github.com/tetrafolium/luci-go/common/trace"
+	"github.com/tetrafolium/luci-go/grpc/grpcutil"
 )
 
 // EnableOpenCensusTracing installs OpenCensus as a tracing backend for LUCI

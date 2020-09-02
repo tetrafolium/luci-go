@@ -21,8 +21,8 @@ import (
 
 	"golang.org/x/oauth2"
 
-	"go.chromium.org/luci/server/auth/authdb"
-	"go.chromium.org/luci/server/auth/signing"
+	"github.com/tetrafolium/luci-go/server/auth/authdb"
+	"github.com/tetrafolium/luci-go/server/auth/signing"
 )
 
 var cfgContextKey = "auth.Config context key"

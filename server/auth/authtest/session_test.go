@@ -19,9 +19,9 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/server/auth"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/clock/testclock"
+	"github.com/tetrafolium/luci-go/server/auth"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

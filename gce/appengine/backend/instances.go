@@ -27,14 +27,14 @@ import (
 	"google.golang.org/api/compute/v1"
 	"google.golang.org/api/googleapi"
 
-	"go.chromium.org/luci/appengine/tq"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/appengine/tq"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
 
-	"go.chromium.org/luci/gce/api/tasks/v1"
-	"go.chromium.org/luci/gce/appengine/backend/internal/metrics"
-	"go.chromium.org/luci/gce/appengine/model"
+	"github.com/tetrafolium/luci-go/gce/api/tasks/v1"
+	"github.com/tetrafolium/luci-go/gce/appengine/backend/internal/metrics"
+	"github.com/tetrafolium/luci-go/gce/appengine/model"
 )
 
 // setCreated sets the GCE instance as created in the datastore if it isn't already.

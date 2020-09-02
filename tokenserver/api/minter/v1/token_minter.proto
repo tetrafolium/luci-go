@@ -10,8 +10,8 @@ option go_package = "minter";
 
 import "google/protobuf/timestamp.proto";
 
-import "go.chromium.org/luci/server/auth/delegation/messages/delegation.proto";
-import "go.chromium.org/luci/tokenserver/api/machine_token.proto";
+import "github.com/tetrafolium/luci-go/server/auth/delegation/messages/delegation.proto";
+import "github.com/tetrafolium/luci-go/tokenserver/api/machine_token.proto";
 
 
 // Supported ways of singing the request.

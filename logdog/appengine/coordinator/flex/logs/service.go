@@ -17,11 +17,11 @@ package logs
 import (
 	"context"
 
-	log "go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/grpc/grpcutil"
-	logdog "go.chromium.org/luci/logdog/api/endpoints/coordinator/logs/v1"
-	"go.chromium.org/luci/logdog/appengine/coordinator"
-	"go.chromium.org/luci/logdog/appengine/coordinator/endpoints"
+	log "github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/grpc/grpcutil"
+	logdog "github.com/tetrafolium/luci-go/logdog/api/endpoints/coordinator/logs/v1"
+	"github.com/tetrafolium/luci-go/logdog/appengine/coordinator"
+	"github.com/tetrafolium/luci-go/logdog/appengine/coordinator/endpoints"
 
 	"github.com/golang/protobuf/proto"
 

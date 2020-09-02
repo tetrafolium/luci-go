@@ -17,10 +17,10 @@ package globalmetrics
 import (
 	"testing"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/tsmon"
-	"go.chromium.org/luci/resultdb/internal/tasks"
-	"go.chromium.org/luci/resultdb/internal/testutil"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/tsmon"
+	"github.com/tetrafolium/luci-go/resultdb/internal/tasks"
+	"github.com/tetrafolium/luci-go/resultdb/internal/testutil"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

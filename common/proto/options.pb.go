@@ -18,7 +18,7 @@
 // versions:
 // 	protoc-gen-go v1.24.0-devel
 // 	protoc        v3.12.1
-// source: go.chromium.org/luci/common/proto/options.proto
+// source: github.com/tetrafolium/luci-go/common/proto/options.proto
 
 package proto
 
@@ -97,7 +97,7 @@ var file_go_chromium_org_luci_common_proto_options_proto_extTypes = []protoimpl.
 		Field:         73700,
 		Name:          "luci.file_metadata",
 		Tag:           "bytes,73700,opt,name=file_metadata",
-		Filename:      "go.chromium.org/luci/common/proto/options.proto",
+		Filename:      "github.com/tetrafolium/luci-go/common/proto/options.proto",
 	},
 }
 

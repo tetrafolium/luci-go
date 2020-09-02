@@ -18,8 +18,8 @@ import (
 	"flag"
 	"regexp"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/hardcoded/chromeinfra"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/hardcoded/chromeinfra"
 )
 
 type Flags struct {

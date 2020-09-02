@@ -23,11 +23,11 @@ import (
 	"math"
 	"sort"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/server/auth/service/protocol"
+	"github.com/tetrafolium/luci-go/auth/identity"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/server/auth/service/protocol"
 
-	"go.chromium.org/luci/server/auth/authdb/internal/globset"
+	"github.com/tetrafolium/luci-go/server/auth/authdb/internal/globset"
 )
 
 // Graph is a static group graph optimized for traversals.

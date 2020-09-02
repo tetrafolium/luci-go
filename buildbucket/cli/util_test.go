@@ -17,7 +17,7 @@ package cli
 import (
 	"github.com/golang/protobuf/proto"
 
-	luciproto "go.chromium.org/luci/common/proto"
+	luciproto "github.com/tetrafolium/luci-go/common/proto"
 )
 
 func textpb(pb proto.Message, textML string) proto.Message {

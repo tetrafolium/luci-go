@@ -20,13 +20,13 @@ import (
 
 	"github.com/golang/protobuf/ptypes/timestamp"
 
-	"go.chromium.org/luci/appengine/gaetesting"
-	"go.chromium.org/luci/config"
-	"go.chromium.org/luci/config/cfgclient"
-	"go.chromium.org/luci/config/impl/memory"
+	"github.com/tetrafolium/luci-go/appengine/gaetesting"
+	"github.com/tetrafolium/luci-go/config"
+	"github.com/tetrafolium/luci-go/config/cfgclient"
+	"github.com/tetrafolium/luci-go/config/impl/memory"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestConfigFetcher(t *testing.T) {

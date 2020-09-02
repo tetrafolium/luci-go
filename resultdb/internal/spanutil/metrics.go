@@ -17,8 +17,8 @@ package spanutil
 import (
 	"context"
 
-	"go.chromium.org/luci/common/tsmon/field"
-	"go.chromium.org/luci/common/tsmon/metric"
+	"github.com/tetrafolium/luci-go/common/tsmon/field"
+	"github.com/tetrafolium/luci-go/common/tsmon/metric"
 )
 
 // RowStatus is a status of a row.

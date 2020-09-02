@@ -16,7 +16,7 @@
 // versions:
 // 	protoc-gen-go v1.25.0-devel
 // 	protoc        v3.12.1
-// source: go.chromium.org/luci/buildbucket/proto/common.proto
+// source: github.com/tetrafolium/luci-go/buildbucket/proto/common.proto
 
 package buildbucketpb
 
@@ -177,7 +177,7 @@ func (Trinary) EnumDescriptor() ([]byte, []int) {
 
 // An executable to run when the build is ready to start.
 //
-// Please refer to go.chromium.org/luci/luciexe for the protocol this executable
+// Please refer to github.com/tetrafolium/luci-go/luciexe for the protocol this executable
 // is expected to implement.
 //
 // In addition to the "Host Application" responsibilities listed there,
@@ -208,7 +208,7 @@ type Executable struct {
 	// The other arguments are passed verbatim to the executable.
 	//
 	// The 'build.proto' binary message will always be passed to stdin, even when
-	// this command has arguments (see go.chromium.org/luci/luciexe).
+	// this command has arguments (see github.com/tetrafolium/luci-go/luciexe).
 	//
 	// RECOMMENDATION: It's advised to rely on the build.proto's Input.Properties
 	// field for passing task-specific data. Properties are JSON-typed and can be
@@ -351,7 +351,7 @@ type Log struct {
 	// Typically it has form
 	// "logdog://<host>/<project>/<prefix>/+/<stream_name>".
 	// See also
-	// https://godoc.org/go.chromium.org/luci/logdog/common/types#ParseURL
+	// https://godoc.org/github.com/tetrafolium/luci-go/logdog/common/types#ParseURL
 	Url string `protobuf:"bytes,3,opt,name=url,proto3" json:"url,omitempty"`
 }
 

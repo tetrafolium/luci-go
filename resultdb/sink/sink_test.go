@@ -24,12 +24,12 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"go.chromium.org/luci/lucictx"
+	"github.com/tetrafolium/luci-go/lucictx"
 
-	sinkpb "go.chromium.org/luci/resultdb/sink/proto/v1"
+	sinkpb "github.com/tetrafolium/luci-go/resultdb/sink/proto/v1"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestNewServer(t *testing.T) {

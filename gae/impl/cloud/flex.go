@@ -20,10 +20,10 @@ import (
 	"os"
 	"strings"
 
-	"go.chromium.org/luci/common/data/caching/lru"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/gcloud/googleoauth"
-	"go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/common/data/caching/lru"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/gcloud/googleoauth"
+	"github.com/tetrafolium/luci-go/common/logging"
 
 	"cloud.google.com/go/compute/metadata"
 	"cloud.google.com/go/datastore"

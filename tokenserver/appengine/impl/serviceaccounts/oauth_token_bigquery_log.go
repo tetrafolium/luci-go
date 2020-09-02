@@ -21,16 +21,16 @@ import (
 
 	"google.golang.org/appengine"
 
-	"go.chromium.org/luci/appengine/bqlog"
-	"go.chromium.org/luci/common/bq"
-	"go.chromium.org/luci/common/proto/google"
+	"github.com/tetrafolium/luci-go/appengine/bqlog"
+	"github.com/tetrafolium/luci-go/common/bq"
+	"github.com/tetrafolium/luci-go/common/proto/google"
 
-	"go.chromium.org/luci/tokenserver/api"
-	"go.chromium.org/luci/tokenserver/api/admin/v1"
-	bqpb "go.chromium.org/luci/tokenserver/api/bq"
-	"go.chromium.org/luci/tokenserver/api/minter/v1"
+	"github.com/tetrafolium/luci-go/tokenserver/api"
+	"github.com/tetrafolium/luci-go/tokenserver/api/admin/v1"
+	bqpb "github.com/tetrafolium/luci-go/tokenserver/api/bq"
+	"github.com/tetrafolium/luci-go/tokenserver/api/minter/v1"
 
-	"go.chromium.org/luci/tokenserver/appengine/impl/utils"
+	"github.com/tetrafolium/luci-go/tokenserver/appengine/impl/utils"
 )
 
 var oauthTokensLog = bqlog.Log{

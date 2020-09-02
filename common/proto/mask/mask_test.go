@@ -21,10 +21,10 @@ import (
 	"google.golang.org/genproto/protobuf/field_mask"
 	"google.golang.org/protobuf/reflect/protoreflect"
 
-	"go.chromium.org/luci/common/proto/internal/testingpb"
+	"github.com/tetrafolium/luci-go/common/proto/internal/testingpb"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 type testMsg = testingpb.Full

@@ -19,9 +19,9 @@ import (
 	"net/http"
 	"strings"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/server/auth"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/server/auth"
 )
 
 // googleDiscoveryURL is URL of Google OpenID Connect discovery document.

@@ -17,10 +17,10 @@ package mutate
 import (
 	"context"
 
-	"go.chromium.org/luci/dm/api/service/v1"
-	"go.chromium.org/luci/dm/appengine/model"
-	"go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/tumble"
+	"github.com/tetrafolium/luci-go/dm/api/service/v1"
+	"github.com/tetrafolium/luci-go/dm/appengine/model"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/tumble"
 )
 
 // ActivateExecution executes an execution, moving it from the

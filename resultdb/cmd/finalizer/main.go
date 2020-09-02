@@ -15,10 +15,10 @@
 package main
 
 import (
-	"go.chromium.org/luci/server"
+	"github.com/tetrafolium/luci-go/server"
 
-	"go.chromium.org/luci/resultdb/internal"
-	"go.chromium.org/luci/resultdb/internal/services/finalizer"
+	"github.com/tetrafolium/luci-go/resultdb/internal"
+	"github.com/tetrafolium/luci-go/resultdb/internal/services/finalizer"
 )
 
 func main() {

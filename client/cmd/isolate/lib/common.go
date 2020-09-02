@@ -27,15 +27,15 @@ import (
 
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/auth/client/authcli"
-	"go.chromium.org/luci/cipd/version"
-	"go.chromium.org/luci/client/cas"
-	"go.chromium.org/luci/client/internal/common"
-	"go.chromium.org/luci/client/isolate"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/isolatedclient"
-	"go.chromium.org/luci/common/system/filesystem"
+	"github.com/tetrafolium/luci-go/auth"
+	"github.com/tetrafolium/luci-go/auth/client/authcli"
+	"github.com/tetrafolium/luci-go/cipd/version"
+	"github.com/tetrafolium/luci-go/client/cas"
+	"github.com/tetrafolium/luci-go/client/internal/common"
+	"github.com/tetrafolium/luci-go/client/isolate"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/isolatedclient"
+	"github.com/tetrafolium/luci-go/common/system/filesystem"
 )
 
 type commonFlags struct {

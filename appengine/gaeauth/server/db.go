@@ -18,11 +18,11 @@ import (
 	"context"
 	"errors"
 
-	"go.chromium.org/luci/appengine/gaeauth/server/internal/authdbimpl"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/gae/service/info"
-	"go.chromium.org/luci/server/auth/authdb"
+	"github.com/tetrafolium/luci-go/appengine/gaeauth/server/internal/authdbimpl"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/gae/service/info"
+	"github.com/tetrafolium/luci-go/server/auth/authdb"
 )
 
 // errNotConfigured is returned on real GAE if auth service URL is not set.

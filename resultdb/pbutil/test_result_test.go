@@ -23,12 +23,12 @@ import (
 
 	"github.com/golang/protobuf/ptypes"
 
-	"go.chromium.org/luci/common/clock/testclock"
+	"github.com/tetrafolium/luci-go/common/clock/testclock"
 
-	pb "go.chromium.org/luci/resultdb/proto/v1"
+	pb "github.com/tetrafolium/luci-go/resultdb/proto/v1"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 // validTestResult returns a valid TestResult sample.

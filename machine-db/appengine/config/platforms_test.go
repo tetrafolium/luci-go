@@ -18,11 +18,11 @@ import (
 	"context"
 	"testing"
 
-	"go.chromium.org/luci/config/validation"
-	"go.chromium.org/luci/machine-db/api/config/v1"
+	"github.com/tetrafolium/luci-go/config/validation"
+	"github.com/tetrafolium/luci-go/machine-db/api/config/v1"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestValidatePlatforms(t *testing.T) {

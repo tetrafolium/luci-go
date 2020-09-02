@@ -27,17 +27,17 @@ import (
 	"golang.org/x/time/rate"
 	"google.golang.org/api/googleapi"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/server/caching"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/clock/testclock"
+	"github.com/tetrafolium/luci-go/server/caching"
 
-	"go.chromium.org/luci/resultdb/internal/testutil"
-	"go.chromium.org/luci/resultdb/internal/testutil/insert"
-	"go.chromium.org/luci/resultdb/pbutil"
-	pb "go.chromium.org/luci/resultdb/proto/v1"
+	"github.com/tetrafolium/luci-go/resultdb/internal/testutil"
+	"github.com/tetrafolium/luci-go/resultdb/internal/testutil/insert"
+	"github.com/tetrafolium/luci-go/resultdb/pbutil"
+	pb "github.com/tetrafolium/luci-go/resultdb/proto/v1"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 type mockPassInserter struct {

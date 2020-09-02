@@ -17,10 +17,10 @@ package butler
 import (
 	"testing"
 
-	"go.chromium.org/luci/logdog/api/logpb"
+	"github.com/tetrafolium/luci-go/logdog/api/logpb"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func mkDatagramLogEntry(data []byte, partial, last bool, index uint32, size uint64, seq uint64) *logpb.LogEntry {

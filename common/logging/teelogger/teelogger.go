@@ -17,7 +17,7 @@ package teelogger
 import (
 	"context"
 
-	"go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/common/logging"
 )
 
 type teeImpl struct {

@@ -22,8 +22,8 @@ import (
 	"io"
 	"testing"
 
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/common/clock/testclock"
+	"github.com/tetrafolium/luci-go/common/logging"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

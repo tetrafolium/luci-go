@@ -19,10 +19,10 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"go.chromium.org/luci/common/gcloud/pubsub"
-	dm "go.chromium.org/luci/dm/api/service/v1"
-	"go.chromium.org/luci/gae/service/info"
-	tq "go.chromium.org/luci/gae/service/taskqueue"
+	"github.com/tetrafolium/luci-go/common/gcloud/pubsub"
+	dm "github.com/tetrafolium/luci-go/dm/api/service/v1"
+	"github.com/tetrafolium/luci-go/gae/service/info"
+	tq "github.com/tetrafolium/luci-go/gae/service/taskqueue"
 )
 
 // Config represents the configuration for a single instance of a given

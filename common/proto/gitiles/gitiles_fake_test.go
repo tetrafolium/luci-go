@@ -20,7 +20,7 @@ import (
 	"testing"
 
 	. "github.com/smartystreets/goconvey/convey"
-	git "go.chromium.org/luci/common/proto/git"
+	git "github.com/tetrafolium/luci-go/common/proto/git"
 )
 
 func TestGitilesFake(t *testing.T) {

@@ -20,8 +20,8 @@ package submission
 import (
 	"sort"
 
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // TODO(yiwzhang): clean up all the following structs once we have formal data

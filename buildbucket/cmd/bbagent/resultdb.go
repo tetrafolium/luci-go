@@ -17,8 +17,8 @@ package main
 import (
 	"context"
 
-	bbpb "go.chromium.org/luci/buildbucket/proto"
-	"go.chromium.org/luci/lucictx"
+	bbpb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	"github.com/tetrafolium/luci-go/lucictx"
 )
 
 func setResultDBContext(ctx context.Context, buildProto *bbpb.Build) (context.Context, error) {

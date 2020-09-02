@@ -27,11 +27,11 @@ import (
 
 	cloudkms "cloud.google.com/go/kms/apiv1"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/auth/client/authcli"
-	"go.chromium.org/luci/common/cli"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/auth"
+	"github.com/tetrafolium/luci-go/auth/client/authcli"
+	"github.com/tetrafolium/luci-go/common/cli"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
 )
 
 type commonFlags struct {

@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"go.chromium.org/luci/server/auth/signing/signingtest"
+	"github.com/tetrafolium/luci-go/server/auth/signing/signingtest"
 )
 
 func jwksForTest(keyID string, pubKey *rsa.PublicKey) *JSONWebKeySetStruct {

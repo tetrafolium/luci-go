@@ -18,7 +18,7 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/common/flag"
+	"github.com/tetrafolium/luci-go/common/flag"
 )
 
 func TestTimeFlag(t *testing.T) {

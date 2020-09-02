@@ -24,18 +24,18 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/auth/authtest"
-	"go.chromium.org/luci/server/auth/signing/signingtest"
-	"go.chromium.org/luci/server/caching"
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/server/secrets/testsecrets"
-	"go.chromium.org/luci/server/settings"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/clock/testclock"
+	"github.com/tetrafolium/luci-go/server/auth"
+	"github.com/tetrafolium/luci-go/server/auth/authtest"
+	"github.com/tetrafolium/luci-go/server/auth/signing/signingtest"
+	"github.com/tetrafolium/luci-go/server/caching"
+	"github.com/tetrafolium/luci-go/server/router"
+	"github.com/tetrafolium/luci-go/server/secrets/testsecrets"
+	"github.com/tetrafolium/luci-go/server/settings"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestFullFlow(t *testing.T) {

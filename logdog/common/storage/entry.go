@@ -15,9 +15,9 @@
 package storage
 
 import (
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/logdog/api/logpb"
-	"go.chromium.org/luci/logdog/common/types"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/logdog/api/logpb"
+	"github.com/tetrafolium/luci-go/logdog/common/types"
 
 	"github.com/golang/protobuf/proto"
 )

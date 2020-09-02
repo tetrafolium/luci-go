@@ -18,8 +18,8 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/scheduler/appengine/internal"
-	"go.chromium.org/luci/scheduler/appengine/task"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/internal"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/task"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

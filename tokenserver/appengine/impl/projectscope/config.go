@@ -19,14 +19,14 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/proto/config"
-	configset "go.chromium.org/luci/config"
-	"go.chromium.org/luci/config/cfgclient"
-	"go.chromium.org/luci/config/validation"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/proto/config"
+	configset "github.com/tetrafolium/luci-go/config"
+	"github.com/tetrafolium/luci-go/config/cfgclient"
+	"github.com/tetrafolium/luci-go/config/validation"
 
-	"go.chromium.org/luci/tokenserver/appengine/impl/utils/projectidentity"
+	"github.com/tetrafolium/luci-go/tokenserver/appengine/impl/utils/projectidentity"
 )
 
 // SetupConfigValidation registers the tokenserver custom projects.cfg validator.

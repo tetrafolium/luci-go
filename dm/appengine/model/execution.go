@@ -25,13 +25,13 @@ import (
 
 	"google.golang.org/grpc/codes"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/data/rand/cryptorand"
-	"go.chromium.org/luci/common/logging"
-	google_pb "go.chromium.org/luci/common/proto/google"
-	dm "go.chromium.org/luci/dm/api/service/v1"
-	ds "go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/grpc/grpcutil"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/data/rand/cryptorand"
+	"github.com/tetrafolium/luci-go/common/logging"
+	google_pb "github.com/tetrafolium/luci-go/common/proto/google"
+	dm "github.com/tetrafolium/luci-go/dm/api/service/v1"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/grpc/grpcutil"
 )
 
 const ek = logging.ErrorKey

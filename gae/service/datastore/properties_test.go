@@ -22,7 +22,7 @@ import (
 	"time"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"go.chromium.org/luci/gae/service/blobstore"
+	"github.com/tetrafolium/luci-go/gae/service/blobstore"
 )
 
 type myint int

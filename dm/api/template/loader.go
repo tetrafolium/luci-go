@@ -18,10 +18,10 @@ import (
 	"context"
 	"fmt"
 
-	"go.chromium.org/luci/common/data/text/templateproto"
-	"go.chromium.org/luci/config"
-	"go.chromium.org/luci/config/cfgclient"
-	dm "go.chromium.org/luci/dm/api/service/v1"
+	"github.com/tetrafolium/luci-go/common/data/text/templateproto"
+	"github.com/tetrafolium/luci-go/config"
+	"github.com/tetrafolium/luci-go/config/cfgclient"
+	dm "github.com/tetrafolium/luci-go/dm/api/service/v1"
 )
 
 // LoadFile loads a File by configSet and path.

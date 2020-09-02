@@ -27,13 +27,13 @@ import (
 	"strings"
 	"time"
 
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
+	"github.com/tetrafolium/luci-go/common/logging"
 
-	api "go.chromium.org/luci/cipd/api/cipd/v1"
-	"go.chromium.org/luci/cipd/client/cipd/fs"
-	"go.chromium.org/luci/cipd/client/cipd/pkg"
-	"go.chromium.org/luci/cipd/common"
+	api "github.com/tetrafolium/luci-go/cipd/api/cipd/v1"
+	"github.com/tetrafolium/luci-go/cipd/client/cipd/fs"
+	"github.com/tetrafolium/luci-go/cipd/client/cipd/pkg"
+	"github.com/tetrafolium/luci-go/cipd/common"
 )
 
 // Options defines options for BuildInstance function.

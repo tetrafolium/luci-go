@@ -18,10 +18,10 @@ import (
 	"context"
 	"os"
 
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/system/environ"
-	"go.chromium.org/luci/logdog/client/butler"
-	"go.chromium.org/luci/logdog/client/butler/streamserver"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/system/environ"
+	"github.com/tetrafolium/luci-go/logdog/client/butler"
+	"github.com/tetrafolium/luci-go/logdog/client/butler/streamserver"
 )
 
 // overridden in tests

@@ -20,7 +20,7 @@ import (
 	"path/filepath"
 	"regexp"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // FilesystemView provides a filtered "view" of a filesystem.

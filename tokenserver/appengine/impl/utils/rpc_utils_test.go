@@ -19,9 +19,9 @@ import (
 
 	"golang.org/x/net/context"
 
-	"go.chromium.org/luci/appengine/gaetesting"
-	"go.chromium.org/luci/common/testing/assertions"
-	"go.chromium.org/luci/tokenserver/api/minter/v1"
+	"github.com/tetrafolium/luci-go/appengine/gaetesting"
+	"github.com/tetrafolium/luci-go/common/testing/assertions"
+	"github.com/tetrafolium/luci-go/tokenserver/api/minter/v1"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

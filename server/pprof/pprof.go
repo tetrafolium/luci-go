@@ -26,10 +26,10 @@ import (
 	"html"
 	"net/http"
 
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/server/router"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
+	"github.com/tetrafolium/luci-go/server/router"
 
-	"go.chromium.org/luci/server/pprof/internal"
+	"github.com/tetrafolium/luci-go/server/pprof/internal"
 )
 
 var pprofRoutes = map[string]http.HandlerFunc{

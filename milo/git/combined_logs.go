@@ -25,14 +25,14 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	gitilesapi "go.chromium.org/luci/common/api/gitiles"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	gitpb "go.chromium.org/luci/common/proto/git"
-	"go.chromium.org/luci/common/proto/google"
-	"go.chromium.org/luci/common/sync/parallel"
-	"go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/milo/common"
+	gitilesapi "github.com/tetrafolium/luci-go/common/api/gitiles"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	gitpb "github.com/tetrafolium/luci-go/common/proto/git"
+	"github.com/tetrafolium/luci-go/common/proto/google"
+	"github.com/tetrafolium/luci-go/common/sync/parallel"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/milo/common"
 )
 
 // A structure to keep a list of commits for some ref.

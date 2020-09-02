@@ -17,7 +17,7 @@ package target
 import (
 	"context"
 
-	"go.chromium.org/luci/common/tsmon/types"
+	"github.com/tetrafolium/luci-go/common/tsmon/types"
 )
 
 // Set returns a new context with the given target set.  If this context is

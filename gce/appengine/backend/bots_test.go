@@ -20,20 +20,20 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/appengine/tq"
-	"go.chromium.org/luci/appengine/tq/tqtesting"
-	"go.chromium.org/luci/common/api/swarming/swarming/v1"
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/gae/impl/memory"
-	"go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/appengine/tq"
+	"github.com/tetrafolium/luci-go/appengine/tq/tqtesting"
+	"github.com/tetrafolium/luci-go/common/api/swarming/swarming/v1"
+	"github.com/tetrafolium/luci-go/common/clock/testclock"
+	"github.com/tetrafolium/luci-go/gae/impl/memory"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
 
-	"go.chromium.org/luci/gce/api/config/v1"
-	"go.chromium.org/luci/gce/api/tasks/v1"
-	"go.chromium.org/luci/gce/appengine/model"
-	"go.chromium.org/luci/gce/appengine/testing/roundtripper"
+	"github.com/tetrafolium/luci-go/gce/api/config/v1"
+	"github.com/tetrafolium/luci-go/gce/api/tasks/v1"
+	"github.com/tetrafolium/luci-go/gce/appengine/model"
+	"github.com/tetrafolium/luci-go/gce/appengine/testing/roundtripper"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestDeleteBot(t *testing.T) {

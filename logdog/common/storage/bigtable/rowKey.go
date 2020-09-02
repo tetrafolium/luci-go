@@ -23,7 +23,7 @@ import (
 	"strings"
 	"sync"
 
-	"go.chromium.org/luci/common/data/cmpbin"
+	"github.com/tetrafolium/luci-go/common/data/cmpbin"
 )
 
 // rowKeyBufferPool stores a pool of allocated Buffer instances for reuse when

@@ -31,10 +31,10 @@ import (
 	"github.com/mgutz/ansi"
 	"google.golang.org/grpc/status"
 
-	"go.chromium.org/luci/common/data/text/color"
-	"go.chromium.org/luci/common/data/text/indented"
+	"github.com/tetrafolium/luci-go/common/data/text/color"
+	"github.com/tetrafolium/luci-go/common/data/text/indented"
 
-	pb "go.chromium.org/luci/buildbucket/proto"
+	pb "github.com/tetrafolium/luci-go/buildbucket/proto"
 )
 
 var (

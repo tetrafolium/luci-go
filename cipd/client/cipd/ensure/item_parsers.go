@@ -19,11 +19,11 @@ import (
 	"net/url"
 	"strings"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 
-	"go.chromium.org/luci/cipd/client/cipd/deployer"
-	"go.chromium.org/luci/cipd/client/cipd/template"
-	"go.chromium.org/luci/cipd/common"
+	"github.com/tetrafolium/luci-go/cipd/client/cipd/deployer"
+	"github.com/tetrafolium/luci-go/cipd/client/cipd/template"
+	"github.com/tetrafolium/luci-go/cipd/common"
 )
 
 // an itemParser should parse the value from `val`, and update s or

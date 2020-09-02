@@ -17,7 +17,7 @@ package internal
 import (
 	fmt "fmt"
 
-	"go.chromium.org/luci/scheduler/api/scheduler/v1"
+	"github.com/tetrafolium/luci-go/scheduler/api/scheduler/v1"
 )
 
 // ToPublicTrigger converts Trigger to public *scheduler.Trigger.

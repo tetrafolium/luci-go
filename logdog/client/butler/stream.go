@@ -18,9 +18,9 @@ import (
 	"io"
 	"time"
 
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/logdog/client/butler/bundler"
-	"go.chromium.org/luci/logdog/common/types"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/logdog/client/butler/bundler"
+	"github.com/tetrafolium/luci-go/logdog/common/types"
 )
 
 type stream struct {

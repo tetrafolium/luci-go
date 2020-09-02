@@ -22,12 +22,12 @@ import (
 	"regexp"
 	"strconv"
 
-	"go.chromium.org/luci/common/api/gerrit"
-	"go.chromium.org/luci/common/sync/parallel"
+	"github.com/tetrafolium/luci-go/common/api/gerrit"
+	"github.com/tetrafolium/luci-go/common/sync/parallel"
 
-	pb "go.chromium.org/luci/buildbucket/proto"
-	luciflag "go.chromium.org/luci/common/flag"
-	gerritpb "go.chromium.org/luci/common/proto/gerrit"
+	pb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	luciflag "github.com/tetrafolium/luci-go/common/flag"
+	gerritpb "github.com/tetrafolium/luci-go/common/proto/gerrit"
 )
 
 type clsFlag struct {

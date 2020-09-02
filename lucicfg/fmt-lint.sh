@@ -6,7 +6,7 @@ MYPATH=$(dirname "${BASH_SOURCE[0]}")
 LUCICFG="${MYPATH}/.lucicfg"
 
 trap "rm -f ${LUCICFG}" EXIT
-go build -o ${LUCICFG} go.chromium.org/luci/lucicfg/cmd/lucicfg
+go build -o ${LUCICFG} github.com/tetrafolium/luci-go/lucicfg/cmd/lucicfg
 
 # Format all Starlark code.
 ${LUCICFG} fmt "${MYPATH}"

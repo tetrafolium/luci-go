@@ -17,14 +17,14 @@ package rpc
 import (
 	"context"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/grpc/appstatus"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/grpc/appstatus"
 
-	"go.chromium.org/luci/buildbucket/appengine/internal/search"
-	"go.chromium.org/luci/buildbucket/appengine/model"
+	"github.com/tetrafolium/luci-go/buildbucket/appengine/internal/search"
+	"github.com/tetrafolium/luci-go/buildbucket/appengine/model"
 
-	pb "go.chromium.org/luci/buildbucket/proto"
-	"go.chromium.org/luci/buildbucket/protoutil"
+	pb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	"github.com/tetrafolium/luci-go/buildbucket/protoutil"
 )
 
 // validateChange validates the given Gerrit change.

@@ -18,7 +18,7 @@ import (
 	"context"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
+	"github.com/tetrafolium/luci-go/common/clock"
 )
 
 // TestTimeUTC is an arbitrary time point in UTC for testing.

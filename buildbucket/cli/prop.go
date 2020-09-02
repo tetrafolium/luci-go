@@ -21,7 +21,7 @@ import (
 	"strings"
 
 	"github.com/golang/protobuf/jsonpb"
-	"go.chromium.org/luci/common/data/stringset"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
 
 	structpb "github.com/golang/protobuf/ptypes/struct"
 )

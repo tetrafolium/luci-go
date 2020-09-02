@@ -16,15 +16,15 @@ syntax = "proto3";
 
 package buildbucket.v2;
 
-option go_package = "go.chromium.org/luci/buildbucket/proto;buildbucketpb";
+option go_package = "github.com/tetrafolium/luci-go/buildbucket/proto;buildbucketpb";
 
 import "google/protobuf/duration.proto";
 import "google/protobuf/timestamp.proto";
 import "google/protobuf/struct.proto";
-import "go.chromium.org/luci/buildbucket/proto/builder.proto";
-import "go.chromium.org/luci/buildbucket/proto/common.proto";
-import "go.chromium.org/luci/buildbucket/proto/step.proto";
-import "go.chromium.org/luci/swarming/proto/api/swarming.proto";
+import "github.com/tetrafolium/luci-go/buildbucket/proto/builder.proto";
+import "github.com/tetrafolium/luci-go/buildbucket/proto/common.proto";
+import "github.com/tetrafolium/luci-go/buildbucket/proto/step.proto";
+import "github.com/tetrafolium/luci-go/swarming/proto/api/swarming.proto";
 
 // A single build, identified by an int64 id.
 // Belongs to a builder.

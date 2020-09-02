@@ -26,7 +26,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"go.chromium.org/luci/lucicfg/docgen"
+	"github.com/tetrafolium/luci-go/lucicfg/docgen"
 )
 
 func main() {

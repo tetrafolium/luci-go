@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/common/isolated"
+	"github.com/tetrafolium/luci-go/common/isolated"
 )
 
 func TestEntryJSON(t *testing.T) {

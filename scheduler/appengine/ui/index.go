@@ -17,10 +17,10 @@ package ui
 import (
 	"fmt"
 
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/server/templates"
+	"github.com/tetrafolium/luci-go/server/router"
+	"github.com/tetrafolium/luci-go/server/templates"
 
-	"go.chromium.org/luci/scheduler/appengine/presentation"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/presentation"
 )
 
 func indexPage(c *router.Context) {

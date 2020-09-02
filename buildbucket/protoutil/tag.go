@@ -22,9 +22,9 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"go.chromium.org/luci/common/data/strpair"
+	"github.com/tetrafolium/luci-go/common/data/strpair"
 
-	pb "go.chromium.org/luci/buildbucket/proto"
+	pb "github.com/tetrafolium/luci-go/buildbucket/proto"
 )
 
 // StringPairs converts a strpair.Map to a slice of StringPair messages.

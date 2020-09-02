@@ -18,7 +18,7 @@ import (
 	"context"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
+	"github.com/tetrafolium/luci-go/common/clock"
 )
 
 // Limited is an Iterator implementation that may be limited by a maximum number

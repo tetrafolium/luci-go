@@ -24,16 +24,16 @@ import (
 	"cloud.google.com/go/compute/metadata"
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/auth/client/authcli"
-	"go.chromium.org/luci/common/cli"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/logging/gologger"
-	"go.chromium.org/luci/grpc/prpc"
-	"go.chromium.org/luci/hardcoded/chromeinfra"
+	"github.com/tetrafolium/luci-go/auth"
+	"github.com/tetrafolium/luci-go/auth/client/authcli"
+	"github.com/tetrafolium/luci-go/common/cli"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/logging/gologger"
+	"github.com/tetrafolium/luci-go/grpc/prpc"
+	"github.com/tetrafolium/luci-go/hardcoded/chromeinfra"
 
-	"go.chromium.org/luci/gce/api/instances/v1"
-	"go.chromium.org/luci/gce/vmtoken/client"
+	"github.com/tetrafolium/luci-go/gce/api/instances/v1"
+	"github.com/tetrafolium/luci-go/gce/vmtoken/client"
 )
 
 // substitute performs substitutions in a template string.

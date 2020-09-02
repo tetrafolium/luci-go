@@ -22,8 +22,8 @@ import (
 
 	"github.com/golang/protobuf/ptypes"
 
-	"go.chromium.org/luci/common/proto/access"
-	"go.chromium.org/luci/grpc/prpc"
+	"github.com/tetrafolium/luci-go/common/proto/access"
+	"github.com/tetrafolium/luci-go/grpc/prpc"
 )
 
 // Permissions represents a set of permitted actions for a set of buckets.

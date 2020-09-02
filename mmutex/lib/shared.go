@@ -19,7 +19,7 @@ import (
 
 	"github.com/danjacques/gofslock/fslock"
 	"github.com/maruel/subcommands"
-	"go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/common/logging"
 )
 
 // RunShared runs the command with the specified context and environment while

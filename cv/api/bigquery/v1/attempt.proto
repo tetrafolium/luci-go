@@ -16,7 +16,7 @@ syntax = "proto3";
 
 package bigquery;
 
-option go_package = "go.chromium.org/luci/cv/api/bigquery/v1;bigquery";
+option go_package = "github.com/tetrafolium/luci-go/cv/api/bigquery/v1;bigquery";
 
 import "google/protobuf/timestamp.proto";
 

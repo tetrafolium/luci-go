@@ -17,8 +17,8 @@ package config
 import (
 	"time"
 
-	"go.chromium.org/luci/gae/service/datastore"
-	notifypb "go.chromium.org/luci/luci_notify/api/config"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
+	notifypb "github.com/tetrafolium/luci-go/luci_notify/api/config"
 )
 
 type TreeCloserStatus string

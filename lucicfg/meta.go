@@ -23,8 +23,8 @@ import (
 
 	"go.starlark.net/starlark"
 
-	luciflag "go.chromium.org/luci/common/flag"
-	"go.chromium.org/luci/common/logging"
+	luciflag "github.com/tetrafolium/luci-go/common/flag"
+	"github.com/tetrafolium/luci-go/common/logging"
 )
 
 // Meta contains configuration for the configuration generator itself.

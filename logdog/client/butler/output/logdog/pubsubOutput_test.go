@@ -24,22 +24,22 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/logging/gologger"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/logging/gologger"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/common/data/recordio"
-	gcps "go.chromium.org/luci/common/gcloud/pubsub"
-	"go.chromium.org/luci/common/proto/google"
-	"go.chromium.org/luci/grpc/grpcutil"
-	"go.chromium.org/luci/logdog/api/logpb"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/clock/testclock"
+	"github.com/tetrafolium/luci-go/common/data/recordio"
+	gcps "github.com/tetrafolium/luci-go/common/gcloud/pubsub"
+	"github.com/tetrafolium/luci-go/common/proto/google"
+	"github.com/tetrafolium/luci-go/grpc/grpcutil"
+	"github.com/tetrafolium/luci-go/logdog/api/logpb"
 
 	"cloud.google.com/go/pubsub"
 	"github.com/golang/protobuf/proto"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 type testTopic struct {

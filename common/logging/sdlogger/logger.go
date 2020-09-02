@@ -31,8 +31,8 @@ import (
 	"sync"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/logging"
 )
 
 // Severity is a string denoting the logging level of the entry.

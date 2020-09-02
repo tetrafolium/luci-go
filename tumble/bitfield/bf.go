@@ -23,7 +23,7 @@ import (
 	"fmt"
 	"math"
 
-	"go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
 )
 
 // BitField is a luci/gae-serializable bit field implementation. It should

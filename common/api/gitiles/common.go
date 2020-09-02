@@ -19,7 +19,7 @@ import (
 	"net/url"
 	"strings"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // OAuthScope is the OAuth 2.0 scope that must be included when acquiring an

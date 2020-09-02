@@ -20,13 +20,13 @@ import (
 	"os"
 	"sync"
 
-	config "go.chromium.org/luci/common/api/luci_config/config/v1"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/starlark/interpreter"
+	config "github.com/tetrafolium/luci-go/common/api/luci_config/config/v1"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/starlark/interpreter"
 
-	"go.chromium.org/luci/lucicfg"
-	"go.chromium.org/luci/lucicfg/buildifier"
+	"github.com/tetrafolium/luci-go/lucicfg"
+	"github.com/tetrafolium/luci-go/lucicfg/buildifier"
 )
 
 // ValidateParams contains parameters for Validate call.

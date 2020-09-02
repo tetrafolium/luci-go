@@ -15,7 +15,7 @@
 package meta
 
 import (
-	ds "go.chromium.org/luci/gae/service/datastore"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
 
 	"golang.org/x/net/context"
 )

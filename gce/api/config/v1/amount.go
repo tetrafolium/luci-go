@@ -18,8 +18,8 @@ import (
 	"sort"
 	"time"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/config/validation"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/config/validation"
 )
 
 // getAmount returns the amount to use given the proposed amount and time.

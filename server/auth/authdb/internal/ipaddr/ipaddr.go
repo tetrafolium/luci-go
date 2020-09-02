@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"net"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/server/auth/service/protocol"
+	"github.com/tetrafolium/luci-go/auth/identity"
+	"github.com/tetrafolium/luci-go/server/auth/service/protocol"
 )
 
 // Whitelist holds all named IP whitelists and the whitelist assignment map.

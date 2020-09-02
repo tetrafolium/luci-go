@@ -23,13 +23,13 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	bbpb "go.chromium.org/luci/buildbucket/proto"
-	"go.chromium.org/luci/logdog/client/butlerlib/bootstrap"
-	"go.chromium.org/luci/logdog/client/butlerlib/streamclient"
-	"go.chromium.org/luci/luciexe"
+	bbpb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	"github.com/tetrafolium/luci-go/logdog/client/butlerlib/bootstrap"
+	"github.com/tetrafolium/luci-go/logdog/client/butlerlib/streamclient"
+	"github.com/tetrafolium/luci-go/luciexe"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestSpy(t *testing.T) {

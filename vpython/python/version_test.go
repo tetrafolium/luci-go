@@ -20,10 +20,10 @@ import (
 	"sort"
 	"testing"
 
-	"go.chromium.org/luci/common/data/rand/mathrand"
+	"github.com/tetrafolium/luci-go/common/data/rand/mathrand"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestParseVersion(t *testing.T) {

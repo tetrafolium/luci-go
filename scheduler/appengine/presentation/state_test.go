@@ -20,11 +20,11 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	. "github.com/smartystreets/goconvey/convey"
-	"go.chromium.org/luci/scheduler/appengine/catalog"
-	"go.chromium.org/luci/scheduler/appengine/engine"
-	"go.chromium.org/luci/scheduler/appengine/messages"
-	"go.chromium.org/luci/scheduler/appengine/task"
-	"go.chromium.org/luci/scheduler/appengine/task/urlfetch"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/catalog"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/engine"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/messages"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/task"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/task/urlfetch"
 )
 
 func TestGetJobTraits(t *testing.T) {

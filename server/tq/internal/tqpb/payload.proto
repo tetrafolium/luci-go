@@ -16,7 +16,7 @@ syntax = "proto3";
 
 package luci.server.tq.internal;
 
-option go_package = "go.chromium.org/luci/server/tq/internal/tqpb";
+option go_package = "github.com/tetrafolium/luci-go/server/tq/internal/tqpb";
 
 import "google/protobuf/timestamp.proto";
 

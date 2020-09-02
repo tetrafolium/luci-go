@@ -60,8 +60,8 @@
 //     "net/http"
 //
 //     "github.com/julienschmidt/httprouter"
-//     "go.chromium.org/luci/appengine/gaemiddleware"
-//     "go.chromium.org/luci/tumble"
+//     "github.com/tetrafolium/luci-go/appengine/gaemiddleware"
+//     "github.com/tetrafolium/luci-go/tumble"
 //   )
 //
 //   var tumbleService = tumble.Service{}

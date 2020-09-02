@@ -43,7 +43,7 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"go.chromium.org/luci/common/flag/nestedflagset"
+	"github.com/tetrafolium/luci-go/common/flag/nestedflagset"
 )
 
 // OptionDescriptor is a collection of common Option properties.

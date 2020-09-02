@@ -20,8 +20,8 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"go.chromium.org/luci/server/auth/authtest"
-	"go.chromium.org/luci/server/router"
+	"github.com/tetrafolium/luci-go/server/auth/authtest"
+	"github.com/tetrafolium/luci-go/server/router"
 )
 
 func TestClient(t *testing.T) {

@@ -20,8 +20,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go.chromium.org/luci/common/proto/google"
-	"go.chromium.org/luci/logdog/api/logpb"
+	"github.com/tetrafolium/luci-go/common/proto/google"
+	"github.com/tetrafolium/luci-go/logdog/api/logpb"
 )
 
 var (

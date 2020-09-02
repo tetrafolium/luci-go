@@ -15,7 +15,7 @@
 package rpcs
 
 import (
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // GetOAuthTokenRequest is parameters for GetOAuthToken RPC call.

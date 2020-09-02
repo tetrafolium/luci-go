@@ -18,14 +18,14 @@ import (
 	"strings"
 	"testing"
 
-	"go.chromium.org/luci/common/tsmon/field"
-	"go.chromium.org/luci/common/tsmon/metric"
-	"go.chromium.org/luci/common/tsmon/types"
+	"github.com/tetrafolium/luci-go/common/tsmon/field"
+	"github.com/tetrafolium/luci-go/common/tsmon/metric"
+	"github.com/tetrafolium/luci-go/common/tsmon/types"
 
-	"go.chromium.org/luci/server/cmd/statsd-to-tsmon/config"
+	"github.com/tetrafolium/luci-go/server/cmd/statsd-to-tsmon/config"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestConfig(t *testing.T) {

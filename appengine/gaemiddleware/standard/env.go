@@ -22,26 +22,26 @@ import (
 
 	"google.golang.org/appengine"
 
-	"go.chromium.org/luci/common/tsmon/monitor"
-	"go.chromium.org/luci/common/tsmon/target"
-	"go.chromium.org/luci/config/appengine/gaeconfig"
-	"go.chromium.org/luci/config/validation"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/auth/authdb"
-	"go.chromium.org/luci/server/middleware"
-	"go.chromium.org/luci/server/portal"
-	"go.chromium.org/luci/server/pprof"
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/server/tsmon"
+	"github.com/tetrafolium/luci-go/common/tsmon/monitor"
+	"github.com/tetrafolium/luci-go/common/tsmon/target"
+	"github.com/tetrafolium/luci-go/config/appengine/gaeconfig"
+	"github.com/tetrafolium/luci-go/config/validation"
+	"github.com/tetrafolium/luci-go/server/auth"
+	"github.com/tetrafolium/luci-go/server/auth/authdb"
+	"github.com/tetrafolium/luci-go/server/middleware"
+	"github.com/tetrafolium/luci-go/server/portal"
+	"github.com/tetrafolium/luci-go/server/pprof"
+	"github.com/tetrafolium/luci-go/server/router"
+	"github.com/tetrafolium/luci-go/server/tsmon"
 
-	"go.chromium.org/luci/appengine/gaeauth/client"
-	gaeauth "go.chromium.org/luci/appengine/gaeauth/server"
-	"go.chromium.org/luci/appengine/gaeauth/server/gaesigner"
-	"go.chromium.org/luci/appengine/gaemiddleware"
-	gaetsmon "go.chromium.org/luci/appengine/tsmon"
+	"github.com/tetrafolium/luci-go/appengine/gaeauth/client"
+	gaeauth "github.com/tetrafolium/luci-go/appengine/gaeauth/server"
+	"github.com/tetrafolium/luci-go/appengine/gaeauth/server/gaesigner"
+	"github.com/tetrafolium/luci-go/appengine/gaemiddleware"
+	gaetsmon "github.com/tetrafolium/luci-go/appengine/tsmon"
 
-	"go.chromium.org/luci/gae/impl/prod"
-	"go.chromium.org/luci/gae/service/info"
+	"github.com/tetrafolium/luci-go/gae/impl/prod"
+	"github.com/tetrafolium/luci-go/gae/service/info"
 )
 
 var (
@@ -125,7 +125,7 @@ var classicEnv = gaemiddleware.Environment{
 // Basically, it installs GAE-specific backends and caches for various
 // subsystems to make them work in GAE environment.
 //
-// One example is a backend for Logging: go.chromium.org/luci/common/logging.
+// One example is a backend for Logging: github.com/tetrafolium/luci-go/common/logging.
 // Logs emitted through a With() context go to GAE logs.
 //
 // 'Production' here means the services will use real GAE APIs (not mocks or

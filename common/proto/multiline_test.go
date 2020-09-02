@@ -17,7 +17,7 @@ package proto
 import (
 	"testing"
 
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

@@ -24,14 +24,14 @@ import (
 
 	"github.com/golang/protobuf/jsonpb"
 
-	ds "go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/gae/service/taskqueue"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/service/taskqueue"
 
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry"
-	"go.chromium.org/luci/dm/api/distributor/jobsim"
-	dm "go.chromium.org/luci/dm/api/service/v1"
-	"go.chromium.org/luci/dm/appengine/distributor"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/retry"
+	"github.com/tetrafolium/luci-go/dm/api/distributor/jobsim"
+	dm "github.com/tetrafolium/luci-go/dm/api/service/v1"
+	"github.com/tetrafolium/luci-go/dm/appengine/distributor"
 )
 
 type jobsimDist struct {

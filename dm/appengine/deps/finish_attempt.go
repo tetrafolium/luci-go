@@ -18,9 +18,9 @@ import (
 	"context"
 
 	"github.com/golang/protobuf/ptypes/empty"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/dm/api/service/v1"
-	"go.chromium.org/luci/dm/appengine/mutate"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/dm/api/service/v1"
+	"github.com/tetrafolium/luci-go/dm/appengine/mutate"
 )
 
 func (d *deps) FinishAttempt(c context.Context, req *dm.FinishAttemptReq) (_ *empty.Empty, err error) {

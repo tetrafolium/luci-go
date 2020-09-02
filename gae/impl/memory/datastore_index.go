@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"sort"
 
-	ds "go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/gae/service/datastore/serialize"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/service/datastore/serialize"
 )
 
 type qIndexSlice []*ds.IndexDefinition

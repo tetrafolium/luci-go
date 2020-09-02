@@ -7,21 +7,21 @@ syntax = "proto3";
 package crimson;
 
 import "google/protobuf/empty.proto";
-import "go.chromium.org/luci/machine-db/api/crimson/v1/datacenters.proto";
-import "go.chromium.org/luci/machine-db/api/crimson/v1/dracs.proto";
-import "go.chromium.org/luci/machine-db/api/crimson/v1/hosts.proto";
-import "go.chromium.org/luci/machine-db/api/crimson/v1/ips.proto";
-import "go.chromium.org/luci/machine-db/api/crimson/v1/kvms.proto";
-import "go.chromium.org/luci/machine-db/api/crimson/v1/machines.proto";
-import "go.chromium.org/luci/machine-db/api/crimson/v1/nics.proto";
-import "go.chromium.org/luci/machine-db/api/crimson/v1/oses.proto";
-import "go.chromium.org/luci/machine-db/api/crimson/v1/physical_hosts.proto";
-import "go.chromium.org/luci/machine-db/api/crimson/v1/platforms.proto";
-import "go.chromium.org/luci/machine-db/api/crimson/v1/racks.proto";
-import "go.chromium.org/luci/machine-db/api/crimson/v1/switches.proto";
-import "go.chromium.org/luci/machine-db/api/crimson/v1/vlans.proto";
-import "go.chromium.org/luci/machine-db/api/crimson/v1/vm_slots.proto";
-import "go.chromium.org/luci/machine-db/api/crimson/v1/vms.proto";
+import "github.com/tetrafolium/luci-go/machine-db/api/crimson/v1/datacenters.proto";
+import "github.com/tetrafolium/luci-go/machine-db/api/crimson/v1/dracs.proto";
+import "github.com/tetrafolium/luci-go/machine-db/api/crimson/v1/hosts.proto";
+import "github.com/tetrafolium/luci-go/machine-db/api/crimson/v1/ips.proto";
+import "github.com/tetrafolium/luci-go/machine-db/api/crimson/v1/kvms.proto";
+import "github.com/tetrafolium/luci-go/machine-db/api/crimson/v1/machines.proto";
+import "github.com/tetrafolium/luci-go/machine-db/api/crimson/v1/nics.proto";
+import "github.com/tetrafolium/luci-go/machine-db/api/crimson/v1/oses.proto";
+import "github.com/tetrafolium/luci-go/machine-db/api/crimson/v1/physical_hosts.proto";
+import "github.com/tetrafolium/luci-go/machine-db/api/crimson/v1/platforms.proto";
+import "github.com/tetrafolium/luci-go/machine-db/api/crimson/v1/racks.proto";
+import "github.com/tetrafolium/luci-go/machine-db/api/crimson/v1/switches.proto";
+import "github.com/tetrafolium/luci-go/machine-db/api/crimson/v1/vlans.proto";
+import "github.com/tetrafolium/luci-go/machine-db/api/crimson/v1/vm_slots.proto";
+import "github.com/tetrafolium/luci-go/machine-db/api/crimson/v1/vms.proto";
 
 // Crimson implements the Crimson service.
 service Crimson {

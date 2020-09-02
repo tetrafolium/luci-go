@@ -22,10 +22,10 @@ import (
 
 	"golang.org/x/time/rate"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/data/rand/mathrand"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/runtime/paniccatcher"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/data/rand/mathrand"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/runtime/paniccatcher"
 )
 
 // Group runs multiple cron jobs concurrently. See also Run function.

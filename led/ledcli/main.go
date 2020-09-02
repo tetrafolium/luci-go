@@ -21,14 +21,14 @@ import (
 
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/auth/client/authcli"
-	"go.chromium.org/luci/client/versioncli"
-	"go.chromium.org/luci/common/cli"
-	"go.chromium.org/luci/common/data/rand/mathrand"
-	log "go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/logging/gologger"
-	"go.chromium.org/luci/hardcoded/chromeinfra"
-	"go.chromium.org/luci/led/job"
+	"github.com/tetrafolium/luci-go/auth/client/authcli"
+	"github.com/tetrafolium/luci-go/client/versioncli"
+	"github.com/tetrafolium/luci-go/common/cli"
+	"github.com/tetrafolium/luci-go/common/data/rand/mathrand"
+	log "github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/logging/gologger"
+	"github.com/tetrafolium/luci-go/hardcoded/chromeinfra"
+	"github.com/tetrafolium/luci-go/led/job"
 )
 
 func handleInterruption(ctx context.Context) context.Context {

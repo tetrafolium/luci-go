@@ -20,7 +20,7 @@ import (
 	"html"
 	"html/template"
 
-	"go.chromium.org/luci/server/portal"
+	"github.com/tetrafolium/luci-go/server/portal"
 )
 
 type portalPage struct {

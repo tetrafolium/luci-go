@@ -15,12 +15,12 @@
 syntax = "proto3";
 
 package job;
-option go_package = "go.chromium.org/luci/led/job;job";
+option go_package = "github.com/tetrafolium/luci-go/led/job;job";
 
 import "google/protobuf/duration.proto";
 
-import "go.chromium.org/luci/buildbucket/proto/launcher.proto";
-import "go.chromium.org/luci/swarming/proto/api/swarming.proto";
+import "github.com/tetrafolium/luci-go/buildbucket/proto/launcher.proto";
+import "github.com/tetrafolium/luci-go/swarming/proto/api/swarming.proto";
 
 // Buildbucket is, ideally, just a BBAgentArgs, but there are bits of data that
 // led needs to track which aren't currently contained in BBAgentArgs.

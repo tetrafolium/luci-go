@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"strings"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // Action is a kind of RPC that can be ACLed.

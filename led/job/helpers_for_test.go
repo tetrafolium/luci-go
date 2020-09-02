@@ -21,7 +21,7 @@ import (
 
 	"github.com/golang/protobuf/ptypes"
 	. "github.com/smartystreets/goconvey/convey"
-	api "go.chromium.org/luci/swarming/proto/api"
+	api "github.com/tetrafolium/luci-go/swarming/proto/api"
 )
 
 type testCase struct {

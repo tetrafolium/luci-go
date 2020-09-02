@@ -21,18 +21,18 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"go.chromium.org/luci/auth/identity"
-	cfglib "go.chromium.org/luci/config"
-	"go.chromium.org/luci/config/cfgclient"
-	cfgmem "go.chromium.org/luci/config/impl/memory"
-	"go.chromium.org/luci/gae/impl/memory"
-	"go.chromium.org/luci/logdog/api/config/svcconfig"
-	"go.chromium.org/luci/logdog/server/config"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/auth/authtest"
+	"github.com/tetrafolium/luci-go/auth/identity"
+	cfglib "github.com/tetrafolium/luci-go/config"
+	"github.com/tetrafolium/luci-go/config/cfgclient"
+	cfgmem "github.com/tetrafolium/luci-go/config/impl/memory"
+	"github.com/tetrafolium/luci-go/gae/impl/memory"
+	"github.com/tetrafolium/luci-go/logdog/api/config/svcconfig"
+	"github.com/tetrafolium/luci-go/logdog/server/config"
+	"github.com/tetrafolium/luci-go/server/auth"
+	"github.com/tetrafolium/luci-go/server/auth/authtest"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestWithProjectNamespace(t *testing.T) {

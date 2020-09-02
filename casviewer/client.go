@@ -20,9 +20,9 @@ import (
 
 	"github.com/bazelbuild/remote-apis-sdks/go/pkg/client"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/router"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/server/auth"
+	"github.com/tetrafolium/luci-go/server/router"
 )
 
 // clientCacheKey is a context key type for ClientCache value.

@@ -18,12 +18,12 @@ import (
 	"fmt"
 	"time"
 
-	ds "go.chromium.org/luci/gae/service/datastore"
-	mc "go.chromium.org/luci/gae/service/memcache"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
+	mc "github.com/tetrafolium/luci-go/gae/service/memcache"
 
-	"go.chromium.org/luci/common/data/rand/mathrand"
-	"go.chromium.org/luci/common/errors"
-	log "go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/common/data/rand/mathrand"
+	"github.com/tetrafolium/luci-go/common/errors"
+	log "github.com/tetrafolium/luci-go/common/logging"
 
 	"golang.org/x/net/context"
 )

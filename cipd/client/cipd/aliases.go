@@ -19,8 +19,8 @@ package cipd
 // dependency cycles.
 
 import (
-	"go.chromium.org/luci/cipd/client/cipd/deployer"
-	"go.chromium.org/luci/cipd/client/cipd/pkg"
+	"github.com/tetrafolium/luci-go/cipd/client/cipd/deployer"
+	"github.com/tetrafolium/luci-go/cipd/client/cipd/pkg"
 )
 
 // ParanoidMode specifies how paranoid EnsurePackages should be.

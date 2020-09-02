@@ -20,8 +20,8 @@ import (
 
 	"golang.org/x/net/context"
 
-	ds "go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/gae/service/info"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/service/info"
 )
 
 //////////////////////////////////// public ////////////////////////////////////

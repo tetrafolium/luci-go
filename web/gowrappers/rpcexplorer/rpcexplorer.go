@@ -24,8 +24,8 @@ import (
 	"strings"
 	"time"
 
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/web/gowrappers/rpcexplorer/internal"
+	"github.com/tetrafolium/luci-go/server/router"
+	"github.com/tetrafolium/luci-go/web/gowrappers/rpcexplorer/internal"
 )
 
 // Install adds routes to serve RPCExplorer web app from "/rpcexplorer".

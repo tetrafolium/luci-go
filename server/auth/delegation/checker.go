@@ -22,16 +22,16 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/common/trace"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
+	"github.com/tetrafolium/luci-go/common/trace"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/server/auth/signing"
+	"github.com/tetrafolium/luci-go/auth/identity"
+	"github.com/tetrafolium/luci-go/server/auth/signing"
 
-	"go.chromium.org/luci/server/auth/delegation/messages"
+	"github.com/tetrafolium/luci-go/server/auth/delegation/messages"
 )
 
 const (
@@ -96,7 +96,7 @@ type CheckTokenParams struct {
 //
 // May return transient errors.
 func CheckToken(c context.Context, params CheckTokenParams) (_ identity.Identity, err error) {
-	c, span := trace.StartSpan(c, "go.chromium.org/luci/server/auth/delegation.CheckToken")
+	c, span := trace.StartSpan(c, "github.com/tetrafolium/luci-go/server/auth/delegation.CheckToken")
 	defer func() { span.End(err) }()
 
 	// base64-encoded token -> DelegationToken proto (with signed serialized

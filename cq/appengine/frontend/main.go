@@ -16,12 +16,12 @@
 package main
 
 import (
-	"go.chromium.org/luci/config/server/cfgmodule"
-	"go.chromium.org/luci/server"
-	"go.chromium.org/luci/server/module"
+	"github.com/tetrafolium/luci-go/config/server/cfgmodule"
+	"github.com/tetrafolium/luci-go/server"
+	"github.com/tetrafolium/luci-go/server/module"
 
 	// Ensure registration of validation rules.
-	_ "go.chromium.org/luci/cq/appengine/config"
+	_ "github.com/tetrafolium/luci-go/cq/appengine/config"
 )
 
 func main() {

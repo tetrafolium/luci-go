@@ -20,14 +20,14 @@ import (
 
 	"google.golang.org/appengine"
 
-	"go.chromium.org/luci/appengine/gaemiddleware"
-	"go.chromium.org/luci/appengine/gaemiddleware/standard"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/server/router"
+	"github.com/tetrafolium/luci-go/appengine/gaemiddleware"
+	"github.com/tetrafolium/luci-go/appengine/gaemiddleware/standard"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/server/router"
 
-	"go.chromium.org/luci/cipd/appengine/impl"
-	"go.chromium.org/luci/cipd/appengine/impl/model"
-	"go.chromium.org/luci/cipd/appengine/impl/monitoring"
+	"github.com/tetrafolium/luci-go/cipd/appengine/impl"
+	"github.com/tetrafolium/luci-go/cipd/appengine/impl/model"
+	"github.com/tetrafolium/luci-go/cipd/appengine/impl/monitoring"
 )
 
 func main() {

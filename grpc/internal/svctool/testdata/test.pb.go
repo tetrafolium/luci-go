@@ -6,17 +6,17 @@
 // versions:
 // 	protoc-gen-go v1.24.0-devel
 // 	protoc        v3.12.1
-// source: go.chromium.org/luci/grpc/internal/svctool/testdata/test.proto
+// source: github.com/tetrafolium/luci-go/grpc/internal/svctool/testdata/test.proto
 
 package test
 
-import prpc "go.chromium.org/luci/grpc/prpc"
+import prpc "github.com/tetrafolium/luci-go/grpc/prpc"
 
 import (
 	context "context"
 	proto "github.com/golang/protobuf/proto"
 	empty "github.com/golang/protobuf/ptypes/empty"
-	sub "go.chromium.org/luci/grpc/internal/svctool/testdata/sub"
+	sub "github.com/tetrafolium/luci-go/grpc/internal/svctool/testdata/sub"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"
@@ -392,7 +392,7 @@ var _S1_serviceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "go.chromium.org/luci/grpc/internal/svctool/testdata/test.proto",
+	Metadata: "github.com/tetrafolium/luci-go/grpc/internal/svctool/testdata/test.proto",
 }
 
 // S2Client is the client API for S2 service.
@@ -570,5 +570,5 @@ var _S2_serviceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "go.chromium.org/luci/grpc/internal/svctool/testdata/test.proto",
+	Metadata: "github.com/tetrafolium/luci-go/grpc/internal/svctool/testdata/test.proto",
 }

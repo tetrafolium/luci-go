@@ -20,8 +20,8 @@ import (
 
 	"github.com/gomodule/redigo/redis"
 
-	"go.chromium.org/luci/common/trace"
-	"go.chromium.org/luci/server/caching"
+	"github.com/tetrafolium/luci-go/common/trace"
+	"github.com/tetrafolium/luci-go/server/caching"
 )
 
 // redisBlobCache implements caching.BlobCache using Redis.
@@ -35,7 +35,7 @@ func (rc *redisBlobCache) key(k string) string { return rc.Prefix + k }
 
 // Get returns a cached item or ErrCacheMiss if it's not in the cache.
 func (rc *redisBlobCache) Get(ctx context.Context, key string) (blob []byte, err error) {
-	ctx, span := trace.StartSpan(ctx, "go.chromium.org/luci/server.RedisBlobCache.Get")
+	ctx, span := trace.StartSpan(ctx, "github.com/tetrafolium/luci-go/server.RedisBlobCache.Get")
 	defer func() { span.End(err) }()
 
 	conn, err := Get(ctx)
@@ -55,7 +55,7 @@ func (rc *redisBlobCache) Get(ctx context.Context, key string) (blob []byte, err
 //
 // If 'exp' is zero, the item will have no expiration time.
 func (rc *redisBlobCache) Set(ctx context.Context, key string, value []byte, exp time.Duration) (err error) {
-	ctx, span := trace.StartSpan(ctx, "go.chromium.org/luci/server.RedisBlobCache.Set")
+	ctx, span := trace.StartSpan(ctx, "github.com/tetrafolium/luci-go/server.RedisBlobCache.Set")
 	defer func() { span.End(err) }()
 
 	conn, err := Get(ctx)

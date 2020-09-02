@@ -15,8 +15,8 @@
 package job
 
 import (
-	bbpb "go.chromium.org/luci/buildbucket/proto"
-	"go.chromium.org/luci/common/errors"
+	bbpb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // Editor represents low-level mutations you can make on a job.Definition.

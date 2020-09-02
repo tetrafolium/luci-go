@@ -20,13 +20,13 @@ import "google/api/field_behavior.proto";
 import "google/protobuf/duration.proto";
 import "google/protobuf/field_mask.proto";
 import "google/protobuf/timestamp.proto";
-import "go.chromium.org/luci/resultdb/proto/v1/artifact.proto";
-import "go.chromium.org/luci/resultdb/proto/v1/common.proto";
-import "go.chromium.org/luci/resultdb/proto/v1/invocation.proto";
-import "go.chromium.org/luci/resultdb/proto/v1/predicate.proto";
-import "go.chromium.org/luci/resultdb/proto/v1/test_result.proto";
+import "github.com/tetrafolium/luci-go/resultdb/proto/v1/artifact.proto";
+import "github.com/tetrafolium/luci-go/resultdb/proto/v1/common.proto";
+import "github.com/tetrafolium/luci-go/resultdb/proto/v1/invocation.proto";
+import "github.com/tetrafolium/luci-go/resultdb/proto/v1/predicate.proto";
+import "github.com/tetrafolium/luci-go/resultdb/proto/v1/test_result.proto";
 
-option go_package = "go.chromium.org/luci/resultdb/proto/v1;resultpb";
+option go_package = "github.com/tetrafolium/luci-go/resultdb/proto/v1;resultpb";
 
 // Service to read test results.
 service ResultDB {

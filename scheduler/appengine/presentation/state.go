@@ -17,12 +17,12 @@ package presentation
 import (
 	"context"
 
-	"go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/common/logging"
 
-	"go.chromium.org/luci/scheduler/appengine/catalog"
-	"go.chromium.org/luci/scheduler/appengine/engine"
-	"go.chromium.org/luci/scheduler/appengine/schedule"
-	"go.chromium.org/luci/scheduler/appengine/task"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/catalog"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/engine"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/schedule"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/task"
 )
 
 // PublicStateKind defines state of the job which is exposed in UI and API

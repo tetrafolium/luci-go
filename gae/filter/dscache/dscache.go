@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"time"
 
-	"go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/gae/service/datastore/serialize"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/service/datastore/serialize"
 )
 
 var (

@@ -20,7 +20,7 @@ import (
 	"os/exec"
 	"syscall"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // Get returns the process process exit return code given an error returned by

@@ -18,17 +18,17 @@ import (
 	"sort"
 	"testing"
 
-	"go.chromium.org/luci/server/span"
+	"github.com/tetrafolium/luci-go/server/span"
 
-	pb "go.chromium.org/luci/resultdb/proto/v1"
+	pb "github.com/tetrafolium/luci-go/resultdb/proto/v1"
 
-	"go.chromium.org/luci/resultdb/internal/invocations"
-	"go.chromium.org/luci/resultdb/internal/testutil"
-	"go.chromium.org/luci/resultdb/internal/testutil/insert"
-	"go.chromium.org/luci/resultdb/pbutil"
+	"github.com/tetrafolium/luci-go/resultdb/internal/invocations"
+	"github.com/tetrafolium/luci-go/resultdb/internal/testutil"
+	"github.com/tetrafolium/luci-go/resultdb/internal/testutil/insert"
+	"github.com/tetrafolium/luci-go/resultdb/pbutil"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestQueryTestExonerations(t *testing.T) {

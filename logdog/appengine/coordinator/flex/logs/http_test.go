@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/common/errors"
-	ct "go.chromium.org/luci/logdog/appengine/coordinator/coordinatorTest"
+	"github.com/tetrafolium/luci-go/common/clock/testclock"
+	"github.com/tetrafolium/luci-go/common/errors"
+	ct "github.com/tetrafolium/luci-go/logdog/appengine/coordinator/coordinatorTest"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

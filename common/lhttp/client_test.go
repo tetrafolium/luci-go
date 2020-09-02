@@ -26,7 +26,7 @@ import (
 	"sync"
 	"testing"
 
-	"go.chromium.org/luci/common/retry"
+	"github.com/tetrafolium/luci-go/common/retry"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

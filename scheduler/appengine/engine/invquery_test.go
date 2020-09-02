@@ -19,15 +19,15 @@ import (
 	"fmt"
 	"testing"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/common/proto/google"
-	"go.chromium.org/luci/gae/filter/featureBreaker"
-	"go.chromium.org/luci/gae/impl/memory"
-	"go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/clock/testclock"
+	"github.com/tetrafolium/luci-go/common/proto/google"
+	"github.com/tetrafolium/luci-go/gae/filter/featureBreaker"
+	"github.com/tetrafolium/luci-go/gae/impl/memory"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
 
-	"go.chromium.org/luci/scheduler/appengine/internal"
-	"go.chromium.org/luci/scheduler/appengine/task"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/internal"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/task"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

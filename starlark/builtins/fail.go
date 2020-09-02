@@ -109,7 +109,7 @@ var Fail = starlark.NewBuiltin("fail", func(th *starlark.Thread, _ *starlark.Bui
 })
 
 // A key in thread.Locals to hold *FailureCollector.
-const failSlotKey = "go.chromium.org/luci/starlark/builtins.FailureCollector"
+const failSlotKey = "github.com/tetrafolium/luci-go/starlark/builtins.FailureCollector"
 
 // FailureCollector receives structured error messages from fail(...).
 //

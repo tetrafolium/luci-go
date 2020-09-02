@@ -13,7 +13,7 @@
 # limitations under the License.
 
 l = proto.new_loader(proto.new_descriptor_set(blob=read('./testprotos/all.pb')))
-testprotos = l.module('go.chromium.org/luci/starlark/starlarkproto/testprotos/test.proto')
+testprotos = l.module('github.com/tetrafolium/luci-go/starlark/starlarkproto/testprotos/test.proto')
 
 # Works in general.
 m1 = testprotos.Simple(i=456, many_i=[1, 2, 3])

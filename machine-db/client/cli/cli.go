@@ -21,14 +21,14 @@ import (
 
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/auth/client/authcli"
-	"go.chromium.org/luci/common/cli"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging/gologger"
-	"go.chromium.org/luci/grpc/prpc"
+	"github.com/tetrafolium/luci-go/auth"
+	"github.com/tetrafolium/luci-go/auth/client/authcli"
+	"github.com/tetrafolium/luci-go/common/cli"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging/gologger"
+	"github.com/tetrafolium/luci-go/grpc/prpc"
 
-	"go.chromium.org/luci/machine-db/api/crimson/v1"
+	"github.com/tetrafolium/luci-go/machine-db/api/crimson/v1"
 )
 
 // clientKey is the key to the context value withClient uses to store the RPC client.

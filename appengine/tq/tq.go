@@ -32,14 +32,14 @@ import (
 	"github.com/golang/protobuf/jsonpb"
 	"github.com/golang/protobuf/proto"
 
-	"go.chromium.org/luci/gae/service/taskqueue"
+	"github.com/tetrafolium/luci-go/gae/service/taskqueue"
 
-	"go.chromium.org/luci/appengine/gaemiddleware"
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/server/router"
+	"github.com/tetrafolium/luci-go/appengine/gaemiddleware"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
+	"github.com/tetrafolium/luci-go/server/router"
 )
 
 // TODO(vadimsh): Instrument with tsmon metrics. In particular have a metric

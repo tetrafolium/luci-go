@@ -26,11 +26,11 @@ import (
 
 	"github.com/maruel/subcommands"
 
-	bbpb "go.chromium.org/luci/buildbucket/proto"
-	gerritapi "go.chromium.org/luci/common/api/gerrit"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/proto/gerrit"
-	"go.chromium.org/luci/led/job"
+	bbpb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	gerritapi "github.com/tetrafolium/luci-go/common/api/gerrit"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/proto/gerrit"
+	"github.com/tetrafolium/luci-go/led/job"
 )
 
 func editCrCLCmd(opts cmdBaseOptions) *subcommands.Command {

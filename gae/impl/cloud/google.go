@@ -24,13 +24,13 @@ import (
 	"strings"
 	"time"
 
-	infoS "go.chromium.org/luci/gae/service/info"
+	infoS "github.com/tetrafolium/luci-go/gae/service/info"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/data/caching/lru"
-	"go.chromium.org/luci/common/data/rand/mathrand"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/retry/transient"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/data/caching/lru"
+	"github.com/tetrafolium/luci-go/common/data/rand/mathrand"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
 
 	iamAPI "google.golang.org/api/iam/v1"
 

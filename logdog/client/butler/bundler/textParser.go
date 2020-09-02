@@ -19,7 +19,7 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"go.chromium.org/luci/logdog/api/logpb"
+	"github.com/tetrafolium/luci-go/logdog/api/logpb"
 )
 
 const (

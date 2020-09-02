@@ -18,11 +18,11 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"go.chromium.org/luci/logdog/api/logpb"
-	"go.chromium.org/luci/logdog/client/butlerlib/streamclient"
-	"go.chromium.org/luci/logdog/client/butlerlib/streamproto"
-	annopb "go.chromium.org/luci/luciexe/legacy/annotee/proto"
-	"go.chromium.org/luci/milo/buildsource/rawpresentation"
+	"github.com/tetrafolium/luci-go/logdog/api/logpb"
+	"github.com/tetrafolium/luci-go/logdog/client/butlerlib/streamclient"
+	"github.com/tetrafolium/luci-go/logdog/client/butlerlib/streamproto"
+	annopb "github.com/tetrafolium/luci-go/luciexe/legacy/annotee/proto"
+	"github.com/tetrafolium/luci-go/milo/buildsource/rawpresentation"
 )
 
 func toLogDogStream(stream streamclient.FakeStreamData) (*rawpresentation.Stream, error) {

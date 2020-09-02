@@ -19,13 +19,13 @@ import (
 	"net/http"
 	"time"
 
-	"go.chromium.org/luci/auth"
-	swarming "go.chromium.org/luci/common/api/swarming/swarming/v1"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/gcloud/googleoauth"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/led/job"
-	"go.chromium.org/luci/led/job/jobexport"
+	"github.com/tetrafolium/luci-go/auth"
+	swarming "github.com/tetrafolium/luci-go/common/api/swarming/swarming/v1"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/gcloud/googleoauth"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/led/job"
+	"github.com/tetrafolium/luci-go/led/job/jobexport"
 )
 
 // LaunchSwarmingOpts are the options for LaunchSwarming.

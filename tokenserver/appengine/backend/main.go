@@ -28,21 +28,21 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 
-	"go.chromium.org/luci/appengine/gaemiddleware"
-	"go.chromium.org/luci/appengine/gaemiddleware/standard"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/gae/service/info"
-	"go.chromium.org/luci/server/router"
+	"github.com/tetrafolium/luci-go/appengine/gaemiddleware"
+	"github.com/tetrafolium/luci-go/appengine/gaemiddleware/standard"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/gae/service/info"
+	"github.com/tetrafolium/luci-go/server/router"
 
-	"go.chromium.org/luci/tokenserver/api/admin/v1"
+	"github.com/tetrafolium/luci-go/tokenserver/api/admin/v1"
 
-	"go.chromium.org/luci/tokenserver/appengine/impl/delegation"
-	"go.chromium.org/luci/tokenserver/appengine/impl/machinetoken"
-	"go.chromium.org/luci/tokenserver/appengine/impl/projectscope"
-	"go.chromium.org/luci/tokenserver/appengine/impl/serviceaccounts"
-	"go.chromium.org/luci/tokenserver/appengine/impl/serviceaccountsv2"
-	"go.chromium.org/luci/tokenserver/appengine/impl/services/admin/adminsrv"
-	"go.chromium.org/luci/tokenserver/appengine/impl/services/admin/certauthorities"
+	"github.com/tetrafolium/luci-go/tokenserver/appengine/impl/delegation"
+	"github.com/tetrafolium/luci-go/tokenserver/appengine/impl/machinetoken"
+	"github.com/tetrafolium/luci-go/tokenserver/appengine/impl/projectscope"
+	"github.com/tetrafolium/luci-go/tokenserver/appengine/impl/serviceaccounts"
+	"github.com/tetrafolium/luci-go/tokenserver/appengine/impl/serviceaccountsv2"
+	"github.com/tetrafolium/luci-go/tokenserver/appengine/impl/services/admin/adminsrv"
+	"github.com/tetrafolium/luci-go/tokenserver/appengine/impl/services/admin/certauthorities"
 )
 
 var (

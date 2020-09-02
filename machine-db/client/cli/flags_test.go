@@ -20,10 +20,10 @@ import (
 
 	"google.golang.org/genproto/protobuf/field_mask"
 
-	"go.chromium.org/luci/machine-db/api/common/v1"
+	"github.com/tetrafolium/luci-go/machine-db/api/common/v1"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestGetUpdateMask(t *testing.T) {

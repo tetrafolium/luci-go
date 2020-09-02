@@ -19,7 +19,7 @@ package monitor
 import (
 	"context"
 
-	"go.chromium.org/luci/common/tsmon/types"
+	"github.com/tetrafolium/luci-go/common/tsmon/types"
 )
 
 // A Monitor can send a collection of metrics somewhere.

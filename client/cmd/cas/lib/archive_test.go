@@ -19,7 +19,7 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"go.chromium.org/luci/client/isolated"
+	"github.com/tetrafolium/luci-go/client/isolated"
 )
 
 func TestGetRoot(t *testing.T) {

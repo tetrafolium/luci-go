@@ -23,7 +23,7 @@ import (
 	"go.opencensus.io/trace"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestSamplerParsing(t *testing.T) {

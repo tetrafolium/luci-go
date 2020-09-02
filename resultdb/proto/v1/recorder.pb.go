@@ -16,11 +16,11 @@
 // versions:
 // 	protoc-gen-go v1.25.0-devel
 // 	protoc        v3.12.1
-// source: go.chromium.org/luci/resultdb/proto/v1/recorder.proto
+// source: github.com/tetrafolium/luci-go/resultdb/proto/v1/recorder.proto
 
 package resultpb
 
-import prpc "go.chromium.org/luci/grpc/prpc"
+import prpc "github.com/tetrafolium/luci-go/grpc/prpc"
 
 import (
 	context "context"
@@ -1767,5 +1767,5 @@ var _Recorder_serviceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "go.chromium.org/luci/resultdb/proto/v1/recorder.proto",
+	Metadata: "github.com/tetrafolium/luci-go/resultdb/proto/v1/recorder.proto",
 }

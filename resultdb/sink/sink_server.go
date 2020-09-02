@@ -25,12 +25,12 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/data/rand/mathrand"
-	"go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/data/rand/mathrand"
+	"github.com/tetrafolium/luci-go/common/logging"
 
-	"go.chromium.org/luci/resultdb/internal/services/recorder"
-	sinkpb "go.chromium.org/luci/resultdb/sink/proto/v1"
+	"github.com/tetrafolium/luci-go/resultdb/internal/services/recorder"
+	sinkpb "github.com/tetrafolium/luci-go/resultdb/sink/proto/v1"
 )
 
 // sinkServer implements sinkpb.SinkServer.

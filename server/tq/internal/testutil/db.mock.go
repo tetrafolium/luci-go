@@ -6,7 +6,7 @@ package testutil
 import (
 	context "context"
 	gomock "github.com/golang/mock/gomock"
-	reminder "go.chromium.org/luci/server/tq/internal/reminder"
+	reminder "github.com/tetrafolium/luci-go/server/tq/internal/reminder"
 	reflect "reflect"
 )
 

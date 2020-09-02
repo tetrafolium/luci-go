@@ -22,12 +22,12 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"go.chromium.org/luci/common/clock/testclock"
-	google_pb "go.chromium.org/luci/common/proto/google"
-	. "go.chromium.org/luci/common/testing/assertions"
-	"go.chromium.org/luci/tumble/bitfield"
+	"github.com/tetrafolium/luci-go/common/clock/testclock"
+	google_pb "github.com/tetrafolium/luci-go/common/proto/google"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
+	"github.com/tetrafolium/luci-go/tumble/bitfield"
 
-	dm "go.chromium.org/luci/dm/api/service/v1"
+	dm "github.com/tetrafolium/luci-go/dm/api/service/v1"
 )
 
 func TestAttempt(t *testing.T) {

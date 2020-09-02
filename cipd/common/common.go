@@ -21,10 +21,10 @@ import (
 	"sort"
 	"strings"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/common/data/stringset"
+	"github.com/tetrafolium/luci-go/auth/identity"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
 
-	api "go.chromium.org/luci/cipd/api/cipd/v1"
+	api "github.com/tetrafolium/luci-go/cipd/api/cipd/v1"
 )
 
 var (
@@ -206,7 +206,7 @@ func ValidateSubdir(subdir string) error {
 // ValidatePrincipalName validates strings used to identify principals in ACLs.
 //
 // The expected format is "<key>:<value>" pair, where <key> is one of "group",
-// "user", "anonymous", "service". See also go.chromium.org/luci/auth/identity.
+// "user", "anonymous", "service". See also github.com/tetrafolium/luci-go/auth/identity.
 func ValidatePrincipalName(p string) error {
 	chunks := strings.Split(p, ":")
 	if len(chunks) != 2 || chunks[0] == "" || chunks[1] == "" {

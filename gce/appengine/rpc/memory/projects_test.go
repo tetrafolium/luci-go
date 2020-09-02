@@ -20,10 +20,10 @@ import (
 
 	"github.com/golang/protobuf/ptypes/empty"
 
-	"go.chromium.org/luci/gce/api/projects/v1"
+	"github.com/tetrafolium/luci-go/gce/api/projects/v1"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestProjects(t *testing.T) {

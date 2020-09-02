@@ -18,14 +18,14 @@ import (
 	"context"
 	"fmt"
 
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/proto/google"
-	"go.chromium.org/luci/common/retry/transient"
-	dm "go.chromium.org/luci/dm/api/service/v1"
-	"go.chromium.org/luci/dm/appengine/distributor"
-	"go.chromium.org/luci/dm/appengine/model"
-	ds "go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/tumble"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/proto/google"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
+	dm "github.com/tetrafolium/luci-go/dm/api/service/v1"
+	"github.com/tetrafolium/luci-go/dm/appengine/distributor"
+	"github.com/tetrafolium/luci-go/dm/appengine/model"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/tumble"
 )
 
 // ScheduleExecution is a placeholder mutation that will be an entry into the

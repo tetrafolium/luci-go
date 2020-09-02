@@ -18,10 +18,10 @@ import (
 	"fmt"
 	"sort"
 
-	"go.chromium.org/luci/common/data/strpair"
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/data/strpair"
+	"github.com/tetrafolium/luci-go/common/errors"
 
-	pb "go.chromium.org/luci/resultdb/proto/v1"
+	pb "github.com/tetrafolium/luci-go/resultdb/proto/v1"
 )
 
 const maxStringPairKeyLength = 64

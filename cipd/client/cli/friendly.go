@@ -26,13 +26,13 @@ import (
 
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/auth/client/authcli"
-	"go.chromium.org/luci/common/cli"
-	"go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/auth/client/authcli"
+	"github.com/tetrafolium/luci-go/common/cli"
+	"github.com/tetrafolium/luci-go/common/logging"
 
-	"go.chromium.org/luci/cipd/client/cipd"
-	"go.chromium.org/luci/cipd/client/cipd/deployer"
-	"go.chromium.org/luci/cipd/client/cipd/fs"
+	"github.com/tetrafolium/luci-go/cipd/client/cipd"
+	"github.com/tetrafolium/luci-go/cipd/client/cipd/deployer"
+	"github.com/tetrafolium/luci-go/cipd/client/cipd/fs"
 )
 
 ////////////////////////////////////////////////////////////////////////////////

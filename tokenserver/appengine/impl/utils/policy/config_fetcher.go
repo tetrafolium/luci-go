@@ -22,9 +22,9 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/config"
-	"go.chromium.org/luci/config/cfgclient"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/config"
+	"github.com/tetrafolium/luci-go/config/cfgclient"
 )
 
 // luciConfigFetcher implements ConfigFetcher interface via LUCI Config client.

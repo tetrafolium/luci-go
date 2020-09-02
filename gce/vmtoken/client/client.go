@@ -23,9 +23,9 @@ import (
 
 	"cloud.google.com/go/compute/metadata"
 
-	"go.chromium.org/luci/auth"
+	"github.com/tetrafolium/luci-go/auth"
 
-	"go.chromium.org/luci/gce/vmtoken"
+	"github.com/tetrafolium/luci-go/gce/vmtoken"
 )
 
 // NewClient returns an *http.Client which sets a GCE VM metadata token in the

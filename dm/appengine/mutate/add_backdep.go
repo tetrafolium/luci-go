@@ -17,9 +17,9 @@ package mutate
 import (
 	"context"
 
-	"go.chromium.org/luci/dm/appengine/model"
-	ds "go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/tumble"
+	"github.com/tetrafolium/luci-go/dm/appengine/model"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/tumble"
 )
 
 // AddBackDep adds a BackDep (and possibly a BackDepGroup). If NeedsAck

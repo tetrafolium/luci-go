@@ -24,9 +24,9 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/grpc/appstatus"
-	"go.chromium.org/luci/grpc/grpcutil"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
+	"github.com/tetrafolium/luci-go/grpc/appstatus"
+	"github.com/tetrafolium/luci-go/grpc/grpcutil"
 )
 
 // ShouldHaveAppStatus asserts that error `actual` has an

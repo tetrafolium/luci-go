@@ -18,8 +18,8 @@ package internal.tq;
 
 option go_package = "internal";
 
-import "go.chromium.org/luci/scheduler/appengine/internal/timers.proto";
-import "go.chromium.org/luci/scheduler/appengine/internal/triggers.proto";
+import "github.com/tetrafolium/luci-go/scheduler/appengine/internal/timers.proto";
+import "github.com/tetrafolium/luci-go/scheduler/appengine/internal/triggers.proto";
 
 
 // ReadProjectConfigTask is used to import jobs of some project.

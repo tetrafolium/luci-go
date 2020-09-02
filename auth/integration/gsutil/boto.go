@@ -20,7 +20,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // Boto represents a subset of .boto gsutil configuration file.

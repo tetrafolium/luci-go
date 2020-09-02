@@ -11,11 +11,11 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/server/auth/signing"
+	"github.com/tetrafolium/luci-go/auth/identity"
+	"github.com/tetrafolium/luci-go/server/auth/signing"
 
-	"go.chromium.org/luci/tokenserver/api"
-	"go.chromium.org/luci/tokenserver/api/admin/v1"
+	"github.com/tetrafolium/luci-go/tokenserver/api"
+	"github.com/tetrafolium/luci-go/tokenserver/api/admin/v1"
 )
 
 // InspectOAuthTokenGrantRPC implements admin.InspectOAuthTokenGrant method.

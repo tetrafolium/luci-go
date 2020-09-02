@@ -18,9 +18,9 @@ import (
 	"context"
 	"net/http"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/gcloud/iam"
-	"go.chromium.org/luci/server/auth"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/gcloud/iam"
+	"github.com/tetrafolium/luci-go/server/auth"
 )
 
 // signerFactory produces a signer on demand.

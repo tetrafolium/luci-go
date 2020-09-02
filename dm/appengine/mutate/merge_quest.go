@@ -17,10 +17,10 @@ package mutate
 import (
 	"context"
 
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/dm/appengine/model"
-	ds "go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/tumble"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/dm/appengine/model"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/tumble"
 )
 
 // MergeQuest ensures that the given Quest exists and contains the merged

@@ -19,12 +19,12 @@ import (
 	"os"
 
 	"github.com/golang/protobuf/proto"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	dm "go.chromium.org/luci/dm/api/service/v1"
-	"go.chromium.org/luci/grpc/grpcutil"
-	"go.chromium.org/luci/grpc/prpc"
-	"go.chromium.org/luci/tumble"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	dm "github.com/tetrafolium/luci-go/dm/api/service/v1"
+	"github.com/tetrafolium/luci-go/grpc/grpcutil"
+	"github.com/tetrafolium/luci-go/grpc/prpc"
+	"github.com/tetrafolium/luci-go/tumble"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"

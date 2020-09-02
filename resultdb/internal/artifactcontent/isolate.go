@@ -19,15 +19,15 @@ import (
 	"io"
 	"net/http"
 
-	"go.chromium.org/luci/grpc/appstatus"
+	"github.com/tetrafolium/luci-go/grpc/appstatus"
 	"google.golang.org/grpc/codes"
 
-	"go.chromium.org/luci/common/isolated"
-	"go.chromium.org/luci/common/isolatedclient"
-	"go.chromium.org/luci/common/lhttp"
-	"go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/common/isolated"
+	"github.com/tetrafolium/luci-go/common/isolatedclient"
+	"github.com/tetrafolium/luci-go/common/lhttp"
+	"github.com/tetrafolium/luci-go/common/logging"
 
-	"go.chromium.org/luci/resultdb/internal"
+	"github.com/tetrafolium/luci-go/resultdb/internal"
 )
 
 // handleIsolateContent serves isolated file content.

@@ -6,14 +6,14 @@
 // versions:
 // 	protoc-gen-go v1.25.0-devel
 // 	protoc        v3.12.1
-// source: go.chromium.org/luci/luciexe/legacy/annotee/proto/annotations.proto
+// source: github.com/tetrafolium/luci-go/luciexe/legacy/annotee/proto/annotations.proto
 
 package annopb
 
 import (
 	proto "github.com/golang/protobuf/proto"
 	timestamp "github.com/golang/protobuf/ptypes/timestamp"
-	srcman "go.chromium.org/luci/common/proto/srcman"
+	srcman "github.com/tetrafolium/luci-go/common/proto/srcman"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

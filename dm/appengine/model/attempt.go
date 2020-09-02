@@ -19,10 +19,10 @@ import (
 	"fmt"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	google_pb "go.chromium.org/luci/common/proto/google"
-	dm "go.chromium.org/luci/dm/api/service/v1"
-	bf "go.chromium.org/luci/tumble/bitfield"
+	"github.com/tetrafolium/luci-go/common/clock"
+	google_pb "github.com/tetrafolium/luci-go/common/proto/google"
+	dm "github.com/tetrafolium/luci-go/dm/api/service/v1"
+	bf "github.com/tetrafolium/luci-go/tumble/bitfield"
 )
 
 // AttemptRetryState indicates the current state of the Attempt's retry

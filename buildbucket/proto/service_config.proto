@@ -18,9 +18,9 @@ syntax = "proto3";
 
 package buildbucket;
 
-import "go.chromium.org/luci/buildbucket/proto/project_config.proto";
+import "github.com/tetrafolium/luci-go/buildbucket/proto/project_config.proto";
 
-option go_package = "go.chromium.org/luci/buildbucket/proto;buildbucketpb";
+option go_package = "github.com/tetrafolium/luci-go/buildbucket/proto;buildbucketpb";
 
 // Schema of settings.cfg file, a service config.
 message SettingsCfg {

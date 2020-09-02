@@ -20,14 +20,14 @@ import (
 	"strings"
 	"time"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/proto/google"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/grpc/grpcutil"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/proto/google"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/grpc/grpcutil"
 
-	api "go.chromium.org/luci/cipd/api/cipd/v1"
-	"go.chromium.org/luci/cipd/common"
+	api "github.com/tetrafolium/luci-go/cipd/api/cipd/v1"
+	"github.com/tetrafolium/luci-go/cipd/common"
 )
 
 // Instance represents a package instance as it is stored in the datastore.

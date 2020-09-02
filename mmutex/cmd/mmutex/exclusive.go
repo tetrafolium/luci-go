@@ -21,11 +21,11 @@ import (
 
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/common/cli"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/system/exitcode"
-	"go.chromium.org/luci/mmutex/lib"
+	"github.com/tetrafolium/luci-go/common/cli"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/system/exitcode"
+	"github.com/tetrafolium/luci-go/mmutex/lib"
 )
 
 var cmdExclusive = &subcommands.Command{

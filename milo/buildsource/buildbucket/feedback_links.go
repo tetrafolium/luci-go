@@ -21,9 +21,9 @@ import (
 	"strings"
 	"text/template"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 
-	"go.chromium.org/luci/milo/api/config"
+	"github.com/tetrafolium/luci-go/milo/api/config"
 )
 
 func fillTemplate(t string, data interface{}, name string) (string, error) {

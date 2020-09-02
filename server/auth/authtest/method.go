@@ -20,7 +20,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"go.chromium.org/luci/server/auth"
+	"github.com/tetrafolium/luci-go/server/auth"
 )
 
 // ErrAuthenticationError is returned by FakeAuth.Authenticate.

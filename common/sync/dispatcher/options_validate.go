@@ -19,7 +19,7 @@ import (
 
 	"golang.org/x/time/rate"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // normalize validates that Options is well formed and populates defaults which

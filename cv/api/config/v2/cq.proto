@@ -16,11 +16,11 @@ syntax = "proto3";
 
 package cq.config;
 
-option go_package = "go.chromium.org/luci/cv/api/config/v2;config";
+option go_package = "github.com/tetrafolium/luci-go/cv/api/config/v2;config";
 
 import "google/protobuf/duration.proto";
 
-import "go.chromium.org/luci/common/proto/options.proto";
+import "github.com/tetrafolium/luci-go/common/proto/options.proto";
 
 option (luci.file_metadata) = {
   doc_url: "https://luci-config.appspot.com/schemas/projects:commit-queue.cfg";

@@ -32,7 +32,7 @@ import (
 	"os"
 	"strings"
 
-	"go.chromium.org/luci/grpc/internal/svctool"
+	"github.com/tetrafolium/luci-go/grpc/internal/svctool"
 )
 
 func generate(ctx context.Context, a *svctool.GeneratorArgs) error {

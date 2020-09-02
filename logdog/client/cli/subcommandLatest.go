@@ -20,13 +20,13 @@ import (
 	"os"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/errors"
-	log "go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/logdog/api/logpb"
-	"go.chromium.org/luci/logdog/client/coordinator"
-	"go.chromium.org/luci/logdog/common/renderer"
-	"go.chromium.org/luci/logdog/common/types"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/errors"
+	log "github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/logdog/api/logpb"
+	"github.com/tetrafolium/luci-go/logdog/client/coordinator"
+	"github.com/tetrafolium/luci-go/logdog/common/renderer"
+	"github.com/tetrafolium/luci-go/logdog/common/types"
 
 	"github.com/maruel/subcommands"
 )

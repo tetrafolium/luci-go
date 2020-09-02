@@ -18,13 +18,13 @@ import (
 	"context"
 	"fmt"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
 
-	"go.chromium.org/luci/gae/filter/txnBuf"
-	ds "go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/filter/txnBuf"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
 )
 
 // RunMutation immediately runs the Mutation `m` in a transaction. This method

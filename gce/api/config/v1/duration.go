@@ -19,8 +19,8 @@ import (
 	"regexp"
 	"strconv"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/config/validation"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/config/validation"
 )
 
 // durationRegex is the regular expression valid duration strings must match.

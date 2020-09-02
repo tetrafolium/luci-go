@@ -28,22 +28,22 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
 
-	buildbucketpb "go.chromium.org/luci/buildbucket/proto"
-	bbv1 "go.chromium.org/luci/common/api/buildbucket/buildbucket/v1"
-	"go.chromium.org/luci/common/api/gitiles"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/common/sync/parallel"
-	"go.chromium.org/luci/grpc/grpcutil"
-	"go.chromium.org/luci/grpc/prpc"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/router"
+	buildbucketpb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	bbv1 "github.com/tetrafolium/luci-go/common/api/buildbucket/buildbucket/v1"
+	"github.com/tetrafolium/luci-go/common/api/gitiles"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
+	"github.com/tetrafolium/luci-go/common/sync/parallel"
+	"github.com/tetrafolium/luci-go/grpc/grpcutil"
+	"github.com/tetrafolium/luci-go/grpc/prpc"
+	"github.com/tetrafolium/luci-go/server/auth"
+	"github.com/tetrafolium/luci-go/server/router"
 
-	notifypb "go.chromium.org/luci/luci_notify/api/config"
-	"go.chromium.org/luci/luci_notify/config"
+	notifypb "github.com/tetrafolium/luci-go/luci_notify/api/config"
+	"github.com/tetrafolium/luci-go/luci_notify/config"
 )
 
 func getBuilderID(b *buildbucketpb.Build) string {

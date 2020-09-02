@@ -20,7 +20,7 @@
 //
 // Usage example:
 //
-//   import "go.chromium.org/luci/common/api/buildbucket/buildbucket/v1"
+//   import "github.com/tetrafolium/luci-go/common/api/buildbucket/buildbucket/v1"
 //   ...
 //   ctx := context.Background()
 //   buildbucketService, err := buildbucket.NewService(ctx)
@@ -43,7 +43,7 @@
 //   buildbucketService, err := buildbucket.NewService(ctx, option.WithTokenSource(config.TokenSource(ctx, token)))
 //
 // See https://godoc.org/google.golang.org/api/option/ for details on options.
-package buildbucket // import "go.chromium.org/luci/common/api/buildbucket/buildbucket/v1"
+package buildbucket // import "github.com/tetrafolium/luci-go/common/api/buildbucket/buildbucket/v1"
 
 import (
 	"bytes"
@@ -57,7 +57,7 @@ import (
 	"strconv"
 	"strings"
 
-	gensupport "go.chromium.org/luci/common/api/internal/gensupport"
+	gensupport "github.com/tetrafolium/luci-go/common/api/internal/gensupport"
 	googleapi "google.golang.org/api/googleapi"
 	option "google.golang.org/api/option"
 	internaloption "google.golang.org/api/option/internaloption"

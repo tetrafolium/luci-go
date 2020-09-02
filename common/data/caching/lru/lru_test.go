@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/clock/testclock"
+	"github.com/tetrafolium/luci-go/common/errors"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

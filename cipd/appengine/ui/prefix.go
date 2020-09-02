@@ -20,13 +20,13 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"go.chromium.org/luci/common/sync/parallel"
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/server/templates"
+	"github.com/tetrafolium/luci-go/common/sync/parallel"
+	"github.com/tetrafolium/luci-go/server/router"
+	"github.com/tetrafolium/luci-go/server/templates"
 
-	api "go.chromium.org/luci/cipd/api/cipd/v1"
-	"go.chromium.org/luci/cipd/appengine/impl"
-	"go.chromium.org/luci/cipd/common"
+	api "github.com/tetrafolium/luci-go/cipd/api/cipd/v1"
+	"github.com/tetrafolium/luci-go/cipd/appengine/impl"
+	"github.com/tetrafolium/luci-go/cipd/common"
 )
 
 func prefixListingPage(c *router.Context, pfx string) error {

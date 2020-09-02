@@ -22,13 +22,13 @@ import (
 
 	"cloud.google.com/go/spanner"
 
-	"go.chromium.org/luci/server/span"
+	"github.com/tetrafolium/luci-go/server/span"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/resultdb/internal"
-	"go.chromium.org/luci/resultdb/internal/invocations"
-	"go.chromium.org/luci/resultdb/internal/spanutil"
-	pb "go.chromium.org/luci/resultdb/proto/v1"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/resultdb/internal"
+	"github.com/tetrafolium/luci-go/resultdb/internal/invocations"
+	"github.com/tetrafolium/luci-go/resultdb/internal/spanutil"
+	pb "github.com/tetrafolium/luci-go/resultdb/proto/v1"
 )
 
 // Type is a value for InvocationTasks.TaskType column.

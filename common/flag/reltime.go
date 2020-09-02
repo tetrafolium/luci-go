@@ -18,7 +18,7 @@ import (
 	"strconv"
 	"time"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // RelativeTime is an implementation of flag.Value for parsing a time

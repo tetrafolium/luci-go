@@ -19,11 +19,11 @@ import (
 	"path"
 	"strings"
 
-	"go.chromium.org/luci/buildbucket/cmd/bbagent/bbinput"
-	swarming "go.chromium.org/luci/common/api/swarming/swarming/v1"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/led/job"
-	swarmingpb "go.chromium.org/luci/swarming/proto/api"
+	"github.com/tetrafolium/luci-go/buildbucket/cmd/bbagent/bbinput"
+	swarming "github.com/tetrafolium/luci-go/common/api/swarming/swarming/v1"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/led/job"
+	swarmingpb "github.com/tetrafolium/luci-go/swarming/proto/api"
 )
 
 // Returns "bbagent", "kitchen" or "raw" depending on the type of task detected.

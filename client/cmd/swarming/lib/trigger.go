@@ -27,14 +27,14 @@ import (
 	"github.com/google/uuid"
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/client/internal/common"
-	"go.chromium.org/luci/common/api/swarming/swarming/v1"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/flag/flagenum"
-	"go.chromium.org/luci/common/flag/stringlistflag"
-	"go.chromium.org/luci/common/flag/stringmapflag"
-	"go.chromium.org/luci/common/system/signals"
+	"github.com/tetrafolium/luci-go/auth"
+	"github.com/tetrafolium/luci-go/client/internal/common"
+	"github.com/tetrafolium/luci-go/common/api/swarming/swarming/v1"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/flag/flagenum"
+	"github.com/tetrafolium/luci-go/common/flag/stringlistflag"
+	"github.com/tetrafolium/luci-go/common/flag/stringmapflag"
+	"github.com/tetrafolium/luci-go/common/system/signals"
 )
 
 // CmdTrigger returns an object for the `trigger` subcommand.

@@ -18,11 +18,11 @@ import (
 	"context"
 	"time"
 
-	"go.chromium.org/luci/gae/service/info"
-	"go.chromium.org/luci/gae/service/memcache"
+	"github.com/tetrafolium/luci-go/gae/service/info"
+	"github.com/tetrafolium/luci-go/gae/service/memcache"
 
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/server/caching"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
+	"github.com/tetrafolium/luci-go/server/caching"
 )
 
 // blobCacheProvider returns caching.BlobCache implemented on top of luci/gae.

@@ -20,7 +20,7 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"go.chromium.org/luci/server/settings"
+	"github.com/tetrafolium/luci-go/server/settings"
 )
 
 func TestDatabaseSettings(t *testing.T) {

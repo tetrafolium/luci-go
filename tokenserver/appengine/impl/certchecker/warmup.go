@@ -17,10 +17,10 @@ package certchecker
 import (
 	"context"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/server/warmup"
-	"go.chromium.org/luci/tokenserver/appengine/impl/certconfig"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/server/warmup"
+	"github.com/tetrafolium/luci-go/tokenserver/appengine/impl/certconfig"
 )
 
 func init() {

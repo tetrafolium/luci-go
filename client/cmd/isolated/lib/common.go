@@ -21,12 +21,12 @@ import (
 
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/auth/client/authcli"
-	"go.chromium.org/luci/cipd/version"
-	"go.chromium.org/luci/client/internal/common"
-	"go.chromium.org/luci/common/isolatedclient"
-	"go.chromium.org/luci/common/runtime/profiling"
+	"github.com/tetrafolium/luci-go/auth"
+	"github.com/tetrafolium/luci-go/auth/client/authcli"
+	"github.com/tetrafolium/luci-go/cipd/version"
+	"github.com/tetrafolium/luci-go/client/internal/common"
+	"github.com/tetrafolium/luci-go/common/isolatedclient"
+	"github.com/tetrafolium/luci-go/common/runtime/profiling"
 )
 
 type commonFlags struct {

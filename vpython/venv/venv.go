@@ -29,18 +29,18 @@ import (
 	"github.com/danjacques/gofslock/fslock"
 	"github.com/golang/protobuf/proto"
 
-	"go.chromium.org/luci/vpython/api/vpython"
-	"go.chromium.org/luci/vpython/python"
-	"go.chromium.org/luci/vpython/spec"
-	"go.chromium.org/luci/vpython/venv/assets"
-	"go.chromium.org/luci/vpython/wheel"
+	"github.com/tetrafolium/luci-go/vpython/api/vpython"
+	"github.com/tetrafolium/luci-go/vpython/python"
+	"github.com/tetrafolium/luci-go/vpython/spec"
+	"github.com/tetrafolium/luci-go/vpython/venv/assets"
+	"github.com/tetrafolium/luci-go/vpython/wheel"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/system/environ"
-	"go.chromium.org/luci/common/system/filesystem"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/system/environ"
+	"github.com/tetrafolium/luci-go/common/system/filesystem"
 )
 
 // ErrNotComplete is a sentinel error returned by AssertCompleteAndLoad to

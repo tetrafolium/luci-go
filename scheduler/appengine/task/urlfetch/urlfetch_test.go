@@ -23,17 +23,17 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/config/validation"
-	"go.chromium.org/luci/gae/service/urlfetch"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/clock/testclock"
+	"github.com/tetrafolium/luci-go/config/validation"
+	"github.com/tetrafolium/luci-go/gae/service/urlfetch"
 
-	"go.chromium.org/luci/scheduler/appengine/messages"
-	"go.chromium.org/luci/scheduler/appengine/task"
-	"go.chromium.org/luci/scheduler/appengine/task/utils/tasktest"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/messages"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/task"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/task/utils/tasktest"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 var _ task.Manager = (*TaskManager)(nil)

@@ -16,17 +16,17 @@
 // versions:
 // 	protoc-gen-go v1.24.0-devel
 // 	protoc        v3.12.1
-// source: go.chromium.org/luci/cipd/api/admin/v1/admin.proto
+// source: github.com/tetrafolium/luci-go/cipd/api/admin/v1/admin.proto
 
 package api
 
-import prpc "go.chromium.org/luci/grpc/prpc"
+import prpc "github.com/tetrafolium/luci-go/grpc/prpc"
 
 import (
 	context "context"
 	proto "github.com/golang/protobuf/proto"
 	empty "github.com/golang/protobuf/ptypes/empty"
-	mapper "go.chromium.org/luci/appengine/mapper"
+	mapper "github.com/tetrafolium/luci-go/appengine/mapper"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"
@@ -823,5 +823,5 @@ var _Admin_serviceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "go.chromium.org/luci/cipd/api/admin/v1/admin.proto",
+	Metadata: "github.com/tetrafolium/luci-go/cipd/api/admin/v1/admin.proto",
 }

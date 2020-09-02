@@ -32,16 +32,16 @@ import (
 	humanize "github.com/dustin/go-humanize"
 	"golang.org/x/sync/errgroup"
 
-	"go.chromium.org/luci/client/internal/common"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/data/caching/cache"
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/isolated"
-	"go.chromium.org/luci/common/isolatedclient"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry"
-	"go.chromium.org/luci/common/retry/transient"
+	"github.com/tetrafolium/luci-go/client/internal/common"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/data/caching/cache"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/isolated"
+	"github.com/tetrafolium/luci-go/common/isolatedclient"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/retry"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
 )
 
 // Downloader is a high level interface to an isolatedclient.Client.

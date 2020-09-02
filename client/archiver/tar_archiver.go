@@ -21,8 +21,8 @@ import (
 	"os"
 	"sort"
 
-	"go.chromium.org/luci/common/iotools"
-	"go.chromium.org/luci/common/isolated"
+	"github.com/tetrafolium/luci-go/common/iotools"
+	"github.com/tetrafolium/luci-go/common/isolated"
 )
 
 // osOpen wraps os.Open to allow faking out during tests.

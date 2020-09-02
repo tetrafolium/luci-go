@@ -17,9 +17,9 @@ package main
 import (
 	"os"
 
-	"go.chromium.org/luci/common/data/rand/mathrand"
-	"go.chromium.org/luci/hardcoded/chromeinfra"
-	"go.chromium.org/luci/resultdb/cli"
+	"github.com/tetrafolium/luci-go/common/data/rand/mathrand"
+	"github.com/tetrafolium/luci-go/hardcoded/chromeinfra"
+	"github.com/tetrafolium/luci-go/resultdb/cli"
 )
 
 func main() {

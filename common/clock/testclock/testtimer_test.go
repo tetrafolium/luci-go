@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
+	"github.com/tetrafolium/luci-go/common/clock"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

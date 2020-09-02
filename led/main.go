@@ -29,7 +29,7 @@
 //   * job/jobexport - Library for exporting jobs to external sinks
 package main
 
-import "go.chromium.org/luci/led/ledcli"
+import "github.com/tetrafolium/luci-go/led/ledcli"
 
 func main() {
 	ledcli.Main(nil)

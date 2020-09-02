@@ -22,8 +22,8 @@ import (
 	"github.com/golang/protobuf/jsonpb"
 	"github.com/golang/protobuf/proto"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/auth/identity"
+	"github.com/tetrafolium/luci-go/common/logging"
 )
 
 const (

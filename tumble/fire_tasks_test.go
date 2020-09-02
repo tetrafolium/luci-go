@@ -20,13 +20,13 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/logging/memlogger"
+	"github.com/tetrafolium/luci-go/common/clock/testclock"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/logging/memlogger"
 
-	"go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/gae/service/info"
-	tq "go.chromium.org/luci/gae/service/taskqueue"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/service/info"
+	tq "github.com/tetrafolium/luci-go/gae/service/taskqueue"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

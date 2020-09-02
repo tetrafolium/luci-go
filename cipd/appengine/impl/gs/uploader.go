@@ -24,8 +24,8 @@ import (
 	"golang.org/x/net/context/ctxhttp"
 	"google.golang.org/api/googleapi"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/logging"
 )
 
 // TODO(vadimsh): Use this code from the client too.

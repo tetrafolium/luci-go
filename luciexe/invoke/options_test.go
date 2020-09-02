@@ -27,17 +27,17 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes"
 
-	bbpb "go.chromium.org/luci/buildbucket/proto"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/system/environ"
-	"go.chromium.org/luci/logdog/client/butlerlib/bootstrap"
-	"go.chromium.org/luci/lucictx"
-	"go.chromium.org/luci/luciexe"
+	bbpb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/clock/testclock"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
+	"github.com/tetrafolium/luci-go/common/system/environ"
+	"github.com/tetrafolium/luci-go/logdog/client/butlerlib/bootstrap"
+	"github.com/tetrafolium/luci-go/lucictx"
+	"github.com/tetrafolium/luci-go/luciexe"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 var tempEnvVar string

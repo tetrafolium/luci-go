@@ -17,12 +17,12 @@ package services
 import (
 	"testing"
 
-	logdog "go.chromium.org/luci/logdog/api/endpoints/coordinator/services/v1"
-	ct "go.chromium.org/luci/logdog/appengine/coordinator/coordinatorTest"
-	"go.chromium.org/luci/server/auth"
+	logdog "github.com/tetrafolium/luci-go/logdog/api/endpoints/coordinator/services/v1"
+	ct "github.com/tetrafolium/luci-go/logdog/appengine/coordinator/coordinatorTest"
+	"github.com/tetrafolium/luci-go/server/auth"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestServiceAuth(t *testing.T) {

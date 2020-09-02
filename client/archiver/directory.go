@@ -20,8 +20,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"go.chromium.org/luci/client/internal/common"
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/client/internal/common"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // WalkItem represents a file encountered in the (symlink-following) walk of a directory.

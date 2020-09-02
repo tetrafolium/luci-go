@@ -17,8 +17,8 @@ package ui
 import (
 	"net/http"
 
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/server/templates"
+	"github.com/tetrafolium/luci-go/server/router"
+	"github.com/tetrafolium/luci-go/server/templates"
 )
 
 // List of all possible error messages presented to the user.

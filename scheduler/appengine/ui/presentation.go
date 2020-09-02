@@ -27,20 +27,20 @@ import (
 	"github.com/golang/protobuf/proto"
 	structpb "github.com/golang/protobuf/ptypes/struct"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/data/sortby"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/proto/google"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/data/sortby"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/proto/google"
 
-	"go.chromium.org/luci/scheduler/appengine/catalog"
-	"go.chromium.org/luci/scheduler/appengine/engine"
-	"go.chromium.org/luci/scheduler/appengine/engine/policy"
-	"go.chromium.org/luci/scheduler/appengine/internal"
-	"go.chromium.org/luci/scheduler/appengine/messages"
-	"go.chromium.org/luci/scheduler/appengine/presentation"
-	"go.chromium.org/luci/scheduler/appengine/schedule"
-	"go.chromium.org/luci/scheduler/appengine/task"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/catalog"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/engine"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/engine/policy"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/internal"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/messages"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/presentation"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/schedule"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/task"
 )
 
 // schedulerJob is UI representation of engine.Job entity.

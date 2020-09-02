@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"math"
 
-	dm "go.chromium.org/luci/dm/api/service/v1"
-	ds "go.chromium.org/luci/gae/service/datastore"
+	dm "github.com/tetrafolium/luci-go/dm/api/service/v1"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
 )
 
 // QuestKeyFromID makes a datastore.Key given the QuestID.

@@ -19,14 +19,14 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/clock/testclock"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/clock/testclock"
 
-	api "go.chromium.org/luci/scheduler/api/scheduler/v1"
-	"go.chromium.org/luci/scheduler/appengine/internal"
-	"go.chromium.org/luci/scheduler/appengine/messages"
-	"go.chromium.org/luci/scheduler/appengine/task"
-	"go.chromium.org/luci/scheduler/appengine/task/utils/tasktest"
+	api "github.com/tetrafolium/luci-go/scheduler/api/scheduler/v1"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/internal"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/messages"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/task"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/task/utils/tasktest"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

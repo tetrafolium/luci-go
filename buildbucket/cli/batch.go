@@ -21,15 +21,15 @@ import (
 	"os"
 	"reflect"
 
-	"go.chromium.org/luci/common/proto"
+	"github.com/tetrafolium/luci-go/common/proto"
 
 	"github.com/golang/protobuf/jsonpb"
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/common/cli"
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/cli"
+	"github.com/tetrafolium/luci-go/common/errors"
 
-	pb "go.chromium.org/luci/buildbucket/proto"
+	pb "github.com/tetrafolium/luci-go/buildbucket/proto"
 )
 
 func cmdBatch(p Params) *subcommands.Command {

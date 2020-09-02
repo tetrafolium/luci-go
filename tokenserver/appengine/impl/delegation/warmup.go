@@ -17,7 +17,7 @@ package delegation
 import (
 	"context"
 
-	"go.chromium.org/luci/server/warmup"
+	"github.com/tetrafolium/luci-go/server/warmup"
 )
 
 func init() {

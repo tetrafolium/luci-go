@@ -22,10 +22,10 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/runtime/paniccatcher"
-	"go.chromium.org/luci/logdog/api/logpb"
-	"go.chromium.org/luci/logdog/client/butlerlib/streamproto"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/runtime/paniccatcher"
+	"github.com/tetrafolium/luci-go/logdog/api/logpb"
+	"github.com/tetrafolium/luci-go/logdog/client/butlerlib/streamproto"
 )
 
 type listener interface {
@@ -98,7 +98,7 @@ func (s *StreamServer) String() string {
 // return a client for this StreamServer.
 //
 // Full package is:
-// go.chromium.org/luci/logdog/butlerlib/streamclient
+// github.com/tetrafolium/luci-go/logdog/butlerlib/streamclient
 func (s *StreamServer) Address() string {
 	return s.address
 }

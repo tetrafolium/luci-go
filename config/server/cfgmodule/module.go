@@ -20,16 +20,16 @@ import (
 	"fmt"
 	"net/http"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/config/cfgclient"
-	"go.chromium.org/luci/config/validation"
-	"go.chromium.org/luci/config/vars"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/auth/signing"
-	"go.chromium.org/luci/server/module"
-	"go.chromium.org/luci/server/router"
+	"github.com/tetrafolium/luci-go/auth/identity"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
+	"github.com/tetrafolium/luci-go/config/cfgclient"
+	"github.com/tetrafolium/luci-go/config/validation"
+	"github.com/tetrafolium/luci-go/config/vars"
+	"github.com/tetrafolium/luci-go/server/auth"
+	"github.com/tetrafolium/luci-go/server/auth/signing"
+	"github.com/tetrafolium/luci-go/server/module"
+	"github.com/tetrafolium/luci-go/server/router"
 )
 
 // A scope expected in access tokens from the LUCI Config service.
@@ -46,7 +46,7 @@ type ModuleOptions struct {
 	// LocalDir is a file system directory to fetch configs from instead of
 	// a LUCI Config service.
 	//
-	// See https://godoc.org/go.chromium.org/luci/config/impl/filesystem for the
+	// See https://godoc.org/github.com/tetrafolium/luci-go/config/impl/filesystem for the
 	// expected layout of this directory.
 	//
 	// Useful when running locally in development mode. Not compatible with
@@ -112,7 +112,7 @@ type serverModule struct {
 
 // Name is part of module.Module interface.
 func (*serverModule) Name() string {
-	return "go.chromium.org/luci/config/server/cfgmodule"
+	return "github.com/tetrafolium/luci-go/config/server/cfgmodule"
 }
 
 // Initialize is part of module.Module interface.

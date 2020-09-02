@@ -17,12 +17,12 @@ package internal
 import (
 	"testing"
 
-	"go.chromium.org/luci/cipd/client/cipd/internal/messages"
+	"github.com/tetrafolium/luci-go/cipd/client/cipd/internal/messages"
 
 	"github.com/golang/protobuf/proto"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestChecksumCheckingWorks(t *testing.T) {

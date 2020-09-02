@@ -23,17 +23,17 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/logging"
-	log "go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/proto/google"
-	"go.chromium.org/luci/common/runtime/paniccatcher"
-	"go.chromium.org/luci/common/sync/parallel"
-	"go.chromium.org/luci/logdog/api/logpb"
-	"go.chromium.org/luci/logdog/client/butler/bundler"
-	"go.chromium.org/luci/logdog/client/butler/output"
-	"go.chromium.org/luci/logdog/client/butlerlib/streamproto"
-	"go.chromium.org/luci/logdog/common/types"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/logging"
+	log "github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/proto/google"
+	"github.com/tetrafolium/luci-go/common/runtime/paniccatcher"
+	"github.com/tetrafolium/luci-go/common/sync/parallel"
+	"github.com/tetrafolium/luci-go/logdog/api/logpb"
+	"github.com/tetrafolium/luci-go/logdog/client/butler/bundler"
+	"github.com/tetrafolium/luci-go/logdog/client/butler/output"
+	"github.com/tetrafolium/luci-go/logdog/client/butlerlib/streamproto"
+	"github.com/tetrafolium/luci-go/logdog/common/types"
 )
 
 const (
@@ -289,7 +289,7 @@ func (b *Butler) DrainNamespace(ctx context.Context, namespace types.StreamName)
 }
 
 // StreamServer is butler's interface for
-// go.chromium.org/luci/logdog/client/butler/streamserver
+// github.com/tetrafolium/luci-go/logdog/client/butler/streamserver
 //
 // TODO(iannucci): internalize streamserver to butler; there's no need for it to
 // be managed by the user.

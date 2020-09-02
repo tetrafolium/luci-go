@@ -19,12 +19,12 @@ import (
 	"strings"
 	"testing"
 
-	"go.chromium.org/luci/common/data/strpair"
+	"github.com/tetrafolium/luci-go/common/data/strpair"
 
-	pb "go.chromium.org/luci/resultdb/proto/v1"
+	pb "github.com/tetrafolium/luci-go/resultdb/proto/v1"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestStringPairs(t *testing.T) {

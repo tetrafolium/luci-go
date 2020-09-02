@@ -26,10 +26,10 @@ import (
 	"github.com/maruel/subcommands"
 
 	"github.com/golang/protobuf/jsonpb"
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/common/api/gitiles"
-	"go.chromium.org/luci/common/errors"
-	gitilespb "go.chromium.org/luci/common/proto/gitiles"
+	"github.com/tetrafolium/luci-go/auth"
+	"github.com/tetrafolium/luci-go/common/api/gitiles"
+	"github.com/tetrafolium/luci-go/common/errors"
+	gitilespb "github.com/tetrafolium/luci-go/common/proto/gitiles"
 )
 
 func cmdLog(authOpts auth.Options) *subcommands.Command {

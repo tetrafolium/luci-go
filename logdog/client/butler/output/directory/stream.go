@@ -21,8 +21,8 @@ import (
 
 	"github.com/golang/protobuf/jsonpb"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/logdog/api/logpb"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/logdog/api/logpb"
 )
 
 // stream is the stateful output for a single log stream.

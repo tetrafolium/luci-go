@@ -26,9 +26,9 @@ import (
 
 	"github.com/pmezard/go-difflib/difflib"
 
-	"go.chromium.org/luci/common/data/text/indented"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/proto/google/descutil"
+	"github.com/tetrafolium/luci-go/common/data/text/indented"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/proto/google/descutil"
 )
 
 // sourceCodeInfoMap maps descriptor proto messages to source code info,

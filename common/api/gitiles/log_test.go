@@ -20,7 +20,7 @@ import (
 	"net/http"
 	"testing"
 
-	"go.chromium.org/luci/common/proto/gitiles"
+	"github.com/tetrafolium/luci-go/common/proto/gitiles"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

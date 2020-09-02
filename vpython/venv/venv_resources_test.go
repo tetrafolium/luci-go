@@ -30,14 +30,14 @@ import (
 
 	"github.com/danjacques/gofslock/fslock"
 
-	"go.chromium.org/luci/cipd/client/cipd"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/system/environ"
-	"go.chromium.org/luci/common/system/filesystem"
-	"go.chromium.org/luci/hardcoded/chromeinfra"
-	"go.chromium.org/luci/vpython/api/vpython"
-	"go.chromium.org/luci/vpython/python"
-	"go.chromium.org/luci/vpython/wheel"
+	"github.com/tetrafolium/luci-go/cipd/client/cipd"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/system/environ"
+	"github.com/tetrafolium/luci-go/common/system/filesystem"
+	"github.com/tetrafolium/luci-go/hardcoded/chromeinfra"
+	"github.com/tetrafolium/luci-go/vpython/api/vpython"
+	"github.com/tetrafolium/luci-go/vpython/python"
+	"github.com/tetrafolium/luci-go/vpython/wheel"
 )
 
 const testDataDir = "test_data"

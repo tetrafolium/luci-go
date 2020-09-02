@@ -22,7 +22,7 @@ import (
 	"sort"
 	"strings"
 
-	"go.chromium.org/luci/common/data/stringset"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
 )
 
 // Flag is a flag.Value implementation which represents an unordered set of

@@ -19,10 +19,10 @@ import (
 	"fmt"
 	"sort"
 
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
+	"github.com/tetrafolium/luci-go/common/logging"
 
-	"go.chromium.org/luci/cipd/common"
+	"github.com/tetrafolium/luci-go/cipd/common"
 )
 
 // Helper structs and implementation guts of EnsurePackages call.

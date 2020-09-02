@@ -17,10 +17,10 @@ package bbinput
 import (
 	"testing"
 
-	bbpb "go.chromium.org/luci/buildbucket/proto"
+	bbpb "github.com/tetrafolium/luci-go/buildbucket/proto"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestInputOK(t *testing.T) {

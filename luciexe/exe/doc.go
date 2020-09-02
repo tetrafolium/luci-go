@@ -19,9 +19,9 @@
 //   import (
 //     "context"
 //
-//     "go.chromium.org/luci/luciexe/exe"
+//     "github.com/tetrafolium/luci-go/luciexe/exe"
 //
-//     bbpb "go.chromium.org/luci/buildbucket/proto"
+//     bbpb "github.com/tetrafolium/luci-go/buildbucket/proto"
 //   )
 //
 //   func main() {
@@ -31,5 +31,5 @@
 //     })
 //   }
 //
-// See Also: https://go.chromium.org/luci/luciexe
+// See Also: https://github.com/tetrafolium/luci-go/luciexe
 package exe

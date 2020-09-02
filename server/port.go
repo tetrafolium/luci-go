@@ -19,8 +19,8 @@ import (
 	"net/http"
 	"sync"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/server/router"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/server/router"
 )
 
 // PortOptions is a configuration of a single serving HTTP port.

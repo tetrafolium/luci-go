@@ -20,12 +20,12 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/appengine/gaetesting"
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/common/tsmon"
-	"go.chromium.org/luci/common/tsmon/target"
-	"go.chromium.org/luci/gae/service/datastore"
-	srvtsmon "go.chromium.org/luci/server/tsmon"
+	"github.com/tetrafolium/luci-go/appengine/gaetesting"
+	"github.com/tetrafolium/luci-go/common/clock/testclock"
+	"github.com/tetrafolium/luci-go/common/tsmon"
+	"github.com/tetrafolium/luci-go/common/tsmon/target"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
+	srvtsmon "github.com/tetrafolium/luci-go/server/tsmon"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

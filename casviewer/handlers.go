@@ -20,10 +20,10 @@ import (
 
 	"github.com/julienschmidt/httprouter"
 
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/auth/realms"
-	"go.chromium.org/luci/server/router"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/server/auth"
+	"github.com/tetrafolium/luci-go/server/auth/realms"
+	"github.com/tetrafolium/luci-go/server/router"
 )
 
 // InstallHandlers install CAS Viewer handlers to the router.

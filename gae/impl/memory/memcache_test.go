@@ -18,11 +18,11 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/gae/service/info"
-	mc "go.chromium.org/luci/gae/service/memcache"
+	"github.com/tetrafolium/luci-go/gae/service/info"
+	mc "github.com/tetrafolium/luci-go/gae/service/memcache"
 
-	"go.chromium.org/luci/common/clock/testclock"
-	. "go.chromium.org/luci/common/testing/assertions"
+	"github.com/tetrafolium/luci-go/common/clock/testclock"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 
 	"golang.org/x/net/context"
 

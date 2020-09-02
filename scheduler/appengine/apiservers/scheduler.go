@@ -26,16 +26,16 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/proto/google"
-	"go.chromium.org/luci/server/auth"
+	"github.com/tetrafolium/luci-go/auth/identity"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/proto/google"
+	"github.com/tetrafolium/luci-go/server/auth"
 
-	"go.chromium.org/luci/scheduler/api/scheduler/v1"
-	"go.chromium.org/luci/scheduler/appengine/catalog"
-	"go.chromium.org/luci/scheduler/appengine/engine"
-	"go.chromium.org/luci/scheduler/appengine/internal"
-	"go.chromium.org/luci/scheduler/appengine/presentation"
+	"github.com/tetrafolium/luci-go/scheduler/api/scheduler/v1"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/catalog"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/engine"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/internal"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/presentation"
 )
 
 // SchedulerServer implements scheduler.Scheduler API.

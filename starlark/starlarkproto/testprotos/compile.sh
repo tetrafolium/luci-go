@@ -16,7 +16,7 @@
 # This is needed for protoc to understand "absolute" imports in *.proto.
 cd ../../../../..
 
-DIR=go.chromium.org/luci/starlark/starlarkproto/testprotos
+DIR=github.com/tetrafolium/luci-go/starlark/starlarkproto/testprotos
 
 protoc \
     --include_imports \

@@ -23,11 +23,11 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"go.chromium.org/luci/common/retry/transient"
-	ds "go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/server/caching"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/server/caching"
 
-	"go.chromium.org/luci/tokenserver/api/admin/v1"
+	"github.com/tetrafolium/luci-go/tokenserver/api/admin/v1"
 )
 
 // CA defines one trusted Certificate Authority (imported from config).

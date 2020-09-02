@@ -21,12 +21,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/gcloud/gs"
-	"go.chromium.org/luci/logdog/appengine/coordinator"
-	"go.chromium.org/luci/logdog/common/storage"
-	"go.chromium.org/luci/logdog/common/storage/archive"
-	"go.chromium.org/luci/logdog/common/storage/bigtable"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/gcloud/gs"
+	"github.com/tetrafolium/luci-go/logdog/appengine/coordinator"
+	"github.com/tetrafolium/luci-go/logdog/common/storage"
+	"github.com/tetrafolium/luci-go/logdog/common/storage/archive"
+	"github.com/tetrafolium/luci-go/logdog/common/storage/bigtable"
 )
 
 // BigTableStorage is a bound BigTable-backed Storage instance.

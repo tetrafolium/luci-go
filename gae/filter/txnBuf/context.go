@@ -17,7 +17,7 @@ package txnBuf
 import (
 	"golang.org/x/net/context"
 
-	ds "go.chromium.org/luci/gae/service/datastore"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
 )
 
 var (

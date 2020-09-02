@@ -25,11 +25,11 @@ import (
 	"github.com/golang/protobuf/jsonpb"
 	"github.com/golang/protobuf/proto"
 
-	pb "go.chromium.org/luci/buildbucket/proto"
-	v1 "go.chromium.org/luci/common/api/buildbucket/buildbucket/v1"
+	pb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	v1 "github.com/tetrafolium/luci-go/common/api/buildbucket/buildbucket/v1"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestV1(t *testing.T) {

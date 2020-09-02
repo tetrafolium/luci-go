@@ -18,10 +18,10 @@ import (
 	"flag"
 	"testing"
 
-	"go.chromium.org/luci/common/data/strpair"
+	"github.com/tetrafolium/luci-go/common/data/strpair"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestStrPairs(t *testing.T) {

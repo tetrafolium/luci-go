@@ -18,17 +18,17 @@
 package tokenminter
 
 import (
-	"go.chromium.org/luci/appengine/gaeauth/server/gaesigner"
-	"go.chromium.org/luci/server/auth"
+	"github.com/tetrafolium/luci-go/appengine/gaeauth/server/gaesigner"
+	"github.com/tetrafolium/luci-go/server/auth"
 
-	"go.chromium.org/luci/tokenserver/api/minter/v1"
-	"go.chromium.org/luci/tokenserver/appengine/impl/certchecker"
-	"go.chromium.org/luci/tokenserver/appengine/impl/delegation"
-	"go.chromium.org/luci/tokenserver/appengine/impl/machinetoken"
-	"go.chromium.org/luci/tokenserver/appengine/impl/projectscope"
-	"go.chromium.org/luci/tokenserver/appengine/impl/serviceaccounts"
-	"go.chromium.org/luci/tokenserver/appengine/impl/serviceaccountsv2"
-	"go.chromium.org/luci/tokenserver/appengine/impl/utils/projectidentity"
+	"github.com/tetrafolium/luci-go/tokenserver/api/minter/v1"
+	"github.com/tetrafolium/luci-go/tokenserver/appengine/impl/certchecker"
+	"github.com/tetrafolium/luci-go/tokenserver/appengine/impl/delegation"
+	"github.com/tetrafolium/luci-go/tokenserver/appengine/impl/machinetoken"
+	"github.com/tetrafolium/luci-go/tokenserver/appengine/impl/projectscope"
+	"github.com/tetrafolium/luci-go/tokenserver/appengine/impl/serviceaccounts"
+	"github.com/tetrafolium/luci-go/tokenserver/appengine/impl/serviceaccountsv2"
+	"github.com/tetrafolium/luci-go/tokenserver/appengine/impl/utils/projectidentity"
 )
 
 // Server implements minter.TokenMinterServer RPC interface.

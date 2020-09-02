@@ -6,7 +6,7 @@ syntax = "proto3";
 
 package svcconfig;
 
-option go_package = "go.chromium.org/luci/logdog/api/config/svcconfig";
+option go_package = "github.com/tetrafolium/luci-go/logdog/api/config/svcconfig";
 
 // ArchiveIndexConfig specifies how archive indexes should be generated.
 //

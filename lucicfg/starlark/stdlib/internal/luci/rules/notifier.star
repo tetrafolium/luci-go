@@ -17,7 +17,7 @@
 load("@stdlib//internal/lucicfg.star", "lucicfg")
 load("@stdlib//internal/validate.star", "validate")
 load("@stdlib//internal/luci/common.star", "notifiable")
-load("@proto//go.chromium.org/luci/buildbucket/proto/common.proto", buildbucket_common_pb = "buildbucket.v2")
+load("@proto//github.com/tetrafolium/luci-go/buildbucket/proto/common.proto", buildbucket_common_pb = "buildbucket.v2")
 
 def _notifier(
         ctx,

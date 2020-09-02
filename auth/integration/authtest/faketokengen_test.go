@@ -20,10 +20,10 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/auth/integration/localauth"
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/lucictx"
+	"github.com/tetrafolium/luci-go/auth"
+	"github.com/tetrafolium/luci-go/auth/integration/localauth"
+	"github.com/tetrafolium/luci-go/common/clock/testclock"
+	"github.com/tetrafolium/luci-go/lucictx"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

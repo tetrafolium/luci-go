@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/common/tsmon"
-	"go.chromium.org/luci/common/tsmon/store"
-	"go.chromium.org/luci/common/tsmon/target"
-	"go.chromium.org/luci/common/tsmon/types"
-	"go.chromium.org/luci/gae/impl/memory"
-	ds "go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/common/tsmon"
+	"github.com/tetrafolium/luci-go/common/tsmon/store"
+	"github.com/tetrafolium/luci-go/common/tsmon/target"
+	"github.com/tetrafolium/luci-go/common/tsmon/types"
+	"github.com/tetrafolium/luci-go/gae/impl/memory"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

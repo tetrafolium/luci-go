@@ -30,15 +30,15 @@ import (
 	protov1 "github.com/golang/protobuf/proto"
 	"google.golang.org/protobuf/proto"
 
-	"go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	luciproto "go.chromium.org/luci/common/proto"
-	"go.chromium.org/luci/config"
-	"go.chromium.org/luci/config/cfgclient"
-	"go.chromium.org/luci/config/validation"
-	"go.chromium.org/luci/server/caching"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	luciproto "github.com/tetrafolium/luci-go/common/proto"
+	"github.com/tetrafolium/luci-go/config"
+	"github.com/tetrafolium/luci-go/config/cfgclient"
+	"github.com/tetrafolium/luci-go/config/validation"
+	"github.com/tetrafolium/luci-go/server/caching"
 )
 
 // Entry describes what service configuration file to fetch and how to
@@ -67,7 +67,7 @@ type Entry struct {
 	// If not nil, the Validator will be called with a deserialized message to
 	// continue its validation.
 	//
-	// See go.chromium.org/luci/config/validation for more details.
+	// See github.com/tetrafolium/luci-go/config/validation for more details.
 	Validator func(c *validation.Context, msg proto.Message) error
 
 	// Rules is a config validation ruleset to register the validator in.

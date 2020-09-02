@@ -18,10 +18,10 @@ import (
 	"context"
 	"html/template"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/server/portal"
-	"go.chromium.org/luci/server/settings"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
+	"github.com/tetrafolium/luci-go/server/portal"
+	"github.com/tetrafolium/luci-go/server/settings"
 )
 
 const oauthSettingsKey = "oauth_config"

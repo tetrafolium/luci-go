@@ -22,12 +22,12 @@ import (
 
 	"google.golang.org/api/compute/v1"
 
-	"go.chromium.org/luci/appengine/tq"
-	"go.chromium.org/luci/common/api/swarming/swarming/v1"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/router"
+	"github.com/tetrafolium/luci-go/appengine/tq"
+	"github.com/tetrafolium/luci-go/common/api/swarming/swarming/v1"
+	"github.com/tetrafolium/luci-go/server/auth"
+	"github.com/tetrafolium/luci-go/server/router"
 
-	"go.chromium.org/luci/gce/api/tasks/v1"
+	"github.com/tetrafolium/luci-go/gce/api/tasks/v1"
 )
 
 // dspKey is the key to a *tq.Dispatcher in the context.

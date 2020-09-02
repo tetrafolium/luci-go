@@ -17,10 +17,10 @@ package main
 import (
 	"context"
 
-	"go.chromium.org/luci/grpc/grpcutil"
-	logsPb "go.chromium.org/luci/logdog/api/endpoints/coordinator/logs/v1"
-	registrationPb "go.chromium.org/luci/logdog/api/endpoints/coordinator/registration/v1"
-	servicesPb "go.chromium.org/luci/logdog/api/endpoints/coordinator/services/v1"
+	"github.com/tetrafolium/luci-go/grpc/grpcutil"
+	logsPb "github.com/tetrafolium/luci-go/logdog/api/endpoints/coordinator/logs/v1"
+	registrationPb "github.com/tetrafolium/luci-go/logdog/api/endpoints/coordinator/registration/v1"
+	servicesPb "github.com/tetrafolium/luci-go/logdog/api/endpoints/coordinator/services/v1"
 
 	"github.com/golang/protobuf/proto"
 

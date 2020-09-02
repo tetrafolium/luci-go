@@ -17,7 +17,7 @@ package normalize
 import (
 	"context"
 
-	pb "go.chromium.org/luci/logdog/api/config/svcconfig"
+	pb "github.com/tetrafolium/luci-go/logdog/api/config/svcconfig"
 )
 
 // Logdog normalizes logdog.cfg config.

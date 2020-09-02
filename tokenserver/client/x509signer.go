@@ -24,7 +24,7 @@ import (
 	"io/ioutil"
 	"sync"
 
-	"go.chromium.org/luci/common/data/rand/cryptorand"
+	"github.com/tetrafolium/luci-go/common/data/rand/cryptorand"
 )
 
 // TODO(vadimsh): Adding support for ECDSA should be trivial if needed.

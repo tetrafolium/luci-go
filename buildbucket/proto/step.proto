@@ -16,10 +16,10 @@ syntax = "proto3";
 
 package buildbucket.v2;
 
-option go_package = "go.chromium.org/luci/buildbucket/proto;buildbucketpb";
+option go_package = "github.com/tetrafolium/luci-go/buildbucket/proto;buildbucketpb";
 
 import "google/protobuf/timestamp.proto";
-import "go.chromium.org/luci/buildbucket/proto/common.proto";
+import "github.com/tetrafolium/luci-go/buildbucket/proto/common.proto";
 
 // A build step.
 //

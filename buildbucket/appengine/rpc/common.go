@@ -22,16 +22,16 @@ import (
 	"github.com/golang/protobuf/proto"
 	"google.golang.org/grpc/codes"
 
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/grpc/appstatus"
-	"go.chromium.org/luci/server/auth"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/grpc/appstatus"
+	"github.com/tetrafolium/luci-go/server/auth"
 
-	"go.chromium.org/luci/buildbucket/appengine/internal/perm"
-	"go.chromium.org/luci/buildbucket/appengine/model"
-	pb "go.chromium.org/luci/buildbucket/proto"
+	"github.com/tetrafolium/luci-go/buildbucket/appengine/internal/perm"
+	"github.com/tetrafolium/luci-go/buildbucket/appengine/model"
+	pb "github.com/tetrafolium/luci-go/buildbucket/proto"
 )
 
 type tagValidationMode int
@@ -44,7 +44,7 @@ const (
 const (
 	buildSetMaxLength = 1024
 	// summaryMardkdownMaxLength is the maximum size of Build.summary_markdown field in bytes.
-	// Find more details at https://godoc.org/go.chromium.org/luci/buildbucket/proto#Build
+	// Find more details at https://godoc.org/github.com/tetrafolium/luci-go/buildbucket/proto#Build
 	summaryMarkdownMaxLength = 4 * 1000
 )
 

@@ -17,9 +17,9 @@ package main
 import (
 	"errors"
 
-	"go.chromium.org/luci/common/flag/multiflag"
-	"go.chromium.org/luci/logdog/client/butler/output"
-	dirOutput "go.chromium.org/luci/logdog/client/butler/output/directory"
+	"github.com/tetrafolium/luci-go/common/flag/multiflag"
+	"github.com/tetrafolium/luci-go/logdog/client/butler/output"
+	dirOutput "github.com/tetrafolium/luci-go/logdog/client/butler/output/directory"
 )
 
 func init() {

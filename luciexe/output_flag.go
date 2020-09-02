@@ -18,7 +18,7 @@ import (
 	"flag"
 	"strings"
 
-	bbpb "go.chromium.org/luci/buildbucket/proto"
+	bbpb "github.com/tetrafolium/luci-go/buildbucket/proto"
 )
 
 const (

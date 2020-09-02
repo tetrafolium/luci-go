@@ -18,7 +18,7 @@ import (
 	"context"
 	"sort"
 
-	pb "go.chromium.org/luci/luci_notify/api/config"
+	pb "github.com/tetrafolium/luci-go/luci_notify/api/config"
 )
 
 // Notify normalizes luci-notify.cfg config.

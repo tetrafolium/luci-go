@@ -17,7 +17,7 @@ package venv
 import (
 	"context"
 
-	"go.chromium.org/luci/vpython/api/vpython"
+	"github.com/tetrafolium/luci-go/vpython/api/vpython"
 )
 
 // PackageLoader loads package information from a specification file's Package

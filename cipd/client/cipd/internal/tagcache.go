@@ -22,12 +22,12 @@ import (
 	"sort"
 	"sync"
 
-	"go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/common/logging"
 
-	api "go.chromium.org/luci/cipd/api/cipd/v1"
-	"go.chromium.org/luci/cipd/client/cipd/fs"
-	"go.chromium.org/luci/cipd/client/cipd/internal/messages"
-	"go.chromium.org/luci/cipd/common"
+	api "github.com/tetrafolium/luci-go/cipd/api/cipd/v1"
+	"github.com/tetrafolium/luci-go/cipd/client/cipd/fs"
+	"github.com/tetrafolium/luci-go/cipd/client/cipd/internal/messages"
+	"github.com/tetrafolium/luci-go/cipd/common"
 )
 
 const (

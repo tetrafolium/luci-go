@@ -19,9 +19,9 @@ import (
 	"flag"
 	"os"
 
-	log "go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/logging/gologger"
-	"go.chromium.org/luci/tools/internal/apigen"
+	log "github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/logging/gologger"
+	"github.com/tetrafolium/luci-go/tools/internal/apigen"
 )
 
 func main() {

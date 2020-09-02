@@ -15,8 +15,8 @@
 package butler
 
 import (
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/logdog/api/logpb"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/logdog/api/logpb"
 )
 
 // assertGetText panics if the passed LogEntry does not contain Text data, or returns it.

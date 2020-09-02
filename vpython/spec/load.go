@@ -22,12 +22,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"go.chromium.org/luci/vpython/api/vpython"
+	"github.com/tetrafolium/luci-go/vpython/api/vpython"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	cproto "go.chromium.org/luci/common/proto"
-	"go.chromium.org/luci/common/system/filesystem"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	cproto "github.com/tetrafolium/luci-go/common/proto"
+	"github.com/tetrafolium/luci-go/common/system/filesystem"
 )
 
 // DefaultPartnerSuffix is the default filesystem suffix for a script's partner

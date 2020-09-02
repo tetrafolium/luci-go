@@ -24,9 +24,9 @@ import (
 	taskspb "google.golang.org/genproto/googleapis/cloud/tasks/v2"
 	pubsubpb "google.golang.org/genproto/googleapis/pubsub/v1"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 
-	"go.chromium.org/luci/server/tq/internal/tqpb"
+	"github.com/tetrafolium/luci-go/server/tq/internal/tqpb"
 )
 
 // FreshUntilPrecision is precision of Reminder.FreshUntil, to which it is

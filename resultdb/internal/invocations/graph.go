@@ -26,13 +26,13 @@ import (
 	"golang.org/x/sync/errgroup"
 	"golang.org/x/sync/semaphore"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/trace"
-	"go.chromium.org/luci/server/redisconn"
-	"go.chromium.org/luci/server/span"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/trace"
+	"github.com/tetrafolium/luci-go/server/redisconn"
+	"github.com/tetrafolium/luci-go/server/span"
 
-	"go.chromium.org/luci/resultdb/internal/spanutil"
+	"github.com/tetrafolium/luci-go/resultdb/internal/spanutil"
 )
 
 // MaxNodes is the maximum number of invocation nodes that ResultDB

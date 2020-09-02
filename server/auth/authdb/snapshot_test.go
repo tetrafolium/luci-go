@@ -30,22 +30,22 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/server/auth/internal"
-	"go.chromium.org/luci/server/auth/realms"
-	"go.chromium.org/luci/server/auth/service/protocol"
-	"go.chromium.org/luci/server/auth/signing"
-	"go.chromium.org/luci/server/auth/signing/signingtest"
-	"go.chromium.org/luci/server/caching"
+	"github.com/tetrafolium/luci-go/auth/identity"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
+	"github.com/tetrafolium/luci-go/server/auth/internal"
+	"github.com/tetrafolium/luci-go/server/auth/realms"
+	"github.com/tetrafolium/luci-go/server/auth/service/protocol"
+	"github.com/tetrafolium/luci-go/server/auth/signing"
+	"github.com/tetrafolium/luci-go/server/auth/signing/signingtest"
+	"github.com/tetrafolium/luci-go/server/caching"
 
-	"go.chromium.org/luci/server/auth/authdb/internal/graph"
-	"go.chromium.org/luci/server/auth/authdb/internal/legacy"
-	"go.chromium.org/luci/server/auth/authdb/internal/oauthid"
-	"go.chromium.org/luci/server/auth/authdb/internal/realmset"
+	"github.com/tetrafolium/luci-go/server/auth/authdb/internal/graph"
+	"github.com/tetrafolium/luci-go/server/auth/authdb/internal/legacy"
+	"github.com/tetrafolium/luci-go/server/auth/authdb/internal/oauthid"
+	"github.com/tetrafolium/luci-go/server/auth/authdb/internal/realmset"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestSnapshotDB(t *testing.T) {

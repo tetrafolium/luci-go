@@ -21,11 +21,11 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"go.chromium.org/luci/appengine/tq"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/server/auth"
+	"github.com/tetrafolium/luci-go/appengine/tq"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/server/auth"
 
-	api "go.chromium.org/luci/cipd/api/admin/v1"
+	api "github.com/tetrafolium/luci-go/cipd/api/admin/v1"
 )
 
 // AdminGroup is a name of a group with accounts that can use Admin API.

@@ -22,10 +22,10 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/common/system/filesystem"
+	"github.com/tetrafolium/luci-go/common/system/filesystem"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestFind(t *testing.T) {

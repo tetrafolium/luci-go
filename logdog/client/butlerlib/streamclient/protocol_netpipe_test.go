@@ -24,7 +24,7 @@ import (
 
 	"github.com/Microsoft/go-winio"
 
-	"go.chromium.org/luci/logdog/client/butlerlib/streamproto"
+	"github.com/tetrafolium/luci-go/logdog/client/butlerlib/streamproto"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

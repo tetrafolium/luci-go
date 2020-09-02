@@ -19,7 +19,7 @@ import (
 	"context"
 	"fmt"
 
-	"go.chromium.org/luci/server/tq/internal/reminder"
+	"github.com/tetrafolium/luci-go/server/tq/internal/reminder"
 )
 
 // DB abstracts out specific storage implementation.

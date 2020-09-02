@@ -21,8 +21,8 @@ import (
 
 	"google.golang.org/genproto/googleapis/type/dayofweek"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/config/validation"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/config/validation"
 )
 
 // timeRegex is the regular expression valid time strings must match.

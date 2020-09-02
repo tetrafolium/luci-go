@@ -24,7 +24,7 @@ import (
 	"regexp"
 	"sync"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // Vars is the default set of placeholder vars used by the process.

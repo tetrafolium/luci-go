@@ -26,11 +26,11 @@ import (
 	"github.com/bazelbuild/buildtools/build"
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/common/cli"
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/cli"
+	"github.com/tetrafolium/luci-go/common/errors"
 
-	"go.chromium.org/luci/lucicfg/buildifier"
-	"go.chromium.org/luci/lucicfg/cli/base"
+	"github.com/tetrafolium/luci-go/lucicfg/buildifier"
+	"github.com/tetrafolium/luci-go/lucicfg/cli/base"
 )
 
 // Cmd is 'fmt' subcommand.

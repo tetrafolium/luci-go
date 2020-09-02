@@ -23,7 +23,7 @@ import (
 	durationpb "github.com/golang/protobuf/ptypes/duration"
 	tspb "github.com/golang/protobuf/ptypes/timestamp"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 var requestIDRe = regexp.MustCompile(`^[[:ascii:]]{0,36}$`)

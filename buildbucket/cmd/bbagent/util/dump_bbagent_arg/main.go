@@ -24,7 +24,7 @@ import (
 
 	"github.com/golang/protobuf/jsonpb"
 
-	"go.chromium.org/luci/buildbucket/cmd/bbagent/bbinput"
+	"github.com/tetrafolium/luci-go/buildbucket/cmd/bbagent/bbinput"
 )
 
 // the disappointed emoji `{{- "" -}}` removes whitespace before "usage:"

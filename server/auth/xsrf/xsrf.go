@@ -28,12 +28,12 @@ import (
 	"net/http"
 	"time"
 
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry/transient"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
 
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/server/tokens"
+	"github.com/tetrafolium/luci-go/server/auth"
+	"github.com/tetrafolium/luci-go/server/router"
+	"github.com/tetrafolium/luci-go/server/tokens"
 )
 
 // xsrfToken described how to generate tokens.

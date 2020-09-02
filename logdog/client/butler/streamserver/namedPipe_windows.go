@@ -20,10 +20,10 @@ import (
 	"os"
 	"sync/atomic"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	log "go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/logdog/client/butlerlib/streamproto"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	log "github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/logdog/client/butlerlib/streamproto"
 
 	"github.com/Microsoft/go-winio"
 )

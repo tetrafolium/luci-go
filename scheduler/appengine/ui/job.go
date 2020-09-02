@@ -24,17 +24,17 @@ import (
 	"sync"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/proto/google"
-	mc "go.chromium.org/luci/gae/service/memcache"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/server/templates"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/proto/google"
+	mc "github.com/tetrafolium/luci-go/gae/service/memcache"
+	"github.com/tetrafolium/luci-go/server/auth"
+	"github.com/tetrafolium/luci-go/server/router"
+	"github.com/tetrafolium/luci-go/server/templates"
 
-	api "go.chromium.org/luci/scheduler/api/scheduler/v1"
-	"go.chromium.org/luci/scheduler/appengine/engine"
-	"go.chromium.org/luci/scheduler/appengine/internal"
+	api "github.com/tetrafolium/luci-go/scheduler/api/scheduler/v1"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/engine"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/internal"
 )
 
 func jobPage(ctx *router.Context) {

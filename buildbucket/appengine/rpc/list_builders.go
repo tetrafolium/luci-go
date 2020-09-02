@@ -17,16 +17,16 @@ package rpc
 import (
 	"context"
 
-	"go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
 	"google.golang.org/grpc/codes"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/grpc/appstatus"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/grpc/appstatus"
 
-	"go.chromium.org/luci/buildbucket/appengine/internal/perm"
-	"go.chromium.org/luci/buildbucket/appengine/model"
-	pb "go.chromium.org/luci/buildbucket/proto"
-	"go.chromium.org/luci/buildbucket/protoutil"
+	"github.com/tetrafolium/luci-go/buildbucket/appengine/internal/perm"
+	"github.com/tetrafolium/luci-go/buildbucket/appengine/model"
+	pb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	"github.com/tetrafolium/luci-go/buildbucket/protoutil"
 )
 
 // validateListBuilders validates the given request.

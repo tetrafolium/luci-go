@@ -19,15 +19,15 @@ import (
 	"strings"
 
 	structpb "github.com/golang/protobuf/ptypes/struct"
-	buildbucketpb "go.chromium.org/luci/buildbucket/proto"
-	"go.chromium.org/luci/buildbucket/protoutil"
-	bbv1 "go.chromium.org/luci/common/api/buildbucket/buildbucket/v1"
-	"go.chromium.org/luci/common/api/gitiles"
-	"go.chromium.org/luci/common/data/strpair"
+	buildbucketpb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	"github.com/tetrafolium/luci-go/buildbucket/protoutil"
+	bbv1 "github.com/tetrafolium/luci-go/common/api/buildbucket/buildbucket/v1"
+	"github.com/tetrafolium/luci-go/common/api/gitiles"
+	"github.com/tetrafolium/luci-go/common/data/strpair"
 
-	"go.chromium.org/luci/scheduler/api/scheduler/v1"
-	"go.chromium.org/luci/scheduler/appengine/internal"
-	"go.chromium.org/luci/scheduler/appengine/task"
+	"github.com/tetrafolium/luci-go/scheduler/api/scheduler/v1"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/internal"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/task"
 )
 
 // RequestBuilder is a task.Request in a process of being prepared.

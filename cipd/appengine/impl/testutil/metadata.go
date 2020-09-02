@@ -22,9 +22,9 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	api "go.chromium.org/luci/cipd/api/cipd/v1"
-	"go.chromium.org/luci/cipd/appengine/impl/metadata"
-	"go.chromium.org/luci/cipd/common"
+	api "github.com/tetrafolium/luci-go/cipd/api/cipd/v1"
+	"github.com/tetrafolium/luci-go/cipd/appengine/impl/metadata"
+	"github.com/tetrafolium/luci-go/cipd/common"
 )
 
 // MetadataStore implements metadata.Storage using memory, for tests.

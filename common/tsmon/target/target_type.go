@@ -18,8 +18,8 @@ import (
 	"flag"
 	"fmt"
 
-	"go.chromium.org/luci/common/flag/flagenum"
-	"go.chromium.org/luci/common/tsmon/types"
+	"github.com/tetrafolium/luci-go/common/flag/flagenum"
+	"github.com/tetrafolium/luci-go/common/tsmon/types"
 )
 
 var _ flag.Value = (*targetTypeFlag)(nil)

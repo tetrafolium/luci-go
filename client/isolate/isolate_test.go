@@ -27,13 +27,13 @@ import (
 	"strings"
 	"testing"
 
-	"go.chromium.org/luci/client/archiver"
-	isolateservice "go.chromium.org/luci/common/api/isolate/isolateservice/v1"
-	"go.chromium.org/luci/common/data/text/units"
-	"go.chromium.org/luci/common/isolated"
-	"go.chromium.org/luci/common/isolatedclient"
-	"go.chromium.org/luci/common/isolatedclient/isolatedfake"
-	"go.chromium.org/luci/common/system/filesystem"
+	"github.com/tetrafolium/luci-go/client/archiver"
+	isolateservice "github.com/tetrafolium/luci-go/common/api/isolate/isolateservice/v1"
+	"github.com/tetrafolium/luci-go/common/data/text/units"
+	"github.com/tetrafolium/luci-go/common/isolated"
+	"github.com/tetrafolium/luci-go/common/isolatedclient"
+	"github.com/tetrafolium/luci-go/common/isolatedclient/isolatedfake"
+	"github.com/tetrafolium/luci-go/common/system/filesystem"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

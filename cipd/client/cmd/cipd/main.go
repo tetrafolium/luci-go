@@ -18,16 +18,16 @@
 // It hardcodes default CIPD backend URL, OAuth client ID, location of the token
 // cache, etc.
 //
-// See go.chromium.org/luci/cipd/client/cli if you want to build your own
+// See github.com/tetrafolium/luci-go/cipd/client/cli if you want to build your own
 // version with different defaults.
 package main
 
 import (
 	"os"
 
-	"go.chromium.org/luci/cipd/client/cli"
-	"go.chromium.org/luci/common/data/rand/mathrand"
-	"go.chromium.org/luci/hardcoded/chromeinfra"
+	"github.com/tetrafolium/luci-go/cipd/client/cli"
+	"github.com/tetrafolium/luci-go/common/data/rand/mathrand"
+	"github.com/tetrafolium/luci-go/hardcoded/chromeinfra"
 )
 
 func main() {

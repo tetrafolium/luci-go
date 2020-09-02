@@ -19,7 +19,7 @@ package exec2
 import (
 	"syscall"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 type attr struct{}

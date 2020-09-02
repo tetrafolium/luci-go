@@ -22,7 +22,7 @@ import (
 	"strings"
 	"testing"
 
-	"go.chromium.org/luci/cipd/client/cipd/fs"
+	"github.com/tetrafolium/luci-go/cipd/client/cipd/fs"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

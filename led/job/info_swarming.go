@@ -19,8 +19,8 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/ptypes"
-	"go.chromium.org/luci/common/errors"
-	swarmingpb "go.chromium.org/luci/swarming/proto/api"
+	"github.com/tetrafolium/luci-go/common/errors"
+	swarmingpb "github.com/tetrafolium/luci-go/swarming/proto/api"
 )
 
 type swInfo struct {

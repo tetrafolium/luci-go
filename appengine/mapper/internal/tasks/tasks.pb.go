@@ -16,7 +16,7 @@
 // versions:
 // 	protoc-gen-go v1.24.0-devel
 // 	protoc        v3.12.1
-// source: go.chromium.org/luci/appengine/mapper/internal/tasks/tasks.proto
+// source: github.com/tetrafolium/luci-go/appengine/mapper/internal/tasks/tasks.proto
 
 package tasks
 

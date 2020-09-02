@@ -21,13 +21,13 @@ import (
 	"github.com/golang/protobuf/ptypes/timestamp"
 	"google.golang.org/appengine"
 
-	"go.chromium.org/luci/appengine/bqlog"
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/common/bq"
+	"github.com/tetrafolium/luci-go/appengine/bqlog"
+	"github.com/tetrafolium/luci-go/auth/identity"
+	"github.com/tetrafolium/luci-go/common/bq"
 
-	bqpb "go.chromium.org/luci/tokenserver/api/bq"
-	"go.chromium.org/luci/tokenserver/api/minter/v1"
-	"go.chromium.org/luci/tokenserver/appengine/impl/utils"
+	bqpb "github.com/tetrafolium/luci-go/tokenserver/api/bq"
+	"github.com/tetrafolium/luci-go/tokenserver/api/minter/v1"
+	"github.com/tetrafolium/luci-go/tokenserver/appengine/impl/utils"
 )
 
 var projectTokensLog = bqlog.Log{

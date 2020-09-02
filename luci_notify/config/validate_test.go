@@ -19,14 +19,14 @@ import (
 	"fmt"
 	"testing"
 
-	"go.chromium.org/luci/appengine/gaetesting"
-	"go.chromium.org/luci/common/testing/assertions"
-	"go.chromium.org/luci/config/validation"
+	"github.com/tetrafolium/luci-go/appengine/gaetesting"
+	"github.com/tetrafolium/luci-go/common/testing/assertions"
+	"github.com/tetrafolium/luci-go/config/validation"
 
-	"go.chromium.org/luci/luci_notify/testutil"
+	"github.com/tetrafolium/luci-go/luci_notify/testutil"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestValidation(t *testing.T) {

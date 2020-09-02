@@ -13,7 +13,7 @@
 # limitations under the License.
 
 l = proto.new_loader(proto.new_descriptor_set(blob=read('./testprotos/all.pb')))
-testprotos = l.module('go.chromium.org/luci/starlark/starlarkproto/testprotos/test.proto')
+testprotos = l.module('github.com/tetrafolium/luci-go/starlark/starlarkproto/testprotos/test.proto')
 
 # Works in general. Detailed tests for type conversions are in from_proto.star.
 m = proto.from_jsonpb(testprotos.Simple, '{"i": 123}')

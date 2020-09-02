@@ -29,11 +29,11 @@ import (
 	"runtime"
 	"testing"
 
-	"go.chromium.org/luci/client/archiver"
-	"go.chromium.org/luci/common/isolated"
-	"go.chromium.org/luci/common/isolatedclient"
-	"go.chromium.org/luci/common/isolatedclient/isolatedfake"
-	"go.chromium.org/luci/common/testing/testfs"
+	"github.com/tetrafolium/luci-go/client/archiver"
+	"github.com/tetrafolium/luci-go/common/isolated"
+	"github.com/tetrafolium/luci-go/common/isolatedclient"
+	"github.com/tetrafolium/luci-go/common/isolatedclient/isolatedfake"
+	"github.com/tetrafolium/luci-go/common/testing/testfs"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

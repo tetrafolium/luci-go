@@ -23,12 +23,12 @@ import (
 
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/common/cli"
-	"go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/common/cli"
+	"github.com/tetrafolium/luci-go/common/logging"
 
-	"go.chromium.org/luci/lucicfg"
-	"go.chromium.org/luci/lucicfg/buildifier"
-	"go.chromium.org/luci/lucicfg/cli/base"
+	"github.com/tetrafolium/luci-go/lucicfg"
+	"github.com/tetrafolium/luci-go/lucicfg/buildifier"
+	"github.com/tetrafolium/luci-go/lucicfg/cli/base"
 )
 
 // Cmd is 'generate' subcommand.

@@ -17,10 +17,10 @@ package base
 import (
 	"fmt"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/auth"
+	"github.com/tetrafolium/luci-go/common/errors"
 
-	"go.chromium.org/luci/lucicfg"
+	"github.com/tetrafolium/luci-go/lucicfg"
 )
 
 // CollectErrorMessages traverses err (which can be a MultiError, recursively),

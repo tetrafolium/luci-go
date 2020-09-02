@@ -18,7 +18,7 @@ import (
 	"context"
 	"errors"
 
-	"go.chromium.org/luci/logdog/common/types"
+	"github.com/tetrafolium/luci-go/logdog/common/types"
 )
 
 var (

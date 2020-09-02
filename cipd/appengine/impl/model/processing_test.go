@@ -19,13 +19,13 @@ import (
 
 	structpb "github.com/golang/protobuf/ptypes/struct"
 
-	"go.chromium.org/luci/common/proto/google"
+	"github.com/tetrafolium/luci-go/common/proto/google"
 
-	api "go.chromium.org/luci/cipd/api/cipd/v1"
-	"go.chromium.org/luci/cipd/appengine/impl/testutil"
+	api "github.com/tetrafolium/luci-go/cipd/api/cipd/v1"
+	"github.com/tetrafolium/luci-go/cipd/appengine/impl/testutil"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestProcessingResult(t *testing.T) {

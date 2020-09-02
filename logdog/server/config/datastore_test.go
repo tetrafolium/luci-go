@@ -18,16 +18,16 @@ import (
 	"context"
 	"testing"
 
-	"go.chromium.org/luci/config"
-	"go.chromium.org/luci/config/cfgclient"
-	cfgmem "go.chromium.org/luci/config/impl/memory"
-	"go.chromium.org/luci/gae/impl/memory"
-	"go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/config"
+	"github.com/tetrafolium/luci-go/config/cfgclient"
+	cfgmem "github.com/tetrafolium/luci-go/config/impl/memory"
+	"github.com/tetrafolium/luci-go/gae/impl/memory"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
 
-	"go.chromium.org/luci/logdog/api/config/svcconfig"
+	"github.com/tetrafolium/luci-go/logdog/api/config/svcconfig"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestSync(t *testing.T) {

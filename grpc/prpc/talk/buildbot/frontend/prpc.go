@@ -15,11 +15,11 @@
 package main
 
 import (
-	"go.chromium.org/luci/grpc/discovery"
-	"go.chromium.org/luci/grpc/prpc"
-	"go.chromium.org/luci/server/router"
+	"github.com/tetrafolium/luci-go/grpc/discovery"
+	"github.com/tetrafolium/luci-go/grpc/prpc"
+	"github.com/tetrafolium/luci-go/server/router"
 
-	buildbot "go.chromium.org/luci/grpc/prpc/talk/buildbot/proto"
+	buildbot "github.com/tetrafolium/luci-go/grpc/prpc/talk/buildbot/proto"
 )
 
 func InstallAPIRoutes(r *router.Router, base router.MiddlewareChain) {

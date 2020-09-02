@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-//go:generate go install go.chromium.org/luci/tools/cmd/assets
+//go:generate go install github.com/tetrafolium/luci-go/tools/cmd/assets
 //go:generate assets -ext *.star
 
 package starlark

@@ -23,7 +23,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"go.chromium.org/luci/starlark/interpreter"
+	"github.com/tetrafolium/luci-go/starlark/interpreter"
 )
 
 var regen = flag.Bool("test.regen", false, "regenerated configs")

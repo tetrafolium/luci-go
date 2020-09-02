@@ -23,7 +23,7 @@ import (
 	"sync"
 	"time"
 
-	"go.chromium.org/luci/client/internal/common"
+	"github.com/tetrafolium/luci-go/client/internal/common"
 )
 
 // Group identifies a column group to keep progress for.

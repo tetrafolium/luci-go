@@ -22,19 +22,19 @@ import (
 	"sync"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/iotools"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/tsmon"
-	"go.chromium.org/luci/common/tsmon/metric"
-	"go.chromium.org/luci/common/tsmon/monitor"
-	"go.chromium.org/luci/common/tsmon/runtimestats"
-	"go.chromium.org/luci/common/tsmon/store"
-	"go.chromium.org/luci/common/tsmon/target"
-	"go.chromium.org/luci/common/tsmon/versions"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/iotools"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/tsmon"
+	"github.com/tetrafolium/luci-go/common/tsmon/metric"
+	"github.com/tetrafolium/luci-go/common/tsmon/monitor"
+	"github.com/tetrafolium/luci-go/common/tsmon/runtimestats"
+	"github.com/tetrafolium/luci-go/common/tsmon/store"
+	"github.com/tetrafolium/luci-go/common/tsmon/target"
+	"github.com/tetrafolium/luci-go/common/tsmon/versions"
 
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/router"
+	"github.com/tetrafolium/luci-go/server/auth"
+	"github.com/tetrafolium/luci-go/server/router"
 )
 
 // State holds the state and configuration of the tsmon library.

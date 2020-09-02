@@ -24,9 +24,9 @@ import (
 	"path/filepath"
 	"sort"
 
-	config "go.chromium.org/luci/common/api/luci_config/config/v1"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
+	config "github.com/tetrafolium/luci-go/common/api/luci_config/config/v1"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
 )
 
 // Alias some ridiculously long type names that we round-trip in the public API.

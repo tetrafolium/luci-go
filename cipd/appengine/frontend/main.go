@@ -21,20 +21,20 @@ import (
 
 	"google.golang.org/appengine"
 
-	"go.chromium.org/luci/appengine/gaeauth/server"
-	"go.chromium.org/luci/appengine/gaemiddleware/standard"
-	"go.chromium.org/luci/grpc/discovery"
-	"go.chromium.org/luci/grpc/grpcmon"
-	"go.chromium.org/luci/grpc/grpcutil"
-	"go.chromium.org/luci/grpc/prpc"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/web/gowrappers/rpcexplorer"
+	"github.com/tetrafolium/luci-go/appengine/gaeauth/server"
+	"github.com/tetrafolium/luci-go/appengine/gaemiddleware/standard"
+	"github.com/tetrafolium/luci-go/grpc/discovery"
+	"github.com/tetrafolium/luci-go/grpc/grpcmon"
+	"github.com/tetrafolium/luci-go/grpc/grpcutil"
+	"github.com/tetrafolium/luci-go/grpc/prpc"
+	"github.com/tetrafolium/luci-go/server/auth"
+	"github.com/tetrafolium/luci-go/server/router"
+	"github.com/tetrafolium/luci-go/web/gowrappers/rpcexplorer"
 
-	adminapi "go.chromium.org/luci/cipd/api/admin/v1"
-	pubapi "go.chromium.org/luci/cipd/api/cipd/v1"
-	"go.chromium.org/luci/cipd/appengine/impl"
-	"go.chromium.org/luci/cipd/appengine/ui"
+	adminapi "github.com/tetrafolium/luci-go/cipd/api/admin/v1"
+	pubapi "github.com/tetrafolium/luci-go/cipd/api/cipd/v1"
+	"github.com/tetrafolium/luci-go/cipd/appengine/impl"
+	"github.com/tetrafolium/luci-go/cipd/appengine/ui"
 )
 
 func main() {

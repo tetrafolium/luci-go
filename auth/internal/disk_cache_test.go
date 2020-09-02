@@ -23,8 +23,8 @@ import (
 
 	"golang.org/x/oauth2"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/clock/testclock"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/clock/testclock"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

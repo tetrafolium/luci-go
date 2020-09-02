@@ -20,16 +20,16 @@ import (
 	"sync"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/tsmon/distribution"
-	"go.chromium.org/luci/common/tsmon/field"
-	"go.chromium.org/luci/common/tsmon/metric"
-	"go.chromium.org/luci/common/tsmon/types"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/tsmon/distribution"
+	"github.com/tetrafolium/luci-go/common/tsmon/field"
+	"github.com/tetrafolium/luci-go/common/tsmon/metric"
+	"github.com/tetrafolium/luci-go/common/tsmon/types"
 
-	"go.chromium.org/luci/resultdb/internal/cron"
-	"go.chromium.org/luci/resultdb/internal/invocations"
+	"github.com/tetrafolium/luci-go/resultdb/internal/cron"
+	"github.com/tetrafolium/luci-go/resultdb/internal/invocations"
 )
 
 // Statuses of invocation tasks.

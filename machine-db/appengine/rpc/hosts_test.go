@@ -23,10 +23,10 @@ import (
 	"github.com/VividCortex/mysqlerr"
 	"github.com/go-sql-driver/mysql"
 
-	"go.chromium.org/luci/machine-db/appengine/database"
+	"github.com/tetrafolium/luci-go/machine-db/appengine/database"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestDeleteHost(t *testing.T) {

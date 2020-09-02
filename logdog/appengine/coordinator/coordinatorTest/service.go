@@ -17,8 +17,8 @@ package coordinatorTest
 import (
 	"context"
 
-	"go.chromium.org/luci/logdog/appengine/coordinator"
-	"go.chromium.org/luci/logdog/appengine/coordinator/flex"
+	"github.com/tetrafolium/luci-go/logdog/appengine/coordinator"
+	"github.com/tetrafolium/luci-go/logdog/appengine/coordinator/flex"
 )
 
 // Services is a testing stub for a coordinator.Services instance that allows

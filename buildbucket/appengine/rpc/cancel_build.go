@@ -20,19 +20,19 @@ import (
 
 	"google.golang.org/grpc/codes"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/proto/google"
-	"go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/grpc/appstatus"
-	"go.chromium.org/luci/server/auth"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/proto/google"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/grpc/appstatus"
+	"github.com/tetrafolium/luci-go/server/auth"
 
-	"go.chromium.org/luci/buildbucket/appengine/internal/perm"
-	"go.chromium.org/luci/buildbucket/appengine/model"
-	"go.chromium.org/luci/buildbucket/appengine/tasks"
-	taskdefs "go.chromium.org/luci/buildbucket/appengine/tasks/defs"
-	pb "go.chromium.org/luci/buildbucket/proto"
-	"go.chromium.org/luci/buildbucket/protoutil"
+	"github.com/tetrafolium/luci-go/buildbucket/appengine/internal/perm"
+	"github.com/tetrafolium/luci-go/buildbucket/appengine/model"
+	"github.com/tetrafolium/luci-go/buildbucket/appengine/tasks"
+	taskdefs "github.com/tetrafolium/luci-go/buildbucket/appengine/tasks/defs"
+	pb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	"github.com/tetrafolium/luci-go/buildbucket/protoutil"
 )
 
 // notifyPubSub enqueues tasks to notify Pub/Sub about the given build.

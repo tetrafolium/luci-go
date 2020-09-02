@@ -17,11 +17,11 @@ package sink
 import (
 	"testing"
 
-	sinkpb "go.chromium.org/luci/resultdb/sink/proto/v1"
+	sinkpb "github.com/tetrafolium/luci-go/resultdb/sink/proto/v1"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"go.chromium.org/luci/common/clock/testclock"
-	. "go.chromium.org/luci/common/testing/assertions"
+	"github.com/tetrafolium/luci-go/common/clock/testclock"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestValidateTestResult(t *testing.T) {

@@ -25,12 +25,12 @@ import (
 	"github.com/golang/protobuf/proto"
 	"golang.org/x/sync/errgroup"
 
-	"go.chromium.org/luci/common/data/text"
-	"go.chromium.org/luci/common/data/text/indented"
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/data/text"
+	"github.com/tetrafolium/luci-go/common/data/text/indented"
+	"github.com/tetrafolium/luci-go/common/errors"
 
-	"go.chromium.org/luci/resultdb/pbutil"
-	pb "go.chromium.org/luci/resultdb/proto/v1"
+	"github.com/tetrafolium/luci-go/resultdb/pbutil"
+	pb "github.com/tetrafolium/luci-go/resultdb/proto/v1"
 )
 
 // queryRunBase is a base subcommandRun for subcommands query and derive.

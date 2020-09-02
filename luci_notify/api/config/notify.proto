@@ -12,10 +12,10 @@ syntax = "proto3";
 
 package notify;
 
-import "go.chromium.org/luci/buildbucket/proto/build.proto";
-import "go.chromium.org/luci/buildbucket/proto/common.proto";
-import "go.chromium.org/luci/buildbucket/proto/step.proto";
-import "go.chromium.org/luci/common/proto/options.proto";
+import "github.com/tetrafolium/luci-go/buildbucket/proto/build.proto";
+import "github.com/tetrafolium/luci-go/buildbucket/proto/common.proto";
+import "github.com/tetrafolium/luci-go/buildbucket/proto/step.proto";
+import "github.com/tetrafolium/luci-go/common/proto/options.proto";
 
 option go_package = "config";
 option (luci.file_metadata) = {

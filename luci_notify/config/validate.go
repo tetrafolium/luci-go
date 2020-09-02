@@ -25,14 +25,14 @@ import (
 	"github.com/golang/protobuf/proto"
 
 	// Import to register {appid} in validation.Rules
-	_ "go.chromium.org/luci/config/appengine/gaeconfig"
+	_ "github.com/tetrafolium/luci-go/config/appengine/gaeconfig"
 
-	"go.chromium.org/luci/common/api/gitiles"
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/config/validation"
-	"go.chromium.org/luci/luci_notify/mailtmpl"
+	"github.com/tetrafolium/luci-go/common/api/gitiles"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
+	"github.com/tetrafolium/luci-go/config/validation"
+	"github.com/tetrafolium/luci-go/luci_notify/mailtmpl"
 
-	notifypb "go.chromium.org/luci/luci_notify/api/config"
+	notifypb "github.com/tetrafolium/luci-go/luci_notify/api/config"
 )
 
 // notifierNameRegexp is a regexp for notifier names.

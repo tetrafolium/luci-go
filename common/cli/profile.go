@@ -21,9 +21,9 @@ import (
 
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/runtime/profiling"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/runtime/profiling"
 )
 
 type profilingExt struct {

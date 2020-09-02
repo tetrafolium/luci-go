@@ -29,13 +29,13 @@ import (
 
 	"golang.org/x/oauth2"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/common/runtime/paniccatcher"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
+	"github.com/tetrafolium/luci-go/common/runtime/paniccatcher"
 
-	"go.chromium.org/luci/auth/integration/internal/localsrv"
+	"github.com/tetrafolium/luci-go/auth/integration/internal/localsrv"
 )
 
 // Server runs a local server that handles requests to token_uri.

@@ -21,11 +21,11 @@ import (
 
 	"golang.org/x/net/context"
 
-	"go.chromium.org/luci/gae/service/info"
-	tq "go.chromium.org/luci/gae/service/taskqueue"
+	"github.com/tetrafolium/luci-go/gae/service/info"
+	tq "github.com/tetrafolium/luci-go/gae/service/taskqueue"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 /////////////////////////////// public functions ///////////////////////////////

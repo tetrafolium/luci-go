@@ -22,13 +22,13 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/retry/transient"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
 
-	"go.chromium.org/luci/appengine/mapper"
-	"go.chromium.org/luci/appengine/tq"
+	"github.com/tetrafolium/luci-go/appengine/mapper"
+	"github.com/tetrafolium/luci-go/appengine/tq"
 
-	api "go.chromium.org/luci/cipd/api/admin/v1"
+	api "github.com/tetrafolium/luci-go/cipd/api/admin/v1"
 )
 
 // adminImpl implements cipd.AdminServer, with an assumption that auth check has

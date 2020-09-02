@@ -16,10 +16,10 @@
 //
 // It interprets command line flags and initializes the serving environment with
 // the following base services available via context.Context:
-//   * go.chromium.org/luci/common/logging: Logging.
-//   * go.chromium.org/luci/common/trace: Tracing.
-//   * go.chromium.org/luci/server/caching: Process cache.
-//   * go.chromium.org/luci/server/auth: Making authenticated calls.
+//   * github.com/tetrafolium/luci-go/common/logging: Logging.
+//   * github.com/tetrafolium/luci-go/common/trace: Tracing.
+//   * github.com/tetrafolium/luci-go/server/caching: Process cache.
+//   * github.com/tetrafolium/luci-go/server/auth: Making authenticated calls.
 //
 // Other functionality is optional and provided by modules (objects implementing
 // module.Module interface). They should be passed to the server when it starts.
@@ -81,46 +81,46 @@ import (
 	"go.opencensus.io/exporter/stackdriver/propagation"
 	octrace "go.opencensus.io/trace"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/data/rand/mathrand"
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/errors"
-	luciflag "go.chromium.org/luci/common/flag"
-	"go.chromium.org/luci/common/iotools"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/logging/gologger"
-	"go.chromium.org/luci/common/logging/sdlogger"
-	"go.chromium.org/luci/common/system/signals"
-	"go.chromium.org/luci/common/trace"
-	tsmoncommon "go.chromium.org/luci/common/tsmon"
-	"go.chromium.org/luci/common/tsmon/metric"
-	"go.chromium.org/luci/common/tsmon/monitor"
-	"go.chromium.org/luci/common/tsmon/target"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/data/rand/mathrand"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
+	"github.com/tetrafolium/luci-go/common/errors"
+	luciflag "github.com/tetrafolium/luci-go/common/flag"
+	"github.com/tetrafolium/luci-go/common/iotools"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/logging/gologger"
+	"github.com/tetrafolium/luci-go/common/logging/sdlogger"
+	"github.com/tetrafolium/luci-go/common/system/signals"
+	"github.com/tetrafolium/luci-go/common/trace"
+	tsmoncommon "github.com/tetrafolium/luci-go/common/tsmon"
+	"github.com/tetrafolium/luci-go/common/tsmon/metric"
+	"github.com/tetrafolium/luci-go/common/tsmon/monitor"
+	"github.com/tetrafolium/luci-go/common/tsmon/target"
 
-	"go.chromium.org/luci/hardcoded/chromeinfra" // should be used ONLY in Main()
+	"github.com/tetrafolium/luci-go/hardcoded/chromeinfra" // should be used ONLY in Main()
 
-	"go.chromium.org/luci/grpc/discovery"
-	"go.chromium.org/luci/grpc/grpcmon"
-	"go.chromium.org/luci/grpc/grpcutil"
-	"go.chromium.org/luci/grpc/prpc"
+	"github.com/tetrafolium/luci-go/grpc/discovery"
+	"github.com/tetrafolium/luci-go/grpc/grpcmon"
+	"github.com/tetrafolium/luci-go/grpc/grpcutil"
+	"github.com/tetrafolium/luci-go/grpc/prpc"
 
-	"go.chromium.org/luci/web/gowrappers/rpcexplorer"
+	"github.com/tetrafolium/luci-go/web/gowrappers/rpcexplorer"
 
-	clientauth "go.chromium.org/luci/auth"
+	clientauth "github.com/tetrafolium/luci-go/auth"
 
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/auth/authdb"
-	"go.chromium.org/luci/server/auth/authdb/dump"
-	"go.chromium.org/luci/server/auth/signing"
-	"go.chromium.org/luci/server/caching"
-	"go.chromium.org/luci/server/experiments"
-	"go.chromium.org/luci/server/internal"
-	"go.chromium.org/luci/server/middleware"
-	"go.chromium.org/luci/server/module"
-	"go.chromium.org/luci/server/portal"
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/server/secrets"
-	"go.chromium.org/luci/server/tsmon"
+	"github.com/tetrafolium/luci-go/server/auth"
+	"github.com/tetrafolium/luci-go/server/auth/authdb"
+	"github.com/tetrafolium/luci-go/server/auth/authdb/dump"
+	"github.com/tetrafolium/luci-go/server/auth/signing"
+	"github.com/tetrafolium/luci-go/server/caching"
+	"github.com/tetrafolium/luci-go/server/experiments"
+	"github.com/tetrafolium/luci-go/server/internal"
+	"github.com/tetrafolium/luci-go/server/middleware"
+	"github.com/tetrafolium/luci-go/server/module"
+	"github.com/tetrafolium/luci-go/server/portal"
+	"github.com/tetrafolium/luci-go/server/router"
+	"github.com/tetrafolium/luci-go/server/secrets"
+	"github.com/tetrafolium/luci-go/server/tsmon"
 )
 
 const (
@@ -226,7 +226,7 @@ type Options struct {
 
 	ContainerImageID string // ID of the container image with this binary, for logs (optional)
 
-	EnableExperiments []string // names of go.chromium.org/luci/server/experiments to enable
+	EnableExperiments []string // names of github.com/tetrafolium/luci-go/server/experiments to enable
 
 	testSeed           int64                   // used to seed rng in tests
 	testStdout         sdlogger.LogEntryWriter // mocks stdout in tests
@@ -348,7 +348,7 @@ func (o *Options) Register(f *flag.FlagSet) {
 		"ID of the container image with this binary, for logs (optional)",
 	)
 
-	// See go.chromium.org/luci/server/experiments.
+	// See github.com/tetrafolium/luci-go/server/experiments.
 	f.Var(luciflag.StringSlice(&o.EnableExperiments), "enable-experiment",
 		`A name of the experiment to enable. May be repeated.`)
 }
@@ -1378,7 +1378,7 @@ func (s *Server) initAuth() error {
 func (s *Server) getAccessToken(c context.Context, scopes []string) (_ *oauth2.Token, err error) {
 	key := strings.Join(scopes, " ")
 
-	_, span := trace.StartSpan(c, "go.chromium.org/luci/server.GetAccessToken")
+	_, span := trace.StartSpan(c, "github.com/tetrafolium/luci-go/server.GetAccessToken")
 	span.Attribute("cr.dev/scopes", key)
 	defer func() { span.End(err) }()
 

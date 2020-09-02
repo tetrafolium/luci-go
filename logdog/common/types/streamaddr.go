@@ -19,8 +19,8 @@ import (
 	"net/url"
 	"strings"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/config"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/config"
 )
 
 const logDogURLScheme = "logdog"

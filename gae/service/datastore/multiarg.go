@@ -20,7 +20,7 @@ import (
 	"sort"
 	"sync"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 type metaMultiArgConstraints int

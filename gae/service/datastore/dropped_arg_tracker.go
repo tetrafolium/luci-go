@@ -17,14 +17,14 @@ package datastore
 import (
 	"sort"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // DroppedArgTracker is used to track dropping items from Keys as well as meta
 // and/or PropertyMap arrays from one layer of the RawInterface to the next.
 //
 // If you're not writing a datastore backend implementation (like
-// "go.chromium.org/luci/gae/impl/*"), then you can ignore this type.
+// "github.com/tetrafolium/luci-go/gae/impl/*"), then you can ignore this type.
 //
 // For example, say your GetMulti method was passed 4 arguments, but one of them
 // was bad. DroppedArgTracker would allow you to "drop" the bad entry, and then

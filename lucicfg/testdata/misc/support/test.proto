@@ -16,7 +16,7 @@ syntax = "proto3";
 
 package testproto;
 
-import "go.chromium.org/luci/common/proto/options.proto";
+import "github.com/tetrafolium/luci-go/common/proto/options.proto";
 
 option (luci.file_metadata) = {
   doc_url: "https://example.com/proto-doc";

@@ -19,14 +19,14 @@ import (
 	"net/http"
 	"testing"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/common/data/caching/lru"
-	"go.chromium.org/luci/server/auth/internal"
-	"go.chromium.org/luci/server/caching"
-	"go.chromium.org/luci/server/caching/cachingtest"
+	"github.com/tetrafolium/luci-go/auth/identity"
+	"github.com/tetrafolium/luci-go/common/data/caching/lru"
+	"github.com/tetrafolium/luci-go/server/auth/internal"
+	"github.com/tetrafolium/luci-go/server/caching"
+	"github.com/tetrafolium/luci-go/server/caching/cachingtest"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestFetchServiceInfo(t *testing.T) {

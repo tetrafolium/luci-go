@@ -16,10 +16,10 @@
 // storage and caching.
 //
 // Importing this module registers ${appid} and ${config_service_appid} config
-// placeholder variables, see go.chromium.org/luci/config/vars.
+// placeholder variables, see github.com/tetrafolium/luci-go/config/vars.
 //
 // DEPRECATED!
 //
-// Do not use outside of GAEv1. Use go.chromium.org/luci/config/server/cfgmodule
+// Do not use outside of GAEv1. Use github.com/tetrafolium/luci-go/config/server/cfgmodule
 // on GAEv2 and GKE instead.
 package gaeconfig

@@ -22,14 +22,14 @@ import (
 	"sync"
 	"testing"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 
-	"go.chromium.org/luci/cipd/client/cipd/ensure"
-	"go.chromium.org/luci/cipd/client/cipd/template"
-	"go.chromium.org/luci/cipd/common"
+	"github.com/tetrafolium/luci-go/cipd/client/cipd/ensure"
+	"github.com/tetrafolium/luci-go/cipd/client/cipd/template"
+	"github.com/tetrafolium/luci-go/cipd/common"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestResolve(t *testing.T) {

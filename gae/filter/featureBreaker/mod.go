@@ -17,7 +17,7 @@ package featureBreaker
 import (
 	"golang.org/x/net/context"
 
-	"go.chromium.org/luci/gae/service/module"
+	"github.com/tetrafolium/luci-go/gae/service/module"
 )
 
 type modState struct {

@@ -20,8 +20,8 @@ import (
 	"math/rand"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/logging"
 )
 
 // Waiter returns a stateful callback which sleeps a bit on each invocation

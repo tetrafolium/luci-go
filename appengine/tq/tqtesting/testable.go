@@ -25,11 +25,11 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"go.chromium.org/luci/gae/service/taskqueue"
+	"github.com/tetrafolium/luci-go/gae/service/taskqueue"
 
-	"go.chromium.org/luci/appengine/tq"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/clock/testclock"
+	"github.com/tetrafolium/luci-go/appengine/tq"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/clock/testclock"
 )
 
 // GetTestable returns an interface for TQ intended to be used only from tests.

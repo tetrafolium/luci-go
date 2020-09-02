@@ -41,20 +41,20 @@ import (
 	"strconv"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/server"
-	"go.chromium.org/luci/server/gaeemulation"
-	"go.chromium.org/luci/server/module"
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/server/tq"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/server"
+	"github.com/tetrafolium/luci-go/server/gaeemulation"
+	"github.com/tetrafolium/luci-go/server/module"
+	"github.com/tetrafolium/luci-go/server/router"
+	"github.com/tetrafolium/luci-go/server/tq"
 	"google.golang.org/protobuf/proto"
 
 	// Enable datastore transactional tasks support.
-	_ "go.chromium.org/luci/server/tq/txn/datastore"
+	_ "github.com/tetrafolium/luci-go/server/tq/txn/datastore"
 
-	"go.chromium.org/luci/examples/appengine/tq/taskspb"
+	"github.com/tetrafolium/luci-go/examples/appengine/tq/taskspb"
 )
 
 // ExampleEntity is just some test entity to update in a transaction.

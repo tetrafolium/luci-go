@@ -20,10 +20,10 @@ import (
 	"net/http"
 	"time"
 
-	buildbucketpb "go.chromium.org/luci/buildbucket/proto"
-	"go.chromium.org/luci/common/api/buildbucket/swarmbucket/v1"
-	"go.chromium.org/luci/milo/common/model"
-	"go.chromium.org/luci/server/auth"
+	buildbucketpb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	"github.com/tetrafolium/luci-go/common/api/buildbucket/swarmbucket/v1"
+	"github.com/tetrafolium/luci-go/milo/common/model"
+	"github.com/tetrafolium/luci-go/server/auth"
 )
 
 const bbRPCTimeout = time.Minute - time.Second

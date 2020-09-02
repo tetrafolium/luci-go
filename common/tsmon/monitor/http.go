@@ -24,11 +24,11 @@ import (
 
 	"github.com/golang/protobuf/jsonpb"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/lhttp"
-	"go.chromium.org/luci/common/logging"
-	pb "go.chromium.org/luci/common/tsmon/ts_mon_proto"
-	"go.chromium.org/luci/common/tsmon/types"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/lhttp"
+	"github.com/tetrafolium/luci-go/common/logging"
+	pb "github.com/tetrafolium/luci-go/common/tsmon/ts_mon_proto"
+	"github.com/tetrafolium/luci-go/common/tsmon/types"
 )
 
 var (

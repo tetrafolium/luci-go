@@ -24,10 +24,10 @@ import (
 	"runtime"
 	"testing"
 
-	"go.chromium.org/luci/common/data/text/units"
-	"go.chromium.org/luci/common/isolated"
-	"go.chromium.org/luci/common/isolatedclient"
-	"go.chromium.org/luci/common/isolatedclient/isolatedfake"
+	"github.com/tetrafolium/luci-go/common/data/text/units"
+	"github.com/tetrafolium/luci-go/common/isolated"
+	"github.com/tetrafolium/luci-go/common/isolatedclient"
+	"github.com/tetrafolium/luci-go/common/isolatedclient/isolatedfake"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

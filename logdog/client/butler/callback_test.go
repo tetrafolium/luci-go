@@ -19,10 +19,10 @@ import (
 	"io"
 	"testing"
 
-	"go.chromium.org/luci/common/logging/gologger"
-	"go.chromium.org/luci/logdog/api/logpb"
-	"go.chromium.org/luci/logdog/client/butler/output/null"
-	"go.chromium.org/luci/logdog/common/types"
+	"github.com/tetrafolium/luci-go/common/logging/gologger"
+	"github.com/tetrafolium/luci-go/logdog/api/logpb"
+	"github.com/tetrafolium/luci-go/logdog/client/butler/output/null"
+	"github.com/tetrafolium/luci-go/logdog/common/types"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

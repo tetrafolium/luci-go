@@ -17,8 +17,8 @@ package limiter
 import (
 	"context"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/server/auth"
+	"github.com/tetrafolium/luci-go/auth/identity"
+	"github.com/tetrafolium/luci-go/server/auth"
 )
 
 // PeerLabelFromAuthState looks at the auth.State in the context and derives

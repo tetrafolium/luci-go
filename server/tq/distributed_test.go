@@ -19,12 +19,12 @@ import (
 	"sync"
 	"testing"
 
-	"go.chromium.org/luci/server/tq/tqtesting"
+	"github.com/tetrafolium/luci-go/server/tq/tqtesting"
 
-	"go.chromium.org/luci/server/tq/internal/tqpb"
+	"github.com/tetrafolium/luci-go/server/tq/internal/tqpb"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestSweepRouting(t *testing.T) {

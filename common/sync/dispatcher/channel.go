@@ -17,9 +17,9 @@ package dispatcher
 import (
 	"context"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/sync/dispatcher/buffer"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/sync/dispatcher/buffer"
 )
 
 // Channel holds a chan which you can push individual work items to.

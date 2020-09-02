@@ -21,10 +21,10 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/common/tsmon"
-	"go.chromium.org/luci/common/tsmon/distribution"
+	"github.com/tetrafolium/luci-go/common/tsmon"
+	"github.com/tetrafolium/luci-go/common/tsmon/distribution"
 
-	"go.chromium.org/luci/server/cmd/statsd-to-tsmon/config"
+	"github.com/tetrafolium/luci-go/server/cmd/statsd-to-tsmon/config"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

@@ -16,7 +16,7 @@ syntax = "proto3";
 
 package luci.resultdb.internal.tasks;
 
-option go_package = "go.chromium.org/luci/resultdb/internal/tasks/taskspb";
+option go_package = "github.com/tetrafolium/luci-go/resultdb/internal/tasks/taskspb";
 
 message TryFinalizeInvocation {
   string invocation_id = 1;

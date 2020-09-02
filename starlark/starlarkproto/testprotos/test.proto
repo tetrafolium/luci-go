@@ -16,7 +16,7 @@ syntax = "proto3";
 
 package testprotos;
 
-import "go.chromium.org/luci/starlark/starlarkproto/testprotos/another.proto";
+import "github.com/tetrafolium/luci-go/starlark/starlarkproto/testprotos/another.proto";
 import "google/protobuf/timestamp.proto";
 
 enum Enum {

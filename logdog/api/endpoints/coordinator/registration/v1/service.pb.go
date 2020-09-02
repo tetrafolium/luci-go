@@ -6,11 +6,11 @@
 // versions:
 // 	protoc-gen-go v1.24.0-devel
 // 	protoc        v3.12.1
-// source: go.chromium.org/luci/logdog/api/endpoints/coordinator/registration/v1/service.proto
+// source: github.com/tetrafolium/luci-go/logdog/api/endpoints/coordinator/registration/v1/service.proto
 
 package logdog
 
-import prpc "go.chromium.org/luci/grpc/prpc"
+import prpc "github.com/tetrafolium/luci-go/grpc/prpc"
 
 import (
 	context "context"
@@ -440,5 +440,5 @@ var _Registration_serviceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "go.chromium.org/luci/logdog/api/endpoints/coordinator/registration/v1/service.proto",
+	Metadata: "github.com/tetrafolium/luci-go/logdog/api/endpoints/coordinator/registration/v1/service.proto",
 }

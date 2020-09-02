@@ -17,10 +17,10 @@ package tsmon
 import (
 	"net/http"
 
-	"go.chromium.org/luci/appengine/gaemiddleware"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/tsmon"
-	"go.chromium.org/luci/server/router"
+	"github.com/tetrafolium/luci-go/appengine/gaemiddleware"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/tsmon"
+	"github.com/tetrafolium/luci-go/server/router"
 )
 
 // InstallHandlers installs HTTP handlers for tsmon routes.

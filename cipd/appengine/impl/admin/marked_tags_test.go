@@ -18,12 +18,12 @@ import (
 	"strings"
 	"testing"
 
-	"go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
 
-	api "go.chromium.org/luci/cipd/api/cipd/v1"
-	"go.chromium.org/luci/cipd/appengine/impl/model"
-	"go.chromium.org/luci/cipd/appengine/impl/testutil"
-	"go.chromium.org/luci/cipd/common"
+	api "github.com/tetrafolium/luci-go/cipd/api/cipd/v1"
+	"github.com/tetrafolium/luci-go/cipd/appengine/impl/model"
+	"github.com/tetrafolium/luci-go/cipd/appengine/impl/testutil"
+	"github.com/tetrafolium/luci-go/cipd/common"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

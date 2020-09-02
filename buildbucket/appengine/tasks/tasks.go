@@ -22,14 +22,14 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/server/tq"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/server/tq"
 
-	taskdefs "go.chromium.org/luci/buildbucket/appengine/tasks/defs"
+	taskdefs "github.com/tetrafolium/luci-go/buildbucket/appengine/tasks/defs"
 
 	// Enable datastore transactional tasks support.
-	_ "go.chromium.org/luci/server/tq/txn/datastore"
+	_ "github.com/tetrafolium/luci-go/server/tq/txn/datastore"
 )
 
 // rejectionHandler returns a tq.Handler which rejects the given task.

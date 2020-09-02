@@ -18,9 +18,9 @@ import (
 	"context"
 	"os/exec"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/system/filesystem"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/system/filesystem"
 )
 
 // LookPathResult is the result of LookPathFunc.
@@ -30,7 +30,7 @@ type LookPathResult struct {
 	Path string
 
 	// Version, if not zero, is the Python version string. The most common (only?)
-	// LookPathFunc implementation (in go.chromium.org/luci/vpython/application/probe.go)
+	// LookPathFunc implementation (in github.com/tetrafolium/luci-go/vpython/application/probe.go)
 	// calls the candidate Python to determine its version, and then stashes the
 	// result here to void redundant lookups if this LookPathResult ends up being
 	// selected.

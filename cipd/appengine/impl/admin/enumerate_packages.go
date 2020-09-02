@@ -17,11 +17,11 @@ package admin
 import (
 	"context"
 
-	"go.chromium.org/luci/appengine/mapper"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/appengine/mapper"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
 
-	api "go.chromium.org/luci/cipd/api/admin/v1"
+	api "github.com/tetrafolium/luci-go/cipd/api/admin/v1"
 )
 
 func init() {

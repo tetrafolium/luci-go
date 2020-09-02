@@ -15,7 +15,7 @@
 package buffer
 
 import (
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // FullBehavior allows you to customize the Buffer's behavior when it gets too

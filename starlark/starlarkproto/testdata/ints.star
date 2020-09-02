@@ -13,7 +13,7 @@
 # limitations under the License.
 
 l = proto.new_loader(proto.new_descriptor_set(blob=read('./testprotos/all.pb')))
-testprotos = l.module('go.chromium.org/luci/starlark/starlarkproto/testprotos/test.proto')
+testprotos = l.module('github.com/tetrafolium/luci-go/starlark/starlarkproto/testprotos/test.proto')
 
 # Note: this test also covers all other integer types, since their
 # implementation is almost identical. The differences are tested in

@@ -17,7 +17,7 @@ package flag
 import (
 	"strings"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // Choice is an implementation of flag.Value for parsing a

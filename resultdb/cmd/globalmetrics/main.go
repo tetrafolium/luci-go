@@ -18,10 +18,10 @@ import (
 	"flag"
 	"time"
 
-	"go.chromium.org/luci/server"
+	"github.com/tetrafolium/luci-go/server"
 
-	"go.chromium.org/luci/resultdb/internal"
-	"go.chromium.org/luci/resultdb/internal/services/globalmetrics"
+	"github.com/tetrafolium/luci-go/resultdb/internal"
+	"github.com/tetrafolium/luci-go/resultdb/internal/services/globalmetrics"
 )
 
 func main() {

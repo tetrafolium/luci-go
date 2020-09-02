@@ -18,10 +18,10 @@ import (
 	"context"
 	"sync"
 
-	"go.chromium.org/luci/logdog/api/logpb"
-	"go.chromium.org/luci/logdog/client/butler/bootstrap"
-	"go.chromium.org/luci/logdog/client/butler/output"
-	"go.chromium.org/luci/logdog/common/types"
+	"github.com/tetrafolium/luci-go/logdog/api/logpb"
+	"github.com/tetrafolium/luci-go/logdog/client/butler/bootstrap"
+	"github.com/tetrafolium/luci-go/logdog/client/butler/output"
+	"github.com/tetrafolium/luci-go/logdog/common/types"
 )
 
 // Options should be used to configure and make a directory Output (using the

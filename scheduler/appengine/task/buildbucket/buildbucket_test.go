@@ -26,17 +26,17 @@ import (
 
 	"google.golang.org/api/pubsub/v1"
 
-	bbv1 "go.chromium.org/luci/common/api/buildbucket/buildbucket/v1"
-	"go.chromium.org/luci/config/validation"
-	"go.chromium.org/luci/gae/impl/memory"
-	api "go.chromium.org/luci/scheduler/api/scheduler/v1"
-	"go.chromium.org/luci/scheduler/appengine/internal"
-	"go.chromium.org/luci/scheduler/appengine/messages"
-	"go.chromium.org/luci/scheduler/appengine/task"
-	"go.chromium.org/luci/scheduler/appengine/task/utils/tasktest"
+	bbv1 "github.com/tetrafolium/luci-go/common/api/buildbucket/buildbucket/v1"
+	"github.com/tetrafolium/luci-go/config/validation"
+	"github.com/tetrafolium/luci-go/gae/impl/memory"
+	api "github.com/tetrafolium/luci-go/scheduler/api/scheduler/v1"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/internal"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/messages"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/task"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/task/utils/tasktest"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 var _ task.Manager = (*TaskManager)(nil)

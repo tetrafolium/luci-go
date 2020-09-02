@@ -19,10 +19,10 @@ import (
 	"flag"
 	"fmt"
 
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/tsmon"
-	"go.chromium.org/luci/server/caching"
-	"go.chromium.org/luci/server/module"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/tsmon"
+	"github.com/tetrafolium/luci-go/server/caching"
+	"github.com/tetrafolium/luci-go/server/module"
 )
 
 // ModuleOptions contain configuration of the Redis server module.
@@ -80,7 +80,7 @@ type redisModule struct {
 
 // Name is part of module.Module interface.
 func (*redisModule) Name() string {
-	return "go.chromium.org/luci/server/redisconn"
+	return "github.com/tetrafolium/luci-go/server/redisconn"
 }
 
 // Initialize is part of module.Module interface.

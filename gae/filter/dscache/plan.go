@@ -17,10 +17,10 @@ package dscache
 import (
 	"bytes"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	ds "go.chromium.org/luci/gae/service/datastore"
-	mc "go.chromium.org/luci/gae/service/memcache"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
+	mc "github.com/tetrafolium/luci-go/gae/service/memcache"
 )
 
 type facts struct {

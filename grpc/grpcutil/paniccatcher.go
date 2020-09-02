@@ -19,8 +19,8 @@ import (
 
 	"google.golang.org/grpc"
 
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/runtime/paniccatcher"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/runtime/paniccatcher"
 )
 
 // UnaryServerPanicCatcherInterceptor is a grpc.UnaryServerInterceptor that

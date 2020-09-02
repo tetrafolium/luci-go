@@ -26,13 +26,13 @@ import (
 	"github.com/VividCortex/mysqlerr"
 	"github.com/go-sql-driver/mysql"
 
-	states "go.chromium.org/luci/machine-db/api/common/v1"
-	"go.chromium.org/luci/machine-db/api/crimson/v1"
-	"go.chromium.org/luci/machine-db/appengine/database"
-	"go.chromium.org/luci/machine-db/common"
+	states "github.com/tetrafolium/luci-go/machine-db/api/common/v1"
+	"github.com/tetrafolium/luci-go/machine-db/api/crimson/v1"
+	"github.com/tetrafolium/luci-go/machine-db/appengine/database"
+	"github.com/tetrafolium/luci-go/machine-db/common"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestCreateNIC(t *testing.T) {

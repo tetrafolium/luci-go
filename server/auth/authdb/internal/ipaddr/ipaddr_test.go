@@ -18,10 +18,10 @@ import (
 	"net"
 	"testing"
 
-	"go.chromium.org/luci/server/auth/service/protocol"
+	"github.com/tetrafolium/luci-go/server/auth/service/protocol"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestWhitelist(t *testing.T) {

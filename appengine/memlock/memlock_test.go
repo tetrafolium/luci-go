@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/gae/filter/featureBreaker"
-	"go.chromium.org/luci/gae/impl/memory"
-	mc "go.chromium.org/luci/gae/service/memcache"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/clock/testclock"
+	"github.com/tetrafolium/luci-go/gae/filter/featureBreaker"
+	"github.com/tetrafolium/luci-go/gae/impl/memory"
+	mc "github.com/tetrafolium/luci-go/gae/service/memcache"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

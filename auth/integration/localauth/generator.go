@@ -23,7 +23,7 @@ import (
 
 	"golang.org/x/oauth2"
 
-	"go.chromium.org/luci/auth"
+	"github.com/tetrafolium/luci-go/auth"
 )
 
 // NewFlexibleGenerator constructs TokenGenerator that can generate tokens with

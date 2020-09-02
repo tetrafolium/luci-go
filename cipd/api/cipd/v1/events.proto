@@ -16,9 +16,9 @@ syntax = "proto3";
 
 package cipd;
 
-option go_package = "go.chromium.org/luci/cipd/api/cipd/v1;api";
+option go_package = "github.com/tetrafolium/luci-go/cipd/api/cipd/v1;api";
 
-import "go.chromium.org/luci/cipd/api/cipd/v1/repo.proto";
+import "github.com/tetrafolium/luci-go/cipd/api/cipd/v1/repo.proto";
 import "google/protobuf/timestamp.proto";
 
 

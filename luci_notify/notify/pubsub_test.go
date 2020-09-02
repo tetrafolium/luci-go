@@ -27,25 +27,25 @@ import (
 	"github.com/golang/protobuf/ptypes"
 	taskspb "google.golang.org/genproto/googleapis/cloud/tasks/v2"
 
-	"go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
 
-	"go.chromium.org/luci/appengine/gaetesting"
-	buildbucketpb "go.chromium.org/luci/buildbucket/proto"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/logging/memlogger"
-	gitpb "go.chromium.org/luci/common/proto/git"
+	"github.com/tetrafolium/luci-go/appengine/gaetesting"
+	buildbucketpb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/clock/testclock"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
+	"github.com/tetrafolium/luci-go/common/logging/memlogger"
+	gitpb "github.com/tetrafolium/luci-go/common/proto/git"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/grpc/grpcutil"
-	apicfg "go.chromium.org/luci/luci_notify/api/config"
-	"go.chromium.org/luci/luci_notify/config"
-	"go.chromium.org/luci/luci_notify/internal"
-	"go.chromium.org/luci/luci_notify/testutil"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/grpc/grpcutil"
+	apicfg "github.com/tetrafolium/luci-go/luci_notify/api/config"
+	"github.com/tetrafolium/luci-go/luci_notify/config"
+	"github.com/tetrafolium/luci-go/luci_notify/internal"
+	"github.com/tetrafolium/luci-go/luci_notify/testutil"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 type MockCloudTasksClient struct {

@@ -21,7 +21,7 @@ Schemas can be updated with bqschemaupdater. You should make sure you run an
 up-to-date bqschemaupdater:
 
 ```
-go install go.chromium.org/luci/tools/cmd/bqschemaupdater
+go install github.com/tetrafolium/luci-go/tools/cmd/bqschemaupdater
 ```
 
 This tool takes a proto message and table and updates the schema based on the

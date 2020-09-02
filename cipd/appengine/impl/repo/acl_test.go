@@ -19,11 +19,11 @@ import (
 	"fmt"
 	"testing"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/auth/authtest"
+	"github.com/tetrafolium/luci-go/auth/identity"
+	"github.com/tetrafolium/luci-go/server/auth"
+	"github.com/tetrafolium/luci-go/server/auth/authtest"
 
-	api "go.chromium.org/luci/cipd/api/cipd/v1"
+	api "github.com/tetrafolium/luci-go/cipd/api/cipd/v1"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

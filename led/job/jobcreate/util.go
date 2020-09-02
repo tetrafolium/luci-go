@@ -17,8 +17,8 @@ package jobcreate
 import (
 	"fmt"
 
-	swarming "go.chromium.org/luci/common/api/swarming/swarming/v1"
-	swarmingpb "go.chromium.org/luci/swarming/proto/api"
+	swarming "github.com/tetrafolium/luci-go/common/api/swarming/swarming/v1"
+	swarmingpb "github.com/tetrafolium/luci-go/swarming/proto/api"
 )
 
 func cipdPins(ci *swarming.SwarmingRpcsCipdInput) (ret []*swarmingpb.CIPDPackage) {

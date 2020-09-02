@@ -24,14 +24,14 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/metadata"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/data/rand/mathrand"
-	"go.chromium.org/luci/grpc/appstatus"
-	"go.chromium.org/luci/server/span"
-	"go.chromium.org/luci/server/tokens"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/data/rand/mathrand"
+	"github.com/tetrafolium/luci-go/grpc/appstatus"
+	"github.com/tetrafolium/luci-go/server/span"
+	"github.com/tetrafolium/luci-go/server/tokens"
 
-	"go.chromium.org/luci/resultdb/internal/invocations"
-	pb "go.chromium.org/luci/resultdb/proto/v1"
+	"github.com/tetrafolium/luci-go/resultdb/internal/invocations"
+	pb "github.com/tetrafolium/luci-go/resultdb/proto/v1"
 )
 
 const (

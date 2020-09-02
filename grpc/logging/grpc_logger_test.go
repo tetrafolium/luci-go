@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"testing"
 
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/logging/memlogger"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/logging/memlogger"
 
 	"google.golang.org/grpc/grpclog"
 

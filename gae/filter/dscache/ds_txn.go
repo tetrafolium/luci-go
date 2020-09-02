@@ -15,7 +15,7 @@
 package dscache
 
 import (
-	ds "go.chromium.org/luci/gae/service/datastore"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
 )
 
 type dsTxnCache struct {

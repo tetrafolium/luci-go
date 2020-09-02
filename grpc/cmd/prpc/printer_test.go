@@ -20,7 +20,7 @@ import (
 	"strings"
 	"testing"
 
-	"go.chromium.org/luci/common/proto/google/descutil"
+	"github.com/tetrafolium/luci-go/common/proto/google/descutil"
 
 	"github.com/golang/protobuf/proto"
 

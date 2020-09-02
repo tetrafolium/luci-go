@@ -20,12 +20,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/proto/google"
-	services "go.chromium.org/luci/logdog/api/endpoints/coordinator/services/v1"
-	"go.chromium.org/luci/logdog/api/logpb"
-	"go.chromium.org/luci/logdog/appengine/coordinator/coordinatorTest"
-	logdog_types "go.chromium.org/luci/logdog/common/types"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/proto/google"
+	services "github.com/tetrafolium/luci-go/logdog/api/endpoints/coordinator/services/v1"
+	"github.com/tetrafolium/luci-go/logdog/api/logpb"
+	"github.com/tetrafolium/luci-go/logdog/appengine/coordinator/coordinatorTest"
+	logdog_types "github.com/tetrafolium/luci-go/logdog/common/types"
 )
 
 // Stream represents a single logdog stream.

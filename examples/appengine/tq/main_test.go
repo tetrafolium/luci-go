@@ -19,19 +19,19 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/gae/filter/txndefer"
-	"go.chromium.org/luci/gae/impl/memory"
-	"go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/filter/txndefer"
+	"github.com/tetrafolium/luci-go/gae/impl/memory"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/examples/appengine/tq/taskspb"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/clock/testclock"
+	"github.com/tetrafolium/luci-go/examples/appengine/tq/taskspb"
 
-	"go.chromium.org/luci/server/tq"
-	"go.chromium.org/luci/server/tq/tqtesting"
+	"github.com/tetrafolium/luci-go/server/tq"
+	"github.com/tetrafolium/luci-go/server/tq/tqtesting"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestQueue(t *testing.T) {

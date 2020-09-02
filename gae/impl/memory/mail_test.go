@@ -18,13 +18,13 @@ import (
 	net_mail "net/mail"
 	"testing"
 
-	"go.chromium.org/luci/gae/service/mail"
-	"go.chromium.org/luci/gae/service/user"
+	"github.com/tetrafolium/luci-go/gae/service/mail"
+	"github.com/tetrafolium/luci-go/gae/service/user"
 
 	"golang.org/x/net/context"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestMail(t *testing.T) {

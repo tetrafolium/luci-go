@@ -18,15 +18,15 @@ import (
 	"context"
 	"testing"
 
-	dm "go.chromium.org/luci/dm/api/service/v1"
-	"go.chromium.org/luci/dm/appengine/model"
-	"go.chromium.org/luci/gae/impl/memory"
-	ds "go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/tumble"
-	"go.chromium.org/luci/tumble/bitfield"
+	dm "github.com/tetrafolium/luci-go/dm/api/service/v1"
+	"github.com/tetrafolium/luci-go/dm/appengine/model"
+	"github.com/tetrafolium/luci-go/gae/impl/memory"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/tumble"
+	"github.com/tetrafolium/luci-go/tumble/bitfield"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestAckFwdDep(t *testing.T) {

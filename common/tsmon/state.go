@@ -20,10 +20,10 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"go.chromium.org/luci/common/tsmon/monitor"
-	"go.chromium.org/luci/common/tsmon/registry"
-	"go.chromium.org/luci/common/tsmon/store"
-	"go.chromium.org/luci/common/tsmon/types"
+	"github.com/tetrafolium/luci-go/common/tsmon/monitor"
+	"github.com/tetrafolium/luci-go/common/tsmon/registry"
+	"github.com/tetrafolium/luci-go/common/tsmon/store"
+	"github.com/tetrafolium/luci-go/common/tsmon/types"
 )
 
 // State holds the configuration of the tsmon library. There is one global

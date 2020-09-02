@@ -20,7 +20,7 @@
 //
 // Usage example:
 //
-//   import "go.chromium.org/luci/common/api/buildbucket/swarmbucket/v1"
+//   import "github.com/tetrafolium/luci-go/common/api/buildbucket/swarmbucket/v1"
 //   ...
 //   ctx := context.Background()
 //   swarmbucketService, err := swarmbucket.NewService(ctx)
@@ -43,7 +43,7 @@
 //   swarmbucketService, err := swarmbucket.NewService(ctx, option.WithTokenSource(config.TokenSource(ctx, token)))
 //
 // See https://godoc.org/google.golang.org/api/option/ for details on options.
-package swarmbucket // import "go.chromium.org/luci/common/api/buildbucket/swarmbucket/v1"
+package swarmbucket // import "github.com/tetrafolium/luci-go/common/api/buildbucket/swarmbucket/v1"
 
 import (
 	"bytes"
@@ -57,7 +57,7 @@ import (
 	"strconv"
 	"strings"
 
-	gensupport "go.chromium.org/luci/common/api/internal/gensupport"
+	gensupport "github.com/tetrafolium/luci-go/common/api/internal/gensupport"
 	googleapi "google.golang.org/api/googleapi"
 	option "google.golang.org/api/option"
 	internaloption "google.golang.org/api/option/internaloption"

@@ -18,14 +18,14 @@ import (
 	"context"
 	"flag"
 
-	"go.chromium.org/luci/common/errors"
-	luciflag "go.chromium.org/luci/common/flag"
-	"go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/common/errors"
+	luciflag "github.com/tetrafolium/luci-go/common/flag"
+	"github.com/tetrafolium/luci-go/common/logging"
 
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/module"
+	"github.com/tetrafolium/luci-go/server/auth"
+	"github.com/tetrafolium/luci-go/server/module"
 
-	"go.chromium.org/luci/server/tq/tqtesting"
+	"github.com/tetrafolium/luci-go/server/tq/tqtesting"
 )
 
 // ModuleOptions contain configuration of the TQ server module.
@@ -271,7 +271,7 @@ type tqModule struct {
 
 // Name is part of module.Module interface.
 func (*tqModule) Name() string {
-	return "go.chromium.org/luci/server/tq"
+	return "github.com/tetrafolium/luci-go/server/tq"
 }
 
 // Initialize is part of module.Module interface.

@@ -47,7 +47,7 @@ import (
 	"net/http"
 	"time"
 
-	dm "go.chromium.org/luci/dm/api/service/v1"
+	dm "github.com/tetrafolium/luci-go/dm/api/service/v1"
 )
 
 // Token is an opaque token that a distributor should use to

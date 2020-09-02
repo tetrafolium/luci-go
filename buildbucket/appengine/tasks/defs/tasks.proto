@@ -6,7 +6,7 @@ syntax = "proto3";
 
 package taskdefs;
 
-option go_package = "go.chromium.org/luci/buildbucket/appengine/tasks/defs;taskdefs";
+option go_package = "github.com/tetrafolium/luci-go/buildbucket/appengine/tasks/defs;taskdefs";
 
 // A task to cancel a Swarming task.
 message CancelSwarmingTask {

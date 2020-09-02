@@ -24,9 +24,9 @@ import (
 
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/client/isolate"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/system/filesystem"
+	"github.com/tetrafolium/luci-go/client/isolate"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/system/filesystem"
 )
 
 // CmdRun returns an object for the `run` subcommand.

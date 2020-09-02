@@ -21,9 +21,9 @@ import (
 	"io/ioutil"
 	"time"
 
-	log "go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/logdog/common/storage"
-	"go.chromium.org/luci/server/caching"
+	log "github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/logdog/common/storage"
+	"github.com/tetrafolium/luci-go/server/caching"
 )
 
 const (

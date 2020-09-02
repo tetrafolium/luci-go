@@ -21,21 +21,21 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/gae/filter/featureBreaker"
-	ds "go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/gae/service/taskqueue"
+	"github.com/tetrafolium/luci-go/gae/filter/featureBreaker"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/service/taskqueue"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/proto/google"
-	"go.chromium.org/luci/logdog/api/config/svcconfig"
-	logdog "go.chromium.org/luci/logdog/api/endpoints/coordinator/services/v1"
-	"go.chromium.org/luci/logdog/api/logpb"
-	"go.chromium.org/luci/logdog/appengine/coordinator"
-	ct "go.chromium.org/luci/logdog/appengine/coordinator/coordinatorTest"
-	"go.chromium.org/luci/logdog/common/types"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/proto/google"
+	"github.com/tetrafolium/luci-go/logdog/api/config/svcconfig"
+	logdog "github.com/tetrafolium/luci-go/logdog/api/endpoints/coordinator/services/v1"
+	"github.com/tetrafolium/luci-go/logdog/api/logpb"
+	"github.com/tetrafolium/luci-go/logdog/appengine/coordinator"
+	ct "github.com/tetrafolium/luci-go/logdog/appengine/coordinator/coordinatorTest"
+	"github.com/tetrafolium/luci-go/logdog/common/types"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestRegisterStream(t *testing.T) {

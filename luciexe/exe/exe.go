@@ -28,15 +28,15 @@ import (
 	"github.com/golang/protobuf/proto"
 	structpb "github.com/golang/protobuf/ptypes/struct"
 
-	bbpb "go.chromium.org/luci/buildbucket/proto"
-	"go.chromium.org/luci/buildbucket/protoutil"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/logging/gologger"
-	"go.chromium.org/luci/common/system/signals"
-	"go.chromium.org/luci/logdog/client/butlerlib/bootstrap"
-	"go.chromium.org/luci/logdog/client/butlerlib/streamclient"
-	"go.chromium.org/luci/luciexe"
+	bbpb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	"github.com/tetrafolium/luci-go/buildbucket/protoutil"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/logging/gologger"
+	"github.com/tetrafolium/luci-go/common/system/signals"
+	"github.com/tetrafolium/luci-go/logdog/client/butlerlib/bootstrap"
+	"github.com/tetrafolium/luci-go/logdog/client/butlerlib/streamclient"
+	"github.com/tetrafolium/luci-go/luciexe"
 )
 
 const (

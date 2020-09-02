@@ -27,13 +27,13 @@ import (
 	"strings"
 	"time"
 
-	ds "go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/gae/service/info"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/service/info"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/server/caching"
-	"go.chromium.org/luci/server/secrets"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
+	"github.com/tetrafolium/luci-go/server/caching"
+	"github.com/tetrafolium/luci-go/server/secrets"
 )
 
 // TODO(vadimsh): Add secrets rotation.

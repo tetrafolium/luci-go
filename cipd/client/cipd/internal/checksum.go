@@ -21,7 +21,7 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"go.chromium.org/luci/cipd/client/cipd/internal/messages"
+	"github.com/tetrafolium/luci-go/cipd/client/cipd/internal/messages"
 )
 
 // ErrUnknownSHA256 indicates the deserialized message doesn't have SHA256 set.

@@ -17,8 +17,8 @@ package projects
 import (
 	"github.com/golang/protobuf/proto"
 
-	"go.chromium.org/luci/config/validation"
-	"go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/config/validation"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
 )
 
 // Ensure Config implements datastore.PropertyConverter.

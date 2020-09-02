@@ -28,19 +28,19 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"go.chromium.org/luci/appengine/gaetesting"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/common/proto/google"
-	ds "go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/gae/service/info"
-	"go.chromium.org/luci/server/auth/signing"
-	"go.chromium.org/luci/server/auth/signing/signingtest"
+	"github.com/tetrafolium/luci-go/appengine/gaetesting"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/clock/testclock"
+	"github.com/tetrafolium/luci-go/common/proto/google"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/service/info"
+	"github.com/tetrafolium/luci-go/server/auth/signing"
+	"github.com/tetrafolium/luci-go/server/auth/signing/signingtest"
 
-	tokenserver "go.chromium.org/luci/tokenserver/api"
-	admin "go.chromium.org/luci/tokenserver/api/admin/v1"
-	minter "go.chromium.org/luci/tokenserver/api/minter/v1"
-	"go.chromium.org/luci/tokenserver/appengine/impl/certconfig"
+	tokenserver "github.com/tetrafolium/luci-go/tokenserver/api"
+	admin "github.com/tetrafolium/luci-go/tokenserver/api/admin/v1"
+	minter "github.com/tetrafolium/luci-go/tokenserver/api/minter/v1"
+	"github.com/tetrafolium/luci-go/tokenserver/appengine/impl/certconfig"
 )
 
 const pkey = `-----BEGIN RSA PRIVATE KEY-----

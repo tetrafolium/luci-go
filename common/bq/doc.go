@@ -35,7 +35,7 @@
 //
 // Monitoring
 //
-// You can use tsmon (https://godoc.org/go.chromium.org/luci/common/tsmon) to
+// You can use tsmon (https://godoc.org/github.com/tetrafolium/luci-go/common/tsmon) to
 // track upload latency and errors.
 //
 // If Uploader.UploadsMetricName field is not zero, Uploader will

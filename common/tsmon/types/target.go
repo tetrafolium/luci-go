@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"reflect"
 
-	pb "go.chromium.org/luci/common/tsmon/ts_mon_proto"
+	pb "github.com/tetrafolium/luci-go/common/tsmon/ts_mon_proto"
 )
 
 // A Target knows how to put information about itself in a MetricsData message.

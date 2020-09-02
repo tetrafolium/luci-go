@@ -6,9 +6,9 @@ syntax = "proto3";
 
 package logpb;
 
-option go_package = "go.chromium.org/luci/logdog/api/logpb";
+option go_package = "github.com/tetrafolium/luci-go/logdog/api/logpb";
 
-import "go.chromium.org/luci/logdog/api/logpb/log.proto";
+import "github.com/tetrafolium/luci-go/logdog/api/logpb/log.proto";
 import "google/protobuf/timestamp.proto";
 
 /*

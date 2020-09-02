@@ -20,7 +20,7 @@ import (
 	"os/user"
 	"strconv"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // LinuxStrategy is a Linux-specific partial PlatformStrategy.

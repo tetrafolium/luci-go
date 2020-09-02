@@ -17,7 +17,7 @@ package common
 import (
 	"strings"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // Name returns a string which can be used as the human-readable representation expected by GetState.

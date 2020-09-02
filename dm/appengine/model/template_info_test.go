@@ -18,7 +18,7 @@ import (
 	"sort"
 	"testing"
 
-	"go.chromium.org/luci/dm/api/service/v1"
+	"github.com/tetrafolium/luci-go/dm/api/service/v1"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

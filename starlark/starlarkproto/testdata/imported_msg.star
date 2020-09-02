@@ -13,7 +13,7 @@
 # limitations under the License.
 
 l = proto.new_loader(proto.new_descriptor_set(blob=read('./testprotos/all.pb')))
-testprotos = l.module('go.chromium.org/luci/starlark/starlarkproto/testprotos/test.proto')
+testprotos = l.module('github.com/tetrafolium/luci-go/starlark/starlarkproto/testprotos/test.proto')
 
 m = testprotos.RefsOtherProtos()
 
@@ -31,7 +31,7 @@ ts {
 # To instantiate them directly, need to load the corresponding proto module
 # first. To avoid clashing with already imported 'testprotos' symbol, import it
 # under a different name.
-another_pb = l.module('go.chromium.org/luci/starlark/starlarkproto/testprotos/another.proto')
+another_pb = l.module('github.com/tetrafolium/luci-go/starlark/starlarkproto/testprotos/another.proto')
 assert.eq(proto.to_textpb(another_pb.AnotherMessage(i=123)), "i: 123\n")
 
 # Can import modules with dotted names too.

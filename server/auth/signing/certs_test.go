@@ -21,11 +21,11 @@ import (
 	"net/http"
 	"testing"
 
-	"go.chromium.org/luci/server/auth/internal"
-	"go.chromium.org/luci/server/caching"
+	"github.com/tetrafolium/luci-go/server/auth/internal"
+	"github.com/tetrafolium/luci-go/server/caching"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 var certBlob = `-----BEGIN CERTIFICATE-----

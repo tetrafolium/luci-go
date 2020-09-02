@@ -20,7 +20,7 @@ import (
 	"go.starlark.net/resolve"
 	"go.starlark.net/starlark"
 
-	"go.chromium.org/luci/starlark/starlarktest"
+	"github.com/tetrafolium/luci-go/starlark/starlarktest"
 )
 
 func init() {

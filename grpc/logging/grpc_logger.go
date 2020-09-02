@@ -13,7 +13,7 @@
 // limitations under the License.
 
 // Package logging implements a gRPC glog.Logger implementation backed
-// by a go.chromium.org/luci/common/logging Logger.
+// by a github.com/tetrafolium/luci-go/common/logging Logger.
 //
 // The logger can be installed by calling Install.
 package logging
@@ -23,7 +23,7 @@ import (
 	"runtime"
 	"strings"
 
-	"go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/common/logging"
 
 	"google.golang.org/grpc/grpclog"
 )

@@ -20,21 +20,21 @@ import (
 
 	"google.golang.org/appengine"
 
-	"go.chromium.org/luci/appengine/gaemiddleware/standard"
-	"go.chromium.org/luci/common/data/rand/mathrand"
-	"go.chromium.org/luci/grpc/discovery"
-	"go.chromium.org/luci/grpc/grpcmon"
-	"go.chromium.org/luci/grpc/prpc"
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/web/gowrappers/rpcexplorer"
+	"github.com/tetrafolium/luci-go/appengine/gaemiddleware/standard"
+	"github.com/tetrafolium/luci-go/common/data/rand/mathrand"
+	"github.com/tetrafolium/luci-go/grpc/discovery"
+	"github.com/tetrafolium/luci-go/grpc/grpcmon"
+	"github.com/tetrafolium/luci-go/grpc/prpc"
+	"github.com/tetrafolium/luci-go/server/router"
+	"github.com/tetrafolium/luci-go/web/gowrappers/rpcexplorer"
 
-	server "go.chromium.org/luci/gce/api/config/v1"
-	"go.chromium.org/luci/gce/api/instances/v1"
-	"go.chromium.org/luci/gce/api/projects/v1"
-	"go.chromium.org/luci/gce/appengine/backend"
-	"go.chromium.org/luci/gce/appengine/config"
-	"go.chromium.org/luci/gce/appengine/rpc"
-	"go.chromium.org/luci/gce/vmtoken"
+	server "github.com/tetrafolium/luci-go/gce/api/config/v1"
+	"github.com/tetrafolium/luci-go/gce/api/instances/v1"
+	"github.com/tetrafolium/luci-go/gce/api/projects/v1"
+	"github.com/tetrafolium/luci-go/gce/appengine/backend"
+	"github.com/tetrafolium/luci-go/gce/appengine/config"
+	"github.com/tetrafolium/luci-go/gce/appengine/rpc"
+	"github.com/tetrafolium/luci-go/gce/vmtoken"
 )
 
 func main() {

@@ -18,7 +18,7 @@ import (
 	"context"
 	"net/http"
 
-	"go.chromium.org/luci/logdog/api/endpoints/coordinator/logs/v1"
+	"github.com/tetrafolium/luci-go/logdog/api/endpoints/coordinator/logs/v1"
 )
 
 type testHTTPError int

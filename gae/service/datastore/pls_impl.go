@@ -24,7 +24,7 @@ import (
 	"sync"
 	"unicode"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // Entities with more than this many indexed properties will not be saved.

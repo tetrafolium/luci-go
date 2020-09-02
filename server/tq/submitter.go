@@ -28,9 +28,9 @@ import (
 	"google.golang.org/grpc/keepalive"
 	"google.golang.org/grpc/status"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 
-	"go.chromium.org/luci/server/tq/internal/reminder"
+	"github.com/tetrafolium/luci-go/server/tq/internal/reminder"
 )
 
 // Submitter is used by Dispatcher to submit tasks.
@@ -103,7 +103,7 @@ func (s *CloudSubmitter) Submit(ctx context.Context, p *reminder.Payload) (err e
 	return
 }
 
-var submitterCtxKey = "go.chromium.org/luci/server/tq.Submitter"
+var submitterCtxKey = "github.com/tetrafolium/luci-go/server/tq.Submitter"
 
 // UseSubmitter puts an arbitrary submitter in the context.
 //

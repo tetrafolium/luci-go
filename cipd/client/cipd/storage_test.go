@@ -27,10 +27,10 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/cipd/common"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/common/logging/gologger"
+	"github.com/tetrafolium/luci-go/cipd/common"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/clock/testclock"
+	"github.com/tetrafolium/luci-go/common/logging/gologger"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

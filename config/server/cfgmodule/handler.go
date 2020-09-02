@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"net/http"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/proto/config"
-	"go.chromium.org/luci/config/validation"
-	"go.chromium.org/luci/server/router"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/proto/config"
+	"github.com/tetrafolium/luci-go/config/validation"
+	"github.com/tetrafolium/luci-go/server/router"
 )
 
 const (

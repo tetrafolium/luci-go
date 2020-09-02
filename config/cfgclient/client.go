@@ -19,12 +19,12 @@ import (
 	"errors"
 	"net/http"
 
-	"go.chromium.org/luci/config"
-	"go.chromium.org/luci/config/impl/erroring"
-	"go.chromium.org/luci/config/impl/filesystem"
-	"go.chromium.org/luci/config/impl/remote"
-	"go.chromium.org/luci/config/impl/resolving"
-	"go.chromium.org/luci/config/vars"
+	"github.com/tetrafolium/luci-go/config"
+	"github.com/tetrafolium/luci-go/config/impl/erroring"
+	"github.com/tetrafolium/luci-go/config/impl/filesystem"
+	"github.com/tetrafolium/luci-go/config/impl/remote"
+	"github.com/tetrafolium/luci-go/config/impl/resolving"
+	"github.com/tetrafolium/luci-go/config/vars"
 )
 
 // Options describe how to configure a LUCI Config client.
@@ -45,7 +45,7 @@ type Options struct {
 	// ConfigsDir is a file system directory to fetch configs from instead of
 	// a LUCI Config service.
 	//
-	// See https://godoc.org/go.chromium.org/luci/config/impl/filesystem for the
+	// See https://godoc.org/github.com/tetrafolium/luci-go/config/impl/filesystem for the
 	// expected layout of this directory.
 	//
 	// Useful when running locally in development mode. Not compatible with

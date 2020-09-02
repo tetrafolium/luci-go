@@ -20,7 +20,7 @@ import (
 	"sort"
 	"strings"
 
-	pb "go.chromium.org/luci/buildbucket/proto"
+	pb "github.com/tetrafolium/luci-go/buildbucket/proto"
 )
 
 var statusFlagValues = map[string]pb.Status{

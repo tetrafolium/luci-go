@@ -19,16 +19,16 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/proto/google"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/dm/api/service/v1"
-	"go.chromium.org/luci/dm/appengine/distributor/fake"
-	"go.chromium.org/luci/dm/appengine/model"
-	ds "go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/proto/google"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
+	"github.com/tetrafolium/luci-go/dm/api/service/v1"
+	"github.com/tetrafolium/luci-go/dm/appengine/distributor/fake"
+	"github.com/tetrafolium/luci-go/dm/appengine/model"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestScheduleExecution(t *testing.T) {

@@ -22,10 +22,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/starlark/interpreter"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/starlark/interpreter"
 
-	"go.chromium.org/luci/lucicfg"
+	"github.com/tetrafolium/luci-go/lucicfg"
 )
 
 // GenerateConfigs executes the Starlark script and assembles final values for

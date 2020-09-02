@@ -24,20 +24,20 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"go.chromium.org/luci/gae/service/info"
+	"github.com/tetrafolium/luci-go/gae/service/info"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/proto/google"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/auth/authdb"
-	"go.chromium.org/luci/server/auth/signing"
+	"github.com/tetrafolium/luci-go/auth/identity"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/proto/google"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
+	"github.com/tetrafolium/luci-go/server/auth"
+	"github.com/tetrafolium/luci-go/server/auth/authdb"
+	"github.com/tetrafolium/luci-go/server/auth/signing"
 
-	tokenserver "go.chromium.org/luci/tokenserver/api"
-	"go.chromium.org/luci/tokenserver/api/minter/v1"
-	"go.chromium.org/luci/tokenserver/appengine/impl/utils"
+	tokenserver "github.com/tetrafolium/luci-go/tokenserver/api"
+	"github.com/tetrafolium/luci-go/tokenserver/api/minter/v1"
+	"github.com/tetrafolium/luci-go/tokenserver/appengine/impl/utils"
 )
 
 // MintOAuthTokenViaGrantRPC implements TokenMinter.MintOAuthTokenViaGrant

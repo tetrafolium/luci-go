@@ -6,7 +6,7 @@
 // versions:
 // 	protoc-gen-go v1.25.0-devel
 // 	protoc        v3.12.1
-// source: go.chromium.org/luci/buildbucket/proto/notification.proto
+// source: github.com/tetrafolium/luci-go/buildbucket/proto/notification.proto
 
 package buildbucketpb
 

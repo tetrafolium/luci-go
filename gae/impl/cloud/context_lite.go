@@ -19,13 +19,13 @@ import (
 	"github.com/bradfitz/gomemcache/memcache"
 	"golang.org/x/net/context"
 
-	"go.chromium.org/luci/gae/impl/dummy"
-	ds "go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/gae/service/mail"
-	mc "go.chromium.org/luci/gae/service/memcache"
-	"go.chromium.org/luci/gae/service/module"
-	"go.chromium.org/luci/gae/service/taskqueue"
-	"go.chromium.org/luci/gae/service/user"
+	"github.com/tetrafolium/luci-go/gae/impl/dummy"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/service/mail"
+	mc "github.com/tetrafolium/luci-go/gae/service/memcache"
+	"github.com/tetrafolium/luci-go/gae/service/module"
+	"github.com/tetrafolium/luci-go/gae/service/taskqueue"
+	"github.com/tetrafolium/luci-go/gae/service/user"
 )
 
 // ConfigLite can be used to configure a context to have supported Cloud

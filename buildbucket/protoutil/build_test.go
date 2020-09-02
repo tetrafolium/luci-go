@@ -20,7 +20,7 @@ import (
 
 	"github.com/golang/protobuf/ptypes/timestamp"
 
-	pb "go.chromium.org/luci/buildbucket/proto"
+	pb "github.com/tetrafolium/luci-go/buildbucket/proto"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

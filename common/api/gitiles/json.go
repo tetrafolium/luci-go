@@ -20,8 +20,8 @@ import (
 
 	"github.com/golang/protobuf/ptypes"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/proto/git"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/proto/git"
 )
 
 // This file implements structs to parse Gitiles' JSON.

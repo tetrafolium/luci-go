@@ -18,8 +18,8 @@ import (
 	"context"
 	"html/template"
 
-	"go.chromium.org/luci/server/portal"
-	"go.chromium.org/luci/server/settings"
+	"github.com/tetrafolium/luci-go/server/portal"
+	"github.com/tetrafolium/luci-go/server/settings"
 )
 
 // settingsKey is the name used to read/write these settings.

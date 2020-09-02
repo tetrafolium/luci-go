@@ -21,12 +21,12 @@ import (
 	"github.com/maruel/subcommands"
 	"google.golang.org/grpc/codes"
 
-	"go.chromium.org/luci/buildbucket/protoutil"
-	"go.chromium.org/luci/common/cli"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/grpc/grpcutil"
+	"github.com/tetrafolium/luci-go/buildbucket/protoutil"
+	"github.com/tetrafolium/luci-go/common/cli"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/grpc/grpcutil"
 
-	pb "go.chromium.org/luci/buildbucket/proto"
+	pb "github.com/tetrafolium/luci-go/buildbucket/proto"
 )
 
 func cmdCollect(p Params) *subcommands.Command {

@@ -18,7 +18,7 @@ import (
 	"regexp"
 	"strings"
 
-	"go.chromium.org/luci/common/data/strpair"
+	"github.com/tetrafolium/luci-go/common/data/strpair"
 )
 
 var metadataPattern = regexp.MustCompile(`^([A-Z_]+)=(.*)$`)

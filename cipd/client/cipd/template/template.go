@@ -23,8 +23,8 @@ import (
 	"regexp"
 	"strings"
 
-	"go.chromium.org/luci/cipd/client/cipd/platform"
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/cipd/client/cipd/platform"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // Expander is a mapping of simple string substitutions which is used to

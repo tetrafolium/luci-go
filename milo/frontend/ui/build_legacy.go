@@ -23,8 +23,8 @@ import (
 	"strings"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/milo/common/model"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/milo/common/model"
 )
 
 // MiloBuildLegacy denotes a full renderable Milo build page.

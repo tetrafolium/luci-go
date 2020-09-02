@@ -15,7 +15,7 @@
 package memory
 
 import (
-	"go.chromium.org/luci/gae/service/module"
+	"github.com/tetrafolium/luci-go/gae/service/module"
 	"golang.org/x/net/context"
 )
 

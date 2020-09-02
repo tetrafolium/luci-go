@@ -20,8 +20,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go.chromium.org/luci/common/data/caching/lazyslot"
-	"go.chromium.org/luci/common/data/caching/lru"
+	"github.com/tetrafolium/luci-go/common/data/caching/lazyslot"
+	"github.com/tetrafolium/luci-go/common/data/caching/lru"
 )
 
 var (

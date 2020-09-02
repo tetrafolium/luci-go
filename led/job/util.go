@@ -18,7 +18,7 @@ import (
 	"reflect"
 	"sort"
 
-	api "go.chromium.org/luci/swarming/proto/api"
+	api "github.com/tetrafolium/luci-go/swarming/proto/api"
 )
 
 func keysOf(mapish interface{}) []string {

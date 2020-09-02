@@ -18,8 +18,8 @@ import (
 	"context"
 	"testing"
 
-	"go.chromium.org/luci/auth"
-	. "go.chromium.org/luci/common/testing/assertions"
+	"github.com/tetrafolium/luci-go/auth"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

@@ -22,14 +22,14 @@ import (
 	"fmt"
 	"os"
 
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/logging/gologger"
-	"go.chromium.org/luci/common/tsmon"
-	"go.chromium.org/luci/common/tsmon/field"
-	"go.chromium.org/luci/common/tsmon/metric"
-	"go.chromium.org/luci/common/tsmon/target"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/logging/gologger"
+	"github.com/tetrafolium/luci-go/common/tsmon"
+	"github.com/tetrafolium/luci-go/common/tsmon/field"
+	"github.com/tetrafolium/luci-go/common/tsmon/metric"
+	"github.com/tetrafolium/luci-go/common/tsmon/target"
 
-	"go.chromium.org/luci/common/tsmon/examples/beep/dummy_project"
+	"github.com/tetrafolium/luci-go/common/tsmon/examples/beep/dummy_project"
 )
 
 var presence = metric.NewBoolWithTargetType(

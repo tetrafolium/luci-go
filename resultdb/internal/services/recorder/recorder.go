@@ -20,13 +20,13 @@ import (
 
 	"google.golang.org/genproto/googleapis/bytestream"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/server"
-	"go.chromium.org/luci/server/router"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/server"
+	"github.com/tetrafolium/luci-go/server/router"
 
-	"go.chromium.org/luci/resultdb/internal"
-	"go.chromium.org/luci/resultdb/internal/artifactcontent"
-	pb "go.chromium.org/luci/resultdb/proto/v1"
+	"github.com/tetrafolium/luci-go/resultdb/internal"
+	"github.com/tetrafolium/luci-go/resultdb/internal/artifactcontent"
+	pb "github.com/tetrafolium/luci-go/resultdb/proto/v1"
 )
 
 // recorderServer implements pb.RecorderServer.

@@ -17,10 +17,10 @@ package streamclient
 import (
 	"io"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/logdog/api/logpb"
-	"go.chromium.org/luci/logdog/client/butlerlib/streamproto"
-	"go.chromium.org/luci/logdog/common/types"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/logdog/api/logpb"
+	"github.com/tetrafolium/luci-go/logdog/client/butlerlib/streamproto"
+	"github.com/tetrafolium/luci-go/logdog/common/types"
 )
 
 type butler interface {
@@ -52,7 +52,7 @@ func (d localDialer) DialDgramStream(f streamproto.Flags) (DatagramStream, error
 // NewLoopback makes a loopback Client attached to a Butler instance.
 //
 // The `butler` interface should be, exactly:
-//   *"go.chromium.org/luci/logdog/client/butler".Butler
+//   *"github.com/tetrafolium/luci-go/logdog/client/butler".Butler
 //
 // The interface is merely used for import cycle management.
 //

@@ -7,7 +7,7 @@
 syntax = "proto3";
 
 package jsonrpc;
-option go_package = "go.chromium.org/luci/swarming/proto/jsonrpc";
+option go_package = "github.com/tetrafolium/luci-go/swarming/proto/jsonrpc";
 
 // TaskState defines the TaskState enum used by the swarming json rpc interface.
 // This is not to be confused with the new proto rpc interface, which has its

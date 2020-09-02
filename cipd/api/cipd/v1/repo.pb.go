@@ -16,11 +16,11 @@
 // versions:
 // 	protoc-gen-go v1.24.0-devel
 // 	protoc        v3.12.1
-// source: go.chromium.org/luci/cipd/api/cipd/v1/repo.proto
+// source: github.com/tetrafolium/luci-go/cipd/api/cipd/v1/repo.proto
 
 package api
 
-import prpc "go.chromium.org/luci/grpc/prpc"
+import prpc "github.com/tetrafolium/luci-go/grpc/prpc"
 
 import (
 	context "context"
@@ -4445,5 +4445,5 @@ var _Repository_serviceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "go.chromium.org/luci/cipd/api/cipd/v1/repo.proto",
+	Metadata: "github.com/tetrafolium/luci-go/cipd/api/cipd/v1/repo.proto",
 }

@@ -18,7 +18,7 @@ import (
 	"context"
 	"testing"
 
-	"go.chromium.org/luci/server/settings"
+	"github.com/tetrafolium/luci-go/server/settings"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

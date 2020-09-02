@@ -19,7 +19,7 @@ import (
 	"encoding/binary"
 	"net"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // IPv4 represents an IPv4 address.

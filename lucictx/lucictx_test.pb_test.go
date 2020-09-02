@@ -16,7 +16,7 @@
 // versions:
 // 	protoc-gen-go v1.24.0-devel
 // 	protoc        v3.12.1
-// source: go.chromium.org/luci/lucictx/lucictx_test.proto
+// source: github.com/tetrafolium/luci-go/lucictx/lucictx_test.proto
 
 package lucictx
 

@@ -18,7 +18,7 @@ import (
 	"context"
 	"net/http"
 
-	"go.chromium.org/luci/common/api/swarming/swarming/v1"
+	"github.com/tetrafolium/luci-go/common/api/swarming/swarming/v1"
 	"google.golang.org/api/googleapi"
 )
 

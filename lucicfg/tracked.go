@@ -21,7 +21,7 @@ import (
 	"sort"
 	"strings"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // TrackedSet returns a predicate that classifies whether a slash-separated path

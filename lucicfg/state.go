@@ -21,12 +21,12 @@ import (
 
 	"go.starlark.net/starlark"
 
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/starlark/interpreter"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/starlark/interpreter"
 
-	"go.chromium.org/luci/lucicfg/graph"
-	"go.chromium.org/luci/lucicfg/vars"
+	"github.com/tetrafolium/luci-go/lucicfg/graph"
+	"github.com/tetrafolium/luci-go/lucicfg/vars"
 )
 
 // State is mutated throughout execution of the script and at the end contains

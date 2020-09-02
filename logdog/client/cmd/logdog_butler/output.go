@@ -17,8 +17,8 @@ package main
 import (
 	"sort"
 
-	"go.chromium.org/luci/common/flag/multiflag"
-	"go.chromium.org/luci/logdog/client/butler/output"
+	"github.com/tetrafolium/luci-go/common/flag/multiflag"
+	"github.com/tetrafolium/luci-go/logdog/client/butler/output"
 )
 
 type outputFactory interface {

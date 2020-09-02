@@ -21,9 +21,9 @@ import (
 
 	"google.golang.org/grpc"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/common/tsmon/distribution"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/clock/testclock"
+	"github.com/tetrafolium/luci-go/common/tsmon/distribution"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

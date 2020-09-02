@@ -26,8 +26,8 @@ import (
 	"context"
 	"time"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/retry"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/retry"
 )
 
 // transientOnlyIterator is an Iterator implementation that only retries errors

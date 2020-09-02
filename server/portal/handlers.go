@@ -18,7 +18,7 @@
 // /admin/portal.
 //
 // Typically they read/write `settings` as defined by
-// `go.chromium.org/luci/server/settings`, but they can also be used to provide
+// `github.com/tetrafolium/luci-go/server/settings`, but they can also be used to provide
 // information to administrators or to provide admin-only actions (such as
 // clearing queues or providing admin tokens).
 package portal
@@ -29,18 +29,18 @@ import (
 	"net"
 	"net/http"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry/transient"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/auth/authdb"
-	"go.chromium.org/luci/server/auth/xsrf"
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/server/templates"
+	"github.com/tetrafolium/luci-go/auth/identity"
+	"github.com/tetrafolium/luci-go/server/auth"
+	"github.com/tetrafolium/luci-go/server/auth/authdb"
+	"github.com/tetrafolium/luci-go/server/auth/xsrf"
+	"github.com/tetrafolium/luci-go/server/router"
+	"github.com/tetrafolium/luci-go/server/templates"
 
-	"go.chromium.org/luci/server/portal/internal/assets"
+	"github.com/tetrafolium/luci-go/server/portal/internal/assets"
 )
 
 // AssumeTrustedPort can be passed as auth.Method to InstallHandlers to indicate

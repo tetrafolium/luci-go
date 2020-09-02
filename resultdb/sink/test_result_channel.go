@@ -23,11 +23,11 @@ import (
 
 	"github.com/google/uuid"
 
-	"go.chromium.org/luci/common/sync/dispatcher"
-	"go.chromium.org/luci/common/sync/dispatcher/buffer"
+	"github.com/tetrafolium/luci-go/common/sync/dispatcher"
+	"github.com/tetrafolium/luci-go/common/sync/dispatcher/buffer"
 
-	pb "go.chromium.org/luci/resultdb/proto/v1"
-	sinkpb "go.chromium.org/luci/resultdb/sink/proto/v1"
+	pb "github.com/tetrafolium/luci-go/resultdb/proto/v1"
+	sinkpb "github.com/tetrafolium/luci-go/resultdb/sink/proto/v1"
 )
 
 type testResultChannel struct {
@@ -53,7 +53,7 @@ func newTestResultChannel(ctx context.Context, cfg *ServerConfig) *testResultCha
 		Buffer: buffer.Options{
 			// BatchRequest can include up to 500 requests. KEEP BatchSize <= 500
 			// to keep report() simple. For more details, visit
-			// https://godoc.org/go.chromium.org/luci/resultdb/proto/v1#BatchCreateTestResultsRequest
+			// https://godoc.org/github.com/tetrafolium/luci-go/resultdb/proto/v1#BatchCreateTestResultsRequest
 			BatchSize:     500,
 			MaxLeases:     int(cfg.TestResultChannelMaxLeases),
 			BatchDuration: time.Second,

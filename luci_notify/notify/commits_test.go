@@ -18,15 +18,15 @@ import (
 	"context"
 	"testing"
 
-	buildbucketpb "go.chromium.org/luci/buildbucket/proto"
-	"go.chromium.org/luci/buildbucket/protoutil"
-	"go.chromium.org/luci/common/data/stringset"
-	gitpb "go.chromium.org/luci/common/proto/git"
+	buildbucketpb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	"github.com/tetrafolium/luci-go/buildbucket/protoutil"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
+	gitpb "github.com/tetrafolium/luci-go/common/proto/git"
 
-	notifypb "go.chromium.org/luci/luci_notify/api/config"
+	notifypb "github.com/tetrafolium/luci-go/luci_notify/api/config"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 var (

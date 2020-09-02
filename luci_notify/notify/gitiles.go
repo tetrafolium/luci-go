@@ -19,13 +19,13 @@ import (
 	"net/http"
 	"time"
 
-	"go.chromium.org/luci/common/api/gitiles"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	gitpb "go.chromium.org/luci/common/proto/git"
-	gitilespb "go.chromium.org/luci/common/proto/gitiles"
-	"go.chromium.org/luci/grpc/grpcutil"
-	"go.chromium.org/luci/server/auth"
+	"github.com/tetrafolium/luci-go/common/api/gitiles"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	gitpb "github.com/tetrafolium/luci-go/common/proto/git"
+	gitilespb "github.com/tetrafolium/luci-go/common/proto/gitiles"
+	"github.com/tetrafolium/luci-go/grpc/grpcutil"
+	"github.com/tetrafolium/luci-go/server/auth"
 )
 
 // HistoryFunc is a function that gets a list of commits from Gitiles for a

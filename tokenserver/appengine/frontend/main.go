@@ -26,23 +26,23 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"go.chromium.org/luci/appengine/gaemiddleware/standard"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/config/validation"
-	"go.chromium.org/luci/grpc/discovery"
-	"go.chromium.org/luci/grpc/grpcmon"
-	"go.chromium.org/luci/grpc/grpcutil"
-	"go.chromium.org/luci/grpc/prpc"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/web/gowrappers/rpcexplorer"
+	"github.com/tetrafolium/luci-go/appengine/gaemiddleware/standard"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/config/validation"
+	"github.com/tetrafolium/luci-go/grpc/discovery"
+	"github.com/tetrafolium/luci-go/grpc/grpcmon"
+	"github.com/tetrafolium/luci-go/grpc/grpcutil"
+	"github.com/tetrafolium/luci-go/grpc/prpc"
+	"github.com/tetrafolium/luci-go/server/auth"
+	"github.com/tetrafolium/luci-go/server/router"
+	"github.com/tetrafolium/luci-go/web/gowrappers/rpcexplorer"
 
-	"go.chromium.org/luci/tokenserver/api/admin/v1"
-	"go.chromium.org/luci/tokenserver/api/minter/v1"
+	"github.com/tetrafolium/luci-go/tokenserver/api/admin/v1"
+	"github.com/tetrafolium/luci-go/tokenserver/api/minter/v1"
 
-	"go.chromium.org/luci/tokenserver/appengine/impl/services/admin/adminsrv"
-	"go.chromium.org/luci/tokenserver/appengine/impl/services/admin/certauthorities"
-	"go.chromium.org/luci/tokenserver/appengine/impl/services/minter/tokenminter"
+	"github.com/tetrafolium/luci-go/tokenserver/appengine/impl/services/admin/adminsrv"
+	"github.com/tetrafolium/luci-go/tokenserver/appengine/impl/services/admin/certauthorities"
+	"github.com/tetrafolium/luci-go/tokenserver/appengine/impl/services/minter/tokenminter"
 )
 
 // adminPrelude returns a prelude that authorizes only administrators.

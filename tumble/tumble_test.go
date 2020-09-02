@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"testing"
 
-	ds "go.chromium.org/luci/gae/service/datastore"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
 )
 
 func init() {

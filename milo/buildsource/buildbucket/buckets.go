@@ -25,13 +25,13 @@ import (
 	"strings"
 	"time"
 
-	"go.chromium.org/luci/common/api/buildbucket/swarmbucket/v1"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/gae/service/memcache"
-	"go.chromium.org/luci/server/auth"
+	"github.com/tetrafolium/luci-go/common/api/buildbucket/swarmbucket/v1"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/gae/service/memcache"
+	"github.com/tetrafolium/luci-go/server/auth"
 
-	"go.chromium.org/luci/milo/common"
-	"go.chromium.org/luci/milo/frontend/ui"
+	"github.com/tetrafolium/luci-go/milo/common"
+	"github.com/tetrafolium/luci-go/milo/frontend/ui"
 )
 
 // GetBuilders returns all Swarmbucket builders, cached for current identity.

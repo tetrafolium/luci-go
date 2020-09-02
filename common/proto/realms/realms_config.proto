@@ -11,13 +11,13 @@ syntax = "proto3";
 
 package auth_service;
 
-import "go.chromium.org/luci/common/proto/options.proto";
+import "github.com/tetrafolium/luci-go/common/proto/options.proto";
 
 option (luci.file_metadata) = {
   doc_url: "https://luci-config.appspot.com/schemas/projects:realms.cfg";
 };
 
-option go_package = "go.chromium.org/luci/common/proto/realms;realms";
+option go_package = "github.com/tetrafolium/luci-go/common/proto/realms;realms";
 
 
 // RealmsCfg defines a schema for realms.cfg project configuration file.

@@ -6,7 +6,7 @@ syntax = "proto3";
 
 package config;
 
-import "go.chromium.org/luci/machine-db/api/common/v1/states.proto";
+import "github.com/tetrafolium/luci-go/machine-db/api/common/v1/states.proto";
 
 // A switch to store in the database.
 message Switch {

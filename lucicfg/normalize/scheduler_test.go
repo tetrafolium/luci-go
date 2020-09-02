@@ -21,7 +21,7 @@ import (
 	"github.com/golang/protobuf/proto"
 
 	. "github.com/smartystreets/goconvey/convey"
-	pb "go.chromium.org/luci/scheduler/appengine/messages"
+	pb "github.com/tetrafolium/luci-go/scheduler/appengine/messages"
 )
 
 const schedulerIn = `

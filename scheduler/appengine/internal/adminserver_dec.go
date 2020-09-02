@@ -7,7 +7,7 @@ import (
 
 	proto "github.com/golang/protobuf/proto"
 
-	v1 "go.chromium.org/luci/scheduler/api/scheduler/v1"
+	v1 "github.com/tetrafolium/luci-go/scheduler/api/scheduler/v1"
 )
 
 type DecoratedAdmin struct {

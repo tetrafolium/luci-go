@@ -17,7 +17,7 @@ package dm
 import (
 	"fmt"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // Normalize returns an error iff this GraphQuery is not valid.

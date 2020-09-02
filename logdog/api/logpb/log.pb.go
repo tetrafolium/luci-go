@@ -6,7 +6,7 @@
 // versions:
 // 	protoc-gen-go v1.24.0-devel
 // 	protoc        v3.12.1
-// source: go.chromium.org/luci/logdog/api/logpb/log.proto
+// source: github.com/tetrafolium/luci-go/logdog/api/logpb/log.proto
 
 package logpb
 
@@ -95,7 +95,7 @@ type LogStreamDescriptor struct {
 	// Logs originating from the same Butler instance will share a Prefix.
 	//
 	// A valid prefix value is a StreamName described in:
-	// https://go.chromium.org/luci/common/logdog/types
+	// https://github.com/tetrafolium/luci-go/common/logdog/types
 	Prefix string `protobuf:"bytes,1,opt,name=prefix,proto3" json:"prefix,omitempty"`
 	//
 	// The log stream's name (required).
@@ -104,7 +104,7 @@ type LogStreamDescriptor struct {
 	// prefix.
 	//
 	// A valid name value is a StreamName described in:
-	// https://go.chromium.org/luci/common/logdog/types
+	// https://github.com/tetrafolium/luci-go/common/logdog/types
 	Name string `protobuf:"bytes,2,opt,name=name,proto3" json:"name,omitempty"`
 	// The log stream's content type (required).
 	StreamType StreamType `protobuf:"varint,3,opt,name=stream_type,json=streamType,proto3,enum=logpb.StreamType" json:"stream_type,omitempty"`

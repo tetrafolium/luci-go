@@ -18,8 +18,8 @@ import (
 	"errors"
 	"strings"
 
-	"go.chromium.org/luci/common/logging/memlogger"
-	ds "go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/common/logging/memlogger"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
 
 	"golang.org/x/net/context"
 )
@@ -134,7 +134,7 @@ func Use(c context.Context) context.Context {
 }
 
 // UseInfo adds an implementation for:
-//   * go.chromium.org/luci/gae/service/info
+//   * github.com/tetrafolium/luci-go/gae/service/info
 // The application id wil be set to 'aid', and will not be modifiable in this
 // context. If 'aid' contains a "~" character, it will be treated as the
 // fully-qualified App ID and the AppID will be the string following the "~".
@@ -159,13 +159,13 @@ func UseInfo(c context.Context, aid string) context.Context {
 
 // UseWithAppID adds implementations for the following gae services to the
 // context:
-//   * go.chromium.org/luci/gae/service/datastore
-//   * go.chromium.org/luci/gae/service/info
-//   * go.chromium.org/luci/gae/service/mail
-//   * go.chromium.org/luci/gae/service/memcache
-//   * go.chromium.org/luci/gae/service/taskqueue
-//   * go.chromium.org/luci/gae/service/user
-//   * go.chromium.org/luci/common/logger (using memlogger)
+//   * github.com/tetrafolium/luci-go/gae/service/datastore
+//   * github.com/tetrafolium/luci-go/gae/service/info
+//   * github.com/tetrafolium/luci-go/gae/service/mail
+//   * github.com/tetrafolium/luci-go/gae/service/memcache
+//   * github.com/tetrafolium/luci-go/gae/service/taskqueue
+//   * github.com/tetrafolium/luci-go/gae/service/user
+//   * github.com/tetrafolium/luci-go/common/logger (using memlogger)
 //
 // The application id wil be set to 'aid', and will not be modifiable in this
 // context. If 'aid' contains a "~" character, it will be treated as the

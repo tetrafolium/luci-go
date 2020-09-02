@@ -16,7 +16,7 @@
 // versions:
 // 	protoc-gen-go v1.25.0-devel
 // 	protoc        v3.12.1
-// source: go.chromium.org/luci/cv/api/recipe/v1/cq.proto
+// source: github.com/tetrafolium/luci-go/cv/api/recipe/v1/cq.proto
 
 package recipe
 

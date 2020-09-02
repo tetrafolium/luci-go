@@ -19,11 +19,11 @@ package archive
 import (
 	"io"
 
-	"go.chromium.org/luci/common/data/recordio"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/sync/parallel"
-	"go.chromium.org/luci/logdog/api/logpb"
-	"go.chromium.org/luci/logdog/common/renderer"
+	"github.com/tetrafolium/luci-go/common/data/recordio"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/sync/parallel"
+	"github.com/tetrafolium/luci-go/logdog/api/logpb"
+	"github.com/tetrafolium/luci-go/logdog/common/renderer"
 
 	"github.com/golang/protobuf/proto"
 )

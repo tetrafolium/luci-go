@@ -25,10 +25,10 @@ import (
 	structpb "github.com/golang/protobuf/ptypes/struct"
 	"google.golang.org/genproto/protobuf/field_mask"
 
-	"go.chromium.org/luci/common/proto/internal/testingpb"
+	"github.com/tetrafolium/luci-go/common/proto/internal/testingpb"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestFixFieldMasks(t *testing.T) {

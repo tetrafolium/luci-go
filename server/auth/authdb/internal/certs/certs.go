@@ -19,10 +19,10 @@ import (
 	"context"
 	"time"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/common/data/caching/lazyslot"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/server/auth/signing"
+	"github.com/tetrafolium/luci-go/auth/identity"
+	"github.com/tetrafolium/luci-go/common/data/caching/lazyslot"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/server/auth/signing"
 )
 
 // Bundle is a lazy-loaded cert bundle of some LUCI service.

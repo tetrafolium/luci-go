@@ -19,16 +19,16 @@ import (
 	"fmt"
 	"time"
 
-	"go.chromium.org/luci/appengine/tq"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/data/rand/mathrand"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/proto/google"
+	"github.com/tetrafolium/luci-go/appengine/tq"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/data/rand/mathrand"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/proto/google"
 
-	api "go.chromium.org/luci/scheduler/api/scheduler/v1"
-	"go.chromium.org/luci/scheduler/appengine/engine/cron"
-	"go.chromium.org/luci/scheduler/appengine/internal"
+	api "github.com/tetrafolium/luci-go/scheduler/api/scheduler/v1"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/engine/cron"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/internal"
 )
 
 // pokeCron instantiates a cron state machine and calls the callback to advance

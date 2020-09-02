@@ -17,10 +17,10 @@ package client
 import (
 	"net/http"
 
-	"go.chromium.org/luci/common/retry"
-	"go.chromium.org/luci/grpc/prpc"
+	"github.com/tetrafolium/luci-go/common/retry"
+	"github.com/tetrafolium/luci-go/grpc/prpc"
 
-	"go.chromium.org/luci/tokenserver/api/minter/v1"
+	"github.com/tetrafolium/luci-go/tokenserver/api/minter/v1"
 )
 
 // Parameters is passed to New.

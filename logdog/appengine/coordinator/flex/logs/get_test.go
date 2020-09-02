@@ -23,24 +23,24 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/data/recordio"
-	"go.chromium.org/luci/common/iotools"
-	"go.chromium.org/luci/common/proto/google"
-	"go.chromium.org/luci/logdog/api/endpoints/coordinator/logs/v1"
-	"go.chromium.org/luci/logdog/api/logpb"
-	ct "go.chromium.org/luci/logdog/appengine/coordinator/coordinatorTest"
-	"go.chromium.org/luci/logdog/common/archive"
-	"go.chromium.org/luci/logdog/common/renderer"
-	"go.chromium.org/luci/logdog/common/storage"
-	"go.chromium.org/luci/logdog/common/types"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/data/recordio"
+	"github.com/tetrafolium/luci-go/common/iotools"
+	"github.com/tetrafolium/luci-go/common/proto/google"
+	"github.com/tetrafolium/luci-go/logdog/api/endpoints/coordinator/logs/v1"
+	"github.com/tetrafolium/luci-go/logdog/api/logpb"
+	ct "github.com/tetrafolium/luci-go/logdog/appengine/coordinator/coordinatorTest"
+	"github.com/tetrafolium/luci-go/logdog/common/archive"
+	"github.com/tetrafolium/luci-go/logdog/common/renderer"
+	"github.com/tetrafolium/luci-go/logdog/common/storage"
+	"github.com/tetrafolium/luci-go/logdog/common/types"
 
-	"go.chromium.org/luci/gae/filter/featureBreaker"
+	"github.com/tetrafolium/luci-go/gae/filter/featureBreaker"
 
 	"github.com/golang/protobuf/proto"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func shouldHaveLogs(actual interface{}, expected ...interface{}) string {

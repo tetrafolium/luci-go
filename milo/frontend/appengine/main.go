@@ -17,7 +17,7 @@ package main
 import (
 	"google.golang.org/appengine"
 
-	"go.chromium.org/luci/milo/frontend"
+	"github.com/tetrafolium/luci-go/milo/frontend"
 )
 
 func main() {

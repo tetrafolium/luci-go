@@ -26,7 +26,7 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"go.chromium.org/luci/common/system/environ"
+	"github.com/tetrafolium/luci-go/common/system/environ"
 )
 
 func build(src, tmpdir string) (string, error) {

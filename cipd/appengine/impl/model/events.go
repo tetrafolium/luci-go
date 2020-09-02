@@ -24,19 +24,19 @@ import (
 	"github.com/golang/protobuf/proto"
 	"google.golang.org/appengine"
 
-	"go.chromium.org/luci/appengine/bqlog"
-	"go.chromium.org/luci/common/bq"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/proto/google"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/common/sync/parallel"
-	"go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/server/auth"
+	"github.com/tetrafolium/luci-go/appengine/bqlog"
+	"github.com/tetrafolium/luci-go/common/bq"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/proto/google"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
+	"github.com/tetrafolium/luci-go/common/sync/parallel"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/server/auth"
 
-	api "go.chromium.org/luci/cipd/api/cipd/v1"
-	"go.chromium.org/luci/cipd/appengine/impl/metadata"
+	api "github.com/tetrafolium/luci-go/cipd/api/cipd/v1"
+	"github.com/tetrafolium/luci-go/cipd/appengine/impl/metadata"
 )
 
 var eventsLog = bqlog.Log{

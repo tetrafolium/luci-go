@@ -26,20 +26,20 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go.chromium.org/luci/common/data/rand/cryptorand"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry"
-	"go.chromium.org/luci/grpc/prpc"
-	"go.chromium.org/luci/lucictx"
-	"go.chromium.org/luci/server/middleware"
-	"go.chromium.org/luci/server/router"
+	"github.com/tetrafolium/luci-go/common/data/rand/cryptorand"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/retry"
+	"github.com/tetrafolium/luci-go/grpc/prpc"
+	"github.com/tetrafolium/luci-go/lucictx"
+	"github.com/tetrafolium/luci-go/server/middleware"
+	"github.com/tetrafolium/luci-go/server/router"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/metadata"
 
-	"go.chromium.org/luci/resultdb/pbutil"
-	pb "go.chromium.org/luci/resultdb/proto/v1"
-	sinkpb "go.chromium.org/luci/resultdb/sink/proto/v1"
+	"github.com/tetrafolium/luci-go/resultdb/pbutil"
+	pb "github.com/tetrafolium/luci-go/resultdb/proto/v1"
+	sinkpb "github.com/tetrafolium/luci-go/resultdb/sink/proto/v1"
 )
 
 const (

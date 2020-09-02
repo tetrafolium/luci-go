@@ -28,14 +28,14 @@ import (
 	"unicode"
 
 	"github.com/golang/protobuf/proto"
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/logdog/common/types"
-	annopb "go.chromium.org/luci/luciexe/legacy/annotee/proto"
+	"github.com/tetrafolium/luci-go/common/clock/testclock"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/logdog/common/types"
+	annopb "github.com/tetrafolium/luci-go/luciexe/legacy/annotee/proto"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 const testDataDir = "test_data"

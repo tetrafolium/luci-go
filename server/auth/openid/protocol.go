@@ -21,9 +21,9 @@ import (
 	"net/url"
 	"time"
 
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/auth/internal"
-	"go.chromium.org/luci/server/tokens"
+	"github.com/tetrafolium/luci-go/server/auth"
+	"github.com/tetrafolium/luci-go/server/auth/internal"
+	"github.com/tetrafolium/luci-go/server/tokens"
 )
 
 // Note: this file is a part of deprecated CookieAuthMethod implementation.

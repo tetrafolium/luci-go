@@ -19,9 +19,9 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/common/tsmon"
-	"go.chromium.org/luci/gae/impl/memory"
-	"go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/common/tsmon"
+	"github.com/tetrafolium/luci-go/gae/impl/memory"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

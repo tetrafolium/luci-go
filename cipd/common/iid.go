@@ -19,10 +19,10 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/grpc/grpcutil"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/grpc/grpcutil"
 
-	api "go.chromium.org/luci/cipd/api/cipd/v1"
+	api "github.com/tetrafolium/luci-go/cipd/api/cipd/v1"
 )
 
 // HashAlgoValidation is passed to ValidateObjectRef.

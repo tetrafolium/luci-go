@@ -21,7 +21,7 @@ import (
 	"strings"
 	"testing"
 
-	"go.chromium.org/luci/cipd/appengine/impl/testutil"
+	"github.com/tetrafolium/luci-go/cipd/appengine/impl/testutil"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

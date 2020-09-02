@@ -19,7 +19,7 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	pb "go.chromium.org/luci/common/tsmon/ts_mon_proto"
+	pb "github.com/tetrafolium/luci-go/common/tsmon/ts_mon_proto"
 )
 
 // PopulateProto implements Target.

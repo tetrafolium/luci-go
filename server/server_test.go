@@ -31,25 +31,25 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/gae/impl/memory"
-	"go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/impl/memory"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
 
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/logging/sdlogger"
+	"github.com/tetrafolium/luci-go/common/clock/testclock"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/logging/sdlogger"
 
-	"go.chromium.org/luci/lucictx"
+	"github.com/tetrafolium/luci-go/lucictx"
 
-	clientauth "go.chromium.org/luci/auth"
-	clientauthtest "go.chromium.org/luci/auth/integration/authtest"
-	"go.chromium.org/luci/auth/integration/localauth"
+	clientauth "github.com/tetrafolium/luci-go/auth"
+	clientauthtest "github.com/tetrafolium/luci-go/auth/integration/authtest"
+	"github.com/tetrafolium/luci-go/auth/integration/localauth"
 
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/auth/authtest"
-	"go.chromium.org/luci/server/auth/signing"
-	"go.chromium.org/luci/server/experiments"
-	"go.chromium.org/luci/server/router"
+	"github.com/tetrafolium/luci-go/server/auth"
+	"github.com/tetrafolium/luci-go/server/auth/authtest"
+	"github.com/tetrafolium/luci-go/server/auth/signing"
+	"github.com/tetrafolium/luci-go/server/experiments"
+	"github.com/tetrafolium/luci-go/server/router"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

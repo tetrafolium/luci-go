@@ -31,8 +31,8 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	gerritpb "go.chromium.org/luci/common/proto/gerrit"
-	. "go.chromium.org/luci/common/testing/assertions"
+	gerritpb "github.com/tetrafolium/luci-go/common/proto/gerrit"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestListChanges(t *testing.T) {

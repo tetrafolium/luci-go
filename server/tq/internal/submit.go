@@ -22,15 +22,15 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/common/sync/parallel"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
+	"github.com/tetrafolium/luci-go/common/sync/parallel"
 
-	"go.chromium.org/luci/server/tq/internal/db"
-	"go.chromium.org/luci/server/tq/internal/metrics"
-	"go.chromium.org/luci/server/tq/internal/reminder"
+	"github.com/tetrafolium/luci-go/server/tq/internal/db"
+	"github.com/tetrafolium/luci-go/server/tq/internal/metrics"
+	"github.com/tetrafolium/luci-go/server/tq/internal/reminder"
 )
 
 // ErrStaleReminder is returned by ProcessReminderPostTxn.

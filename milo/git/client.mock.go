@@ -7,7 +7,7 @@ package git
 import (
 	context "context"
 	gomock "github.com/golang/mock/gomock"
-	git "go.chromium.org/luci/common/proto/git"
+	git "github.com/tetrafolium/luci-go/common/proto/git"
 	reflect "reflect"
 )
 

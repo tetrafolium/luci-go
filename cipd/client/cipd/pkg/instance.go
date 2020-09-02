@@ -18,8 +18,8 @@ import (
 	"context"
 	"io"
 
-	"go.chromium.org/luci/cipd/client/cipd/fs"
-	"go.chromium.org/luci/cipd/common"
+	"github.com/tetrafolium/luci-go/cipd/client/cipd/fs"
+	"github.com/tetrafolium/luci-go/cipd/common"
 )
 
 // Instance represents an open CIPD package file (with manifest inside).

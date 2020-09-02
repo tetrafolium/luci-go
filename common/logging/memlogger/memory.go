@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"sync"
 
-	"go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/common/logging"
 )
 
 // LogEntry is a single entry in a MemLogger, containing a message and a

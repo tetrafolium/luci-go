@@ -18,7 +18,7 @@ import (
 	"strings"
 	"testing"
 
-	"go.chromium.org/luci/common/data/strpair"
+	"github.com/tetrafolium/luci-go/common/data/strpair"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

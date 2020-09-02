@@ -19,7 +19,7 @@ package internal.triggers;
 option go_package = "internal";
 
 import "google/protobuf/timestamp.proto";
-import "go.chromium.org/luci/scheduler/api/scheduler/v1/triggers.proto";
+import "github.com/tetrafolium/luci-go/scheduler/api/scheduler/v1/triggers.proto";
 
 
 // Trigger can be emitted by the engine itself (e.g. on a schedule) or by

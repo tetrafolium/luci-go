@@ -28,9 +28,9 @@ import (
 
 	"go.starlark.net/starlark"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/starlark/starlarkproto"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/starlark/starlarkproto"
 )
 
 // Output is an in-memory representation of all generated output files.

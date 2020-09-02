@@ -21,11 +21,11 @@ import (
 
 	"github.com/golang/protobuf/ptypes/timestamp"
 
-	bqpb "go.chromium.org/luci/tokenserver/api/bq"
-	"go.chromium.org/luci/tokenserver/api/minter/v1"
+	bqpb "github.com/tetrafolium/luci-go/tokenserver/api/bq"
+	"github.com/tetrafolium/luci-go/tokenserver/api/minter/v1"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestMintedTokenInfo(t *testing.T) {

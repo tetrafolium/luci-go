@@ -19,10 +19,10 @@ import (
 
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/buildbucket/protoutil"
-	"go.chromium.org/luci/common/cli"
+	"github.com/tetrafolium/luci-go/buildbucket/protoutil"
+	"github.com/tetrafolium/luci-go/common/cli"
 
-	pb "go.chromium.org/luci/buildbucket/proto"
+	pb "github.com/tetrafolium/luci-go/buildbucket/proto"
 )
 
 func cmdGet(p Params) *subcommands.Command {

@@ -19,8 +19,8 @@ import (
 
 	"google.golang.org/appengine"
 
-	"go.chromium.org/luci/appengine/gaemiddleware/standard"
-	"go.chromium.org/luci/server/router"
+	"github.com/tetrafolium/luci-go/appengine/gaemiddleware/standard"
+	"github.com/tetrafolium/luci-go/server/router"
 )
 
 func main() {

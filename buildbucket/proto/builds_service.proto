@@ -6,15 +6,15 @@ syntax = "proto3";
 
 package buildbucket.v2;
 
-option go_package = "go.chromium.org/luci/buildbucket/proto;buildbucketpb";
+option go_package = "github.com/tetrafolium/luci-go/buildbucket/proto;buildbucketpb";
 
 import "google/protobuf/field_mask.proto";
 import "google/protobuf/struct.proto";
 import "google/rpc/status.proto";
-import "go.chromium.org/luci/buildbucket/proto/build.proto";
-import "go.chromium.org/luci/buildbucket/proto/builder.proto";
-import "go.chromium.org/luci/buildbucket/proto/common.proto";
-import "go.chromium.org/luci/buildbucket/proto/notification.proto";
+import "github.com/tetrafolium/luci-go/buildbucket/proto/build.proto";
+import "github.com/tetrafolium/luci-go/buildbucket/proto/builder.proto";
+import "github.com/tetrafolium/luci-go/buildbucket/proto/common.proto";
+import "github.com/tetrafolium/luci-go/buildbucket/proto/notification.proto";
 
 // Manages builds.
 //

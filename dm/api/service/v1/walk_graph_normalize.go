@@ -19,8 +19,8 @@ import (
 	"sort"
 
 	"github.com/xtgo/set"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/proto/google"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/proto/google"
 )
 
 const (

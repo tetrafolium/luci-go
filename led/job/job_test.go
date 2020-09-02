@@ -22,15 +22,15 @@ import (
 	"github.com/golang/protobuf/jsonpb"
 	durpb "github.com/golang/protobuf/ptypes/duration"
 
-	"go.chromium.org/luci/buildbucket/cmd/bbagent/bbinput"
-	bbpb "go.chromium.org/luci/buildbucket/proto"
-	"go.chromium.org/luci/common/data/rand/cryptorand"
-	"go.chromium.org/luci/led/job/experiments"
-	"go.chromium.org/luci/luciexe/exe"
-	swarmingpb "go.chromium.org/luci/swarming/proto/api"
+	"github.com/tetrafolium/luci-go/buildbucket/cmd/bbagent/bbinput"
+	bbpb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	"github.com/tetrafolium/luci-go/common/data/rand/cryptorand"
+	"github.com/tetrafolium/luci-go/led/job/experiments"
+	"github.com/tetrafolium/luci-go/luciexe/exe"
+	swarmingpb "github.com/tetrafolium/luci-go/swarming/proto/api"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 const phonyTagExperiment = "luci.test.add_phony_tag_experiment"

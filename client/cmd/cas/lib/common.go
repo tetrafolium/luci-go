@@ -20,11 +20,11 @@ import (
 
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/client/cas"
-	"go.chromium.org/luci/common/cli"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/runtime/profiling"
+	"github.com/tetrafolium/luci-go/client/cas"
+	"github.com/tetrafolium/luci-go/common/cli"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/runtime/profiling"
 )
 
 var _ cli.ContextModificator = (*commonFlags)(nil)

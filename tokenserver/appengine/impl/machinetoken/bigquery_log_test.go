@@ -21,12 +21,12 @@ import (
 
 	"github.com/golang/protobuf/ptypes/timestamp"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/proto/google"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/proto/google"
 
-	"go.chromium.org/luci/tokenserver/api"
-	bqpb "go.chromium.org/luci/tokenserver/api/bq"
-	"go.chromium.org/luci/tokenserver/api/minter/v1"
+	"github.com/tetrafolium/luci-go/tokenserver/api"
+	bqpb "github.com/tetrafolium/luci-go/tokenserver/api/bq"
+	"github.com/tetrafolium/luci-go/tokenserver/api/minter/v1"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

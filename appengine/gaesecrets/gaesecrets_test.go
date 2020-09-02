@@ -18,9 +18,9 @@ import (
 	"context"
 	"testing"
 
-	"go.chromium.org/luci/gae/impl/memory"
-	"go.chromium.org/luci/server/caching"
-	"go.chromium.org/luci/server/secrets"
+	"github.com/tetrafolium/luci-go/gae/impl/memory"
+	"github.com/tetrafolium/luci-go/server/caching"
+	"github.com/tetrafolium/luci-go/server/secrets"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

@@ -19,7 +19,7 @@ import (
 	"encoding/json"
 	"os"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // Source knows how to fetch (and refetch) a secret from some fixed location.

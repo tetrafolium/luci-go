@@ -23,10 +23,10 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/common/isolatedclient"
-	"go.chromium.org/luci/common/isolatedclient/isolatedfake"
-	"go.chromium.org/luci/common/system/environ"
-	"go.chromium.org/luci/common/testing/testfs"
+	"github.com/tetrafolium/luci-go/common/isolatedclient"
+	"github.com/tetrafolium/luci-go/common/isolatedclient/isolatedfake"
+	"github.com/tetrafolium/luci-go/common/system/environ"
+	"github.com/tetrafolium/luci-go/common/testing/testfs"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

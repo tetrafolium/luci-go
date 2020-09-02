@@ -19,7 +19,7 @@ import (
 	"strconv"
 	"strings"
 
-	pb "go.chromium.org/luci/buildbucket/proto"
+	pb "github.com/tetrafolium/luci-go/buildbucket/proto"
 )
 
 // ParseGetBuildRequest parses a GetBuild request.

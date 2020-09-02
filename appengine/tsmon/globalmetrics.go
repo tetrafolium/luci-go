@@ -17,10 +17,10 @@ package tsmon
 import (
 	"context"
 
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/tsmon"
-	"go.chromium.org/luci/common/tsmon/metric"
-	"go.chromium.org/luci/gae/service/module"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/tsmon"
+	"github.com/tetrafolium/luci-go/common/tsmon/metric"
+	"github.com/tetrafolium/luci-go/gae/service/module"
 )
 
 var (

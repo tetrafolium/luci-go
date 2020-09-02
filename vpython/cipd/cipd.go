@@ -17,17 +17,17 @@ package cipd
 import (
 	"context"
 
-	"go.chromium.org/luci/vpython/api/vpython"
-	"go.chromium.org/luci/vpython/spec"
-	"go.chromium.org/luci/vpython/venv"
+	"github.com/tetrafolium/luci-go/vpython/api/vpython"
+	"github.com/tetrafolium/luci-go/vpython/spec"
+	"github.com/tetrafolium/luci-go/vpython/venv"
 
-	"go.chromium.org/luci/cipd/client/cipd"
-	"go.chromium.org/luci/cipd/client/cipd/ensure"
-	"go.chromium.org/luci/cipd/client/cipd/template"
-	"go.chromium.org/luci/cipd/common"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/system/filesystem"
+	"github.com/tetrafolium/luci-go/cipd/client/cipd"
+	"github.com/tetrafolium/luci-go/cipd/client/cipd/ensure"
+	"github.com/tetrafolium/luci-go/cipd/client/cipd/template"
+	"github.com/tetrafolium/luci-go/cipd/common"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/system/filesystem"
 )
 
 // TemplateFunc builds a set of template parameters to augment the default CIPD

@@ -21,10 +21,10 @@ import (
 	"sort"
 	"strings"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/iotools"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/iotools"
 
-	"go.chromium.org/luci/cipd/common"
+	"github.com/tetrafolium/luci-go/cipd/common"
 )
 
 // VersionsFile contains a mapping "(package name, version) -> instance ID" used

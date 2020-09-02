@@ -26,16 +26,16 @@ import (
 
 	"google.golang.org/grpc"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/common/trace"
-	"go.chromium.org/luci/grpc/grpcutil"
-	"go.chromium.org/luci/grpc/prpc"
-	"go.chromium.org/luci/server/caching"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/retry"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
+	"github.com/tetrafolium/luci-go/common/trace"
+	"github.com/tetrafolium/luci-go/grpc/grpcutil"
+	"github.com/tetrafolium/luci-go/grpc/prpc"
+	"github.com/tetrafolium/luci-go/server/caching"
 
-	"go.chromium.org/luci/tokenserver/api/minter/v1"
+	"github.com/tetrafolium/luci-go/tokenserver/api/minter/v1"
 )
 
 const (
@@ -89,7 +89,7 @@ var scopedTokenCache = newTokenCache(tokenCacheConfig{
 // internally. Same token may be returned by multiple calls, if its lifetime
 // allows.
 func MintProjectToken(ctx context.Context, p ProjectTokenParams) (_ *Token, err error) {
-	ctx, span := trace.StartSpan(ctx, "go.chromium.org/luci/server/auth.MintProjectToken")
+	ctx, span := trace.StartSpan(ctx, "github.com/tetrafolium/luci-go/server/auth.MintProjectToken")
 	span.Attribute("cr.dev/project", p.LuciProject)
 	defer func() { span.End(err) }()
 

@@ -8,7 +8,7 @@ package config;
 
 import "google/protobuf/empty.proto";
 import "google/protobuf/field_mask.proto";
-import "go.chromium.org/luci/gce/api/config/v1/config.proto";
+import "github.com/tetrafolium/luci-go/gce/api/config/v1/config.proto";
 
 // A request to delete a config.
 message DeleteRequest {

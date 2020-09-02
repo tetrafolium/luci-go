@@ -19,7 +19,7 @@ import (
 	"context"
 	"io"
 
-	"go.chromium.org/luci/cipd/appengine/impl/gs"
+	"github.com/tetrafolium/luci-go/cipd/appengine/impl/gs"
 )
 
 // NoopGoogleStorage implements gs.GoogleStorage interface by returning errors.

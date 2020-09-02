@@ -23,12 +23,12 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/appengine/gaetesting"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/logging/memlogger"
-	"go.chromium.org/luci/gae/service/datastore"
-	notifypb "go.chromium.org/luci/luci_notify/api/config"
-	"go.chromium.org/luci/luci_notify/config"
+	"github.com/tetrafolium/luci-go/appengine/gaetesting"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/logging/memlogger"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
+	notifypb "github.com/tetrafolium/luci-go/luci_notify/api/config"
+	"github.com/tetrafolium/luci-go/luci_notify/config"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

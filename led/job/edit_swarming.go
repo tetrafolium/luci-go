@@ -20,8 +20,8 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/ptypes"
-	"go.chromium.org/luci/common/errors"
-	api "go.chromium.org/luci/swarming/proto/api"
+	"github.com/tetrafolium/luci-go/common/errors"
+	api "github.com/tetrafolium/luci-go/swarming/proto/api"
 )
 
 type swarmingEditor struct {

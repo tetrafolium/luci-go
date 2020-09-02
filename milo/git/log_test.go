@@ -21,19 +21,19 @@ import (
 
 	"github.com/golang/mock/gomock"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/common/proto"
-	gitpb "go.chromium.org/luci/common/proto/git"
-	gitilespb "go.chromium.org/luci/common/proto/gitiles"
-	"go.chromium.org/luci/gae/impl/memory"
-	"go.chromium.org/luci/gae/service/memcache"
-	"go.chromium.org/luci/milo/api/config"
-	"go.chromium.org/luci/milo/git/gitacls"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/auth/authtest"
+	"github.com/tetrafolium/luci-go/auth/identity"
+	"github.com/tetrafolium/luci-go/common/proto"
+	gitpb "github.com/tetrafolium/luci-go/common/proto/git"
+	gitilespb "github.com/tetrafolium/luci-go/common/proto/gitiles"
+	"github.com/tetrafolium/luci-go/gae/impl/memory"
+	"github.com/tetrafolium/luci-go/gae/service/memcache"
+	"github.com/tetrafolium/luci-go/milo/api/config"
+	"github.com/tetrafolium/luci-go/milo/git/gitacls"
+	"github.com/tetrafolium/luci-go/server/auth"
+	"github.com/tetrafolium/luci-go/server/auth/authtest"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestLog(t *testing.T) {

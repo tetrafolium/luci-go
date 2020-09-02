@@ -19,7 +19,7 @@ import (
 	"sort"
 	"strings"
 
-	pb "go.chromium.org/luci/cv/api/config/v2"
+	pb "github.com/tetrafolium/luci-go/cv/api/config/v2"
 )
 
 // CQ normalizes cq.cfg config.

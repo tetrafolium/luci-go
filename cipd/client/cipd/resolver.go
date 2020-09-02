@@ -18,14 +18,14 @@ import (
 	"context"
 	"fmt"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/sync/parallel"
-	"go.chromium.org/luci/common/sync/promise"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/sync/parallel"
+	"github.com/tetrafolium/luci-go/common/sync/promise"
 
-	"go.chromium.org/luci/cipd/client/cipd/ensure"
-	"go.chromium.org/luci/cipd/client/cipd/template"
-	"go.chromium.org/luci/cipd/common"
+	"github.com/tetrafolium/luci-go/cipd/client/cipd/ensure"
+	"github.com/tetrafolium/luci-go/cipd/client/cipd/template"
+	"github.com/tetrafolium/luci-go/cipd/common"
 )
 
 // Resolver resolves versions of packages in an ensure file into concrete

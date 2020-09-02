@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"time"
 
-	"go.chromium.org/luci/common/data/caching/lru"
-	"go.chromium.org/luci/server/caching"
+	"github.com/tetrafolium/luci-go/common/data/caching/lru"
+	"github.com/tetrafolium/luci-go/server/caching"
 )
 
 // BlobCache implements caching.BlobCache on top of lru.Cache for testing.

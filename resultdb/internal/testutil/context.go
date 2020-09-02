@@ -18,11 +18,11 @@ import (
 	"context"
 	"math/rand"
 
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/common/data/rand/mathrand"
-	"go.chromium.org/luci/common/logging/gologger"
-	"go.chromium.org/luci/server/secrets"
-	"go.chromium.org/luci/server/secrets/testsecrets"
+	"github.com/tetrafolium/luci-go/common/clock/testclock"
+	"github.com/tetrafolium/luci-go/common/data/rand/mathrand"
+	"github.com/tetrafolium/luci-go/common/logging/gologger"
+	"github.com/tetrafolium/luci-go/server/secrets"
+	"github.com/tetrafolium/luci-go/server/secrets/testsecrets"
 )
 
 func testingContext(mockClock bool) context.Context {

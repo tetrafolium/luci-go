@@ -22,11 +22,11 @@ import (
 
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/common/cli"
-	luciflag "go.chromium.org/luci/common/flag"
+	"github.com/tetrafolium/luci-go/common/cli"
+	luciflag "github.com/tetrafolium/luci-go/common/flag"
 
-	"go.chromium.org/luci/lucicfg/buildifier"
-	"go.chromium.org/luci/lucicfg/cli/base"
+	"github.com/tetrafolium/luci-go/lucicfg/buildifier"
+	"github.com/tetrafolium/luci-go/lucicfg/cli/base"
 )
 
 // Cmd is 'lint' subcommand.

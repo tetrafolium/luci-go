@@ -15,7 +15,7 @@
 package policy
 
 import (
-	"go.chromium.org/luci/scheduler/appengine/internal"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/internal"
 )
 
 // GreedyBatchingPolicy instantiates new GREEDY_BATCHING policy function.

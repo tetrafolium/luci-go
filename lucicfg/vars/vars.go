@@ -22,9 +22,9 @@ import (
 
 	"go.starlark.net/starlark"
 
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/starlark/builtins"
-	"go.chromium.org/luci/starlark/interpreter"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
+	"github.com/tetrafolium/luci-go/starlark/builtins"
+	"github.com/tetrafolium/luci-go/starlark/interpreter"
 )
 
 // Note: this package is tested entirely by Starlark tests, in particular

@@ -27,18 +27,18 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"go.chromium.org/luci/buildbucket/protoutil"
-	"go.chromium.org/luci/common/cli"
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/sync/parallel"
-	"go.chromium.org/luci/grpc/prpc"
+	"github.com/tetrafolium/luci-go/buildbucket/protoutil"
+	"github.com/tetrafolium/luci-go/common/cli"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
+	"github.com/tetrafolium/luci-go/common/sync/parallel"
+	"github.com/tetrafolium/luci-go/grpc/prpc"
 
-	"go.chromium.org/luci/logdog/client/coordinator"
-	"go.chromium.org/luci/logdog/common/fetcher"
-	"go.chromium.org/luci/logdog/common/types"
+	"github.com/tetrafolium/luci-go/logdog/client/coordinator"
+	"github.com/tetrafolium/luci-go/logdog/common/fetcher"
+	"github.com/tetrafolium/luci-go/logdog/common/types"
 
-	pb "go.chromium.org/luci/buildbucket/proto"
-	logpb "go.chromium.org/luci/logdog/api/logpb"
+	pb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	logpb "github.com/tetrafolium/luci-go/logdog/api/logpb"
 )
 
 func cmdLog(p Params) *subcommands.Command {

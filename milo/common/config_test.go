@@ -17,19 +17,19 @@ package common
 import (
 	"testing"
 
-	"go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
 
-	"go.chromium.org/luci/appengine/gaetesting"
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/config"
-	"go.chromium.org/luci/config/cfgclient"
-	memcfg "go.chromium.org/luci/config/impl/memory"
-	"go.chromium.org/luci/config/validation"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/auth/authtest"
+	"github.com/tetrafolium/luci-go/appengine/gaetesting"
+	"github.com/tetrafolium/luci-go/auth/identity"
+	"github.com/tetrafolium/luci-go/config"
+	"github.com/tetrafolium/luci-go/config/cfgclient"
+	memcfg "github.com/tetrafolium/luci-go/config/impl/memory"
+	"github.com/tetrafolium/luci-go/config/validation"
+	"github.com/tetrafolium/luci-go/server/auth"
+	"github.com/tetrafolium/luci-go/server/auth/authtest"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestConfig(t *testing.T) {

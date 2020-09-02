@@ -17,10 +17,10 @@ package buildsource
 import (
 	"strings"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/grpc/grpcutil"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/grpc/grpcutil"
 
-	"go.chromium.org/luci/milo/common/model"
+	"github.com/tetrafolium/luci-go/milo/common/model"
 )
 
 // BuilderID is the universal ID of a builder, and has the form:

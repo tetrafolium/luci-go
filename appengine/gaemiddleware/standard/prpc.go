@@ -15,9 +15,9 @@
 package standard
 
 import (
-	"go.chromium.org/luci/appengine/gaeauth/server"
-	"go.chromium.org/luci/grpc/prpc"
-	"go.chromium.org/luci/server/auth"
+	"github.com/tetrafolium/luci-go/appengine/gaeauth/server"
+	"github.com/tetrafolium/luci-go/grpc/prpc"
+	"github.com/tetrafolium/luci-go/server/auth"
 )
 
 func init() {

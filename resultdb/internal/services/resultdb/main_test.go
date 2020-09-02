@@ -19,8 +19,8 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/resultdb/internal/testutil"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/resultdb/internal/testutil"
 )
 
 func TestMain(m *testing.M) {

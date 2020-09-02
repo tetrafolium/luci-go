@@ -18,10 +18,10 @@ import (
 	"bytes"
 	"testing"
 
-	"go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/gae/service/datastore/serialize"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/service/datastore/serialize"
 
-	"go.chromium.org/luci/common/data/cmpbin"
+	"github.com/tetrafolium/luci-go/common/data/cmpbin"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

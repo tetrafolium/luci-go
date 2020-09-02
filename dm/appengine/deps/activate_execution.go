@@ -18,9 +18,9 @@ import (
 	"context"
 
 	"github.com/golang/protobuf/ptypes/empty"
-	"go.chromium.org/luci/common/logging"
-	dm "go.chromium.org/luci/dm/api/service/v1"
-	"go.chromium.org/luci/dm/appengine/mutate"
+	"github.com/tetrafolium/luci-go/common/logging"
+	dm "github.com/tetrafolium/luci-go/dm/api/service/v1"
+	"github.com/tetrafolium/luci-go/dm/appengine/mutate"
 )
 
 func (d *deps) ActivateExecution(c context.Context, req *dm.ActivateExecutionReq) (ret *empty.Empty, err error) {

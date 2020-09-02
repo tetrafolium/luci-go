@@ -18,7 +18,7 @@ package oauthid
 import (
 	"strings"
 
-	"go.chromium.org/luci/common/data/stringset"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
 )
 
 // Well-known OAuth client_id of https://apis-explorer.appspot.com/.

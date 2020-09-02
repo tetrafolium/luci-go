@@ -23,9 +23,9 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/server/auth/signing"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
+	"github.com/tetrafolium/luci-go/server/auth/signing"
 )
 
 // Inspector knows how to inspect tokens produced by Signer.

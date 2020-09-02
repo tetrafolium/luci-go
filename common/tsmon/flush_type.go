@@ -17,7 +17,7 @@ package tsmon
 import (
 	"flag"
 
-	"go.chromium.org/luci/common/flag/flagenum"
+	"github.com/tetrafolium/luci-go/common/flag/flagenum"
 )
 
 const (

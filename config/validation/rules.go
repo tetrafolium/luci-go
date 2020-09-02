@@ -19,11 +19,11 @@ import (
 	"strings"
 	"sync"
 
-	"go.chromium.org/luci/common/data/text/pattern"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/common/data/text/pattern"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
 
-	"go.chromium.org/luci/config/vars"
+	"github.com/tetrafolium/luci-go/config/vars"
 )
 
 // Rules is the default validation rule set used by the process.

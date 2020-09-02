@@ -25,9 +25,9 @@ import (
 	"google.golang.org/api/option"
 	"google.golang.org/grpc"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/module"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/server/auth"
+	"github.com/tetrafolium/luci-go/server/module"
 )
 
 // ModuleOptions contain configuration of the Cloud Spanner server module.
@@ -92,7 +92,7 @@ type spannerModule struct {
 
 // Name is part of module.Module interface.
 func (*spannerModule) Name() string {
-	return "go.chromium.org/luci/server/span"
+	return "github.com/tetrafolium/luci-go/server/span"
 }
 
 // Initialize is part of module.Module interface.

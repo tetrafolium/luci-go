@@ -20,10 +20,10 @@ import (
 
 	"github.com/dustin/go-humanize"
 
-	"go.chromium.org/luci/common/proto/google"
+	"github.com/tetrafolium/luci-go/common/proto/google"
 
-	api "go.chromium.org/luci/cipd/api/cipd/v1"
-	"go.chromium.org/luci/cipd/common"
+	api "github.com/tetrafolium/luci-go/cipd/api/cipd/v1"
+	"github.com/tetrafolium/luci-go/cipd/common"
 )
 
 type tagItem struct {

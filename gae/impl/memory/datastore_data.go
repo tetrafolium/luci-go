@@ -22,10 +22,10 @@ import (
 	"strings"
 	"sync"
 
-	"go.chromium.org/luci/common/errors"
-	prodConstraints "go.chromium.org/luci/gae/impl/prod/constraints"
-	ds "go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/gae/service/datastore/serialize"
+	"github.com/tetrafolium/luci-go/common/errors"
+	prodConstraints "github.com/tetrafolium/luci-go/gae/impl/prod/constraints"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/service/datastore/serialize"
 
 	"golang.org/x/net/context"
 )

@@ -19,8 +19,8 @@ import (
 	"reflect"
 	"time"
 
-	"go.chromium.org/luci/gae/impl/prod/constraints"
-	tq "go.chromium.org/luci/gae/service/taskqueue"
+	"github.com/tetrafolium/luci-go/gae/impl/prod/constraints"
+	tq "github.com/tetrafolium/luci-go/gae/service/taskqueue"
 
 	"golang.org/x/net/context"
 	"google.golang.org/appengine"

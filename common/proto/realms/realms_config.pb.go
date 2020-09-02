@@ -10,13 +10,13 @@
 // versions:
 // 	protoc-gen-go v1.25.0-devel
 // 	protoc        v3.12.1
-// source: go.chromium.org/luci/common/proto/realms/realms_config.proto
+// source: github.com/tetrafolium/luci-go/common/proto/realms/realms_config.proto
 
 package realms
 
 import (
 	proto "github.com/golang/protobuf/proto"
-	_ "go.chromium.org/luci/common/proto"
+	_ "github.com/tetrafolium/luci-go/common/proto"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

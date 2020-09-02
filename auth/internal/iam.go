@@ -22,8 +22,8 @@ import (
 	"golang.org/x/oauth2"
 	"google.golang.org/api/googleapi"
 
-	"go.chromium.org/luci/common/gcloud/iam"
-	"go.chromium.org/luci/common/retry/transient"
+	"github.com/tetrafolium/luci-go/common/gcloud/iam"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
 )
 
 type iamTokenProvider struct {

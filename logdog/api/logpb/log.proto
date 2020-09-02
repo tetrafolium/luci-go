@@ -6,7 +6,7 @@ syntax = "proto3";
 
 package logpb;
 
-option go_package = "go.chromium.org/luci/logdog/api/logpb";
+option go_package = "github.com/tetrafolium/luci-go/logdog/api/logpb";
 
 import "google/protobuf/timestamp.proto";
 import "google/protobuf/duration.proto";
@@ -29,7 +29,7 @@ message LogStreamDescriptor {
    * Logs originating from the same Butler instance will share a Prefix.
    *
    * A valid prefix value is a StreamName described in:
-   * https://go.chromium.org/luci/common/logdog/types
+   * https://github.com/tetrafolium/luci-go/common/logdog/types
    */
   string prefix = 1;
   /*
@@ -39,7 +39,7 @@ message LogStreamDescriptor {
    * prefix.
    *
    * A valid name value is a StreamName described in:
-   * https://go.chromium.org/luci/common/logdog/types
+   * https://github.com/tetrafolium/luci-go/common/logdog/types
    */
   string name = 2;
 

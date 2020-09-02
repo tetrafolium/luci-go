@@ -17,13 +17,13 @@ package sweep
 import (
 	"context"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/logging"
 
-	"go.chromium.org/luci/server/tq/internal/db"
-	"go.chromium.org/luci/server/tq/internal/metrics"
-	"go.chromium.org/luci/server/tq/internal/partition"
-	"go.chromium.org/luci/server/tq/internal/reminder"
+	"github.com/tetrafolium/luci-go/server/tq/internal/db"
+	"github.com/tetrafolium/luci-go/server/tq/internal/metrics"
+	"github.com/tetrafolium/luci-go/server/tq/internal/partition"
+	"github.com/tetrafolium/luci-go/server/tq/internal/reminder"
 )
 
 // ScanParams contains parameters for the Scan call.

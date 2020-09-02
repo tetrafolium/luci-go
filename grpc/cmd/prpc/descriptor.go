@@ -19,11 +19,11 @@ import (
 	"fmt"
 	"strings"
 
-	"go.chromium.org/luci/common/proto/google/descutil"
+	"github.com/tetrafolium/luci-go/common/proto/google/descutil"
 
 	"github.com/golang/protobuf/protoc-gen-go/descriptor"
-	"go.chromium.org/luci/grpc/discovery"
-	"go.chromium.org/luci/grpc/prpc"
+	"github.com/tetrafolium/luci-go/grpc/discovery"
+	"github.com/tetrafolium/luci-go/grpc/prpc"
 )
 
 type serverDescription struct {

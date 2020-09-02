@@ -23,15 +23,15 @@ import (
 	"sync"
 	"time"
 
-	"go.chromium.org/luci/common/data/caching/lazyslot"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/config"
-	"go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/server/router"
+	"github.com/tetrafolium/luci-go/common/data/caching/lazyslot"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
+	"github.com/tetrafolium/luci-go/config"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/server/router"
 
-	"go.chromium.org/luci/logdog/api/config/svcconfig"
+	"github.com/tetrafolium/luci-go/logdog/api/config/svcconfig"
 )
 
 var (

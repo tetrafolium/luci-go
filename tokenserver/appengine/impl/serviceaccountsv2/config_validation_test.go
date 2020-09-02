@@ -20,13 +20,13 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"go.chromium.org/luci/config/validation"
+	"github.com/tetrafolium/luci-go/config/validation"
 
-	"go.chromium.org/luci/tokenserver/api/admin/v1"
-	"go.chromium.org/luci/tokenserver/appengine/impl/utils/policy"
+	"github.com/tetrafolium/luci-go/tokenserver/api/admin/v1"
+	"github.com/tetrafolium/luci-go/tokenserver/appengine/impl/utils/policy"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestValidation(t *testing.T) {

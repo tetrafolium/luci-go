@@ -21,8 +21,8 @@ import (
 	"sort"
 	"strings"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/system/filesystem"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/system/filesystem"
 )
 
 // Build constructs a filesystem hierarchy given a layout.

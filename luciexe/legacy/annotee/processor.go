@@ -27,14 +27,14 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes/timestamp"
-	"go.chromium.org/luci/common/clock"
-	log "go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/proto/google"
-	"go.chromium.org/luci/common/sync/parallel"
-	"go.chromium.org/luci/logdog/client/butlerlib/streamclient"
-	"go.chromium.org/luci/logdog/common/types"
-	"go.chromium.org/luci/luciexe/legacy/annotee/annotation"
-	annopb "go.chromium.org/luci/luciexe/legacy/annotee/proto"
+	"github.com/tetrafolium/luci-go/common/clock"
+	log "github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/proto/google"
+	"github.com/tetrafolium/luci-go/common/sync/parallel"
+	"github.com/tetrafolium/luci-go/logdog/client/butlerlib/streamclient"
+	"github.com/tetrafolium/luci-go/logdog/common/types"
+	"github.com/tetrafolium/luci-go/luciexe/legacy/annotee/annotation"
+	annopb "github.com/tetrafolium/luci-go/luciexe/legacy/annotee/proto"
 )
 
 const (

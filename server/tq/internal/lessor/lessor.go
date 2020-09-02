@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"time"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 
-	"go.chromium.org/luci/server/tq/internal/partition"
+	"github.com/tetrafolium/luci-go/server/tq/internal/partition"
 )
 
 // WithLeaseCB executes with active lease on the provided SortedPartitions.

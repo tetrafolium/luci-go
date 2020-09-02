@@ -23,16 +23,16 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/config"
-	"go.chromium.org/luci/config/cfgclient"
-	"go.chromium.org/luci/config/validation"
-	"go.chromium.org/luci/server/router"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/config"
+	"github.com/tetrafolium/luci-go/config/cfgclient"
+	"github.com/tetrafolium/luci-go/config/validation"
+	"github.com/tetrafolium/luci-go/server/router"
 
-	gce "go.chromium.org/luci/gce/api/config/v1"
-	"go.chromium.org/luci/gce/api/projects/v1"
-	"go.chromium.org/luci/gce/appengine/rpc"
+	gce "github.com/tetrafolium/luci-go/gce/api/config/v1"
+	"github.com/tetrafolium/luci-go/gce/api/projects/v1"
+	"github.com/tetrafolium/luci-go/gce/appengine/rpc"
 )
 
 // projectsFile is the name of the projects config file.

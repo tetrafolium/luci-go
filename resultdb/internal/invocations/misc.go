@@ -20,11 +20,11 @@ import (
 
 	"cloud.google.com/go/spanner"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/server/span"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/server/span"
 
-	"go.chromium.org/luci/resultdb/internal/pagination"
-	"go.chromium.org/luci/resultdb/internal/spanutil"
+	"github.com/tetrafolium/luci-go/resultdb/internal/pagination"
+	"github.com/tetrafolium/luci-go/resultdb/internal/spanutil"
 )
 
 // Shards is the sharding level for the Invocations table.

@@ -22,11 +22,11 @@ import (
 	"strings"
 	"text/template"
 
-	"go.chromium.org/luci/common/data/stringset"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
 
-	"go.chromium.org/luci/lucicfg/docgen/ast"
-	"go.chromium.org/luci/lucicfg/docgen/docstring"
-	"go.chromium.org/luci/lucicfg/docgen/symbols"
+	"github.com/tetrafolium/luci-go/lucicfg/docgen/ast"
+	"github.com/tetrafolium/luci-go/lucicfg/docgen/docstring"
+	"github.com/tetrafolium/luci-go/lucicfg/docgen/symbols"
 )
 
 // Generator renders text templates that have access to parsed structured

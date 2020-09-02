@@ -6,7 +6,7 @@ syntax = "proto3";
 
 package logdog;
 
-option go_package = "go.chromium.org/luci/logdog/api/endpoints/coordinator/services/v1;logdog";
+option go_package = "github.com/tetrafolium/luci-go/logdog/api/endpoints/coordinator/services/v1;logdog";
 
 // LogStreamState is the log stream state value communicated to
 // services.

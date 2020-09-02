@@ -6,7 +6,7 @@ syntax = "proto3";
 
 package swarming.config;
 
-option go_package = "go.chromium.org/luci/swarming/proto/config;configpb";
+option go_package = "github.com/tetrafolium/luci-go/swarming/proto/config;configpb";
 
 // Realm permissions used in Swarming.
 // The enums are converted to string names using get_permission_name

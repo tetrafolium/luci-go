@@ -19,8 +19,8 @@ import (
 	"os"
 
 	"github.com/maruel/subcommands"
-	"go.chromium.org/luci/client/isolate"
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/client/isolate"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // CmdRemap returns an object for the `remap` subcommand.

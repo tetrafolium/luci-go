@@ -18,8 +18,8 @@ import (
 	"context"
 	"strconv"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/tsmon/metric"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/tsmon/metric"
 )
 
 var (

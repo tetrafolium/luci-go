@@ -17,14 +17,14 @@ package mutate
 import (
 	"testing"
 
-	"go.chromium.org/luci/dm/api/service/v1"
-	"go.chromium.org/luci/dm/appengine/model"
-	"go.chromium.org/luci/gae/filter/featureBreaker"
-	ds "go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/tumble"
+	"github.com/tetrafolium/luci-go/dm/api/service/v1"
+	"github.com/tetrafolium/luci-go/dm/appengine/model"
+	"github.com/tetrafolium/luci-go/gae/filter/featureBreaker"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/tumble"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestMergeQuest(t *testing.T) {

@@ -27,8 +27,8 @@ import (
 	"github.com/golang/protobuf/jsonpb"
 	. "github.com/smartystreets/goconvey/convey"
 
-	swarming "go.chromium.org/luci/common/api/swarming/swarming/v1"
-	"go.chromium.org/luci/led/job"
+	swarming "github.com/tetrafolium/luci-go/common/api/swarming/swarming/v1"
+	"github.com/tetrafolium/luci-go/led/job"
 )
 
 var train = flag.Bool("train", false, "If set, write testdata/*out.json")

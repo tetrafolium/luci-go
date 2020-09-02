@@ -31,11 +31,11 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/proto/git"
-	"go.chromium.org/luci/common/proto/gitiles"
-	"go.chromium.org/luci/common/retry/transient"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/proto/git"
+	"github.com/tetrafolium/luci-go/common/proto/gitiles"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
 )
 
 // This file implements gitiles proto service client

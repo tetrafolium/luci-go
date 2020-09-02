@@ -27,12 +27,12 @@ import (
 
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/client/downloader"
-	"go.chromium.org/luci/common/data/caching/cache"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/isolated"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/system/signals"
+	"github.com/tetrafolium/luci-go/client/downloader"
+	"github.com/tetrafolium/luci-go/common/data/caching/cache"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/isolated"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/system/signals"
 )
 
 const maxUint = ^uint(0)

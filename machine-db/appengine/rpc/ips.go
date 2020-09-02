@@ -20,11 +20,11 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 
-	"go.chromium.org/luci/machine-db/api/crimson/v1"
-	"go.chromium.org/luci/machine-db/appengine/database"
-	"go.chromium.org/luci/machine-db/common"
+	"github.com/tetrafolium/luci-go/machine-db/api/crimson/v1"
+	"github.com/tetrafolium/luci-go/machine-db/appengine/database"
+	"github.com/tetrafolium/luci-go/machine-db/common"
 )
 
 // defaultIPsPageSize is the default maximum number of IP addresses to return.

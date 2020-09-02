@@ -15,7 +15,7 @@
 // Package logging is simply documentation :)
 //
 // In order to use logging, please import and use the
-// "go.chromium.org/luci/common/logging" package. Both
-// "go.chromium.org/luci/gae/impl/prod" and "go.chromium.org/luci/gae/impl/memory"
+// "github.com/tetrafolium/luci-go/common/logging" package. Both
+// "github.com/tetrafolium/luci-go/gae/impl/prod" and "github.com/tetrafolium/luci-go/gae/impl/memory"
 // implement that service appropriately.
 package logging

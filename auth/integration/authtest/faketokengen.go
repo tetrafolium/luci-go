@@ -22,7 +22,7 @@ import (
 
 	"golang.org/x/oauth2"
 
-	"go.chromium.org/luci/common/clock"
+	"github.com/tetrafolium/luci-go/common/clock"
 )
 
 // Defaults for FakeTokenGenerator.

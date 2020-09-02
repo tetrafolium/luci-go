@@ -25,14 +25,14 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	pb "go.chromium.org/luci/buildbucket/proto"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/logdog/client/butlerlib/bootstrap"
-	"go.chromium.org/luci/luciexe"
-	"go.chromium.org/luci/luciexe/exe"
-	"go.chromium.org/luci/luciexe/legacy/annotee"
-	"go.chromium.org/luci/luciexe/legacy/annotee/annotation"
-	annopb "go.chromium.org/luci/luciexe/legacy/annotee/proto"
+	pb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/logdog/client/butlerlib/bootstrap"
+	"github.com/tetrafolium/luci-go/luciexe"
+	"github.com/tetrafolium/luci-go/luciexe/exe"
+	"github.com/tetrafolium/luci-go/luciexe/legacy/annotee"
+	"github.com/tetrafolium/luci-go/luciexe/legacy/annotee/annotation"
+	annopb "github.com/tetrafolium/luci-go/luciexe/legacy/annotee/proto"
 )
 
 func check(err error) {

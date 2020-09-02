@@ -18,14 +18,14 @@ import (
 	"context"
 	"testing"
 
-	pb "go.chromium.org/luci/resultdb/proto/v1"
+	pb "github.com/tetrafolium/luci-go/resultdb/proto/v1"
 
 	"github.com/golang/mock/gomock"
 	"github.com/golang/protobuf/proto"
-	"go.chromium.org/luci/common/testing/mock"
+	"github.com/tetrafolium/luci-go/common/testing/mock"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestQuery(t *testing.T) {

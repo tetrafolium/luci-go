@@ -19,10 +19,10 @@
 package certauthorities
 
 import (
-	"go.chromium.org/luci/tokenserver/appengine/impl/certchecker"
-	"go.chromium.org/luci/tokenserver/appengine/impl/certconfig"
+	"github.com/tetrafolium/luci-go/tokenserver/appengine/impl/certchecker"
+	"github.com/tetrafolium/luci-go/tokenserver/appengine/impl/certconfig"
 
-	"go.chromium.org/luci/tokenserver/api/admin/v1"
+	"github.com/tetrafolium/luci-go/tokenserver/api/admin/v1"
 )
 
 // serverImpl implements admin.CertificateAuthoritiesServer RPC interface.

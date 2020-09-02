@@ -18,8 +18,8 @@ import (
 	context "context"
 	"fmt"
 
-	"go.chromium.org/luci/common/errors"
-	git "go.chromium.org/luci/common/proto/git"
+	"github.com/tetrafolium/luci-go/common/errors"
+	git "github.com/tetrafolium/luci-go/common/proto/git"
 	grpc "google.golang.org/grpc"
 )
 

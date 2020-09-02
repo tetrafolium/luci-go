@@ -19,9 +19,9 @@ import (
 	"strings"
 	"sync"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/logdog/client/butlerlib/streamproto"
-	"go.chromium.org/luci/logdog/common/types"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/logdog/client/butlerlib/streamproto"
+	"github.com/tetrafolium/luci-go/logdog/common/types"
 )
 
 // fakeStream represents a dialed stream, and has methods to retrieve the data

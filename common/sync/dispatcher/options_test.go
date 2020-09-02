@@ -20,10 +20,10 @@ import (
 
 	"golang.org/x/time/rate"
 
-	"go.chromium.org/luci/common/sync/dispatcher/buffer"
+	"github.com/tetrafolium/luci-go/common/sync/dispatcher/buffer"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestOptionValidationGood(t *testing.T) {

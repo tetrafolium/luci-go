@@ -28,10 +28,10 @@ import (
 
 	"google.golang.org/grpc/metadata"
 
-	"go.chromium.org/luci/common/clock/testclock"
+	"github.com/tetrafolium/luci-go/common/clock/testclock"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestDecoding(t *testing.T) {

@@ -20,12 +20,12 @@ import (
 	"html/template"
 	"regexp"
 
-	"go.chromium.org/luci/server/portal"
-	"go.chromium.org/luci/server/settings"
+	"github.com/tetrafolium/luci-go/server/portal"
+	"github.com/tetrafolium/luci-go/server/settings"
 )
 
 // settingsKey is key for global GAE settings (described by analyticsSettings struct)
-// in the settings store. See go.chromium.org/luci/server/settings.
+// in the settings store. See github.com/tetrafolium/luci-go/server/settings.
 const settingsKey = "analytics"
 
 // analyticsSettings contain settings to enable Google Analytics.

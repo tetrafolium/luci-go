@@ -22,9 +22,9 @@ import (
 	"github.com/kr/pretty"
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/system/signals"
+	"github.com/tetrafolium/luci-go/auth"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/system/signals"
 )
 
 // CmdRequestShow returns an object for the `request-show` subcommand.

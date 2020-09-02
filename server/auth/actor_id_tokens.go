@@ -25,12 +25,12 @@ import (
 
 	"google.golang.org/api/googleapi"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/gcloud/iam"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/common/trace"
-	"go.chromium.org/luci/server/caching"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/gcloud/iam"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
+	"github.com/tetrafolium/luci-go/common/trace"
+	"github.com/tetrafolium/luci-go/server/caching"
 )
 
 // MintIDTokenParams is passed to MintIDTokenForServiceAccount.
@@ -71,7 +71,7 @@ var actorIDTokenCache = newTokenCache(tokenCacheConfig{
 // Recognizes transient errors and marks them, but does not automatically
 // retry. Has internal timeout of 10 sec.
 func MintIDTokenForServiceAccount(ctx context.Context, params MintIDTokenParams) (_ *Token, err error) {
-	ctx, span := trace.StartSpan(ctx, "go.chromium.org/luci/server/auth.MintIDTokenForServiceAccount")
+	ctx, span := trace.StartSpan(ctx, "github.com/tetrafolium/luci-go/server/auth.MintIDTokenForServiceAccount")
 	span.Attribute("cr.dev/account", params.ServiceAccount)
 	defer func() { span.End(err) }()
 

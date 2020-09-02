@@ -24,16 +24,16 @@ import (
 
 	"google.golang.org/grpc/codes"
 
-	ds "go.chromium.org/luci/gae/service/datastore"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/proto/google"
-	"go.chromium.org/luci/common/sync/parallel"
-	dm "go.chromium.org/luci/dm/api/service/v1"
-	"go.chromium.org/luci/dm/appengine/distributor"
-	"go.chromium.org/luci/dm/appengine/model"
-	"go.chromium.org/luci/grpc/grpcutil"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/proto/google"
+	"github.com/tetrafolium/luci-go/common/sync/parallel"
+	dm "github.com/tetrafolium/luci-go/dm/api/service/v1"
+	"github.com/tetrafolium/luci-go/dm/appengine/distributor"
+	"github.com/tetrafolium/luci-go/dm/appengine/model"
+	"github.com/tetrafolium/luci-go/grpc/grpcutil"
 )
 
 const numWorkers = 16

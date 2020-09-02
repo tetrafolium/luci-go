@@ -23,11 +23,11 @@ import (
 
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/common/cli"
+	"github.com/tetrafolium/luci-go/common/cli"
 
-	"go.chromium.org/luci/lucicfg"
-	"go.chromium.org/luci/lucicfg/buildifier"
-	"go.chromium.org/luci/lucicfg/cli/base"
+	"github.com/tetrafolium/luci-go/lucicfg"
+	"github.com/tetrafolium/luci-go/lucicfg/buildifier"
+	"github.com/tetrafolium/luci-go/lucicfg/cli/base"
 )
 
 // Cmd is 'validate' subcommand.

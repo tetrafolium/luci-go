@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/tsmon"
-	"go.chromium.org/luci/server/module"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/tsmon"
+	"github.com/tetrafolium/luci-go/server/module"
 )
 
 const defaultMaxConcurrentRPCs = 100000 // e.g. unlimited
@@ -81,7 +81,7 @@ type serverModule struct {
 
 // Name is part of module.Module interface.
 func (*serverModule) Name() string {
-	return "go.chromium.org/luci/server/limiter"
+	return "github.com/tetrafolium/luci-go/server/limiter"
 }
 
 // Initialize is part of module.Module interface.

@@ -17,7 +17,7 @@ package streamclient
 import (
 	"io"
 
-	"go.chromium.org/luci/common/data/recordio"
+	"github.com/tetrafolium/luci-go/common/data/recordio"
 )
 
 // DatagramStream is the interface for datagram oriented streams.

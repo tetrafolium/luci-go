@@ -21,10 +21,10 @@ import (
 
 	"github.com/golang/mock/gomock"
 	. "github.com/smartystreets/goconvey/convey"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/proto"
-	"go.chromium.org/luci/common/proto/gitiles"
-	"go.chromium.org/luci/config/validation"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/proto"
+	"github.com/tetrafolium/luci-go/common/proto/gitiles"
+	"github.com/tetrafolium/luci-go/config/validation"
 )
 
 func TestRefSet(t *testing.T) {

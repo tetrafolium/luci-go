@@ -22,12 +22,12 @@ import (
 	"strings"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/data/rand/mathrand"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/module"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/data/rand/mathrand"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/server/auth"
+	"github.com/tetrafolium/luci-go/server/module"
 )
 
 // ModuleOptions contain configuration of the secrets server module.
@@ -112,7 +112,7 @@ type serverModule struct {
 
 // Name is part of module.Module interface.
 func (*serverModule) Name() string {
-	return "go.chromium.org/luci/server/secrets"
+	return "github.com/tetrafolium/luci-go/server/secrets"
 }
 
 // Initialize is part of module.Module interface.

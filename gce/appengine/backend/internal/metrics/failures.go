@@ -17,10 +17,10 @@ package metrics
 import (
 	"context"
 
-	"go.chromium.org/luci/common/tsmon/field"
-	"go.chromium.org/luci/common/tsmon/metric"
+	"github.com/tetrafolium/luci-go/common/tsmon/field"
+	"github.com/tetrafolium/luci-go/common/tsmon/metric"
 
-	"go.chromium.org/luci/gce/appengine/model"
+	"github.com/tetrafolium/luci-go/gce/appengine/model"
 )
 
 var (

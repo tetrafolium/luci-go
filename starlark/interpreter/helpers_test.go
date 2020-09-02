@@ -24,7 +24,7 @@ import (
 	"testing"
 	"unicode"
 
-	"go.chromium.org/luci/starlark/builtins"
+	"github.com/tetrafolium/luci-go/starlark/builtins"
 	"go.starlark.net/starlark"
 
 	. "github.com/smartystreets/goconvey/convey"

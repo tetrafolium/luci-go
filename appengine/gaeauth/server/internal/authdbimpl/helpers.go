@@ -17,8 +17,8 @@ package authdbimpl
 import (
 	"context"
 
-	"go.chromium.org/luci/gae/service/info"
-	"go.chromium.org/luci/server/auth/service"
+	"github.com/tetrafolium/luci-go/gae/service/info"
+	"github.com/tetrafolium/luci-go/server/auth/service"
 )
 
 // authService is interface for service.AuthService.

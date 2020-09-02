@@ -18,7 +18,7 @@ import (
 	"context"
 	"time"
 
-	"go.chromium.org/luci/logdog/common/storage"
+	"github.com/tetrafolium/luci-go/logdog/common/storage"
 )
 
 // SigningStorage is an interface to storage used by the Coordinator.

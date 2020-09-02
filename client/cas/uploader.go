@@ -24,8 +24,8 @@ import (
 	"github.com/bazelbuild/remote-apis-sdks/go/pkg/filemetadata"
 	"github.com/bazelbuild/remote-apis-sdks/go/pkg/tree"
 
-	"go.chromium.org/luci/client/isolate"
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/client/isolate"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // Uploader provides the API to upload the files in an isolate file to CAS service.

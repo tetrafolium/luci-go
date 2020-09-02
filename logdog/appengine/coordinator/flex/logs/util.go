@@ -15,9 +15,9 @@
 package logs
 
 import (
-	"go.chromium.org/luci/common/proto/google"
-	logdog "go.chromium.org/luci/logdog/api/endpoints/coordinator/logs/v1"
-	"go.chromium.org/luci/logdog/appengine/coordinator"
+	"github.com/tetrafolium/luci-go/common/proto/google"
+	logdog "github.com/tetrafolium/luci-go/logdog/api/endpoints/coordinator/logs/v1"
+	"github.com/tetrafolium/luci-go/logdog/appengine/coordinator"
 )
 
 func fillStateFromLogStream(s *logdog.LogStreamState, ls *coordinator.LogStream) {

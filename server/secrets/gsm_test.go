@@ -26,7 +26,7 @@ import (
 	"google.golang.org/grpc/status"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestSecretManagerSource(t *testing.T) {

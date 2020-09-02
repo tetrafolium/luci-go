@@ -15,9 +15,9 @@
 package main
 
 import (
-	log "go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/logdog/client/butler"
-	"go.chromium.org/luci/logdog/client/butler/streamserver"
+	log "github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/logdog/client/butler"
+	"github.com/tetrafolium/luci-go/logdog/client/butler/streamserver"
 
 	"github.com/maruel/subcommands"
 )

@@ -15,7 +15,7 @@
 // Package buildmerge implements the build.proto tracking and merging logic for
 // luciexe host applications.
 //
-// You probably want to use `go.chromium.org/luci/luciexe/host` instead.
+// You probably want to use `github.com/tetrafolium/luci-go/luciexe/host` instead.
 //
 // This package is separate from luciexe/host to avoid unnecessary entaglement
 // with butler/logdog; All the logic here is implemented to avoid:
@@ -43,15 +43,15 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes"
 	"github.com/golang/protobuf/ptypes/timestamp"
-	bbpb "go.chromium.org/luci/buildbucket/proto"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/sync/dispatcher"
-	"go.chromium.org/luci/common/sync/dispatcher/buffer"
-	"go.chromium.org/luci/logdog/api/logpb"
-	"go.chromium.org/luci/logdog/client/butler"
-	"go.chromium.org/luci/logdog/common/types"
-	"go.chromium.org/luci/luciexe"
+	bbpb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/sync/dispatcher"
+	"github.com/tetrafolium/luci-go/common/sync/dispatcher/buffer"
+	"github.com/tetrafolium/luci-go/logdog/api/logpb"
+	"github.com/tetrafolium/luci-go/logdog/client/butler"
+	"github.com/tetrafolium/luci-go/logdog/common/types"
+	"github.com/tetrafolium/luci-go/luciexe"
 )
 
 // CalcURLFn is a stateless function which can calculate the absolute url and

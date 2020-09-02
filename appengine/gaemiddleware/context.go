@@ -19,23 +19,23 @@ import (
 	"net/http"
 	"sync"
 
-	"go.chromium.org/luci/gae/filter/dscache"
-	"go.chromium.org/luci/gae/filter/featureBreaker"
-	"go.chromium.org/luci/gae/filter/readonly"
-	"go.chromium.org/luci/gae/filter/txndefer"
-	"go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/filter/dscache"
+	"github.com/tetrafolium/luci-go/gae/filter/featureBreaker"
+	"github.com/tetrafolium/luci-go/gae/filter/readonly"
+	"github.com/tetrafolium/luci-go/gae/filter/txndefer"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
 
-	"go.chromium.org/luci/common/data/caching/cacheContext"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/common/data/caching/cacheContext"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
 
-	"go.chromium.org/luci/server/caching"
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/server/settings"
-	"go.chromium.org/luci/server/warmup"
+	"github.com/tetrafolium/luci-go/server/caching"
+	"github.com/tetrafolium/luci-go/server/router"
+	"github.com/tetrafolium/luci-go/server/settings"
+	"github.com/tetrafolium/luci-go/server/warmup"
 
-	"go.chromium.org/luci/appengine/gaesecrets"
-	"go.chromium.org/luci/appengine/gaesettings"
+	"github.com/tetrafolium/luci-go/appengine/gaesecrets"
+	"github.com/tetrafolium/luci-go/appengine/gaesettings"
 )
 
 // errSimulatedMemcacheOutage is returned by all memcache calls if
@@ -145,7 +145,7 @@ func (e *Environment) InstallHandlersWithMiddleware(r *router.Router, base route
 // Basically, it installs GAE-specific backends and caches for various
 // subsystems to make them work in GAE environment.
 //
-// One example is a backend for Logging: go.chromium.org/luci/common/logging.
+// One example is a backend for Logging: github.com/tetrafolium/luci-go/common/logging.
 // Logs emitted through a WithProd() context go to GAE logs.
 //
 // 'Production' here means the services will use real GAE APIs (not mocks or

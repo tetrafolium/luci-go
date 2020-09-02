@@ -16,7 +16,7 @@
 // versions:
 // 	protoc-gen-go v1.25.0-devel
 // 	protoc        v3.12.1
-// source: go.chromium.org/luci/buildbucket/proto/build.proto
+// source: github.com/tetrafolium/luci-go/buildbucket/proto/build.proto
 
 package buildbucketpb
 
@@ -25,7 +25,7 @@ import (
 	duration "github.com/golang/protobuf/ptypes/duration"
 	_struct "github.com/golang/protobuf/ptypes/struct"
 	timestamp "github.com/golang/protobuf/ptypes/timestamp"
-	api "go.chromium.org/luci/swarming/proto/api"
+	api "github.com/tetrafolium/luci-go/swarming/proto/api"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

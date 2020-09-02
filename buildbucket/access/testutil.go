@@ -21,7 +21,7 @@ import (
 
 	"google.golang.org/grpc"
 
-	"go.chromium.org/luci/common/proto/access"
+	"github.com/tetrafolium/luci-go/common/proto/access"
 )
 
 // TestClient implements an access.AccessClient with stubs for use in testing.

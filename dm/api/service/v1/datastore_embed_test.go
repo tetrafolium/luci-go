@@ -18,8 +18,8 @@ import (
 	"testing"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
-	"go.chromium.org/luci/gae/service/datastore"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
 )
 
 func TestAttemptID(t *testing.T) {

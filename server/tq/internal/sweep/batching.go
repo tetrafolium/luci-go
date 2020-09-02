@@ -19,14 +19,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/sync/dispatcher"
-	"go.chromium.org/luci/common/sync/dispatcher/buffer"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/sync/dispatcher"
+	"github.com/tetrafolium/luci-go/common/sync/dispatcher/buffer"
 
-	"go.chromium.org/luci/server/tq/internal"
-	"go.chromium.org/luci/server/tq/internal/db"
-	"go.chromium.org/luci/server/tq/internal/reminder"
+	"github.com/tetrafolium/luci-go/server/tq/internal"
+	"github.com/tetrafolium/luci-go/server/tq/internal/db"
+	"github.com/tetrafolium/luci-go/server/tq/internal/reminder"
 )
 
 // BatchProcessor handles reminders in batches.

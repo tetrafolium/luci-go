@@ -19,16 +19,16 @@ import (
 	"fmt"
 	"net/http"
 
-	"go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/gae/service/info"
-	"go.chromium.org/luci/gae/service/memcache"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/service/info"
+	"github.com/tetrafolium/luci-go/gae/service/memcache"
 
-	bbAccess "go.chromium.org/luci/buildbucket/access"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	accessProto "go.chromium.org/luci/common/proto/access"
-	"go.chromium.org/luci/grpc/grpcutil"
-	"go.chromium.org/luci/server/auth"
+	bbAccess "github.com/tetrafolium/luci-go/buildbucket/access"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	accessProto "github.com/tetrafolium/luci-go/common/proto/access"
+	"github.com/tetrafolium/luci-go/grpc/grpcutil"
+	"github.com/tetrafolium/luci-go/server/auth"
 )
 
 // Helper functions for ACL checking.

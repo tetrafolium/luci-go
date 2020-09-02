@@ -20,10 +20,10 @@ import (
 
 	"github.com/golang/protobuf/ptypes/timestamp"
 
-	"go.chromium.org/luci/server/auth/delegation/messages"
-	"go.chromium.org/luci/tokenserver/api/admin/v1"
-	bqpb "go.chromium.org/luci/tokenserver/api/bq"
-	"go.chromium.org/luci/tokenserver/api/minter/v1"
+	"github.com/tetrafolium/luci-go/server/auth/delegation/messages"
+	"github.com/tetrafolium/luci-go/tokenserver/api/admin/v1"
+	bqpb "github.com/tetrafolium/luci-go/tokenserver/api/bq"
+	"github.com/tetrafolium/luci-go/tokenserver/api/minter/v1"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

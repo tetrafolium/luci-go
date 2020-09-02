@@ -17,10 +17,10 @@ package deriver
 import (
 	"time"
 
-	"go.chromium.org/luci/server"
+	"github.com/tetrafolium/luci-go/server"
 
-	"go.chromium.org/luci/resultdb/internal"
-	pb "go.chromium.org/luci/resultdb/proto/v1"
+	"github.com/tetrafolium/luci-go/resultdb/internal"
+	pb "github.com/tetrafolium/luci-go/resultdb/proto/v1"
 )
 
 // deriverServer implements pb.DeriverServer.

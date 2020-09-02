@@ -29,10 +29,10 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/grpc/grpcutil"
-	"go.chromium.org/luci/server/router"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
+	"github.com/tetrafolium/luci-go/grpc/grpcutil"
+	"github.com/tetrafolium/luci-go/server/router"
 )
 
 var (
@@ -206,7 +206,7 @@ func (s *Server) authenticate() router.Middleware {
 
 // InstallHandlers installs HTTP handlers at /prpc/:service/:method.
 //
-// See https://godoc.org/go.chromium.org/luci/grpc/prpc#hdr-Protocol
+// See https://godoc.org/github.com/tetrafolium/luci-go/grpc/prpc#hdr-Protocol
 // for pRPC protocol.
 //
 // The authenticator in 'base' is always replaced by pRPC specific one. For more
@@ -223,7 +223,7 @@ func (s *Server) InstallHandlers(r *router.Router, base router.MiddlewareChain) 
 }
 
 // handle handles RPCs.
-// See https://godoc.org/go.chromium.org/luci/grpc/prpc#hdr-Protocol
+// See https://godoc.org/github.com/tetrafolium/luci-go/grpc/prpc#hdr-Protocol
 // for pRPC protocol.
 func (s *Server) handlePOST(c *router.Context) {
 	serviceName := c.Params.ByName("service")

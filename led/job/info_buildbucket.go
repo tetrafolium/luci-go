@@ -17,8 +17,8 @@ package job
 import (
 	"github.com/golang/protobuf/jsonpb"
 
-	bbpb "go.chromium.org/luci/buildbucket/proto"
-	swarmingpb "go.chromium.org/luci/swarming/proto/api"
+	bbpb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	swarmingpb "github.com/tetrafolium/luci-go/swarming/proto/api"
 )
 
 type bbInfo struct {

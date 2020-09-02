@@ -15,7 +15,7 @@
 package protoutil
 
 import (
-	pb "go.chromium.org/luci/buildbucket/proto"
+	pb "github.com/tetrafolium/luci-go/buildbucket/proto"
 )
 
 // IsEnded returns true if s is final.

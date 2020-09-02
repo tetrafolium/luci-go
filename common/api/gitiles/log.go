@@ -20,9 +20,9 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/protobuf/proto"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/proto/git"
-	"go.chromium.org/luci/common/proto/gitiles"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/proto/git"
+	"github.com/tetrafolium/luci-go/common/proto/gitiles"
 )
 
 // DefaultLimit is the default maximum number of commits to load.

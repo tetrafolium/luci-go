@@ -25,17 +25,17 @@ import (
 	"github.com/maruel/subcommands"
 	"google.golang.org/grpc/codes"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/auth/client/authcli"
-	"go.chromium.org/luci/buildbucket/protoutil"
-	"go.chromium.org/luci/cipd/version"
-	"go.chromium.org/luci/common/data/text"
-	"go.chromium.org/luci/common/lhttp"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry"
-	"go.chromium.org/luci/grpc/prpc"
+	"github.com/tetrafolium/luci-go/auth"
+	"github.com/tetrafolium/luci-go/auth/client/authcli"
+	"github.com/tetrafolium/luci-go/buildbucket/protoutil"
+	"github.com/tetrafolium/luci-go/cipd/version"
+	"github.com/tetrafolium/luci-go/common/data/text"
+	"github.com/tetrafolium/luci-go/common/lhttp"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/retry"
+	"github.com/tetrafolium/luci-go/grpc/prpc"
 
-	pb "go.chromium.org/luci/buildbucket/proto"
+	pb "github.com/tetrafolium/luci-go/buildbucket/proto"
 )
 
 var expectedCodeRPCOption = prpc.ExpectedCode(

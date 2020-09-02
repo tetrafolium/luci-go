@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"os"
 
-	"go.chromium.org/luci/grpc/prpc"
-	"go.chromium.org/luci/grpc/prpc/talk/buildbot/proto"
+	"github.com/tetrafolium/luci-go/grpc/prpc"
+	"github.com/tetrafolium/luci-go/grpc/prpc/talk/buildbot/proto"
 )
 
 func main() {

@@ -30,14 +30,14 @@ import (
 	"net/http"
 	"strings"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/gae/service/info"
-	"go.chromium.org/luci/server/auth/signing"
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/server/warmup"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
+	"github.com/tetrafolium/luci-go/gae/service/info"
+	"github.com/tetrafolium/luci-go/server/auth/signing"
+	"github.com/tetrafolium/luci-go/server/router"
+	"github.com/tetrafolium/luci-go/server/warmup"
 )
 
 // Header is the name of the HTTP header where the GCE VM metadata token is

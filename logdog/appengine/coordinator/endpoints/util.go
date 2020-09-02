@@ -18,7 +18,7 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/ptypes/duration"
-	"go.chromium.org/luci/common/proto/google"
+	"github.com/tetrafolium/luci-go/common/proto/google"
 )
 
 // MinDuration selects the smallest duration that is > 0 from a set of

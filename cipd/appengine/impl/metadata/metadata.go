@@ -17,7 +17,7 @@ package metadata
 import (
 	"context"
 
-	api "go.chromium.org/luci/cipd/api/cipd/v1"
+	api "github.com/tetrafolium/luci-go/cipd/api/cipd/v1"
 )
 
 // Visitor is a callback passed to VisitMetadata.

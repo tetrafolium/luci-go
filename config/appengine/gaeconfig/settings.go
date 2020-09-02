@@ -22,9 +22,9 @@ import (
 	"net/url"
 	"strings"
 
-	"go.chromium.org/luci/gae/service/info"
-	"go.chromium.org/luci/server/portal"
-	"go.chromium.org/luci/server/settings"
+	"github.com/tetrafolium/luci-go/gae/service/info"
+	"github.com/tetrafolium/luci-go/server/portal"
+	"github.com/tetrafolium/luci-go/server/settings"
 )
 
 // configServiceAdmins is the default value for settings.AdministratorsGroup

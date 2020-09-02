@@ -13,7 +13,7 @@
 // limitations under the License.
 
 // Package gaeemulation provides a server module that adds implementation of
-// some https://godoc.org/go.chromium.org/luci/gae APIs to the global server context.
+// some https://godoc.org/github.com/tetrafolium/luci-go/gae APIs to the global server context.
 //
 // The implementation is based on regular Cloud APIs and works from anywhere
 // (not necessarily from Appengine).
@@ -45,13 +45,13 @@ import (
 	"cloud.google.com/go/datastore"
 	"google.golang.org/api/option"
 
-	"go.chromium.org/luci/gae/filter/txndefer"
-	"go.chromium.org/luci/gae/impl/cloud"
+	"github.com/tetrafolium/luci-go/gae/filter/txndefer"
+	"github.com/tetrafolium/luci-go/gae/impl/cloud"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/module"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/server/auth"
+	"github.com/tetrafolium/luci-go/server/module"
 )
 
 // ModuleOptions are empty for now but exist to make the gaeemulation interface
@@ -62,7 +62,7 @@ type ModuleOptions struct{}
 func (o *ModuleOptions) Register(f *flag.FlagSet) {}
 
 // NewModule returns a server module that adds implementation of
-// some https://godoc.org/go.chromium.org/luci/gae APIs to the global server context.
+// some https://godoc.org/github.com/tetrafolium/luci-go/gae APIs to the global server context.
 func NewModule(opts *ModuleOptions) module.Module {
 	if opts == nil {
 		opts = &ModuleOptions{}
@@ -88,7 +88,7 @@ type gaeModule struct {
 
 // Name is part of module.Module interface.
 func (*gaeModule) Name() string {
-	return "go.chromium.org/luci/server/gaeemulation"
+	return "github.com/tetrafolium/luci-go/server/gaeemulation"
 }
 
 // Initialize is part of module.Module interface.

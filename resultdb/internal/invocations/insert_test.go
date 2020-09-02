@@ -18,8 +18,8 @@ import (
 	"time"
 
 	"cloud.google.com/go/spanner"
-	"go.chromium.org/luci/resultdb/internal/spanutil"
-	pb "go.chromium.org/luci/resultdb/proto/v1"
+	"github.com/tetrafolium/luci-go/resultdb/internal/spanutil"
+	pb "github.com/tetrafolium/luci-go/resultdb/proto/v1"
 )
 
 func insertInvocation(id ID, extraValues map[string]interface{}) *spanner.Mutation {

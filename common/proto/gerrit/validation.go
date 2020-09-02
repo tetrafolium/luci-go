@@ -15,7 +15,7 @@
 package gerrit
 
 import (
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // Validate returns an error if r is invalid.

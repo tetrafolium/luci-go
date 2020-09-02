@@ -20,10 +20,10 @@ import (
 	"github.com/golang/protobuf/proto"
 	"google.golang.org/grpc/codes"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/grpc/appstatus"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/grpc/appstatus"
 
-	internalpb "go.chromium.org/luci/resultdb/internal/proto"
+	internalpb "github.com/tetrafolium/luci-go/resultdb/internal/proto"
 )
 
 const (

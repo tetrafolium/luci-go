@@ -15,7 +15,7 @@
 package utils
 
 import (
-	"go.chromium.org/luci/common/retry/transient"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
 	"google.golang.org/api/googleapi"
 )
 

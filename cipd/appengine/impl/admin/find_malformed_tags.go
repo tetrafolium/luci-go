@@ -20,17 +20,17 @@ import (
 	"sync"
 	"time"
 
-	"go.chromium.org/luci/appengine/mapper"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/common/sync/parallel"
-	"go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/appengine/mapper"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
+	"github.com/tetrafolium/luci-go/common/sync/parallel"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
 
-	api "go.chromium.org/luci/cipd/api/admin/v1"
-	"go.chromium.org/luci/cipd/appengine/impl/model"
-	"go.chromium.org/luci/cipd/common"
+	api "github.com/tetrafolium/luci-go/cipd/api/admin/v1"
+	"github.com/tetrafolium/luci-go/cipd/appengine/impl/model"
+	"github.com/tetrafolium/luci-go/cipd/common"
 )
 
 func init() {

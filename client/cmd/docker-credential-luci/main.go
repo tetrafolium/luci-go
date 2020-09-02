@@ -29,9 +29,9 @@ import (
 	"os"
 	"time"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/common/logging/gologger"
-	"go.chromium.org/luci/hardcoded/chromeinfra"
+	"github.com/tetrafolium/luci-go/auth"
+	"github.com/tetrafolium/luci-go/common/logging/gologger"
+	"github.com/tetrafolium/luci-go/hardcoded/chromeinfra"
 )
 
 func main() {

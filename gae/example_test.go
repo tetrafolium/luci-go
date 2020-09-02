@@ -19,9 +19,9 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	"go.chromium.org/luci/gae/impl/memory"
-	"go.chromium.org/luci/gae/impl/prod"
-	"go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/impl/memory"
+	"github.com/tetrafolium/luci-go/gae/impl/prod"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
 	"golang.org/x/net/context"
 )
 

@@ -16,15 +16,15 @@
 // versions:
 // 	protoc-gen-go v1.24.0-devel
 // 	protoc        v3.12.1
-// source: go.chromium.org/luci/led/job/job.proto
+// source: github.com/tetrafolium/luci-go/led/job/job.proto
 
 package job
 
 import (
 	proto "github.com/golang/protobuf/proto"
 	duration "github.com/golang/protobuf/ptypes/duration"
-	proto1 "go.chromium.org/luci/buildbucket/proto"
-	api "go.chromium.org/luci/swarming/proto/api"
+	proto1 "github.com/tetrafolium/luci-go/buildbucket/proto"
+	api "github.com/tetrafolium/luci-go/swarming/proto/api"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

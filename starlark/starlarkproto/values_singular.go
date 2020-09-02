@@ -22,7 +22,7 @@ import (
 
 	"google.golang.org/protobuf/reflect/protoreflect"
 
-	"go.chromium.org/luci/starlark/typed"
+	"github.com/tetrafolium/luci-go/starlark/typed"
 )
 
 // toStarlarkSingular converts 'v' to starlark, based on type in 'fd'.

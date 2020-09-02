@@ -20,7 +20,7 @@ import (
 
 	"github.com/golang/protobuf/jsonpb"
 	"github.com/maruel/subcommands"
-	dm "go.chromium.org/luci/dm/api/service/v1"
+	dm "github.com/tetrafolium/luci-go/dm/api/service/v1"
 )
 
 var cmdHashQuest = &subcommands.Command{

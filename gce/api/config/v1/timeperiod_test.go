@@ -18,10 +18,10 @@ import (
 	"context"
 	"testing"
 
-	"go.chromium.org/luci/config/validation"
+	"github.com/tetrafolium/luci-go/config/validation"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestTimePeriod(t *testing.T) {

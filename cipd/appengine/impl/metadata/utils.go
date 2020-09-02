@@ -15,9 +15,9 @@
 package metadata
 
 import (
-	"go.chromium.org/luci/common/data/stringset"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
 
-	api "go.chromium.org/luci/cipd/api/cipd/v1"
+	api "github.com/tetrafolium/luci-go/cipd/api/cipd/v1"
 )
 
 // GetACLs returns ACLs in the metadata as a map: role -> set of principals.

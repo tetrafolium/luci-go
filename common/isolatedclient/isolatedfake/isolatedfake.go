@@ -29,8 +29,8 @@ import (
 	"strings"
 	"sync"
 
-	isolateservice "go.chromium.org/luci/common/api/isolate/isolateservice/v1"
-	"go.chromium.org/luci/common/isolated"
+	isolateservice "github.com/tetrafolium/luci-go/common/api/isolate/isolateservice/v1"
+	"github.com/tetrafolium/luci-go/common/isolated"
 )
 
 const contentType = "application/json; charset=utf-8"

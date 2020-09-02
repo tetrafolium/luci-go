@@ -19,7 +19,7 @@ import (
 	"io"
 	"math"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // TODO(vadimsh): Share code with the client.

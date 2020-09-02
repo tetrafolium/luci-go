@@ -22,9 +22,9 @@ import (
 
 	googleapi "google.golang.org/api/googleapi"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/common/api/swarming/swarming/v1"
-	. "go.chromium.org/luci/common/testing/assertions"
+	"github.com/tetrafolium/luci-go/auth"
+	"github.com/tetrafolium/luci-go/common/api/swarming/swarming/v1"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

@@ -16,10 +16,10 @@ syntax = "proto3";
 
 package cipd;
 
-option go_package = "go.chromium.org/luci/cipd/api/admin/v1;api";
+option go_package = "github.com/tetrafolium/luci-go/cipd/api/admin/v1;api";
 
 import "google/protobuf/empty.proto";
-import "go.chromium.org/luci/appengine/mapper/messages.proto";
+import "github.com/tetrafolium/luci-go/appengine/mapper/messages.proto";
 
 
 // Administrative API used by CIPD service administrators for internal needs.

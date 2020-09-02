@@ -27,10 +27,10 @@ import (
 	"runtime"
 	"sync"
 
-	"go.chromium.org/luci/common/data/text/units"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/isolated"
-	"go.chromium.org/luci/common/system/filesystem"
+	"github.com/tetrafolium/luci-go/common/data/text/units"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/isolated"
+	"github.com/tetrafolium/luci-go/common/system/filesystem"
 )
 
 // Cache is a cache of objects holding content in disk.

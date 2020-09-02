@@ -48,7 +48,7 @@ import (
 	"fmt"
 	"sync"
 
-	"go.chromium.org/luci/common/data/stringset"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
 )
 
 // All registered experiments.
@@ -58,7 +58,7 @@ var available struct {
 }
 
 // A context.Context key for a set of enabled experiments.
-var ctxKey = "go.chromium.org/luci/server/experiments"
+var ctxKey = "github.com/tetrafolium/luci-go/server/experiments"
 
 // ID identifies an experiment.
 //

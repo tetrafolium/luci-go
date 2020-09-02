@@ -19,9 +19,9 @@ import (
 
 	"github.com/golang/protobuf/ptypes"
 
-	"go.chromium.org/luci/common/data/strpair"
+	"github.com/tetrafolium/luci-go/common/data/strpair"
 
-	pb "go.chromium.org/luci/buildbucket/proto"
+	pb "github.com/tetrafolium/luci-go/buildbucket/proto"
 )
 
 // BuildMediaType is a media type for a binary-encoded Build message.

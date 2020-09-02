@@ -23,7 +23,7 @@ import (
 	"log"
 	"sync"
 
-	"go.chromium.org/luci/common/isolatedclient"
+	"github.com/tetrafolium/luci-go/common/isolatedclient"
 )
 
 // Uploader uploads items to the server.

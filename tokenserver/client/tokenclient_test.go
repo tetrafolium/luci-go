@@ -24,12 +24,12 @@ import (
 
 	"google.golang.org/grpc"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/common/proto/google"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/clock/testclock"
+	"github.com/tetrafolium/luci-go/common/proto/google"
 
-	tokenserver "go.chromium.org/luci/tokenserver/api"
-	"go.chromium.org/luci/tokenserver/api/minter/v1"
+	tokenserver "github.com/tetrafolium/luci-go/tokenserver/api"
+	"github.com/tetrafolium/luci-go/tokenserver/api/minter/v1"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

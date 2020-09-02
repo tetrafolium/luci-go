@@ -21,11 +21,11 @@ import (
 	"net/http"
 	"strings"
 
-	swarmbucket "go.chromium.org/luci/common/api/buildbucket/swarmbucket/v1"
-	swarming "go.chromium.org/luci/common/api/swarming/swarming/v1"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/led/job"
-	"go.chromium.org/luci/led/job/jobcreate"
+	swarmbucket "github.com/tetrafolium/luci-go/common/api/buildbucket/swarmbucket/v1"
+	swarming "github.com/tetrafolium/luci-go/common/api/swarming/swarming/v1"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
+	"github.com/tetrafolium/luci-go/led/job"
+	"github.com/tetrafolium/luci-go/led/job/jobcreate"
 )
 
 // GetBuildersOpts are the options for GetBuilder.

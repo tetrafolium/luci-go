@@ -20,15 +20,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
 
-	"go.chromium.org/luci/server/tq/internal/db"
-	"go.chromium.org/luci/server/tq/internal/metrics"
-	"go.chromium.org/luci/server/tq/internal/partition"
-	"go.chromium.org/luci/server/tq/internal/sweep"
-	"go.chromium.org/luci/server/tq/internal/workset"
+	"github.com/tetrafolium/luci-go/server/tq/internal/db"
+	"github.com/tetrafolium/luci-go/server/tq/internal/metrics"
+	"github.com/tetrafolium/luci-go/server/tq/internal/partition"
+	"github.com/tetrafolium/luci-go/server/tq/internal/sweep"
+	"github.com/tetrafolium/luci-go/server/tq/internal/workset"
 )
 
 // InProcSweeperOptions is configuration for the process of "sweeping" of

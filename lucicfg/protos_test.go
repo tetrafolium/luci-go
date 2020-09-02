@@ -23,7 +23,7 @@ import (
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/descriptorpb"
 
-	"go.chromium.org/luci/starlark/starlarkproto"
+	"github.com/tetrafolium/luci-go/starlark/starlarkproto"
 
 	. "github.com/smartystreets/goconvey/convey"
 )
@@ -43,7 +43,7 @@ func init() {
 		panic(err)
 	}
 	ds, err := starlarkproto.NewDescriptorSet("test", dspb.GetFile(), []*starlarkproto.DescriptorSet{
-		luciTypesDescSet, // for "go.chromium.org/luci/common/proto/options.proto"
+		luciTypesDescSet, // for "github.com/tetrafolium/luci-go/common/proto/options.proto"
 	})
 	if err != nil {
 		panic(err)

@@ -23,16 +23,16 @@ import (
 
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/auth/client/authcli"
-	"go.chromium.org/luci/cipd/version"
-	"go.chromium.org/luci/common/data/text"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/lhttp"
-	"go.chromium.org/luci/grpc/prpc"
-	"go.chromium.org/luci/lucictx"
+	"github.com/tetrafolium/luci-go/auth"
+	"github.com/tetrafolium/luci-go/auth/client/authcli"
+	"github.com/tetrafolium/luci-go/cipd/version"
+	"github.com/tetrafolium/luci-go/common/data/text"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/lhttp"
+	"github.com/tetrafolium/luci-go/grpc/prpc"
+	"github.com/tetrafolium/luci-go/lucictx"
 
-	pb "go.chromium.org/luci/resultdb/proto/v1"
+	pb "github.com/tetrafolium/luci-go/resultdb/proto/v1"
 )
 
 // ExitCodeCommandFailure indicates that a given command failed due to internal errors

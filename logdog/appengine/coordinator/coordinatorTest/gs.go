@@ -19,7 +19,7 @@ import (
 	"io"
 
 	storage "cloud.google.com/go/storage"
-	"go.chromium.org/luci/common/gcloud/gs"
+	"github.com/tetrafolium/luci-go/common/gcloud/gs"
 )
 
 // GSClient is a testing Google Storage client implementation.

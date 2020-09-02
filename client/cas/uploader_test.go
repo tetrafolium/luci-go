@@ -29,7 +29,7 @@ import (
 	"github.com/golang/protobuf/proto"
 	. "github.com/smartystreets/goconvey/convey"
 
-	"go.chromium.org/luci/client/isolate"
+	"github.com/tetrafolium/luci-go/client/isolate"
 )
 
 func TestUploader(t *testing.T) {

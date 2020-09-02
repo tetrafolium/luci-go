@@ -16,7 +16,7 @@ syntax = "proto3";
 
 package lucictx;
 
-option go_package = "go.chromium.org/luci/lucictx;lucictx";
+option go_package = "github.com/tetrafolium/luci-go/lucictx;lucictx";
 
 message TestStructure {
   int32 hello_there = 1;

@@ -24,13 +24,13 @@ import (
 	"strings"
 
 	"github.com/golang/protobuf/proto"
-	bbpb "go.chromium.org/luci/buildbucket/proto"
-	"go.chromium.org/luci/logdog/client/butler"
-	"go.chromium.org/luci/logdog/client/butlerlib/bootstrap"
-	"go.chromium.org/luci/logdog/client/butlerlib/streamclient"
-	"go.chromium.org/luci/logdog/common/types"
-	"go.chromium.org/luci/luciexe"
-	"go.chromium.org/luci/luciexe/host/buildmerge"
+	bbpb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	"github.com/tetrafolium/luci-go/logdog/client/butler"
+	"github.com/tetrafolium/luci-go/logdog/client/butlerlib/bootstrap"
+	"github.com/tetrafolium/luci-go/logdog/client/butlerlib/streamclient"
+	"github.com/tetrafolium/luci-go/logdog/common/types"
+	"github.com/tetrafolium/luci-go/luciexe"
+	"github.com/tetrafolium/luci-go/luciexe/host/buildmerge"
 )
 
 // spy represents an active Spy on a Butler.

@@ -17,10 +17,10 @@ package experiments
 import (
 	"context"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 
-	bbpb "go.chromium.org/luci/buildbucket/proto"
-	swarmingpb "go.chromium.org/luci/swarming/proto/api"
+	bbpb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	swarmingpb "github.com/tetrafolium/luci-go/swarming/proto/api"
 )
 
 var knownExperiments = map[string]Experiment{}

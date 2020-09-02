@@ -33,12 +33,12 @@ import (
 	structpb "github.com/golang/protobuf/ptypes/struct"
 	"github.com/golang/protobuf/ptypes/timestamp"
 
-	"go.chromium.org/luci/buildbucket/protoutil"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/milo/common"
-	"go.chromium.org/luci/milo/common/model"
+	"github.com/tetrafolium/luci-go/buildbucket/protoutil"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/milo/common"
+	"github.com/tetrafolium/luci-go/milo/common/model"
 
-	buildbucketpb "go.chromium.org/luci/buildbucket/proto"
+	buildbucketpb "github.com/tetrafolium/luci-go/buildbucket/proto"
 )
 
 var crosMasterRE = regexp.MustCompile(`^cros/master_buildbucket_id/(\d+)$`)

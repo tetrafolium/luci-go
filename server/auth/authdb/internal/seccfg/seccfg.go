@@ -21,8 +21,8 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/server/auth/service/protocol"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/server/auth/service/protocol"
 )
 
 // SecurityConfig is parsed queryable form of SecurityConfig proto message.

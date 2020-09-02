@@ -23,12 +23,12 @@ import (
 	"sync"
 
 	"github.com/golang/protobuf/proto"
-	bbpb "go.chromium.org/luci/buildbucket/proto"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/sync/dispatcher"
-	"go.chromium.org/luci/common/sync/dispatcher/buffer"
-	"go.chromium.org/luci/logdog/api/logpb"
-	"go.chromium.org/luci/logdog/common/types"
+	bbpb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/sync/dispatcher"
+	"github.com/tetrafolium/luci-go/common/sync/dispatcher/buffer"
+	"github.com/tetrafolium/luci-go/logdog/api/logpb"
+	"github.com/tetrafolium/luci-go/logdog/common/types"
 )
 
 // buildState represets the current state of a single build.proto stream.

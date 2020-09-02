@@ -29,14 +29,14 @@ import (
 	"context"
 	"net/http"
 
-	"go.chromium.org/luci/common/api/gerrit"
-	"go.chromium.org/luci/common/api/gitiles"
-	"go.chromium.org/luci/common/errors"
-	gerritpb "go.chromium.org/luci/common/proto/gerrit"
-	gitpb "go.chromium.org/luci/common/proto/git"
-	gitilespb "go.chromium.org/luci/common/proto/gitiles"
-	"go.chromium.org/luci/milo/git/gitacls"
-	"go.chromium.org/luci/server/auth"
+	"github.com/tetrafolium/luci-go/common/api/gerrit"
+	"github.com/tetrafolium/luci-go/common/api/gitiles"
+	"github.com/tetrafolium/luci-go/common/errors"
+	gerritpb "github.com/tetrafolium/luci-go/common/proto/gerrit"
+	gitpb "github.com/tetrafolium/luci-go/common/proto/git"
+	gitilespb "github.com/tetrafolium/luci-go/common/proto/gitiles"
+	"github.com/tetrafolium/luci-go/milo/git/gitacls"
+	"github.com/tetrafolium/luci-go/server/auth"
 )
 
 // Client provides high level API for Git/Gerrit data.

@@ -20,12 +20,12 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/common/data/caching/lru"
-	"go.chromium.org/luci/server/caching"
-	"go.chromium.org/luci/server/caching/cachingtest"
-	"go.chromium.org/luci/server/caching/layered"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/clock/testclock"
+	"github.com/tetrafolium/luci-go/common/data/caching/lru"
+	"github.com/tetrafolium/luci-go/server/caching"
+	"github.com/tetrafolium/luci-go/server/caching/cachingtest"
+	"github.com/tetrafolium/luci-go/server/caching/layered"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

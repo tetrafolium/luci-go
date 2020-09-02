@@ -18,6 +18,6 @@ package testdata
 // Generate descriptor set with the test proto.
 //
 // It is used by both Go and Starlark tests. '../../../../' is actually GOPATH,
-// to resolve import of "go.chromium.org/luci/common/proto/options.proto".
+// to resolve import of "github.com/tetrafolium/luci-go/common/proto/options.proto".
 //
 //go:generate protoc -I . -I ../../../../  -o misc/support/test_descpb.bin misc/support/test.proto

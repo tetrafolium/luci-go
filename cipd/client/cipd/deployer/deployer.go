@@ -29,15 +29,15 @@ import (
 	"sync"
 	"time"
 
-	"go.chromium.org/luci/common/data/sortby"
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/common/data/sortby"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
+	"github.com/tetrafolium/luci-go/common/logging"
 
-	"go.chromium.org/luci/cipd/client/cipd/fs"
-	"go.chromium.org/luci/cipd/client/cipd/internal/retry"
-	"go.chromium.org/luci/cipd/client/cipd/pkg"
-	"go.chromium.org/luci/cipd/client/cipd/reader"
-	"go.chromium.org/luci/cipd/common"
+	"github.com/tetrafolium/luci-go/cipd/client/cipd/fs"
+	"github.com/tetrafolium/luci-go/cipd/client/cipd/internal/retry"
+	"github.com/tetrafolium/luci-go/cipd/client/cipd/pkg"
+	"github.com/tetrafolium/luci-go/cipd/client/cipd/reader"
+	"github.com/tetrafolium/luci-go/cipd/common"
 )
 
 // TODO(vadimsh): How to handle path conflicts between two packages? Currently

@@ -25,9 +25,9 @@ import (
 	"testing"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 
-	"go.chromium.org/luci/common/system/environ"
+	"github.com/tetrafolium/luci-go/common/system/environ"
 )
 
 func rawctx(content string) func() {

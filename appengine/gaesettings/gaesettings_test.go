@@ -20,14 +20,14 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/gae/filter/count"
-	"go.chromium.org/luci/gae/filter/dscache"
-	"go.chromium.org/luci/gae/filter/txnBuf"
-	"go.chromium.org/luci/gae/impl/memory"
-	ds "go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/gae/service/info"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/clock/testclock"
+	"github.com/tetrafolium/luci-go/gae/filter/count"
+	"github.com/tetrafolium/luci-go/gae/filter/dscache"
+	"github.com/tetrafolium/luci-go/gae/filter/txnBuf"
+	"github.com/tetrafolium/luci-go/gae/impl/memory"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/service/info"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

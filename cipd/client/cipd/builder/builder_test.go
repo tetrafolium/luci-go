@@ -26,9 +26,9 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/cipd/client/cipd/fs"
-	"go.chromium.org/luci/cipd/client/cipd/pkg"
-	"go.chromium.org/luci/cipd/common"
+	"github.com/tetrafolium/luci-go/cipd/client/cipd/fs"
+	"github.com/tetrafolium/luci-go/cipd/client/cipd/pkg"
+	"github.com/tetrafolium/luci-go/cipd/common"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

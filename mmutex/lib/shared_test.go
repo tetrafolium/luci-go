@@ -24,11 +24,11 @@ import (
 	"github.com/danjacques/gofslock/fslock"
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/errors"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestShared(t *testing.T) {

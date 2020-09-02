@@ -21,9 +21,9 @@ import (
 	"cloud.google.com/go/spanner"
 	"github.com/gomodule/redigo/redis"
 
-	"go.chromium.org/luci/resultdb/internal/testutil"
-	"go.chromium.org/luci/server/redisconn"
-	"go.chromium.org/luci/server/span"
+	"github.com/tetrafolium/luci-go/resultdb/internal/testutil"
+	"github.com/tetrafolium/luci-go/server/redisconn"
+	"github.com/tetrafolium/luci-go/server/span"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

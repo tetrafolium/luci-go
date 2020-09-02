@@ -19,7 +19,7 @@
 // AppEngine module, and must be running on an instance with read/write
 // datastore access.
 //
-// See go.chromium.org/luci/server/settings for more details.
+// See github.com/tetrafolium/luci-go/server/settings for more details.
 package gaesettings
 
 import (
@@ -28,13 +28,13 @@ import (
 	"strconv"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/gae/filter/dscache"
-	ds "go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/gae/service/info"
-	"go.chromium.org/luci/server/settings"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
+	"github.com/tetrafolium/luci-go/gae/filter/dscache"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/service/info"
+	"github.com/tetrafolium/luci-go/server/settings"
 )
 
 // Storage knows how to store JSON blobs with settings in the datastore.

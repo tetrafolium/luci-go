@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"regexp"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // IsolateURL returns a machine-readable URL for an isolated object.

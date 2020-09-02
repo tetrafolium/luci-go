@@ -20,13 +20,13 @@ import (
 
 	"github.com/golang/mock/gomock"
 
-	"go.chromium.org/luci/auth/identity"
-	gerritpb "go.chromium.org/luci/common/proto/gerrit"
-	"go.chromium.org/luci/gae/impl/memory"
-	"go.chromium.org/luci/milo/api/config"
-	"go.chromium.org/luci/milo/git/gitacls"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/auth/authtest"
+	"github.com/tetrafolium/luci-go/auth/identity"
+	gerritpb "github.com/tetrafolium/luci-go/common/proto/gerrit"
+	"github.com/tetrafolium/luci-go/gae/impl/memory"
+	"github.com/tetrafolium/luci-go/milo/api/config"
+	"github.com/tetrafolium/luci-go/milo/git/gitacls"
+	"github.com/tetrafolium/luci-go/server/auth"
+	"github.com/tetrafolium/luci-go/server/auth/authtest"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

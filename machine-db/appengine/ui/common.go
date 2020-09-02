@@ -23,14 +23,14 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 
-	gaeserver "go.chromium.org/luci/appengine/gaeauth/server"
-	"go.chromium.org/luci/gae/service/info"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/auth/xsrf"
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/server/templates"
+	gaeserver "github.com/tetrafolium/luci-go/appengine/gaeauth/server"
+	"github.com/tetrafolium/luci-go/gae/service/info"
+	"github.com/tetrafolium/luci-go/server/auth"
+	"github.com/tetrafolium/luci-go/server/auth/xsrf"
+	"github.com/tetrafolium/luci-go/server/router"
+	"github.com/tetrafolium/luci-go/server/templates"
 
-	"go.chromium.org/luci/machine-db/api/crimson/v1"
+	"github.com/tetrafolium/luci-go/machine-db/api/crimson/v1"
 )
 
 var serverKey = "server"

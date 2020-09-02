@@ -6,12 +6,12 @@ syntax = "proto3";
 
 package svcconfig;
 
-option go_package = "go.chromium.org/luci/logdog/api/config/svcconfig";
+option go_package = "github.com/tetrafolium/luci-go/logdog/api/config/svcconfig";
 
 import "google/protobuf/duration.proto";
 
-import "go.chromium.org/luci/common/proto/options.proto";
-import "go.chromium.org/luci/logdog/api/config/svcconfig/archival.proto";
+import "github.com/tetrafolium/luci-go/common/proto/options.proto";
+import "github.com/tetrafolium/luci-go/logdog/api/config/svcconfig/archival.proto";
 
 option (luci.file_metadata) = {
   doc_url: "https://luci-config.appspot.com/schemas/projects:luci-logdog.cfg";

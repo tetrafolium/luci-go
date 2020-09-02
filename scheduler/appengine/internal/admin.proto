@@ -20,10 +20,10 @@ option go_package = "internal";
 
 import "google/protobuf/timestamp.proto";
 
-import "go.chromium.org/luci/scheduler/api/scheduler/v1/scheduler.proto";
-import "go.chromium.org/luci/scheduler/appengine/internal/db.proto";
-import "go.chromium.org/luci/scheduler/appengine/internal/triggers.proto";
-import "go.chromium.org/luci/scheduler/appengine/task/gitiles/pb/messages.proto";
+import "github.com/tetrafolium/luci-go/scheduler/api/scheduler/v1/scheduler.proto";
+import "github.com/tetrafolium/luci-go/scheduler/appengine/internal/db.proto";
+import "github.com/tetrafolium/luci-go/scheduler/appengine/internal/triggers.proto";
+import "github.com/tetrafolium/luci-go/scheduler/appengine/task/gitiles/pb/messages.proto";
 
 
 // Admin exposes administrative API usable only by the service owners.

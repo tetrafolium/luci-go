@@ -28,11 +28,11 @@ import (
 
 	"go.starlark.net/starlark"
 
-	"go.chromium.org/luci/starlark/builtins"
-	"go.chromium.org/luci/starlark/interpreter"
-	"go.chromium.org/luci/starlark/starlarkproto"
+	"github.com/tetrafolium/luci-go/starlark/builtins"
+	"github.com/tetrafolium/luci-go/starlark/interpreter"
+	"github.com/tetrafolium/luci-go/starlark/starlarkproto"
 
-	generated "go.chromium.org/luci/lucicfg/starlark"
+	generated "github.com/tetrafolium/luci-go/lucicfg/starlark"
 )
 
 // Inputs define all inputs for the config generator.
@@ -175,7 +175,7 @@ func Generate(ctx context.Context, in Inputs) (*State, error) {
 
 // embeddedPackages makes a map of loaders for embedded Starlark packages.
 //
-// Each directory directly under go.chromium.org/luci/lucicfg/starlark/...
+// Each directory directly under github.com/tetrafolium/luci-go/lucicfg/starlark/...
 // represents a corresponding starlark package. E.g. files in 'stdlib' directory
 // are loadable via load("@stdlib//<path>", ...).
 func embeddedPackages() map[string]interpreter.Loader {

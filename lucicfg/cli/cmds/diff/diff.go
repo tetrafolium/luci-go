@@ -28,20 +28,20 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/maruel/subcommands"
 
-	buildbucket_pb "go.chromium.org/luci/buildbucket/proto"
-	config_pb "go.chromium.org/luci/common/proto/config"
-	cq_pb "go.chromium.org/luci/cv/api/config/v2"
-	logdog_pb "go.chromium.org/luci/logdog/api/config/svcconfig"
-	notify_pb "go.chromium.org/luci/luci_notify/api/config"
-	milo_pb "go.chromium.org/luci/milo/api/config"
-	scheduler_pb "go.chromium.org/luci/scheduler/appengine/messages"
+	buildbucket_pb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	config_pb "github.com/tetrafolium/luci-go/common/proto/config"
+	cq_pb "github.com/tetrafolium/luci-go/cv/api/config/v2"
+	logdog_pb "github.com/tetrafolium/luci-go/logdog/api/config/svcconfig"
+	notify_pb "github.com/tetrafolium/luci-go/luci_notify/api/config"
+	milo_pb "github.com/tetrafolium/luci-go/milo/api/config"
+	scheduler_pb "github.com/tetrafolium/luci-go/scheduler/appengine/messages"
 
-	"go.chromium.org/luci/common/cli"
-	"go.chromium.org/luci/common/logging"
-	luciproto "go.chromium.org/luci/common/proto"
+	"github.com/tetrafolium/luci-go/common/cli"
+	"github.com/tetrafolium/luci-go/common/logging"
+	luciproto "github.com/tetrafolium/luci-go/common/proto"
 
-	"go.chromium.org/luci/lucicfg/cli/base"
-	"go.chromium.org/luci/lucicfg/normalize"
+	"github.com/tetrafolium/luci-go/lucicfg/cli/base"
+	"github.com/tetrafolium/luci-go/lucicfg/normalize"
 )
 
 // Cmd is 'semantic-diff' subcommand.

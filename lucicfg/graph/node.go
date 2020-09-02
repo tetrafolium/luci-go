@@ -21,7 +21,7 @@ import (
 	"go.starlark.net/starlark"
 	"go.starlark.net/starlarkstruct"
 
-	"go.chromium.org/luci/starlark/builtins"
+	"github.com/tetrafolium/luci-go/starlark/builtins"
 )
 
 // Node is an element of the graph.

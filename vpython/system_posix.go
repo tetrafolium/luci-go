@@ -23,11 +23,11 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"go.chromium.org/luci/vpython/python"
-	"go.chromium.org/luci/vpython/venv"
+	"github.com/tetrafolium/luci-go/vpython/python"
+	"github.com/tetrafolium/luci-go/vpython/venv"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/system/environ"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/system/environ"
 )
 
 // systemSpecificLaunch launches the process described by "cmd" while ensuring

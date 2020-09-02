@@ -18,10 +18,10 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/common/retry"
+	"github.com/tetrafolium/luci-go/common/retry"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestOptionValidationGood(t *testing.T) {

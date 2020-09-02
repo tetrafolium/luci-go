@@ -20,11 +20,11 @@ import (
 	"time"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/logging/memlogger"
-	"go.chromium.org/luci/gae/service/datastore/serialize"
-	mc "go.chromium.org/luci/gae/service/memcache"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/logging/memlogger"
+	"github.com/tetrafolium/luci-go/gae/service/datastore/serialize"
+	mc "github.com/tetrafolium/luci-go/gae/service/memcache"
 )
 
 func TestTumbleFiddlyBits(t *testing.T) {

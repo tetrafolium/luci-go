@@ -18,7 +18,7 @@ import (
 	"context"
 	"fmt"
 
-	"go.chromium.org/luci/server/auth/signing"
+	"github.com/tetrafolium/luci-go/server/auth/signing"
 )
 
 // ServiceVersion returns a string that identifies the app and the version.

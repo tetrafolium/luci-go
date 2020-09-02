@@ -17,10 +17,10 @@ package internal
 import (
 	"testing"
 
-	"go.chromium.org/luci/scheduler/api/scheduler/v1"
+	"github.com/tetrafolium/luci-go/scheduler/api/scheduler/v1"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestToPublicTriggers(t *testing.T) {

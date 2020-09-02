@@ -17,9 +17,9 @@ package memory
 import (
 	"fmt"
 
-	"go.chromium.org/luci/gae/impl/dummy"
-	"go.chromium.org/luci/gae/service/info"
-	"go.chromium.org/luci/gae/service/info/support"
+	"github.com/tetrafolium/luci-go/gae/impl/dummy"
+	"github.com/tetrafolium/luci-go/gae/service/info"
+	"github.com/tetrafolium/luci-go/gae/service/info/support"
 
 	"golang.org/x/net/context"
 )

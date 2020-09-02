@@ -25,9 +25,9 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/server/tq/internal/reminder"
-	"go.chromium.org/luci/server/tq/internal/testutil"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
+	"github.com/tetrafolium/luci-go/server/tq/internal/reminder"
+	"github.com/tetrafolium/luci-go/server/tq/internal/testutil"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

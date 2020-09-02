@@ -19,8 +19,8 @@ import (
 	"testing"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"go.chromium.org/luci/milo/api/config"
-	"go.chromium.org/luci/milo/frontend/ui"
+	"github.com/tetrafolium/luci-go/milo/api/config"
+	"github.com/tetrafolium/luci-go/milo/frontend/ui"
 )
 
 func TestRenderOncallers(t *testing.T) {

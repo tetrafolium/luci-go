@@ -39,21 +39,21 @@ import (
 	taskspb "google.golang.org/genproto/googleapis/cloud/tasks/v2"
 	pubsubpb "google.golang.org/genproto/googleapis/pubsub/v1"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/data/rand/cryptorand"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/common/trace"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/auth/openid"
-	"go.chromium.org/luci/server/router"
+	"github.com/tetrafolium/luci-go/auth/identity"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/data/rand/cryptorand"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
+	"github.com/tetrafolium/luci-go/common/trace"
+	"github.com/tetrafolium/luci-go/server/auth"
+	"github.com/tetrafolium/luci-go/server/auth/openid"
+	"github.com/tetrafolium/luci-go/server/router"
 
-	"go.chromium.org/luci/server/tq/internal"
-	"go.chromium.org/luci/server/tq/internal/db"
-	"go.chromium.org/luci/server/tq/internal/metrics"
-	"go.chromium.org/luci/server/tq/internal/reminder"
+	"github.com/tetrafolium/luci-go/server/tq/internal"
+	"github.com/tetrafolium/luci-go/server/tq/internal/db"
+	"github.com/tetrafolium/luci-go/server/tq/internal/metrics"
+	"github.com/tetrafolium/luci-go/server/tq/internal/reminder"
 )
 
 // TraceContextHeader is name of a header that contains the trace context of
@@ -451,7 +451,7 @@ type ExecutionInfo struct {
 	submitterTraceContext string // see TraceContextHeader
 }
 
-var executionInfoKey = "go.chromium.org/luci/server/tq.ExecutionInfo"
+var executionInfoKey = "github.com/tetrafolium/luci-go/server/tq.ExecutionInfo"
 
 // TaskExecutionInfo returns information about the currently executing task.
 //
@@ -576,7 +576,7 @@ func (d *Dispatcher) AddTask(ctx context.Context, task *Task) (err error) {
 	if err != nil {
 		return err
 	}
-	ctx, span := startSpan(ctx, "go.chromium.org/luci/server/tq.AddTask", logging.Fields{
+	ctx, span := startSpan(ctx, "github.com/tetrafolium/luci-go/server/tq.AddTask", logging.Fields{
 		"cr.dev/class": cls.ID,
 		"cr.dev/title": task.Title,
 	})
@@ -637,7 +637,7 @@ func (d *Dispatcher) AddTask(ctx context.Context, task *Task) (err error) {
 
 		// `ctx` here is an outer non-transactional context.
 		var err error
-		ctx, span := startSpan(ctx, "go.chromium.org/luci/server/tq.PostTxn", logging.Fields{
+		ctx, span := startSpan(ctx, "github.com/tetrafolium/luci-go/server/tq.PostTxn", logging.Fields{
 			"cr.dev/class":    cls.ID,
 			"cr.dev/title":    task.Title,
 			"cr.dev/reminder": r.ID,

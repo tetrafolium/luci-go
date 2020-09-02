@@ -18,11 +18,11 @@ import (
 	"context"
 	"errors"
 
-	"go.chromium.org/luci/config"
-	"go.chromium.org/luci/config/impl/erroring"
+	"github.com/tetrafolium/luci-go/config"
+	"github.com/tetrafolium/luci-go/config/impl/erroring"
 )
 
-var contextKey = "go.chromium.org/luci/config/cfgclient"
+var contextKey = "github.com/tetrafolium/luci-go/config/cfgclient"
 
 // Use installs a client implementation into the context.
 //

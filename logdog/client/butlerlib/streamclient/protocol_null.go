@@ -18,7 +18,7 @@ import (
 	"io"
 	"os"
 
-	"go.chromium.org/luci/logdog/client/butlerlib/streamproto"
+	"github.com/tetrafolium/luci-go/logdog/client/butlerlib/streamproto"
 )
 
 // Similar to ioutil.Discard, but also implements Close and WriteDatagram.

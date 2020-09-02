@@ -22,9 +22,9 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"go.chromium.org/luci/common/tsmon/target"
-	pb "go.chromium.org/luci/common/tsmon/ts_mon_proto"
-	"go.chromium.org/luci/common/tsmon/types"
+	"github.com/tetrafolium/luci-go/common/tsmon/target"
+	pb "github.com/tetrafolium/luci-go/common/tsmon/ts_mon_proto"
+	"github.com/tetrafolium/luci-go/common/tsmon/types"
 )
 
 // Hash returns a uint64 hash of this target.

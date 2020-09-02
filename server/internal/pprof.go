@@ -21,8 +21,8 @@ import (
 	"runtime"
 	"sync"
 
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/server/portal"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/server/portal"
 )
 
 const (

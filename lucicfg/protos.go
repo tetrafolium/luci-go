@@ -22,9 +22,9 @@ import (
 	"google.golang.org/protobuf/reflect/protoregistry"
 	"google.golang.org/protobuf/types/descriptorpb"
 
-	"go.chromium.org/luci/common/data/stringset"
-	luciproto "go.chromium.org/luci/common/proto"
-	"go.chromium.org/luci/starlark/starlarkproto"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
+	luciproto "github.com/tetrafolium/luci-go/common/proto"
+	"github.com/tetrafolium/luci-go/starlark/starlarkproto"
 
 	_ "google.golang.org/protobuf/types/known/anypb"
 	_ "google.golang.org/protobuf/types/known/durationpb"
@@ -45,15 +45,15 @@ import (
 	_ "google.golang.org/genproto/googleapis/type/quaternion"
 	_ "google.golang.org/genproto/googleapis/type/timeofday"
 
-	_ "go.chromium.org/luci/buildbucket/proto"
-	_ "go.chromium.org/luci/common/proto/config"
-	_ "go.chromium.org/luci/common/proto/realms"
-	_ "go.chromium.org/luci/cv/api/config/v2"
-	_ "go.chromium.org/luci/logdog/api/config/svcconfig"
-	_ "go.chromium.org/luci/luci_notify/api/config"
-	_ "go.chromium.org/luci/milo/api/config"
-	_ "go.chromium.org/luci/resultdb/proto/v1"
-	_ "go.chromium.org/luci/scheduler/appengine/messages"
+	_ "github.com/tetrafolium/luci-go/buildbucket/proto"
+	_ "github.com/tetrafolium/luci-go/common/proto/config"
+	_ "github.com/tetrafolium/luci-go/common/proto/realms"
+	_ "github.com/tetrafolium/luci-go/cv/api/config/v2"
+	_ "github.com/tetrafolium/luci-go/logdog/api/config/svcconfig"
+	_ "github.com/tetrafolium/luci-go/luci_notify/api/config"
+	_ "github.com/tetrafolium/luci-go/milo/api/config"
+	_ "github.com/tetrafolium/luci-go/resultdb/proto/v1"
+	_ "github.com/tetrafolium/luci-go/scheduler/appengine/messages"
 )
 
 // Collection of built-in descriptor sets built from the protobuf registry
@@ -102,17 +102,17 @@ func init() {
 
 	// LUCI protos used by stdlib (see also starlark/internal/luci/descpb.star).
 	luciTypesDescSet = builtinDescriptorSet("lucicfg/stdlib", []string{
-		"go.chromium.org/luci/buildbucket/proto/common.proto",
-		"go.chromium.org/luci/buildbucket/proto/project_config.proto",
-		"go.chromium.org/luci/common/proto/config/project_config.proto",
-		"go.chromium.org/luci/common/proto/realms/realms_config.proto",
-		"go.chromium.org/luci/cv/api/config/v2/cq.proto",
-		"go.chromium.org/luci/logdog/api/config/svcconfig/project.proto",
-		"go.chromium.org/luci/luci_notify/api/config/notify.proto",
-		"go.chromium.org/luci/milo/api/config/project.proto",
-		"go.chromium.org/luci/resultdb/proto/v1/invocation.proto",
-		"go.chromium.org/luci/resultdb/proto/v1/predicate.proto",
-		"go.chromium.org/luci/scheduler/appengine/messages/config.proto",
+		"github.com/tetrafolium/luci-go/buildbucket/proto/common.proto",
+		"github.com/tetrafolium/luci-go/buildbucket/proto/project_config.proto",
+		"github.com/tetrafolium/luci-go/common/proto/config/project_config.proto",
+		"github.com/tetrafolium/luci-go/common/proto/realms/realms_config.proto",
+		"github.com/tetrafolium/luci-go/cv/api/config/v2/cq.proto",
+		"github.com/tetrafolium/luci-go/logdog/api/config/svcconfig/project.proto",
+		"github.com/tetrafolium/luci-go/luci_notify/api/config/notify.proto",
+		"github.com/tetrafolium/luci-go/milo/api/config/project.proto",
+		"github.com/tetrafolium/luci-go/resultdb/proto/v1/invocation.proto",
+		"github.com/tetrafolium/luci-go/resultdb/proto/v1/predicate.proto",
+		"github.com/tetrafolium/luci-go/scheduler/appengine/messages/config.proto",
 	}, visited, wellKnownDescSet, googTypesDescSet)
 }
 

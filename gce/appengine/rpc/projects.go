@@ -23,14 +23,14 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/proto/paged"
-	"go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/server/auth"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/proto/paged"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/server/auth"
 
-	"go.chromium.org/luci/gce/api/projects/v1"
-	"go.chromium.org/luci/gce/appengine/model"
+	"github.com/tetrafolium/luci-go/gce/api/projects/v1"
+	"github.com/tetrafolium/luci-go/gce/appengine/model"
 )
 
 // Projects implements projects.ProjectsServer.

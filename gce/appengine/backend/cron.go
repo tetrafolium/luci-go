@@ -21,16 +21,16 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"go.chromium.org/luci/appengine/tq"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/gae/service/taskqueue"
-	"go.chromium.org/luci/server/router"
+	"github.com/tetrafolium/luci-go/appengine/tq"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/service/taskqueue"
+	"github.com/tetrafolium/luci-go/server/router"
 
-	"go.chromium.org/luci/gce/api/tasks/v1"
-	"go.chromium.org/luci/gce/appengine/backend/internal/metrics"
-	"go.chromium.org/luci/gce/appengine/model"
+	"github.com/tetrafolium/luci-go/gce/api/tasks/v1"
+	"github.com/tetrafolium/luci-go/gce/appengine/backend/internal/metrics"
+	"github.com/tetrafolium/luci-go/gce/appengine/model"
 )
 
 // newHTTPHandler returns a router.Handler which invokes the given function.

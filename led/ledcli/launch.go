@@ -23,10 +23,10 @@ import (
 
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/system/terminal"
-	"go.chromium.org/luci/led/job"
-	"go.chromium.org/luci/led/ledcmd"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/system/terminal"
+	"github.com/tetrafolium/luci-go/led/job"
+	"github.com/tetrafolium/luci-go/led/ledcmd"
 )
 
 func launchCmd(opts cmdBaseOptions) *subcommands.Command {

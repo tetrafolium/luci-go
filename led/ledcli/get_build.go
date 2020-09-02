@@ -23,9 +23,9 @@ import (
 
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/led/job"
-	"go.chromium.org/luci/led/ledcmd"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/led/job"
+	"github.com/tetrafolium/luci-go/led/ledcmd"
 )
 
 func getBuildCmd(opts cmdBaseOptions) *subcommands.Command {

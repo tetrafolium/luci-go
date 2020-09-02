@@ -17,7 +17,7 @@ package main
 import (
 	"os"
 
-	"go.chromium.org/luci/common/system/environ"
+	"github.com/tetrafolium/luci-go/common/system/environ"
 )
 
 func main() {

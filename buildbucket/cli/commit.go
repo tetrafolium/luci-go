@@ -26,7 +26,7 @@ import (
 
 	"golang.org/x/net/context/ctxhttp"
 
-	pb "go.chromium.org/luci/buildbucket/proto"
+	pb "github.com/tetrafolium/luci-go/buildbucket/proto"
 )
 
 type commitFlag struct {

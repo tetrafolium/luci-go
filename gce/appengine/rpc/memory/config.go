@@ -23,7 +23,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"go.chromium.org/luci/gce/api/config/v1"
+	"github.com/tetrafolium/luci-go/gce/api/config/v1"
 )
 
 // Ensure Config implements config.ConfigurationServer.

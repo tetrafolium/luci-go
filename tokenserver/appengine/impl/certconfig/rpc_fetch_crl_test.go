@@ -22,15 +22,15 @@ import (
 	"sync"
 	"testing"
 
-	"go.chromium.org/luci/appengine/gaetesting"
-	ds "go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/server/auth"
+	"github.com/tetrafolium/luci-go/appengine/gaetesting"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/server/auth"
 
-	"go.chromium.org/luci/tokenserver/api/admin/v1"
-	"go.chromium.org/luci/tokenserver/appengine/impl/utils"
+	"github.com/tetrafolium/luci-go/tokenserver/api/admin/v1"
+	"github.com/tetrafolium/luci-go/tokenserver/appengine/impl/utils"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestFetchCRLRPC(t *testing.T) {

@@ -27,13 +27,13 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/server/auth/signing"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
+	"github.com/tetrafolium/luci-go/server/auth/signing"
 
-	"go.chromium.org/luci/tokenserver/api"
-	"go.chromium.org/luci/tokenserver/api/admin/v1"
-	"go.chromium.org/luci/tokenserver/appengine/impl/utils/tokensigning"
+	"github.com/tetrafolium/luci-go/tokenserver/api"
+	"github.com/tetrafolium/luci-go/tokenserver/api/admin/v1"
+	"github.com/tetrafolium/luci-go/tokenserver/appengine/impl/utils/tokensigning"
 )
 
 // tokenSigningContext is used to make sure machine token is not misused in

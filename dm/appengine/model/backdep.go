@@ -15,9 +15,9 @@
 package model
 
 import (
-	"go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
 
-	"go.chromium.org/luci/dm/api/service/v1"
+	"github.com/tetrafolium/luci-go/dm/api/service/v1"
 )
 
 // BackDepGroup describes a group of reverse dependencies ('depended-by')

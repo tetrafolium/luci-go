@@ -22,8 +22,8 @@ import (
 	"go.starlark.net/starlark"
 	"go.starlark.net/starlarkstruct"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/starlark/builtins"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/starlark/builtins"
 )
 
 var (

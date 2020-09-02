@@ -21,8 +21,8 @@ import (
 
 	"github.com/golang/protobuf/protoc-gen-go/descriptor"
 
-	"go.chromium.org/luci/common/data/text/indented"
-	"go.chromium.org/luci/common/proto/google/descutil"
+	"github.com/tetrafolium/luci-go/common/data/text/indented"
+	"github.com/tetrafolium/luci-go/common/proto/google/descutil"
 )
 
 // printer prints a proto3 definition from a description.

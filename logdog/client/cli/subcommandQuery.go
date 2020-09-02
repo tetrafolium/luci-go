@@ -21,12 +21,12 @@ import (
 	"io"
 	"os"
 
-	"go.chromium.org/luci/common/clock/clockflag"
-	"go.chromium.org/luci/common/errors"
-	log "go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/logdog/api/logpb"
-	"go.chromium.org/luci/logdog/client/butlerlib/streamproto"
-	"go.chromium.org/luci/logdog/client/coordinator"
+	"github.com/tetrafolium/luci-go/common/clock/clockflag"
+	"github.com/tetrafolium/luci-go/common/errors"
+	log "github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/logdog/api/logpb"
+	"github.com/tetrafolium/luci-go/logdog/client/butlerlib/streamproto"
+	"github.com/tetrafolium/luci-go/logdog/client/coordinator"
 
 	"github.com/maruel/subcommands"
 )

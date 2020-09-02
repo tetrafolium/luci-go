@@ -7,7 +7,7 @@ syntax = "proto3";
 package crimson;
 
 import "google/protobuf/field_mask.proto";
-import "go.chromium.org/luci/machine-db/api/common/v1/states.proto";
+import "github.com/tetrafolium/luci-go/machine-db/api/common/v1/states.proto";
 
 // A machine in the database.
 message Machine {

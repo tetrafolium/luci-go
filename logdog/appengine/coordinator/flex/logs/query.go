@@ -17,14 +17,14 @@ package logs
 import (
 	"context"
 
-	logdog "go.chromium.org/luci/logdog/api/endpoints/coordinator/logs/v1"
-	"go.chromium.org/luci/logdog/appengine/coordinator"
-	"go.chromium.org/luci/logdog/common/types"
+	logdog "github.com/tetrafolium/luci-go/logdog/api/endpoints/coordinator/logs/v1"
+	"github.com/tetrafolium/luci-go/logdog/appengine/coordinator"
+	"github.com/tetrafolium/luci-go/logdog/common/types"
 
-	"go.chromium.org/luci/common/clock"
-	log "go.chromium.org/luci/common/logging"
-	ds "go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/grpc/grpcutil"
+	"github.com/tetrafolium/luci-go/common/clock"
+	log "github.com/tetrafolium/luci-go/common/logging"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/grpc/grpcutil"
 
 	"google.golang.org/grpc/codes"
 )

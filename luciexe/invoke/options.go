@@ -16,7 +16,7 @@
 // subprocess, but without setting up any of the 'host' requirements (like
 // a Logdog Butler or LUCI Auth).
 //
-// See go.chromium.org/luci/luciexe for details on the protocol.
+// See github.com/tetrafolium/luci-go/luciexe for details on the protocol.
 package invoke
 
 import (
@@ -29,15 +29,15 @@ import (
 
 	"github.com/golang/protobuf/ptypes"
 
-	bbpb "go.chromium.org/luci/buildbucket/proto"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/system/environ"
-	"go.chromium.org/luci/logdog/client/butlerlib/bootstrap"
-	"go.chromium.org/luci/logdog/client/butlerlib/streamclient"
-	"go.chromium.org/luci/logdog/common/types"
-	"go.chromium.org/luci/lucictx"
-	"go.chromium.org/luci/luciexe"
+	bbpb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/system/environ"
+	"github.com/tetrafolium/luci-go/logdog/client/butlerlib/bootstrap"
+	"github.com/tetrafolium/luci-go/logdog/client/butlerlib/streamclient"
+	"github.com/tetrafolium/luci-go/logdog/common/types"
+	"github.com/tetrafolium/luci-go/lucictx"
+	"github.com/tetrafolium/luci-go/luciexe"
 )
 
 // Options represents settings to use when Start'ing a luciexe.

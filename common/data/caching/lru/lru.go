@@ -21,8 +21,8 @@ import (
 	"sync"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/sync/mutexpool"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/sync/mutexpool"
 )
 
 // snapshot is a snapshot of the contents of the Cache.

@@ -18,7 +18,7 @@ import (
 	"io"
 	"os"
 
-	"go.chromium.org/luci/common/system/terminal"
+	"github.com/tetrafolium/luci-go/common/system/terminal"
 )
 
 // IsTerminal returns true if the specified io.Writer is a terminal.

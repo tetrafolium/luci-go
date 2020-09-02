@@ -18,14 +18,14 @@ import (
 	"context"
 	"errors"
 
-	"go.chromium.org/luci/server/portal"
-	"go.chromium.org/luci/server/settings"
+	"github.com/tetrafolium/luci-go/server/portal"
+	"github.com/tetrafolium/luci-go/server/settings"
 )
 
 // Note: this file is a part of deprecated CookieAuthMethod implementation.
 
 // SettingsKey is key for OpenID settings (described by Settings struct) in
-// settings store. See go.chromium.org/luci/server/settings.
+// settings store. See github.com/tetrafolium/luci-go/server/settings.
 const SettingsKey = "openid_auth"
 
 var (

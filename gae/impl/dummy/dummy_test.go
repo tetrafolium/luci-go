@@ -18,13 +18,13 @@ import (
 	"testing"
 
 	. "github.com/smartystreets/goconvey/convey"
-	dsS "go.chromium.org/luci/gae/service/datastore"
-	infoS "go.chromium.org/luci/gae/service/info"
-	mailS "go.chromium.org/luci/gae/service/mail"
-	mcS "go.chromium.org/luci/gae/service/memcache"
-	modS "go.chromium.org/luci/gae/service/module"
-	tqS "go.chromium.org/luci/gae/service/taskqueue"
-	userS "go.chromium.org/luci/gae/service/user"
+	dsS "github.com/tetrafolium/luci-go/gae/service/datastore"
+	infoS "github.com/tetrafolium/luci-go/gae/service/info"
+	mailS "github.com/tetrafolium/luci-go/gae/service/mail"
+	mcS "github.com/tetrafolium/luci-go/gae/service/memcache"
+	modS "github.com/tetrafolium/luci-go/gae/service/module"
+	tqS "github.com/tetrafolium/luci-go/gae/service/taskqueue"
+	userS "github.com/tetrafolium/luci-go/gae/service/user"
 	"golang.org/x/net/context"
 )
 

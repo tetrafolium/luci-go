@@ -2,7 +2,7 @@
 
 package access
 
-import discovery "go.chromium.org/luci/grpc/discovery"
+import discovery "github.com/tetrafolium/luci-go/grpc/discovery"
 
 import "github.com/golang/protobuf/protoc-gen-go/descriptor"
 

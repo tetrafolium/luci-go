@@ -24,12 +24,12 @@ import (
 	"strings"
 	"sync"
 
-	"go.chromium.org/luci/common/tsmon"
-	"go.chromium.org/luci/common/tsmon/monitor"
+	"github.com/tetrafolium/luci-go/common/tsmon"
+	"github.com/tetrafolium/luci-go/common/tsmon/monitor"
 
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/portal"
-	"go.chromium.org/luci/server/settings"
+	"github.com/tetrafolium/luci-go/server/auth"
+	"github.com/tetrafolium/luci-go/server/portal"
+	"github.com/tetrafolium/luci-go/server/settings"
 )
 
 // prodXEndpoint is endpoint to send metrics to.
@@ -38,7 +38,7 @@ import (
 const prodXEndpoint = "https://prodxmon-pa.googleapis.com/v1:insert"
 
 // settingsKey is key for tsmon settings (described by Settings struct)
-// in the settings store. See go.chromium.org/luci/server/settings.
+// in the settings store. See github.com/tetrafolium/luci-go/server/settings.
 const settingsKey = "tsmon"
 
 // Settings contain global tsmon settings for the application.
@@ -162,7 +162,7 @@ func (p *settingsPage) Fields(c context.Context) ([]portal.Field, error) {
 				`values in memory and will periodically flush them to tsmon backends (if the flush method ` +
 				`is configured, see below) or GAE log (if not configured). Note that enabling ` +
 				`this field requires an active housekeeping cron task to be installed. See ` +
-				`<a href="https://godoc.org/go.chromium.org/luci/appengine/tsmon">the tsmon doc</a> for more information.`,
+				`<a href="https://godoc.org/github.com/tetrafolium/luci-go/appengine/tsmon">the tsmon doc</a> for more information.`,
 		}),
 		{
 			ID:       "ProdXAccount",

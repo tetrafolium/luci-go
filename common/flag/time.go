@@ -19,7 +19,7 @@ import (
 	"strings"
 	"time"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // Time returns a flag.Getter which parses a string into a time.Time pointer.

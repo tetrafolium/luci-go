@@ -15,10 +15,10 @@
 package symbols
 
 import (
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
+	"github.com/tetrafolium/luci-go/common/errors"
 
-	"go.chromium.org/luci/lucicfg/docgen/ast"
+	"github.com/tetrafolium/luci-go/lucicfg/docgen/ast"
 )
 
 // Loader knows how to load symbols from a starlark file, following references

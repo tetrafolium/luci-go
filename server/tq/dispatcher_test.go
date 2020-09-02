@@ -34,19 +34,19 @@ import (
 	taskspb "google.golang.org/genproto/googleapis/cloud/tasks/v2"
 	pubsubpb "google.golang.org/genproto/googleapis/pubsub/v1"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/server/router"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/clock/testclock"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
+	"github.com/tetrafolium/luci-go/server/router"
 
-	"go.chromium.org/luci/server/tq/tqtesting"
+	"github.com/tetrafolium/luci-go/server/tq/tqtesting"
 
-	"go.chromium.org/luci/server/tq/internal/reminder"
-	"go.chromium.org/luci/server/tq/internal/testutil"
+	"github.com/tetrafolium/luci-go/server/tq/internal/reminder"
+	"github.com/tetrafolium/luci-go/server/tq/internal/testutil"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestAddTask(t *testing.T) {

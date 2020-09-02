@@ -21,15 +21,15 @@ import (
 
 	"github.com/golang/protobuf/jsonpb"
 	"github.com/golang/protobuf/ptypes"
-	"go.chromium.org/luci/buildbucket/protoutil"
-	"go.chromium.org/luci/common/api/swarming/swarming/v1"
-	"go.chromium.org/luci/common/data/strpair"
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/buildbucket/protoutil"
+	"github.com/tetrafolium/luci-go/common/api/swarming/swarming/v1"
+	"github.com/tetrafolium/luci-go/common/data/strpair"
+	"github.com/tetrafolium/luci-go/common/errors"
 
 	structpb "github.com/golang/protobuf/ptypes/struct"
 	tspb "github.com/golang/protobuf/ptypes/timestamp"
-	pb "go.chromium.org/luci/buildbucket/proto"
-	v1 "go.chromium.org/luci/common/api/buildbucket/buildbucket/v1"
+	pb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	v1 "github.com/tetrafolium/luci-go/common/api/buildbucket/buildbucket/v1"
 )
 
 // This file implements v1<->v2 interoperation.

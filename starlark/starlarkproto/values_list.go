@@ -21,7 +21,7 @@ import (
 
 	"google.golang.org/protobuf/reflect/protoreflect"
 
-	"go.chromium.org/luci/starlark/typed"
+	"github.com/tetrafolium/luci-go/starlark/typed"
 )
 
 // newStarlarkList returns a new typed.List of an appropriate type.

@@ -22,7 +22,7 @@ import (
 	"strconv"
 	"strings"
 
-	"go.chromium.org/luci/common/proto/google/descutil"
+	"github.com/tetrafolium/luci-go/common/proto/google/descutil"
 
 	"github.com/golang/protobuf/jsonpb"
 	"github.com/golang/protobuf/proto"

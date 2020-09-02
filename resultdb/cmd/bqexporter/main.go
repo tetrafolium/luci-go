@@ -19,10 +19,10 @@ import (
 
 	"golang.org/x/time/rate"
 
-	"go.chromium.org/luci/server"
+	"github.com/tetrafolium/luci-go/server"
 
-	"go.chromium.org/luci/resultdb/internal"
-	"go.chromium.org/luci/resultdb/internal/services/bqexporter"
+	"github.com/tetrafolium/luci-go/resultdb/internal"
+	"github.com/tetrafolium/luci-go/resultdb/internal/services/bqexporter"
 )
 
 func main() {

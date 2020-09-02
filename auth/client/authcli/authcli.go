@@ -55,8 +55,8 @@
 //
 //  import (
 //    ...
-//    "go.chromium.org/luci/client/authcli"
-//    "go.chromium.org/luci/common/cli"
+//    "github.com/tetrafolium/luci-go/client/authcli"
+//    "github.com/tetrafolium/luci-go/common/cli"
 //  )
 //
 //  func GetApplication(defaultAuthOpts auth.Options) *cli.Application {
@@ -98,15 +98,15 @@ import (
 
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/auth/authctx"
-	"go.chromium.org/luci/common/cli"
-	"go.chromium.org/luci/common/gcloud/googleoauth"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/system/environ"
-	"go.chromium.org/luci/common/system/exitcode"
-	"go.chromium.org/luci/common/system/signals"
-	"go.chromium.org/luci/lucictx"
+	"github.com/tetrafolium/luci-go/auth"
+	"github.com/tetrafolium/luci-go/auth/authctx"
+	"github.com/tetrafolium/luci-go/common/cli"
+	"github.com/tetrafolium/luci-go/common/gcloud/googleoauth"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/system/environ"
+	"github.com/tetrafolium/luci-go/common/system/exitcode"
+	"github.com/tetrafolium/luci-go/common/system/signals"
+	"github.com/tetrafolium/luci-go/lucictx"
 )
 
 // CommandParams specifies various parameters for a subcommand.

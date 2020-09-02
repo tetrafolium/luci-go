@@ -18,17 +18,17 @@ import (
 	"context"
 	"testing"
 
-	"go.chromium.org/luci/config"
-	"go.chromium.org/luci/config/cfgclient"
-	"go.chromium.org/luci/config/impl/memory"
-	gae "go.chromium.org/luci/gae/impl/memory"
+	"github.com/tetrafolium/luci-go/config"
+	"github.com/tetrafolium/luci-go/config/cfgclient"
+	"github.com/tetrafolium/luci-go/config/impl/memory"
+	gae "github.com/tetrafolium/luci-go/gae/impl/memory"
 
-	gce "go.chromium.org/luci/gce/api/config/v1"
-	"go.chromium.org/luci/gce/api/projects/v1"
-	rpc "go.chromium.org/luci/gce/appengine/rpc/memory"
+	gce "github.com/tetrafolium/luci-go/gce/api/config/v1"
+	"github.com/tetrafolium/luci-go/gce/api/projects/v1"
+	rpc "github.com/tetrafolium/luci-go/gce/appengine/rpc/memory"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestDeref(t *testing.T) {

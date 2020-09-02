@@ -22,7 +22,7 @@ import (
 
 	"github.com/golang/protobuf/ptypes/timestamp"
 
-	"go.chromium.org/luci/common/proto/git"
+	"github.com/tetrafolium/luci-go/common/proto/git"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

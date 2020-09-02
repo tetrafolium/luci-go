@@ -30,14 +30,14 @@ import (
 	"github.com/maruel/subcommands"
 	"golang.org/x/sync/errgroup"
 
-	"go.chromium.org/luci/client/cas"
-	"go.chromium.org/luci/common/cli"
-	"go.chromium.org/luci/common/data/caching/cache"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/isolated"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/system/filesystem"
-	"go.chromium.org/luci/common/system/signals"
+	"github.com/tetrafolium/luci-go/client/cas"
+	"github.com/tetrafolium/luci-go/common/cli"
+	"github.com/tetrafolium/luci-go/common/data/caching/cache"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/isolated"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/system/filesystem"
+	"github.com/tetrafolium/luci-go/common/system/signals"
 )
 
 // CmdDownload returns an object for the `download` subcommand.

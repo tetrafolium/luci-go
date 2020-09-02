@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os/exec"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // fileStatus is a type of file change in a git commit.

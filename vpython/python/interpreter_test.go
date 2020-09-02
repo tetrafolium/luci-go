@@ -21,10 +21,10 @@ import (
 	"os/exec"
 	"testing"
 
-	"go.chromium.org/luci/common/system/environ"
+	"github.com/tetrafolium/luci-go/common/system/environ"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 const testGetVersionENV = "_VPYTHON_TEST_GET_VERSION"

@@ -20,11 +20,11 @@ import (
 
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/auth/client/authcli"
-	"go.chromium.org/luci/common/cli"
-	"go.chromium.org/luci/common/flag/fixflagpos"
-	"go.chromium.org/luci/common/logging/gologger"
+	"github.com/tetrafolium/luci-go/auth"
+	"github.com/tetrafolium/luci-go/auth/client/authcli"
+	"github.com/tetrafolium/luci-go/common/cli"
+	"github.com/tetrafolium/luci-go/common/flag/fixflagpos"
+	"github.com/tetrafolium/luci-go/common/logging/gologger"
 )
 
 // Params is the parameters for the bb application.

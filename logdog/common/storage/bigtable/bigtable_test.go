@@ -17,7 +17,7 @@ package bigtable
 import (
 	"testing"
 
-	"go.chromium.org/luci/logdog/common/storage"
+	"github.com/tetrafolium/luci-go/logdog/common/storage"
 
 	"cloud.google.com/go/bigtable"
 

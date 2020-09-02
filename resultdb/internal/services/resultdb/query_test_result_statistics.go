@@ -20,11 +20,11 @@ import (
 	"cloud.google.com/go/spanner"
 	"github.com/golang/protobuf/ptypes"
 
-	"go.chromium.org/luci/grpc/appstatus"
-	"go.chromium.org/luci/server/span"
+	"github.com/tetrafolium/luci-go/grpc/appstatus"
+	"github.com/tetrafolium/luci-go/server/span"
 
-	"go.chromium.org/luci/resultdb/internal/invocations"
-	pb "go.chromium.org/luci/resultdb/proto/v1"
+	"github.com/tetrafolium/luci-go/resultdb/internal/invocations"
+	pb "github.com/tetrafolium/luci-go/resultdb/proto/v1"
 )
 
 // QueryTestResultStatistics implements pb.ResultDBServer.

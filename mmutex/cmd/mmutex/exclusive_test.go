@@ -24,7 +24,7 @@ import (
 
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/mmutex/lib"
+	"github.com/tetrafolium/luci-go/mmutex/lib"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

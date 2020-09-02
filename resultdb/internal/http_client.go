@@ -18,7 +18,7 @@ import (
 	"context"
 	"net/http"
 
-	"go.chromium.org/luci/server/auth"
+	"github.com/tetrafolium/luci-go/server/auth"
 )
 
 var httpClientCtxKey = "context key for a *http.Client"

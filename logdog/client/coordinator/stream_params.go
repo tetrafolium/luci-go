@@ -15,8 +15,8 @@
 package coordinator
 
 import (
-	logdog "go.chromium.org/luci/logdog/api/endpoints/coordinator/logs/v1"
-	"go.chromium.org/luci/logdog/common/types"
+	logdog "github.com/tetrafolium/luci-go/logdog/api/endpoints/coordinator/logs/v1"
+	"github.com/tetrafolium/luci-go/logdog/common/types"
 )
 
 // getParamsInst is an internal struct that accumulates a Get request and

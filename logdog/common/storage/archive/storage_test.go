@@ -22,19 +22,19 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/gcloud/gs"
-	"go.chromium.org/luci/logdog/api/logpb"
-	"go.chromium.org/luci/logdog/common/archive"
-	"go.chromium.org/luci/logdog/common/renderer"
-	"go.chromium.org/luci/logdog/common/storage"
-	"go.chromium.org/luci/logdog/common/storage/memory"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/gcloud/gs"
+	"github.com/tetrafolium/luci-go/logdog/api/logpb"
+	"github.com/tetrafolium/luci-go/logdog/common/archive"
+	"github.com/tetrafolium/luci-go/logdog/common/renderer"
+	"github.com/tetrafolium/luci-go/logdog/common/storage"
+	"github.com/tetrafolium/luci-go/logdog/common/storage/memory"
 
 	cloudStorage "cloud.google.com/go/storage"
 	"github.com/golang/protobuf/proto"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 const (

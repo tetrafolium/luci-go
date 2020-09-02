@@ -18,11 +18,11 @@ import (
 	"fmt"
 	"net/http"
 
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/server/templates"
+	"github.com/tetrafolium/luci-go/server/router"
+	"github.com/tetrafolium/luci-go/server/templates"
 
-	"go.chromium.org/luci/milo/buildsource/buildbucket"
-	"go.chromium.org/luci/milo/frontend/ui"
+	"github.com/tetrafolium/luci-go/milo/buildsource/buildbucket"
+	"github.com/tetrafolium/luci-go/milo/frontend/ui"
 )
 
 // openSearchXML is the template used to serve the OpenSearch Description Document.

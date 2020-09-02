@@ -57,7 +57,7 @@
 // The Host Application MUST:
 //   * Run a logdog butler service and expose all relevant LOGDOG_* environment
 //     variables such that the following client libraries can stream log data:
-//       * Golang: go.chromium.org/luci/logdog/client/butlerlib/bootstrap
+//       * Golang: github.com/tetrafolium/luci-go/logdog/client/butlerlib/bootstrap
 //       * Python: infra_libs.logdog.bootstrap
 //   * Hook the butler to intercept and merge build.proto streams into a single
 //     build.proto (zlib-compressed) stream.
@@ -73,7 +73,7 @@
 // frequently convenient to hook the stderr/stdout streams from the top level
 // luciexe and tee them to the Host Application's stdout/stderr.
 //
-// For example: the `go.chromium.org/luci/buildbucket/cmd/agent` binary forwards
+// For example: the `github.com/tetrafolium/luci-go/buildbucket/cmd/agent` binary forwards
 // these merged build.proto messages to the Buildbucket service, and also
 // uploads all streams to them to the Logdog cloud service. Other host
 // implementations may instead choose to write all streams to disk, send them to
@@ -291,10 +291,10 @@
 //
 // For implementation-level details, please refer to the following:
 //
-//  * "go.chromium.org/luci/luciexe" - low-level protocol details (this module).
-//  * "go.chromium.org/luci/luciexe/host" - the Host Application library.
-//  * "go.chromium.org/luci/luciexe/invoke" - luciexe invocation.
-//  * "go.chromium.org/luci/luciexe/exe" - luciexe binary helper library.
+//  * "github.com/tetrafolium/luci-go/luciexe" - low-level protocol details (this module).
+//  * "github.com/tetrafolium/luci-go/luciexe/host" - the Host Application library.
+//  * "github.com/tetrafolium/luci-go/luciexe/invoke" - luciexe invocation.
+//  * "github.com/tetrafolium/luci-go/luciexe/exe" - luciexe binary helper library.
 //
 // Other Client Implementations
 //
@@ -302,7 +302,7 @@
 // implement the LUCI Executable protocol using the "luciexe" subcommand.
 //
 //   TODO(iannucci): Implement a luciexe binary helper in `infra_libs` analogous
-//   to go.chromium.org/luci/luciexe/exe and implement Recipes' support in terms
+//   to github.com/tetrafolium/luci-go/luciexe/exe and implement Recipes' support in terms
 //   of this.
 //
 // LUCI Executables on Buildbucket

@@ -18,16 +18,16 @@ import (
 	"context"
 	"fmt"
 
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/tsmon"
-	"go.chromium.org/luci/common/tsmon/metric"
-	mc "go.chromium.org/luci/gae/service/memcache"
-	"go.chromium.org/luci/server/portal"
-	"go.chromium.org/luci/server/settings"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/tsmon"
+	"github.com/tetrafolium/luci-go/common/tsmon/metric"
+	mc "github.com/tetrafolium/luci-go/gae/service/memcache"
+	"github.com/tetrafolium/luci-go/server/portal"
+	"github.com/tetrafolium/luci-go/server/settings"
 )
 
 // settingsKey is key for global GAE settings (described by gaeSettings struct)
-// in the settings store. See go.chromium.org/luci/server/settings.
+// in the settings store. See github.com/tetrafolium/luci-go/server/settings.
 const settingsKey = "gae"
 
 // gaeSettings contain global Appengine related tweaks. They are stored in app
@@ -123,7 +123,7 @@ They won't even reach GAE logging service.`,
 			Title: "Disable datastore cache",
 			Help: `Usually caching is a good thing and it can be left enabled. You may
 want to disable it if memcache is having issues that prevent entity writes to
-succeed. See <a href="https://godoc.org/go.chromium.org/luci/gae/filter/dscache">
+succeed. See <a href="https://godoc.org/github.com/tetrafolium/luci-go/gae/filter/dscache">
 dscache documentation</a> for more information. Toggling this on and off has
 consequences: <b>memcache is completely flushed</b>. Do not toy with this
 setting.`,

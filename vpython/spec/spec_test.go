@@ -17,10 +17,10 @@ package spec
 import (
 	"testing"
 
-	"go.chromium.org/luci/vpython/api/vpython"
+	"github.com/tetrafolium/luci-go/vpython/api/vpython"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestNormalizeAndHash(t *testing.T) {

@@ -25,13 +25,13 @@ import (
 	"time"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/auth/integration/authtest"
-	"go.chromium.org/luci/auth/integration/localauth"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/logging/gologger"
-	"go.chromium.org/luci/lucictx"
+	"github.com/tetrafolium/luci-go/auth"
+	"github.com/tetrafolium/luci-go/auth/integration/authtest"
+	"github.com/tetrafolium/luci-go/auth/integration/localauth"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/logging/gologger"
+	"github.com/tetrafolium/luci-go/lucictx"
 	"golang.org/x/oauth2/google"
 )
 

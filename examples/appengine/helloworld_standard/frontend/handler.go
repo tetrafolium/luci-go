@@ -22,15 +22,15 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"go.chromium.org/luci/appengine/gaeauth/server"
-	"go.chromium.org/luci/appengine/gaemiddleware/standard"
-	helloworld "go.chromium.org/luci/examples/appengine/helloworld_standard/proto"
-	"go.chromium.org/luci/gae/service/info"
-	"go.chromium.org/luci/grpc/discovery"
-	"go.chromium.org/luci/grpc/prpc"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/server/templates"
+	"github.com/tetrafolium/luci-go/appengine/gaeauth/server"
+	"github.com/tetrafolium/luci-go/appengine/gaemiddleware/standard"
+	helloworld "github.com/tetrafolium/luci-go/examples/appengine/helloworld_standard/proto"
+	"github.com/tetrafolium/luci-go/gae/service/info"
+	"github.com/tetrafolium/luci-go/grpc/discovery"
+	"github.com/tetrafolium/luci-go/grpc/prpc"
+	"github.com/tetrafolium/luci-go/server/auth"
+	"github.com/tetrafolium/luci-go/server/router"
+	"github.com/tetrafolium/luci-go/server/templates"
 )
 
 // templateBundle is used to render HTML templates. It provides a base args
@@ -73,7 +73,7 @@ func pageBase() router.MiddlewareChain {
 // prpcBase returns the middleware chain for pRPC API handlers.
 func prpcBase() router.MiddlewareChain {
 	// OAuth 2.0 with email scope is registered as a default authenticator
-	// by importing "go.chromium.org/luci/appengine/gaeauth/server".
+	// by importing "github.com/tetrafolium/luci-go/appengine/gaeauth/server".
 	// No need to setup an authenticator here.
 	//
 	// For authorization checks, we use per-service decorators; see
@@ -88,7 +88,7 @@ func checkAPIAccess(c context.Context, methodName string, req proto.Message) (co
 	//
 	// import "github.com/golang/protobuf/proto"
 	// import "google.golang.org/grpc/codes"
-	// import "go.chromium.org/luci/grpc/grpcutil"
+	// import "github.com/tetrafolium/luci-go/grpc/grpcutil"
 	//
 	// hasAccess, err := auth.IsMember(c, "my-users")
 	// if err != nil {

@@ -35,11 +35,11 @@ import (
 
 	"golang.org/x/oauth2"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/runtime/paniccatcher"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/runtime/paniccatcher"
 
-	"go.chromium.org/luci/auth/integration/internal/localsrv"
+	"github.com/tetrafolium/luci-go/auth/integration/internal/localsrv"
 )
 
 // Server runs a local fake GCE metadata server.

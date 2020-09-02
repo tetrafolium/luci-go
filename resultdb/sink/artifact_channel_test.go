@@ -21,8 +21,8 @@ import (
 	"net/http"
 	"testing"
 
-	"go.chromium.org/luci/resultdb/pbutil"
-	sinkpb "go.chromium.org/luci/resultdb/sink/proto/v1"
+	"github.com/tetrafolium/luci-go/resultdb/pbutil"
+	sinkpb "github.com/tetrafolium/luci-go/resultdb/sink/proto/v1"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

@@ -25,14 +25,14 @@ import (
 
 	"github.com/mattn/go-tty"
 
-	"go.chromium.org/luci/client/archiver"
-	"go.chromium.org/luci/client/downloader"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/isolated"
-	"go.chromium.org/luci/common/isolatedclient"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry"
-	"go.chromium.org/luci/led/job"
+	"github.com/tetrafolium/luci-go/client/archiver"
+	"github.com/tetrafolium/luci-go/client/downloader"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/isolated"
+	"github.com/tetrafolium/luci-go/common/isolatedclient"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/retry"
+	"github.com/tetrafolium/luci-go/led/job"
 )
 
 // IsolatedTransformer is a function which receives a directory on the local

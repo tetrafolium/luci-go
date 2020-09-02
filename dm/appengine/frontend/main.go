@@ -19,16 +19,16 @@ import (
 
 	"google.golang.org/appengine"
 
-	"go.chromium.org/luci/appengine/gaemiddleware/standard"
-	"go.chromium.org/luci/dm/appengine/deps"
-	"go.chromium.org/luci/dm/appengine/distributor"
-	"go.chromium.org/luci/dm/appengine/distributor/jobsim"
-	"go.chromium.org/luci/dm/appengine/distributor/swarming/v1"
-	"go.chromium.org/luci/dm/appengine/mutate"
-	"go.chromium.org/luci/grpc/discovery"
-	"go.chromium.org/luci/grpc/prpc"
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/tumble"
+	"github.com/tetrafolium/luci-go/appengine/gaemiddleware/standard"
+	"github.com/tetrafolium/luci-go/dm/appengine/deps"
+	"github.com/tetrafolium/luci-go/dm/appengine/distributor"
+	"github.com/tetrafolium/luci-go/dm/appengine/distributor/jobsim"
+	"github.com/tetrafolium/luci-go/dm/appengine/distributor/swarming/v1"
+	"github.com/tetrafolium/luci-go/dm/appengine/mutate"
+	"github.com/tetrafolium/luci-go/grpc/discovery"
+	"github.com/tetrafolium/luci-go/grpc/prpc"
+	"github.com/tetrafolium/luci-go/server/router"
+	"github.com/tetrafolium/luci-go/tumble"
 )
 
 func main() {

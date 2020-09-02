@@ -21,7 +21,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 type luciPath string

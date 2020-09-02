@@ -98,7 +98,7 @@ def _executable(
         used by Buildbucket, according to its global configuration. The special
         value of `('recipes',)` indicates that this executable should be run
         under the legacy kitchen runtime. All other values will be executed
-        under the go.chromium.org/luci/luciexe protocol.
+        under the github.com/tetrafolium/luci-go/luciexe protocol.
     """
     name = validate.string("name", name)
     key = keys.executable(name)

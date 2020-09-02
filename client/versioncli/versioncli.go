@@ -22,7 +22,7 @@ import (
 
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/cipd/version"
+	"github.com/tetrafolium/luci-go/cipd/version"
 )
 
 // CmdVersion returns a "version" subcommand that prints to stdout the given

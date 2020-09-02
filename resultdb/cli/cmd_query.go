@@ -25,12 +25,12 @@ import (
 
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/common/cli"
-	"go.chromium.org/luci/common/data/text"
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/auth"
+	"github.com/tetrafolium/luci-go/common/cli"
+	"github.com/tetrafolium/luci-go/common/data/text"
+	"github.com/tetrafolium/luci-go/common/errors"
 
-	"go.chromium.org/luci/resultdb/pbutil"
+	"github.com/tetrafolium/luci-go/resultdb/pbutil"
 )
 
 func cmdQuery(p Params) *subcommands.Command {

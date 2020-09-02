@@ -33,22 +33,22 @@ import (
 	"strings"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/data/rand/mathrand"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/logging/gologger"
-	"go.chromium.org/luci/common/logging/memlogger"
-	"go.chromium.org/luci/common/logging/teelogger"
-	"go.chromium.org/luci/common/proto/google"
-	"go.chromium.org/luci/common/retry"
-	"go.chromium.org/luci/common/system/signals"
-	"go.chromium.org/luci/common/tsmon"
-	"go.chromium.org/luci/common/tsmon/target"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/data/rand/mathrand"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/logging/gologger"
+	"github.com/tetrafolium/luci-go/common/logging/memlogger"
+	"github.com/tetrafolium/luci-go/common/logging/teelogger"
+	"github.com/tetrafolium/luci-go/common/proto/google"
+	"github.com/tetrafolium/luci-go/common/retry"
+	"github.com/tetrafolium/luci-go/common/system/signals"
+	"github.com/tetrafolium/luci-go/common/tsmon"
+	"github.com/tetrafolium/luci-go/common/tsmon/target"
 
-	tokenserver "go.chromium.org/luci/tokenserver/api"
-	"go.chromium.org/luci/tokenserver/api/minter/v1"
+	tokenserver "github.com/tetrafolium/luci-go/tokenserver/api"
+	"github.com/tetrafolium/luci-go/tokenserver/api/minter/v1"
 
-	"go.chromium.org/luci/tokenserver/client"
+	"github.com/tetrafolium/luci-go/tokenserver/client"
 )
 
 // Version identifies the major revision of the tokend code.

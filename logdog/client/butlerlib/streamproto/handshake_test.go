@@ -22,8 +22,8 @@ import (
 	"time"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"go.chromium.org/luci/common/clock/clockflag"
-	. "go.chromium.org/luci/common/testing/assertions"
+	"github.com/tetrafolium/luci-go/common/clock/clockflag"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestHandshakeProtocol(t *testing.T) {

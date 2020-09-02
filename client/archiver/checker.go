@@ -24,9 +24,9 @@ import (
 
 	"google.golang.org/api/support/bundler"
 
-	service "go.chromium.org/luci/common/api/isolate/isolateservice/v1"
-	"go.chromium.org/luci/common/isolated"
-	"go.chromium.org/luci/common/isolatedclient"
+	service "github.com/tetrafolium/luci-go/common/api/isolate/isolateservice/v1"
+	"github.com/tetrafolium/luci-go/common/isolated"
+	"github.com/tetrafolium/luci-go/common/isolatedclient"
 )
 
 // isolateService is an internal interface to allow mocking of the

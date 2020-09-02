@@ -15,7 +15,7 @@
 package internal
 
 import (
-	api "go.chromium.org/luci/scheduler/api/scheduler/v1"
+	api "github.com/tetrafolium/luci-go/scheduler/api/scheduler/v1"
 )
 
 // NoopTrigger constructs a noop trigger proto with given ID and data payload.

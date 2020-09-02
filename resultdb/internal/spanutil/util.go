@@ -22,7 +22,7 @@ import (
 	"github.com/golang/protobuf/proto"
 	"google.golang.org/api/iterator"
 
-	"go.chromium.org/luci/server/span"
+	"github.com/tetrafolium/luci-go/server/span"
 )
 
 // ErrNoResults is an error returned when a query unexpectedly has no results.

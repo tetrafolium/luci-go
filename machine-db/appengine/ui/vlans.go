@@ -15,10 +15,10 @@
 package ui
 
 import (
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/server/templates"
+	"github.com/tetrafolium/luci-go/server/router"
+	"github.com/tetrafolium/luci-go/server/templates"
 
-	"go.chromium.org/luci/machine-db/api/crimson/v1"
+	"github.com/tetrafolium/luci-go/machine-db/api/crimson/v1"
 )
 
 func vlansPage(c *router.Context) {

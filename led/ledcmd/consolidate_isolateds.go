@@ -19,11 +19,11 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/isolated"
-	"go.chromium.org/luci/common/isolatedclient"
-	"go.chromium.org/luci/led/job"
-	api "go.chromium.org/luci/swarming/proto/api"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/isolated"
+	"github.com/tetrafolium/luci-go/common/isolatedclient"
+	"github.com/tetrafolium/luci-go/led/job"
+	api "github.com/tetrafolium/luci-go/swarming/proto/api"
 )
 
 // ConsolidateIsolateSources will, for Swarming tasks:
@@ -99,7 +99,7 @@ func extractCmdCwdFromIsolated(ctx context.Context, authClient *http.Client, roo
 	queue := isolated.HexDigests{isolated.HexDigest(rootIso.Digest)}
 	isoClient := mkIsoClient(ctx, authClient, rootIso)
 
-	// borrowed from go.chromium.org/luci/client/downloader.
+	// borrowed from github.com/tetrafolium/luci-go/client/downloader.
 	//
 	// It's rather silly that there's no library functionality to do this.
 	for len(queue) > 0 {

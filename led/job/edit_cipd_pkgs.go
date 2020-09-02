@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"strings"
 
-	swarmingpb "go.chromium.org/luci/swarming/proto/api"
+	swarmingpb "github.com/tetrafolium/luci-go/swarming/proto/api"
 )
 
 // CIPDPkgs is a mapping of the CIPD packages within a Definition in the form

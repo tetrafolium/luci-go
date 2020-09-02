@@ -20,7 +20,7 @@
 //
 // Usage example:
 //
-//   import "go.chromium.org/luci/common/api/swarming/swarming/v1"
+//   import "github.com/tetrafolium/luci-go/common/api/swarming/swarming/v1"
 //   ...
 //   ctx := context.Background()
 //   swarmingService, err := swarming.NewService(ctx)
@@ -43,7 +43,7 @@
 //   swarmingService, err := swarming.NewService(ctx, option.WithTokenSource(config.TokenSource(ctx, token)))
 //
 // See https://godoc.org/google.golang.org/api/option/ for details on options.
-package swarming // import "go.chromium.org/luci/common/api/swarming/swarming/v1"
+package swarming // import "github.com/tetrafolium/luci-go/common/api/swarming/swarming/v1"
 
 import (
 	"bytes"
@@ -57,7 +57,7 @@ import (
 	"strconv"
 	"strings"
 
-	gensupport "go.chromium.org/luci/common/api/internal/gensupport"
+	gensupport "github.com/tetrafolium/luci-go/common/api/internal/gensupport"
 	googleapi "google.golang.org/api/googleapi"
 	option "google.golang.org/api/option"
 	internaloption "google.golang.org/api/option/internaloption"

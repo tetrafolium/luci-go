@@ -22,8 +22,8 @@ import (
 	cloudkms "cloud.google.com/go/kms/apiv1"
 	kmspb "google.golang.org/genproto/googleapis/cloud/kms/v1"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/auth"
+	"github.com/tetrafolium/luci-go/common/logging"
 )
 
 func doDownload(ctx context.Context, client *cloudkms.KeyManagementClient, keyPath string) ([]byte, error) {

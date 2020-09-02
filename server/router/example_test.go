@@ -22,7 +22,7 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	"go.chromium.org/luci/server/router"
+	"github.com/tetrafolium/luci-go/server/router"
 )
 
 func Logger(c *router.Context, next router.Handler) {

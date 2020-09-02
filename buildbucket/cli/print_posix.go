@@ -19,7 +19,7 @@ package cli
 import (
 	"os"
 
-	"go.chromium.org/luci/common/system/terminal"
+	"github.com/tetrafolium/luci-go/common/system/terminal"
 )
 
 func shouldDisableColors() bool {

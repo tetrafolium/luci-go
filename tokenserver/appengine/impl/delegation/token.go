@@ -20,10 +20,10 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"go.chromium.org/luci/server/auth/delegation/messages"
-	"go.chromium.org/luci/server/auth/signing"
+	"github.com/tetrafolium/luci-go/server/auth/delegation/messages"
+	"github.com/tetrafolium/luci-go/server/auth/signing"
 
-	"go.chromium.org/luci/tokenserver/appengine/impl/utils/tokensigning"
+	"github.com/tetrafolium/luci-go/tokenserver/appengine/impl/utils/tokensigning"
 )
 
 // tokenSigningContext is used to make sure delegation token is not misused in

@@ -15,8 +15,8 @@
 package sweep
 
 import (
-	"go.chromium.org/luci/server/tq/internal/partition"
-	"go.chromium.org/luci/server/tq/internal/reminder"
+	"github.com/tetrafolium/luci-go/server/tq/internal/partition"
+	"github.com/tetrafolium/luci-go/server/tq/internal/reminder"
 )
 
 // onlyLeased shrinks the given slice of Reminders sorted by their ID to contain

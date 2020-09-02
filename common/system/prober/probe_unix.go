@@ -20,8 +20,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/system/environ"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/system/environ"
 )
 
 func findExecutable(file string) error {

@@ -19,9 +19,9 @@ import (
 	"context"
 	"fmt"
 
-	"go.chromium.org/luci/common/data/recordio"
-	"go.chromium.org/luci/common/data/treapstore"
-	"go.chromium.org/luci/logdog/common/storage"
+	"github.com/tetrafolium/luci-go/common/data/recordio"
+	"github.com/tetrafolium/luci-go/common/data/treapstore"
+	"github.com/tetrafolium/luci-go/logdog/common/storage"
 )
 
 type storageItem struct {

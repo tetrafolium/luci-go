@@ -25,11 +25,11 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"go.chromium.org/luci/client/archiver"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/isolated"
-	"go.chromium.org/luci/common/isolatedclient"
-	"go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/client/archiver"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/isolated"
+	"github.com/tetrafolium/luci-go/common/isolatedclient"
+	"github.com/tetrafolium/luci-go/common/logging"
 )
 
 // ArchiveOptions for archiving trees.

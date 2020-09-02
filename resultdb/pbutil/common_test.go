@@ -20,7 +20,7 @@ import (
 	durationpb "github.com/golang/protobuf/ptypes/duration"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestValidateMaxStaleness(t *testing.T) {

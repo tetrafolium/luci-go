@@ -16,7 +16,7 @@
 // versions:
 // 	protoc-gen-go v1.25.0-devel
 // 	protoc        v3.12.1
-// source: go.chromium.org/luci/server/tq/internal/tqpb/tasks.proto
+// source: github.com/tetrafolium/luci-go/server/tq/internal/tqpb/tasks.proto
 
 package tqpb
 

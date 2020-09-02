@@ -24,7 +24,7 @@ m = {ds: 123}
 # Registration works.
 l1 = proto.new_loader()
 ds.register(l1)
-assert.true(l1.module('go.chromium.org/luci/starlark/starlarkproto/testprotos/test.proto'))
+assert.true(l1.module('github.com/tetrafolium/luci-go/starlark/starlarkproto/testprotos/test.proto'))
 ds.register(l1)  # doing it twice is OK
 l1.add_descriptor_set(ds)  # this also works
 
@@ -32,4 +32,4 @@ l1.add_descriptor_set(ds)  # this also works
 l2 = proto.new_loader()
 ds2 = proto.new_descriptor_set(deps=[ds])
 ds2.register(l2)
-assert.true(l2.module('go.chromium.org/luci/starlark/starlarkproto/testprotos/test.proto'))
+assert.true(l2.module('github.com/tetrafolium/luci-go/starlark/starlarkproto/testprotos/test.proto'))

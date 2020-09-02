@@ -20,7 +20,7 @@ import (
 	"go.starlark.net/starlark"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 const regexpTest = `

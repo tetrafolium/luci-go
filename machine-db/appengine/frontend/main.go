@@ -22,18 +22,18 @@ import (
 
 	"google.golang.org/appengine"
 
-	"go.chromium.org/luci/appengine/gaemiddleware/standard"
-	"go.chromium.org/luci/common/data/rand/mathrand"
-	"go.chromium.org/luci/grpc/discovery"
-	"go.chromium.org/luci/grpc/grpcmon"
-	"go.chromium.org/luci/grpc/prpc"
-	"go.chromium.org/luci/server/router"
+	"github.com/tetrafolium/luci-go/appengine/gaemiddleware/standard"
+	"github.com/tetrafolium/luci-go/common/data/rand/mathrand"
+	"github.com/tetrafolium/luci-go/grpc/discovery"
+	"github.com/tetrafolium/luci-go/grpc/grpcmon"
+	"github.com/tetrafolium/luci-go/grpc/prpc"
+	"github.com/tetrafolium/luci-go/server/router"
 
-	"go.chromium.org/luci/machine-db/api/crimson/v1"
-	"go.chromium.org/luci/machine-db/appengine/config"
-	"go.chromium.org/luci/machine-db/appengine/database"
-	"go.chromium.org/luci/machine-db/appengine/rpc"
-	"go.chromium.org/luci/machine-db/appengine/ui"
+	"github.com/tetrafolium/luci-go/machine-db/api/crimson/v1"
+	"github.com/tetrafolium/luci-go/machine-db/appengine/config"
+	"github.com/tetrafolium/luci-go/machine-db/appengine/database"
+	"github.com/tetrafolium/luci-go/machine-db/appengine/rpc"
+	"github.com/tetrafolium/luci-go/machine-db/appengine/ui"
 )
 
 func main() {

@@ -18,7 +18,7 @@ import (
 	"context"
 	"database/sql"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // RollbackTx is a sql.Tx which supports automatic rollback.

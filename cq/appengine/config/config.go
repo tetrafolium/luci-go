@@ -26,10 +26,10 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes"
 
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/config/validation"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
+	"github.com/tetrafolium/luci-go/config/validation"
 
-	v2 "go.chromium.org/luci/cv/api/config/v2"
+	v2 "github.com/tetrafolium/luci-go/cv/api/config/v2"
 )
 
 // Config validation rules go here.

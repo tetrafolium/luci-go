@@ -15,10 +15,10 @@
 package jobexport
 
 import (
-	"go.chromium.org/luci/common/api/swarming/swarming/v1"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/led/job"
-	apipb "go.chromium.org/luci/swarming/proto/api"
+	"github.com/tetrafolium/luci-go/common/api/swarming/swarming/v1"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/led/job"
+	apipb "github.com/tetrafolium/luci-go/swarming/proto/api"
 )
 
 // ToSwarmingNewTask renders a swarming proto task to a

@@ -26,13 +26,13 @@ import (
 
 	"google.golang.org/api/pubsub/v1"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/config/validation"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/config/validation"
 
-	api "go.chromium.org/luci/scheduler/api/scheduler/v1"
-	"go.chromium.org/luci/scheduler/appengine/internal"
-	"go.chromium.org/luci/scheduler/appengine/messages"
-	"go.chromium.org/luci/scheduler/appengine/task"
+	api "github.com/tetrafolium/luci-go/scheduler/api/scheduler/v1"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/internal"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/messages"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/task"
 )
 
 // TaskManager implements task.Manager interface for tasks defined with

@@ -21,7 +21,7 @@ import (
 	"os"
 	"text/tabwriter"
 
-	"go.chromium.org/luci/machine-db/api/common/v1"
+	"github.com/tetrafolium/luci-go/machine-db/api/common/v1"
 )
 
 // tablePrinter defines an interface for printing tabular data.

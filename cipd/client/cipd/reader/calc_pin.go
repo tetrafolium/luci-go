@@ -18,8 +18,8 @@ import (
 	"context"
 	"io"
 
-	api "go.chromium.org/luci/cipd/api/cipd/v1"
-	"go.chromium.org/luci/cipd/common"
+	api "github.com/tetrafolium/luci-go/cipd/api/cipd/v1"
+	"github.com/tetrafolium/luci-go/cipd/common"
 )
 
 type noopCloserSrc struct {

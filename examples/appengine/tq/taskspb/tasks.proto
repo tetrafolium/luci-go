@@ -16,7 +16,7 @@ syntax = "proto3";
 
 package luci.examples.appengine.tq.taskspb;
 
-option go_package = "go.chromium.org/luci/examples/appengine/tq/taskspb";
+option go_package = "github.com/tetrafolium/luci-go/examples/appengine/tq/taskspb";
 
 message CountDownTask {
   int64 number = 1;

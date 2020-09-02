@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"time"
 
-	ds "go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/logdog/common/types"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/logdog/common/types"
 )
 
 // ArchivalState describes the archival state of a LogStream.

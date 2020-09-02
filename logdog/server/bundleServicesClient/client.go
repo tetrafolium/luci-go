@@ -19,10 +19,10 @@ import (
 	"sync"
 	"time"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/gcloud/gae"
-	"go.chromium.org/luci/common/logging"
-	s "go.chromium.org/luci/logdog/api/endpoints/coordinator/services/v1"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/gcloud/gae"
+	"github.com/tetrafolium/luci-go/common/logging"
+	s "github.com/tetrafolium/luci-go/logdog/api/endpoints/coordinator/services/v1"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes/empty"

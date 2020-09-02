@@ -17,7 +17,7 @@ package rpc
 import (
 	"github.com/Masterminds/squirrel"
 
-	"go.chromium.org/luci/machine-db/api/common/v1"
+	"github.com/tetrafolium/luci-go/machine-db/api/common/v1"
 )
 
 // selectInInt64 returns the given SELECT modified with a WHERE IN clause.

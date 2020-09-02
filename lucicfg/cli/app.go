@@ -22,19 +22,19 @@ import (
 	"github.com/maruel/subcommands"
 	"go.starlark.net/resolve"
 
-	"go.chromium.org/luci/auth/client/authcli"
-	"go.chromium.org/luci/client/versioncli"
-	"go.chromium.org/luci/common/cli"
-	"go.chromium.org/luci/common/flag/fixflagpos"
-	"go.chromium.org/luci/common/logging/gologger"
+	"github.com/tetrafolium/luci-go/auth/client/authcli"
+	"github.com/tetrafolium/luci-go/client/versioncli"
+	"github.com/tetrafolium/luci-go/common/cli"
+	"github.com/tetrafolium/luci-go/common/flag/fixflagpos"
+	"github.com/tetrafolium/luci-go/common/logging/gologger"
 
-	"go.chromium.org/luci/lucicfg"
-	"go.chromium.org/luci/lucicfg/cli/base"
-	"go.chromium.org/luci/lucicfg/cli/cmds/diff"
-	"go.chromium.org/luci/lucicfg/cli/cmds/fmt"
-	"go.chromium.org/luci/lucicfg/cli/cmds/generate"
-	"go.chromium.org/luci/lucicfg/cli/cmds/lint"
-	"go.chromium.org/luci/lucicfg/cli/cmds/validate"
+	"github.com/tetrafolium/luci-go/lucicfg"
+	"github.com/tetrafolium/luci-go/lucicfg/cli/base"
+	"github.com/tetrafolium/luci-go/lucicfg/cli/cmds/diff"
+	"github.com/tetrafolium/luci-go/lucicfg/cli/cmds/fmt"
+	"github.com/tetrafolium/luci-go/lucicfg/cli/cmds/generate"
+	"github.com/tetrafolium/luci-go/lucicfg/cli/cmds/lint"
+	"github.com/tetrafolium/luci-go/lucicfg/cli/cmds/validate"
 )
 
 // Main runs the lucicfg CLI.

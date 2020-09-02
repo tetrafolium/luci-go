@@ -24,17 +24,17 @@ import (
 	"sync"
 	"time"
 
-	"go.chromium.org/luci/common/data/caching/lazyslot"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/proto/google"
-	"go.chromium.org/luci/common/retry/transient"
-	ds "go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/common/data/caching/lazyslot"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/proto/google"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
 
-	"go.chromium.org/luci/tokenserver/api/admin/v1"
+	"github.com/tetrafolium/luci-go/tokenserver/api/admin/v1"
 
-	"go.chromium.org/luci/tokenserver/appengine/impl/utils"
-	"go.chromium.org/luci/tokenserver/appengine/impl/utils/shards"
+	"github.com/tetrafolium/luci-go/tokenserver/appengine/impl/utils"
+	"github.com/tetrafolium/luci-go/tokenserver/appengine/impl/utils/shards"
 )
 
 // CRLShardCount is a number of shards to use for storing CRL in the datastore.

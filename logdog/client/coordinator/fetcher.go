@@ -19,11 +19,11 @@ import (
 	"sync"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	log "go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/logdog/api/logpb"
-	"go.chromium.org/luci/logdog/common/fetcher"
-	"go.chromium.org/luci/logdog/common/types"
+	"github.com/tetrafolium/luci-go/common/clock"
+	log "github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/logdog/api/logpb"
+	"github.com/tetrafolium/luci-go/logdog/common/fetcher"
+	"github.com/tetrafolium/luci-go/logdog/common/types"
 )
 
 const (

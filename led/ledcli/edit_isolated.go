@@ -21,8 +21,8 @@ import (
 
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/led/job"
-	"go.chromium.org/luci/led/ledcmd"
+	"github.com/tetrafolium/luci-go/led/job"
+	"github.com/tetrafolium/luci-go/led/ledcmd"
 )
 
 func editIsolated(opts cmdBaseOptions) *subcommands.Command {

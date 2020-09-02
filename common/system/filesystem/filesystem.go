@@ -24,7 +24,7 @@ import (
 	"syscall"
 	"time"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // IsNotExist calls os.IsNotExist on the unwrapped err.

@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"os"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/vpython"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/vpython"
 )
 
 // returnCodeError is an error wrapping a return code value.
@@ -30,7 +30,7 @@ func (err returnCodeError) Error() string {
 	return fmt.Sprintf("python interpreter returned non-zero error: %d", err)
 }
 
-var appKey = "go.chromium.org/luci/vpython/application.A"
+var appKey = "github.com/tetrafolium/luci-go/vpython/application.A"
 
 func withApplication(c context.Context, a *application) context.Context {
 	return context.WithValue(c, &appKey, a)

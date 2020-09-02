@@ -17,8 +17,8 @@ package testutil
 import (
 	"context"
 
-	api "go.chromium.org/luci/cipd/api/cipd/v1"
-	"go.chromium.org/luci/cipd/appengine/impl/gs"
+	api "github.com/tetrafolium/luci-go/cipd/api/cipd/v1"
+	"github.com/tetrafolium/luci-go/cipd/appengine/impl/gs"
 )
 
 // MockCAS implements cas.StorageServer interface.

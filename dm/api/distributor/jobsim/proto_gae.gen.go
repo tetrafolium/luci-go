@@ -19,14 +19,14 @@ package jobsim
 import (
 	"github.com/golang/protobuf/proto"
 
-	"go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
 )
 
 var _ datastore.PropertyConverter = (*Phrase)(nil)
 
 // ToProperty implements datastore.PropertyConverter. It causes an embedded
 // 'Phrase' to serialize to an unindexed '[]byte' when used with the
-// "go.chromium.org/luci/gae" library.
+// "github.com/tetrafolium/luci-go/gae" library.
 func (p *Phrase) ToProperty() (prop datastore.Property, err error) {
 	data, err := proto.Marshal(p)
 	if err == nil {
@@ -36,7 +36,7 @@ func (p *Phrase) ToProperty() (prop datastore.Property, err error) {
 }
 
 // FromProperty implements datastore.PropertyConverter. It parses a '[]byte'
-// into an embedded 'Phrase' when used with the "go.chromium.org/luci/gae" library.
+// into an embedded 'Phrase' when used with the "github.com/tetrafolium/luci-go/gae" library.
 func (p *Phrase) FromProperty(prop datastore.Property) error {
 	data, err := prop.Project(datastore.PTBytes)
 	if err != nil {

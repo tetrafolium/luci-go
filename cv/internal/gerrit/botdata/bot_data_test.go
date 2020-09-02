@@ -18,10 +18,10 @@ import (
 	"testing"
 	"time"
 
-	gerritpb "go.chromium.org/luci/common/proto/gerrit"
+	gerritpb "github.com/tetrafolium/luci-go/common/proto/gerrit"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestParse(t *testing.T) {

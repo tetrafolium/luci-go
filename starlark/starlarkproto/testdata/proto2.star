@@ -13,8 +13,8 @@
 # limitations under the License.
 
 l = proto.new_loader(proto.new_descriptor_set(blob=read('./testprotos/all.pb')))
-testprotos = l.module('go.chromium.org/luci/starlark/starlarkproto/testprotos/test.proto')
-proto2 = l.module('go.chromium.org/luci/starlark/starlarkproto/testprotos/proto2.proto')
+testprotos = l.module('github.com/tetrafolium/luci-go/starlark/starlarkproto/testprotos/test.proto')
+proto2 = l.module('github.com/tetrafolium/luci-go/starlark/starlarkproto/testprotos/proto2.proto')
 
 m = proto2.Proto2Message()
 

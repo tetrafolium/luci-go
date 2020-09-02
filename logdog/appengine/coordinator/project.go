@@ -18,9 +18,9 @@ import (
 	"context"
 	"strings"
 
-	"go.chromium.org/luci/gae/service/info"
-	"go.chromium.org/luci/logdog/api/config/svcconfig"
-	"go.chromium.org/luci/logdog/server/config"
+	"github.com/tetrafolium/luci-go/gae/service/info"
+	"github.com/tetrafolium/luci-go/logdog/api/config/svcconfig"
+	"github.com/tetrafolium/luci-go/logdog/server/config"
 )
 
 const (

@@ -18,12 +18,12 @@ import (
 	"context"
 	"sync"
 
-	"go.chromium.org/luci/logdog/api/endpoints/coordinator/services/v1"
+	"github.com/tetrafolium/luci-go/logdog/api/endpoints/coordinator/services/v1"
 
-	"go.chromium.org/luci/common/gcloud/gae"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/sync/parallel"
-	"go.chromium.org/luci/grpc/grpcutil"
+	"github.com/tetrafolium/luci-go/common/gcloud/gae"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/sync/parallel"
+	"github.com/tetrafolium/luci-go/grpc/grpcutil"
 
 	"github.com/golang/protobuf/proto"
 )

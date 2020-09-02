@@ -15,11 +15,11 @@
 // Datastore contains Transactional Enqueue support for Cloud Datastore.
 //
 // Importing this package adds Cloud Datastore transactions support to
-// server/tq's AddTask. Depends on "go.chromium.org/luci/gae/filter/txndefer" filter
+// server/tq's AddTask. Depends on "github.com/tetrafolium/luci-go/gae/filter/txndefer" filter
 // installed. It is installed by default in LUCI server contexts.
 //
 // This package is normally imported unnamed:
-//   import _ "go.chromium.org/luci/server/tq/txn/datastore"
+//   import _ "github.com/tetrafolium/luci-go/server/tq/txn/datastore"
 //
 // Will take ownership of entities with kinds "tq.*" (e.g. "tq.Reminder").
 package datastore
@@ -27,10 +27,10 @@ package datastore
 import (
 	"context"
 
-	"go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
 
-	"go.chromium.org/luci/server/tq/internal/db"
-	"go.chromium.org/luci/server/tq/internal/lessor"
+	"github.com/tetrafolium/luci-go/server/tq/internal/db"
+	"github.com/tetrafolium/luci-go/server/tq/internal/lessor"
 )
 
 var impl dsDB

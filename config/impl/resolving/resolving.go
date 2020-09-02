@@ -21,9 +21,9 @@ import (
 	"context"
 	"net/url"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/config"
-	"go.chromium.org/luci/config/vars"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/config"
+	"github.com/tetrafolium/luci-go/config/vars"
 )
 
 // New creates a config.Interface that resolves ${var} placeholders in config

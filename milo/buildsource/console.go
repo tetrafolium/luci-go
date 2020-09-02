@@ -19,16 +19,16 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/sync/parallel"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/sync/parallel"
 
-	"go.chromium.org/luci/milo/api/config"
-	"go.chromium.org/luci/milo/common"
-	"go.chromium.org/luci/milo/common/model"
-	"go.chromium.org/luci/milo/frontend/ui"
+	"github.com/tetrafolium/luci-go/milo/api/config"
+	"github.com/tetrafolium/luci-go/milo/common"
+	"github.com/tetrafolium/luci-go/milo/common/model"
+	"github.com/tetrafolium/luci-go/milo/frontend/ui"
 )
 
 // ConsoleRow is one row of a particular console.

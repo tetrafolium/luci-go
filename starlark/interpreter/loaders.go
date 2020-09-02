@@ -22,7 +22,7 @@ import (
 
 	"go.starlark.net/starlark"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // FileSystemLoader returns a loader that loads files from the file system.

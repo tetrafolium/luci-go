@@ -18,8 +18,8 @@ import (
 	"sort"
 	"strings"
 
-	"go.chromium.org/luci/common/proto/config"
-	"go.chromium.org/luci/config/validation"
+	"github.com/tetrafolium/luci-go/common/proto/config"
+	"github.com/tetrafolium/luci-go/config/validation"
 )
 
 const (

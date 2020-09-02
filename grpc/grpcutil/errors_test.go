@@ -18,7 +18,7 @@ import (
 	"errors"
 	"testing"
 
-	lucierr "go.chromium.org/luci/common/errors"
+	lucierr "github.com/tetrafolium/luci-go/common/errors"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 

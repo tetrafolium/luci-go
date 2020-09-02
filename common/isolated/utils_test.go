@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"testing"
 
-	"go.chromium.org/luci/common/api/isolate/isolateservice/v1"
+	"github.com/tetrafolium/luci-go/common/api/isolate/isolateservice/v1"
 )
 
 func TestSum(t *testing.T) {

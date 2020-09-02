@@ -22,17 +22,17 @@ import (
 	"net/http"
 	"strings"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/server/auth"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/server/auth"
 
-	api "go.chromium.org/luci/cipd/api/cipd/v1"
-	"go.chromium.org/luci/cipd/appengine/impl/cas"
-	"go.chromium.org/luci/cipd/appengine/impl/gs"
-	"go.chromium.org/luci/cipd/appengine/impl/model"
-	"go.chromium.org/luci/cipd/common"
+	api "github.com/tetrafolium/luci-go/cipd/api/cipd/v1"
+	"github.com/tetrafolium/luci-go/cipd/appengine/impl/cas"
+	"github.com/tetrafolium/luci-go/cipd/appengine/impl/gs"
+	"github.com/tetrafolium/luci-go/cipd/appengine/impl/model"
+	"github.com/tetrafolium/luci-go/cipd/common"
 )
 
 // ClientExtractorProcID is identifier of ClientExtractor processor.

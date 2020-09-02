@@ -31,7 +31,7 @@ import (
 	"sort"
 	"strings"
 
-	"go.chromium.org/luci/common/logging/gologger"
+	"github.com/tetrafolium/luci-go/common/logging/gologger"
 )
 
 // Service contains the result of parsing the generated code for a pRPC service.

@@ -20,9 +20,9 @@ import (
 	"github.com/maruel/subcommands"
 	"golang.org/x/net/context"
 
-	"go.chromium.org/luci/common/flag/stringlistflag"
-	"go.chromium.org/luci/common/flag/stringmapflag"
-	job "go.chromium.org/luci/led/job"
+	"github.com/tetrafolium/luci-go/common/flag/stringlistflag"
+	"github.com/tetrafolium/luci-go/common/flag/stringmapflag"
+	job "github.com/tetrafolium/luci-go/led/job"
 )
 
 func editSystemCmd(opts cmdBaseOptions) *subcommands.Command {

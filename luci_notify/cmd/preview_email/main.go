@@ -26,13 +26,13 @@ import (
 
 	"github.com/golang/protobuf/jsonpb"
 
-	"go.chromium.org/luci/buildbucket/cli"
-	buildbucketpb "go.chromium.org/luci/buildbucket/proto"
-	"go.chromium.org/luci/common/data/text"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/hardcoded/chromeinfra"
-	"go.chromium.org/luci/luci_notify/api/config"
-	"go.chromium.org/luci/luci_notify/mailtmpl"
+	"github.com/tetrafolium/luci-go/buildbucket/cli"
+	buildbucketpb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	"github.com/tetrafolium/luci-go/common/data/text"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/hardcoded/chromeinfra"
+	"github.com/tetrafolium/luci-go/luci_notify/api/config"
+	"github.com/tetrafolium/luci-go/luci_notify/mailtmpl"
 )
 
 type parsedFlags struct {

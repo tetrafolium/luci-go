@@ -19,9 +19,9 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/ptypes"
-	swarming "go.chromium.org/luci/common/api/swarming/swarming/v1"
-	"go.chromium.org/luci/led/job"
-	swarmingpb "go.chromium.org/luci/swarming/proto/api"
+	swarming "github.com/tetrafolium/luci-go/common/api/swarming/swarming/v1"
+	"github.com/tetrafolium/luci-go/led/job"
+	swarmingpb "github.com/tetrafolium/luci-go/swarming/proto/api"
 )
 
 func casTreeFromSwarming(iso *swarming.SwarmingRpcsFilesRef) *swarmingpb.CASTree {

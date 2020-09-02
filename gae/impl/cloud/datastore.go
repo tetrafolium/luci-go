@@ -21,10 +21,10 @@ import (
 	"strings"
 	"time"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 
-	"go.chromium.org/luci/gae/impl/prod/constraints"
-	ds "go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/impl/prod/constraints"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
 
 	"cloud.google.com/go/datastore"
 	"google.golang.org/api/iterator"

@@ -22,11 +22,11 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes/duration"
 
-	"go.chromium.org/luci/config/validation"
-	v2 "go.chromium.org/luci/cv/api/config/v2"
+	"github.com/tetrafolium/luci-go/config/validation"
+	v2 "github.com/tetrafolium/luci-go/cv/api/config/v2"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestValidationRules(t *testing.T) {

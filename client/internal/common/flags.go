@@ -22,8 +22,8 @@ import (
 	"io/ioutil"
 	"log"
 
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/logging/gologger"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/logging/gologger"
 )
 
 // Flags contains values parsed from command line arguments.

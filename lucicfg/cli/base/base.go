@@ -27,13 +27,13 @@ import (
 
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/auth/client/authcli"
-	config "go.chromium.org/luci/common/api/luci_config/config/v1"
-	"go.chromium.org/luci/common/flag/stringmapflag"
-	"go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/auth"
+	"github.com/tetrafolium/luci-go/auth/client/authcli"
+	config "github.com/tetrafolium/luci-go/common/api/luci_config/config/v1"
+	"github.com/tetrafolium/luci-go/common/flag/stringmapflag"
+	"github.com/tetrafolium/luci-go/common/logging"
 
-	"go.chromium.org/luci/lucicfg"
+	"github.com/tetrafolium/luci-go/lucicfg"
 )
 
 // CommandLineError is used to tag errors related to command line arguments.

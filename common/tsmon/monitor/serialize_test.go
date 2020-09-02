@@ -19,13 +19,13 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"go.chromium.org/luci/common/tsmon/distribution"
-	"go.chromium.org/luci/common/tsmon/field"
-	"go.chromium.org/luci/common/tsmon/target"
-	"go.chromium.org/luci/common/tsmon/types"
+	"github.com/tetrafolium/luci-go/common/tsmon/distribution"
+	"github.com/tetrafolium/luci-go/common/tsmon/field"
+	"github.com/tetrafolium/luci-go/common/tsmon/target"
+	"github.com/tetrafolium/luci-go/common/tsmon/types"
 
 	. "github.com/smartystreets/goconvey/convey"
-	pb "go.chromium.org/luci/common/tsmon/ts_mon_proto"
+	pb "github.com/tetrafolium/luci-go/common/tsmon/ts_mon_proto"
 )
 
 func TestSerializeDistribution(t *testing.T) {

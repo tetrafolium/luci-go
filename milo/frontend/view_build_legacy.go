@@ -22,18 +22,18 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"github.com/julienschmidt/httprouter"
-	buildbucketpb "go.chromium.org/luci/buildbucket/proto"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/logdog/common/types"
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/server/templates"
+	buildbucketpb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/logdog/common/types"
+	"github.com/tetrafolium/luci-go/server/router"
+	"github.com/tetrafolium/luci-go/server/templates"
 
-	"go.chromium.org/luci/milo/api/config"
-	"go.chromium.org/luci/milo/buildsource/buildbucket"
-	"go.chromium.org/luci/milo/buildsource/rawpresentation"
-	"go.chromium.org/luci/milo/buildsource/swarming"
-	"go.chromium.org/luci/milo/common"
-	"go.chromium.org/luci/milo/frontend/ui"
+	"github.com/tetrafolium/luci-go/milo/api/config"
+	"github.com/tetrafolium/luci-go/milo/buildsource/buildbucket"
+	"github.com/tetrafolium/luci-go/milo/buildsource/rawpresentation"
+	"github.com/tetrafolium/luci-go/milo/buildsource/swarming"
+	"github.com/tetrafolium/luci-go/milo/common"
+	"github.com/tetrafolium/luci-go/milo/frontend/ui"
 )
 
 func handleSwarmingBuild(c *router.Context) error {

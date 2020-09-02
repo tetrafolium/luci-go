@@ -17,7 +17,7 @@ package dm
 import (
 	"time"
 
-	google_pb "go.chromium.org/luci/common/proto/google"
+	google_pb "github.com/tetrafolium/luci-go/common/proto/google"
 )
 
 // NewJsonResult creates a new JsonResult object with optional expiration time.

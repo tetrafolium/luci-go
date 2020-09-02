@@ -19,17 +19,17 @@ import (
 
 	"google.golang.org/appengine"
 
-	"go.chromium.org/luci/appengine/gaemiddleware/standard"
-	"go.chromium.org/luci/common/data/rand/mathrand"
-	"go.chromium.org/luci/grpc/grpcmon"
-	"go.chromium.org/luci/grpc/prpc"
+	"github.com/tetrafolium/luci-go/appengine/gaemiddleware/standard"
+	"github.com/tetrafolium/luci-go/common/data/rand/mathrand"
+	"github.com/tetrafolium/luci-go/grpc/grpcmon"
+	"github.com/tetrafolium/luci-go/grpc/prpc"
 
-	registrationPb "go.chromium.org/luci/logdog/api/endpoints/coordinator/registration/v1"
-	servicesPb "go.chromium.org/luci/logdog/api/endpoints/coordinator/services/v1"
-	"go.chromium.org/luci/logdog/appengine/coordinator/endpoints/registration"
-	"go.chromium.org/luci/logdog/appengine/coordinator/endpoints/services"
-	"go.chromium.org/luci/logdog/server/config"
-	"go.chromium.org/luci/server/router"
+	registrationPb "github.com/tetrafolium/luci-go/logdog/api/endpoints/coordinator/registration/v1"
+	servicesPb "github.com/tetrafolium/luci-go/logdog/api/endpoints/coordinator/services/v1"
+	"github.com/tetrafolium/luci-go/logdog/appengine/coordinator/endpoints/registration"
+	"github.com/tetrafolium/luci-go/logdog/appengine/coordinator/endpoints/services"
+	"github.com/tetrafolium/luci-go/logdog/server/config"
+	"github.com/tetrafolium/luci-go/server/router"
 )
 
 // Run installs and executes this site.

@@ -20,10 +20,10 @@ import (
 	"html/template"
 	"strconv"
 
-	"go.chromium.org/luci/common/clock/clockflag"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/server/portal"
-	"go.chromium.org/luci/server/settings"
+	"github.com/tetrafolium/luci-go/common/clock/clockflag"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/server/portal"
+	"github.com/tetrafolium/luci-go/server/settings"
 )
 
 const (
@@ -44,7 +44,7 @@ func (settingsPage) Overview(c context.Context) (template.HTML, error) {
 	return template.HTML(`<p>Configuration parameters for the
 <a href="https://github.com/luci/luci-go/tree/master/tumble">tumble
 service</a> can be found in its
-<a href="https://godoc.org/go.chromium.org/luci/tumble">
+<a href="https://godoc.org/github.com/tetrafolium/luci-go/tumble">
 documentation</a>.</p>.`), nil
 }
 

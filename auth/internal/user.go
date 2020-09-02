@@ -21,9 +21,9 @@ import (
 
 	"golang.org/x/oauth2"
 
-	"go.chromium.org/luci/common/gcloud/googleoauth"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry/transient"
+	"github.com/tetrafolium/luci-go/common/gcloud/googleoauth"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
 )
 
 type userAuthTokenProvider struct {

@@ -28,14 +28,14 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"github.com/maruel/subcommands"
-	"go.chromium.org/luci/client/flagpb"
-	"go.chromium.org/luci/common/cli"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/lhttp"
-	"go.chromium.org/luci/common/logging"
-	dm "go.chromium.org/luci/dm/api/service/v1"
-	"go.chromium.org/luci/grpc/prpc"
+	"github.com/tetrafolium/luci-go/client/flagpb"
+	"github.com/tetrafolium/luci-go/common/cli"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/lhttp"
+	"github.com/tetrafolium/luci-go/common/logging"
+	dm "github.com/tetrafolium/luci-go/dm/api/service/v1"
+	"github.com/tetrafolium/luci-go/grpc/prpc"
 )
 
 var cmdVisQuery = &subcommands.Command{

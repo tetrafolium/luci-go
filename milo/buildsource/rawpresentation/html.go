@@ -18,13 +18,13 @@ import (
 	"context"
 	"net/http"
 
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/grpc/prpc"
-	"go.chromium.org/luci/hardcoded/chromeinfra"
-	logdog "go.chromium.org/luci/logdog/api/endpoints/coordinator/logs/v1"
-	"go.chromium.org/luci/logdog/client/coordinator"
-	"go.chromium.org/luci/server/auth"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/grpc/prpc"
+	"github.com/tetrafolium/luci-go/hardcoded/chromeinfra"
+	logdog "github.com/tetrafolium/luci-go/logdog/api/endpoints/coordinator/logs/v1"
+	"github.com/tetrafolium/luci-go/logdog/client/coordinator"
+	"github.com/tetrafolium/luci-go/server/auth"
 )
 
 // acceptableLogdogHosts is the (hard-coded) list of accepted logdog hosts.
@@ -49,7 +49,7 @@ var fakeLogKey = "holds a logdog.LogsClient"
 // InjectFakeLogdogClient adds the given logdog.LogsClient to the context.
 //
 // You can obtain a fake logs client from
-//   go.chromium.org/luci/logdog/api/endpoints/coordinator/logs/v1/fakelogs
+//   github.com/tetrafolium/luci-go/logdog/api/endpoints/coordinator/logs/v1/fakelogs
 //
 // Injecting a nil logs client will panic.
 func InjectFakeLogdogClient(c context.Context, client logdog.LogsClient) context.Context {

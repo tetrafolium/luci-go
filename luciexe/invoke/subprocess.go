@@ -21,10 +21,10 @@ import (
 	"sync"
 
 	"github.com/golang/protobuf/proto"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/luciexe"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/luciexe"
 
-	bbpb "go.chromium.org/luci/buildbucket/proto"
+	bbpb "github.com/tetrafolium/luci-go/buildbucket/proto"
 )
 
 // Subprocess represents a running luciexe.
@@ -55,7 +55,7 @@ type Subprocess struct {
 // for the process' stdout/stderr.
 //
 // This assumes that the current process is already operating within a "host
-// application" environment. See "go.chromium.org/luci/luciexe" for details.
+// application" environment. See "github.com/tetrafolium/luci-go/luciexe" for details.
 //
 // The caller SHOULD immediately take Subprocess.Step, append it to the current
 // Build state, and send that (e.g. using `exe.BuildSender`). Otherwise this

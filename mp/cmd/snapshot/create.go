@@ -25,10 +25,10 @@ import (
 
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/common/cli"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/flag"
-	"go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/common/cli"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/flag"
+	"github.com/tetrafolium/luci-go/common/logging"
 )
 
 // createSnapshotCmd is the command to create a disk snapshot.

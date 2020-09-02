@@ -8,7 +8,7 @@ import (
 	proto "github.com/golang/protobuf/proto"
 
 	empty "github.com/golang/protobuf/ptypes/empty"
-	sub "go.chromium.org/luci/grpc/internal/svctool/testdata/sub"
+	sub "github.com/tetrafolium/luci-go/grpc/internal/svctool/testdata/sub"
 )
 
 type DecoratedS1 struct {

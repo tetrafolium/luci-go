@@ -17,7 +17,7 @@ package projectidentity
 import (
 	"testing"
 
-	"go.chromium.org/luci/appengine/gaetesting"
+	"github.com/tetrafolium/luci-go/appengine/gaetesting"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

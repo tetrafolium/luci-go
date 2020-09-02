@@ -16,11 +16,11 @@
 // versions:
 // 	protoc-gen-go v1.25.0-devel
 // 	protoc        v3.12.1
-// source: go.chromium.org/luci/resultdb/sink/proto/v1/sink.proto
+// source: github.com/tetrafolium/luci-go/resultdb/sink/proto/v1/sink.proto
 
 package sinkpb
 
-import prpc "go.chromium.org/luci/grpc/prpc"
+import prpc "github.com/tetrafolium/luci-go/grpc/prpc"
 
 import (
 	context "context"
@@ -354,5 +354,5 @@ var _Sink_serviceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "go.chromium.org/luci/resultdb/sink/proto/v1/sink.proto",
+	Metadata: "github.com/tetrafolium/luci-go/resultdb/sink/proto/v1/sink.proto",
 }

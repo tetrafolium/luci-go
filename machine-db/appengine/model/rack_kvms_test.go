@@ -22,11 +22,11 @@ import (
 
 	"github.com/DATA-DOG/go-sqlmock"
 
-	"go.chromium.org/luci/machine-db/api/config/v1"
-	"go.chromium.org/luci/machine-db/appengine/database"
+	"github.com/tetrafolium/luci-go/machine-db/api/config/v1"
+	"github.com/tetrafolium/luci-go/machine-db/appengine/database"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestRackKVMs(t *testing.T) {

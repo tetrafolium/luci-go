@@ -20,14 +20,14 @@ import (
 	"strings"
 	"sync"
 
-	buildbucketpb "go.chromium.org/luci/buildbucket/proto"
-	"go.chromium.org/luci/buildbucket/protoutil"
-	"go.chromium.org/luci/common/api/gitiles"
-	"go.chromium.org/luci/common/data/stringset"
-	gitpb "go.chromium.org/luci/common/proto/git"
-	"go.chromium.org/luci/common/sync/parallel"
+	buildbucketpb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	"github.com/tetrafolium/luci-go/buildbucket/protoutil"
+	"github.com/tetrafolium/luci-go/common/api/gitiles"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
+	gitpb "github.com/tetrafolium/luci-go/common/proto/git"
+	"github.com/tetrafolium/luci-go/common/sync/parallel"
 
-	notifypb "go.chromium.org/luci/luci_notify/api/config"
+	notifypb "github.com/tetrafolium/luci-go/luci_notify/api/config"
 )
 
 // commitIndex finds the index of the given revision inside the list of

@@ -23,11 +23,11 @@ import (
 	"google.golang.org/protobuf/types/known/structpb"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	pb "go.chromium.org/luci/buildbucket/proto"
-	annotpb "go.chromium.org/luci/luciexe/legacy/annotee/proto"
+	pb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	annotpb "github.com/tetrafolium/luci-go/luciexe/legacy/annotee/proto"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 var annotationStep = &annotpb.Step{

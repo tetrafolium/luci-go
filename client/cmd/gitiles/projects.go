@@ -22,10 +22,10 @@ import (
 
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/common/api/gitiles"
-	"go.chromium.org/luci/common/errors"
-	gitilespb "go.chromium.org/luci/common/proto/gitiles"
+	"github.com/tetrafolium/luci-go/auth"
+	"github.com/tetrafolium/luci-go/common/api/gitiles"
+	"github.com/tetrafolium/luci-go/common/errors"
+	gitilespb "github.com/tetrafolium/luci-go/common/proto/gitiles"
 )
 
 func cmdProjects(authOpts auth.Options) *subcommands.Command {

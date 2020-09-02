@@ -20,10 +20,10 @@ import (
 	"strings"
 	"sync"
 
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/proto/gitiles"
-	"go.chromium.org/luci/common/sync/parallel"
-	"go.chromium.org/luci/config/validation"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
+	"github.com/tetrafolium/luci-go/common/proto/gitiles"
+	"github.com/tetrafolium/luci-go/common/sync/parallel"
+	"github.com/tetrafolium/luci-go/config/validation"
 )
 
 // RefSet efficiently resolves many refs, supporting regexps.

@@ -22,8 +22,8 @@ import (
 
 	"cloud.google.com/go/compute/metadata"
 
-	"go.chromium.org/luci/gce/appengine/testing/roundtripper"
-	"go.chromium.org/luci/gce/vmtoken"
+	"github.com/tetrafolium/luci-go/gce/appengine/testing/roundtripper"
+	"github.com/tetrafolium/luci-go/gce/vmtoken"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

@@ -19,7 +19,7 @@ import (
 	"io"
 	"testing"
 
-	"go.chromium.org/luci/logdog/api/logpb"
+	"github.com/tetrafolium/luci-go/logdog/api/logpb"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

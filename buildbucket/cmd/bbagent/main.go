@@ -16,7 +16,7 @@
 //
 // This executable creates a luciexe 'host' environment, and runs the
 // Buildbucket build's exe within this environment. Please see
-// https://go.chromium.org/luci/luciexe for details about the 'luciexe'
+// https://github.com/tetrafolium/luci-go/luciexe for details about the 'luciexe'
 // protocol.
 //
 // This command is an implementation detail of Buildbucket.
@@ -36,17 +36,17 @@ import (
 	_ "net/http/pprof"
 
 	"github.com/golang/protobuf/jsonpb"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/logging/gologger"
-	"go.chromium.org/luci/common/system/environ"
-	"go.chromium.org/luci/lucictx"
-	"go.chromium.org/luci/luciexe"
-	"go.chromium.org/luci/luciexe/host"
-	"go.chromium.org/luci/luciexe/invoke"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/logging/gologger"
+	"github.com/tetrafolium/luci-go/common/system/environ"
+	"github.com/tetrafolium/luci-go/lucictx"
+	"github.com/tetrafolium/luci-go/luciexe"
+	"github.com/tetrafolium/luci-go/luciexe/host"
+	"github.com/tetrafolium/luci-go/luciexe/invoke"
 
-	"go.chromium.org/luci/buildbucket/cmd/bbagent/bbinput"
-	bbpb "go.chromium.org/luci/buildbucket/proto"
+	"github.com/tetrafolium/luci-go/buildbucket/cmd/bbagent/bbinput"
+	bbpb "github.com/tetrafolium/luci-go/buildbucket/proto"
 )
 
 func main() {

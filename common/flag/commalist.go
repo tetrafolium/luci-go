@@ -18,7 +18,7 @@ import (
 	"flag"
 	"strings"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // commaListFlag implements the flag.Getter returned by CommaList.

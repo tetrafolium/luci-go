@@ -15,13 +15,13 @@
 package internal
 
 import (
-	"go.chromium.org/luci/server"
-	"go.chromium.org/luci/server/limiter"
-	"go.chromium.org/luci/server/module"
-	"go.chromium.org/luci/server/redisconn"
-	"go.chromium.org/luci/server/secrets"
-	"go.chromium.org/luci/server/span"
-	"go.chromium.org/luci/server/tq"
+	"github.com/tetrafolium/luci-go/server"
+	"github.com/tetrafolium/luci-go/server/limiter"
+	"github.com/tetrafolium/luci-go/server/module"
+	"github.com/tetrafolium/luci-go/server/redisconn"
+	"github.com/tetrafolium/luci-go/server/secrets"
+	"github.com/tetrafolium/luci-go/server/span"
+	"github.com/tetrafolium/luci-go/server/tq"
 )
 
 // Main registers all dependencies and runs a service.

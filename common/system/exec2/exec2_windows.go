@@ -21,7 +21,7 @@ import (
 
 	"golang.org/x/sys/windows"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 type attr struct {

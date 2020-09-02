@@ -20,11 +20,11 @@ import (
 
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/common/cli"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/common/cli"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
 
-	"go.chromium.org/luci/gce/api/instances/v1"
+	"github.com/tetrafolium/luci-go/gce/api/instances/v1"
 )
 
 // connectCmd is the command to connect to a Swarming server.

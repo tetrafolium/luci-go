@@ -19,8 +19,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/system/environ"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/system/environ"
 )
 
 func chkStat(file string) error {

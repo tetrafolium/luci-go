@@ -18,7 +18,7 @@ import (
 	"errors"
 	"testing"
 
-	multierror "go.chromium.org/luci/common/errors"
+	multierror "github.com/tetrafolium/luci-go/common/errors"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

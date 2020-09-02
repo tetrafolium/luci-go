@@ -17,7 +17,7 @@ package monitor
 import (
 	"context"
 
-	"go.chromium.org/luci/common/tsmon/types"
+	"github.com/tetrafolium/luci-go/common/tsmon/types"
 )
 
 // Fake is a fake Monitor.

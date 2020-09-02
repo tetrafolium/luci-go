@@ -20,8 +20,8 @@ import (
 	"sort"
 	"strings"
 
-	"go.chromium.org/luci/common/tsmon/distribution"
-	"go.chromium.org/luci/common/tsmon/types"
+	"github.com/tetrafolium/luci-go/common/tsmon/distribution"
+	"github.com/tetrafolium/luci-go/common/tsmon/types"
 )
 
 // formatCellsAsHTML returns an HTML fragment with data from `cells`.

@@ -19,7 +19,7 @@ import (
 
 	"cloud.google.com/go/spanner"
 
-	"go.chromium.org/luci/resultdb/internal/spanutil"
+	"github.com/tetrafolium/luci-go/resultdb/internal/spanutil"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

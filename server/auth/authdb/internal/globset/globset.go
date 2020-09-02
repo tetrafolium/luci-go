@@ -20,8 +20,8 @@ import (
 	"sort"
 	"strings"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/common/data/stringset"
+	"github.com/tetrafolium/luci-go/auth/identity"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
 )
 
 // GlobSet encodes same set of identities as some []identity.Glob.

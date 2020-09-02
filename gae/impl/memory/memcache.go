@@ -19,11 +19,11 @@ import (
 	"sync"
 	"time"
 
-	"go.chromium.org/luci/gae/service/info"
-	mc "go.chromium.org/luci/gae/service/memcache"
+	"github.com/tetrafolium/luci-go/gae/service/info"
+	mc "github.com/tetrafolium/luci-go/gae/service/memcache"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/errors"
 
 	"golang.org/x/net/context"
 )

@@ -15,8 +15,8 @@
 package job
 
 import (
-	bbpb "go.chromium.org/luci/buildbucket/proto"
-	swarmingpb "go.chromium.org/luci/swarming/proto/api"
+	bbpb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	swarmingpb "github.com/tetrafolium/luci-go/swarming/proto/api"
 )
 
 // Info represents the common low-level information for all job Definitions.

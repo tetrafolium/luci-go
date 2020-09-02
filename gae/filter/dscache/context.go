@@ -17,9 +17,9 @@ package dscache
 import (
 	"golang.org/x/net/context"
 
-	"go.chromium.org/luci/common/data/rand/mathrand"
+	"github.com/tetrafolium/luci-go/common/data/rand/mathrand"
 
-	ds "go.chromium.org/luci/gae/service/datastore"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
 )
 
 var dsTxnCacheKey = "holds a *dsCache"

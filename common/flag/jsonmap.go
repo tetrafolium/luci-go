@@ -18,7 +18,7 @@ import (
 	"encoding/json"
 	"flag"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 type jsonMap map[string]string

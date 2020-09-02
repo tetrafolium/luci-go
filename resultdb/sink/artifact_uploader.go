@@ -25,9 +25,9 @@ import (
 	"net/http"
 	"os"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/retry"
-	"go.chromium.org/luci/common/retry/transient"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/retry"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
 )
 
 // DefaultMaxInMemoryFileSize is the default value for ArtifactUploader.MaxInMemoryFileSize.
@@ -81,10 +81,10 @@ func (u *ArtifactUploader) newRequest(ctx context.Context, name, contentType str
 // conform to the format described in the name property of message Artifact at
 // https://chromium.googlesource.com/infra/luci/luci-go/+/master/resultdb/proto/v1/artifact.proto
 //
-// go.chromium.org/luci/resultdb/pbutil package provides utility functions to generate
+// github.com/tetrafolium/luci-go/resultdb/pbutil package provides utility functions to generate
 // an Artifact name for test-result-level and invocation-level artifacts.
-// - https://pkg.go.dev/go.chromium.org/luci/resultdb/pbutil?tab=doc#InvocationArtifactName
-// - https://pkg.go.dev/go.chromium.org/luci/resultdb/pbutil?tab=doc#TestResultArtifactName
+// - https://pkg.go.dev/github.com/tetrafolium/luci-go/resultdb/pbutil?tab=doc#InvocationArtifactName
+// - https://pkg.go.dev/github.com/tetrafolium/luci-go/resultdb/pbutil?tab=doc#TestResultArtifactName
 func (u *ArtifactUploader) Upload(ctx context.Context, name, contentType string, contents []byte, updateToken string) error {
 	req, err := u.newRequest(ctx, name, contentType, bytes.NewReader(contents), updateToken)
 	if err != nil {

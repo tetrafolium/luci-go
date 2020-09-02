@@ -19,13 +19,13 @@ import (
 	"fmt"
 	"regexp"
 
-	"go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/gae/service/info"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/service/info"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	configInterface "go.chromium.org/luci/config"
-	"go.chromium.org/luci/luci_notify/mailtmpl"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	configInterface "github.com/tetrafolium/luci-go/config"
+	"github.com/tetrafolium/luci-go/luci_notify/mailtmpl"
 )
 
 // emailTemplateFilenameRegexp returns a regular expression for email template

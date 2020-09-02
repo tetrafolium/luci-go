@@ -19,7 +19,7 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"go.chromium.org/luci/server/auth/service/protocol"
+	"github.com/tetrafolium/luci-go/server/auth/service/protocol"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

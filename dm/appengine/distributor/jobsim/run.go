@@ -25,16 +25,16 @@ import (
 	"github.com/golang/protobuf/jsonpb"
 	"google.golang.org/grpc/codes"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/data/rand/cryptorand"
-	"go.chromium.org/luci/common/lhttp"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/proto/google"
-	"go.chromium.org/luci/dm/api/distributor/jobsim"
-	dm "go.chromium.org/luci/dm/api/service/v1"
-	"go.chromium.org/luci/grpc/grpcutil"
-	"go.chromium.org/luci/grpc/prpc"
-	authlib "go.chromium.org/luci/server/auth"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/data/rand/cryptorand"
+	"github.com/tetrafolium/luci-go/common/lhttp"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/proto/google"
+	"github.com/tetrafolium/luci-go/dm/api/distributor/jobsim"
+	dm "github.com/tetrafolium/luci-go/dm/api/service/v1"
+	"github.com/tetrafolium/luci-go/grpc/grpcutil"
+	"github.com/tetrafolium/luci-go/grpc/prpc"
+	authlib "github.com/tetrafolium/luci-go/server/auth"
 )
 
 // state is the opaque state data that DM will pass between re-executions of the

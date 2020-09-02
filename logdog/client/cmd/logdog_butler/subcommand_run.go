@@ -22,14 +22,14 @@ import (
 	"os/exec"
 	"sync"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/flag/nestedflagset"
-	log "go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/system/environ"
-	"go.chromium.org/luci/common/system/exitcode"
-	"go.chromium.org/luci/logdog/client/bootstrapResult"
-	"go.chromium.org/luci/logdog/client/butler"
-	"go.chromium.org/luci/logdog/client/butler/streamserver"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/flag/nestedflagset"
+	log "github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/system/environ"
+	"github.com/tetrafolium/luci-go/common/system/exitcode"
+	"github.com/tetrafolium/luci-go/logdog/client/bootstrapResult"
+	"github.com/tetrafolium/luci-go/logdog/client/butler"
+	"github.com/tetrafolium/luci-go/logdog/client/butler/streamserver"
 
 	"github.com/maruel/subcommands"
 )

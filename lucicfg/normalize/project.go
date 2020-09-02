@@ -17,7 +17,7 @@ package normalize
 import (
 	"context"
 
-	pb "go.chromium.org/luci/common/proto/config"
+	pb "github.com/tetrafolium/luci-go/common/proto/config"
 )
 
 // Project normalizes project.cfg config.

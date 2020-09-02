@@ -17,9 +17,9 @@ syntax = "proto3";
 package luci.resultdb.v1;
 
 import "google/api/field_behavior.proto";
-import "go.chromium.org/luci/resultdb/proto/v1/invocation.proto";
+import "github.com/tetrafolium/luci-go/resultdb/proto/v1/invocation.proto";
 
-option go_package = "go.chromium.org/luci/resultdb/proto/v1;resultpb";
+option go_package = "github.com/tetrafolium/luci-go/resultdb/proto/v1;resultpb";
 
 // Service to derive test results.
 //

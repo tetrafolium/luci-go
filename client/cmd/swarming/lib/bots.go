@@ -25,11 +25,11 @@ import (
 
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/flag"
-	"go.chromium.org/luci/common/flag/stringmapflag"
-	"go.chromium.org/luci/common/system/signals"
+	"github.com/tetrafolium/luci-go/auth"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/flag"
+	"github.com/tetrafolium/luci-go/common/flag/stringmapflag"
+	"github.com/tetrafolium/luci-go/common/system/signals"
 )
 
 // CmdBots returns an object for the `bots` subcommand.

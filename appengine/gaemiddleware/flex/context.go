@@ -18,7 +18,7 @@ import (
 	"context"
 	"net/http"
 
-	"go.chromium.org/luci/gae/impl/cloud"
+	"github.com/tetrafolium/luci-go/gae/impl/cloud"
 )
 
 // HTTPRequest returns the inbound HTTP request associated with the current

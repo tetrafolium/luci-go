@@ -19,10 +19,10 @@ import (
 
 	"github.com/Masterminds/squirrel"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 
-	"go.chromium.org/luci/machine-db/api/crimson/v1"
-	"go.chromium.org/luci/machine-db/appengine/database"
+	"github.com/tetrafolium/luci-go/machine-db/api/crimson/v1"
+	"github.com/tetrafolium/luci-go/machine-db/appengine/database"
 )
 
 // ListPlatforms handles a request to retrieve platforms.

@@ -17,7 +17,7 @@ package lib
 import (
 	"fmt"
 
-	"go.chromium.org/luci/cipd/version"
+	"github.com/tetrafolium/luci-go/cipd/version"
 )
 
 // SwarmingVersion must be updated whenever functional change (behavior,

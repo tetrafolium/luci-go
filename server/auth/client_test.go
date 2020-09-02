@@ -25,11 +25,11 @@ import (
 
 	"golang.org/x/oauth2"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/server/auth/signing"
-	"go.chromium.org/luci/server/auth/signing/signingtest"
+	"github.com/tetrafolium/luci-go/auth"
+	"github.com/tetrafolium/luci-go/auth/identity"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/server/auth/signing"
+	"github.com/tetrafolium/luci-go/server/auth/signing/signingtest"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

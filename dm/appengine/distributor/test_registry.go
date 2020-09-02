@@ -18,8 +18,8 @@ import (
 	"context"
 	"fmt"
 
-	"go.chromium.org/luci/dm/api/service/v1"
-	"go.chromium.org/luci/tumble"
+	"github.com/tetrafolium/luci-go/dm/api/service/v1"
+	"github.com/tetrafolium/luci-go/tumble"
 )
 
 type TestFactoryFn func(context.Context, *Config) D

@@ -20,10 +20,10 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/common/data/rand/mathrand"
-	"go.chromium.org/luci/gae/service/taskqueue"
-	logdog "go.chromium.org/luci/logdog/api/endpoints/coordinator/services/v1"
-	ct "go.chromium.org/luci/logdog/appengine/coordinator/coordinatorTest"
+	"github.com/tetrafolium/luci-go/common/data/rand/mathrand"
+	"github.com/tetrafolium/luci-go/gae/service/taskqueue"
+	logdog "github.com/tetrafolium/luci-go/logdog/api/endpoints/coordinator/services/v1"
+	ct "github.com/tetrafolium/luci-go/logdog/appengine/coordinator/coordinatorTest"
 
 	"github.com/golang/protobuf/ptypes"
 	. "github.com/smartystreets/goconvey/convey"

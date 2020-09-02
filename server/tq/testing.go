@@ -21,8 +21,8 @@ import (
 
 	taskspb "google.golang.org/genproto/googleapis/cloud/tasks/v2"
 
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/server/tq/tqtesting"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
+	"github.com/tetrafolium/luci-go/server/tq/tqtesting"
 )
 
 // TestingContext creates a scheduler that executes tasks through the given

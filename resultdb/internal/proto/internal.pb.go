@@ -16,7 +16,7 @@
 // versions:
 // 	protoc-gen-go v1.24.0-devel
 // 	protoc        v3.12.1
-// source: go.chromium.org/luci/resultdb/internal/proto/internal.proto
+// source: github.com/tetrafolium/luci-go/resultdb/internal/proto/internal.proto
 
 package internalpb
 

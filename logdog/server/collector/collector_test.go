@@ -21,18 +21,18 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/config"
-	"go.chromium.org/luci/logdog/api/logpb"
-	"go.chromium.org/luci/logdog/client/pubsubprotocol"
-	"go.chromium.org/luci/logdog/common/storage/memory"
-	"go.chromium.org/luci/logdog/common/types"
-	cc "go.chromium.org/luci/logdog/server/collector/coordinator"
+	"github.com/tetrafolium/luci-go/common/clock/testclock"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
+	"github.com/tetrafolium/luci-go/config"
+	"github.com/tetrafolium/luci-go/logdog/api/logpb"
+	"github.com/tetrafolium/luci-go/logdog/client/pubsubprotocol"
+	"github.com/tetrafolium/luci-go/logdog/common/storage/memory"
+	"github.com/tetrafolium/luci-go/logdog/common/types"
+	cc "github.com/tetrafolium/luci-go/logdog/server/collector/coordinator"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 // TestCollector runs through a series of end-to-end Collector workflows and

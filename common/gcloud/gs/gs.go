@@ -21,10 +21,10 @@ import (
 	"net/http"
 	"time"
 
-	"go.chromium.org/luci/common/errors"
-	log "go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry"
-	"go.chromium.org/luci/common/retry/transient"
+	"github.com/tetrafolium/luci-go/common/errors"
+	log "github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/retry"
+	"github.com/tetrafolium/luci-go/common/retry/transient"
 
 	gs "cloud.google.com/go/storage"
 

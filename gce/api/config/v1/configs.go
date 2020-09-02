@@ -17,7 +17,7 @@ package config
 import (
 	"strings"
 
-	"go.chromium.org/luci/config/validation"
+	"github.com/tetrafolium/luci-go/config/validation"
 )
 
 // Validate validates these configs.

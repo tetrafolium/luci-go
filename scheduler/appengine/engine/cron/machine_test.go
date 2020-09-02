@@ -18,7 +18,7 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/scheduler/appengine/schedule"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/schedule"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

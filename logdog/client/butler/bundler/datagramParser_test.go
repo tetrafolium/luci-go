@@ -20,9 +20,9 @@ import (
 	"time"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"go.chromium.org/luci/common/data/chunkstream"
-	"go.chromium.org/luci/common/data/recordio"
-	"go.chromium.org/luci/logdog/api/logpb"
+	"github.com/tetrafolium/luci-go/common/data/chunkstream"
+	"github.com/tetrafolium/luci-go/common/data/recordio"
+	"github.com/tetrafolium/luci-go/logdog/api/logpb"
 )
 
 func dgram(d ...byte) []byte {

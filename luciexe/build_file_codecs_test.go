@@ -19,8 +19,8 @@ import (
 	"testing"
 
 	. "github.com/smartystreets/goconvey/convey"
-	bbpb "go.chromium.org/luci/buildbucket/proto"
-	. "go.chromium.org/luci/common/testing/assertions"
+	bbpb "github.com/tetrafolium/luci-go/buildbucket/proto"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestBuildCodec(t *testing.T) {

@@ -19,10 +19,10 @@ import (
 	"strings"
 	"testing"
 
-	"go.chromium.org/luci/logdog/client/butlerlib/streamclient"
+	"github.com/tetrafolium/luci-go/logdog/client/butlerlib/streamclient"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestWindowsNamedPipeServer(t *testing.T) {

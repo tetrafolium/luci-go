@@ -16,8 +16,8 @@ package butler
 
 import (
 	"github.com/golang/protobuf/proto"
-	"go.chromium.org/luci/logdog/api/logpb"
-	"go.chromium.org/luci/logdog/common/types"
+	"github.com/tetrafolium/luci-go/logdog/api/logpb"
+	"github.com/tetrafolium/luci-go/logdog/common/types"
 )
 
 // StreamRegistrationCallback is a callback to invoke when a new stream is

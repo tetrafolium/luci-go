@@ -40,9 +40,9 @@ def _notifier_template(
     #### Template input
 
     The input to both templates is a
-    [TemplateInput](https://godoc.org/go.chromium.org/luci/luci_notify/api/config#TemplateInput)
+    [TemplateInput](https://godoc.org/github.com/tetrafolium/luci-go/luci_notify/api/config#TemplateInput)
     Go struct derived from
-    [TemplateInput](https://cs.chromium.org/chromium/infra/go/src/go.chromium.org/luci/luci_notify/api/config/notify.proto?q=TemplateInput)
+    [TemplateInput](https://cs.chromium.org/chromium/infra/go/src/github.com/tetrafolium/luci-go/luci_notify/api/config/notify.proto?q=TemplateInput)
     proto message.
 
     #### Template functions
@@ -104,7 +104,7 @@ def _notifier_template(
 
     #### Email preview
 
-    [preview_email](http://godoc.org/go.chromium.org/luci/luci_notify/cmd/preview_email)
+    [preview_email](http://godoc.org/github.com/tetrafolium/luci-go/luci_notify/cmd/preview_email)
     command can render a template file to stdout.
 
     Example:

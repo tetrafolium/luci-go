@@ -21,10 +21,10 @@ import (
 
 	"google.golang.org/genproto/protobuf/field_mask"
 
-	"go.chromium.org/luci/auth/client/authcli"
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/auth/client/authcli"
+	"github.com/tetrafolium/luci-go/common/errors"
 
-	"go.chromium.org/luci/machine-db/api/common/v1"
+	"github.com/tetrafolium/luci-go/machine-db/api/common/v1"
 )
 
 // CommonFlags contains common flags for all commands.

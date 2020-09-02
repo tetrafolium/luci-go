@@ -23,7 +23,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/metadata"
 
-	"go.chromium.org/luci/common/retry"
+	"github.com/tetrafolium/luci-go/common/retry"
 )
 
 // Options controls how RPC requests are sent.

@@ -25,13 +25,13 @@ import (
 	"sync"
 	"time"
 
-	"go.chromium.org/luci/client/internal/common"
-	"go.chromium.org/luci/client/internal/progress"
-	"go.chromium.org/luci/common/api/isolate/isolateservice/v1"
-	"go.chromium.org/luci/common/data/text/units"
-	"go.chromium.org/luci/common/isolated"
-	"go.chromium.org/luci/common/isolatedclient"
-	"go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/client/internal/common"
+	"github.com/tetrafolium/luci-go/client/internal/progress"
+	"github.com/tetrafolium/luci-go/common/api/isolate/isolateservice/v1"
+	"github.com/tetrafolium/luci-go/common/data/text/units"
+	"github.com/tetrafolium/luci-go/common/isolated"
+	"github.com/tetrafolium/luci-go/common/isolatedclient"
+	"github.com/tetrafolium/luci-go/common/logging"
 )
 
 const (

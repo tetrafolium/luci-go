@@ -19,12 +19,12 @@ import (
 
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/vpython/api/vpython"
-	"go.chromium.org/luci/vpython/spec"
+	"github.com/tetrafolium/luci-go/vpython/api/vpython"
+	"github.com/tetrafolium/luci-go/vpython/spec"
 
-	"go.chromium.org/luci/common/cli"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/common/cli"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
 )
 
 var subcommandVerify = &subcommands.Command{

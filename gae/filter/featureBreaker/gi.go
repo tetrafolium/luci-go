@@ -19,7 +19,7 @@ import (
 
 	"golang.org/x/net/context"
 
-	"go.chromium.org/luci/gae/service/info"
+	"github.com/tetrafolium/luci-go/gae/service/info"
 )
 
 type infoState struct {

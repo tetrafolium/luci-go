@@ -23,20 +23,20 @@ import (
 	"github.com/golang/protobuf/ptypes/empty"
 	"github.com/gomodule/redigo/redis"
 
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/trace"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/trace"
 
-	"go.chromium.org/luci/server"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/auth/openid"
-	"go.chromium.org/luci/server/gaeemulation"
-	"go.chromium.org/luci/server/module"
-	"go.chromium.org/luci/server/redisconn"
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/server/secrets"
-	"go.chromium.org/luci/server/tq"
+	"github.com/tetrafolium/luci-go/server"
+	"github.com/tetrafolium/luci-go/server/auth"
+	"github.com/tetrafolium/luci-go/server/auth/openid"
+	"github.com/tetrafolium/luci-go/server/gaeemulation"
+	"github.com/tetrafolium/luci-go/server/module"
+	"github.com/tetrafolium/luci-go/server/redisconn"
+	"github.com/tetrafolium/luci-go/server/router"
+	"github.com/tetrafolium/luci-go/server/secrets"
+	"github.com/tetrafolium/luci-go/server/tq"
 
-	"go.chromium.org/luci/examples/k8s/helloworld/apipb"
+	"github.com/tetrafolium/luci-go/examples/k8s/helloworld/apipb"
 )
 
 func main() {

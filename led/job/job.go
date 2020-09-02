@@ -26,14 +26,14 @@ import (
 	"github.com/golang/protobuf/ptypes"
 	durpb "github.com/golang/protobuf/ptypes/duration"
 
-	"go.chromium.org/luci/buildbucket/cmd/bbagent/bbinput"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/data/rand/cryptorand"
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/led/job/experiments"
-	logdog_types "go.chromium.org/luci/logdog/common/types"
-	swarmingpb "go.chromium.org/luci/swarming/proto/api"
+	"github.com/tetrafolium/luci-go/buildbucket/cmd/bbagent/bbinput"
+	"github.com/tetrafolium/luci-go/common/clock"
+	"github.com/tetrafolium/luci-go/common/data/rand/cryptorand"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/led/job/experiments"
+	logdog_types "github.com/tetrafolium/luci-go/logdog/common/types"
+	swarmingpb "github.com/tetrafolium/luci-go/swarming/proto/api"
 )
 
 type isoInput struct {

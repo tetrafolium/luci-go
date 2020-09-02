@@ -28,16 +28,16 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/grpc/prpc"
-	"go.chromium.org/luci/hardcoded/chromeinfra"
-	"go.chromium.org/luci/server"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/grpc/prpc"
+	"github.com/tetrafolium/luci-go/hardcoded/chromeinfra"
+	"github.com/tetrafolium/luci-go/server"
 
-	"go.chromium.org/luci/resultdb/internal/services/finalizer"
-	"go.chromium.org/luci/resultdb/internal/services/purger"
-	"go.chromium.org/luci/resultdb/internal/services/recorder"
-	"go.chromium.org/luci/resultdb/internal/services/resultdb"
-	pb "go.chromium.org/luci/resultdb/proto/v1"
+	"github.com/tetrafolium/luci-go/resultdb/internal/services/finalizer"
+	"github.com/tetrafolium/luci-go/resultdb/internal/services/purger"
+	"github.com/tetrafolium/luci-go/resultdb/internal/services/recorder"
+	"github.com/tetrafolium/luci-go/resultdb/internal/services/resultdb"
+	pb "github.com/tetrafolium/luci-go/resultdb/proto/v1"
 )
 
 // testApp runs all resultdb servers in one process.

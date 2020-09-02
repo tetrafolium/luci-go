@@ -23,7 +23,7 @@ import (
 	"reflect"
 	"time"
 
-	"go.chromium.org/luci/gae/service/blobstore"
+	"github.com/tetrafolium/luci-go/gae/service/blobstore"
 )
 
 var (

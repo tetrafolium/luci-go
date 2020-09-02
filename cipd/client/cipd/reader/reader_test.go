@@ -27,13 +27,13 @@ import (
 	"testing"
 	"time"
 
-	api "go.chromium.org/luci/cipd/api/cipd/v1"
-	"go.chromium.org/luci/cipd/client/cipd/builder"
-	"go.chromium.org/luci/cipd/client/cipd/fs"
-	"go.chromium.org/luci/cipd/client/cipd/pkg"
+	api "github.com/tetrafolium/luci-go/cipd/api/cipd/v1"
+	"github.com/tetrafolium/luci-go/cipd/client/cipd/builder"
+	"github.com/tetrafolium/luci-go/cipd/client/cipd/fs"
+	"github.com/tetrafolium/luci-go/cipd/client/cipd/pkg"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/cipd/common"
+	. "github.com/tetrafolium/luci-go/cipd/common"
 )
 
 func stringCounts(values []string) map[string]int {

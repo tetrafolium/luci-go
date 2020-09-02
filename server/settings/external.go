@@ -22,7 +22,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/common/logging"
 )
 
 // ExternalStorage implements Storage interface using an externally supplied

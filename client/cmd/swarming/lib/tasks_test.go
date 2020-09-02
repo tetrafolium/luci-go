@@ -17,10 +17,10 @@ package lib
 import (
 	"testing"
 
-	"go.chromium.org/luci/auth"
+	"github.com/tetrafolium/luci-go/auth"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/tetrafolium/luci-go/common/testing/assertions"
 )
 
 func TestTasksParse(t *testing.T) {

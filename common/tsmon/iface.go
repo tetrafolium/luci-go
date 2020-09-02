@@ -20,14 +20,14 @@ import (
 	"net/url"
 	"strings"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/tsmon/monitor"
-	"go.chromium.org/luci/common/tsmon/store"
-	"go.chromium.org/luci/common/tsmon/target"
+	"github.com/tetrafolium/luci-go/auth"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/tsmon/monitor"
+	"github.com/tetrafolium/luci-go/common/tsmon/store"
+	"github.com/tetrafolium/luci-go/common/tsmon/target"
 
-	"go.chromium.org/luci/hardcoded/chromeinfra"
+	"github.com/tetrafolium/luci-go/hardcoded/chromeinfra"
 )
 
 // Store returns the global metric store that contains all the metric values for

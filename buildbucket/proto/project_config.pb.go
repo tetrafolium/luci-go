@@ -18,15 +18,15 @@
 // versions:
 // 	protoc-gen-go v1.25.0-devel
 // 	protoc        v3.12.1
-// source: go.chromium.org/luci/buildbucket/proto/project_config.proto
+// source: github.com/tetrafolium/luci-go/buildbucket/proto/project_config.proto
 
 package buildbucketpb
 
 import (
 	proto "github.com/golang/protobuf/proto"
 	wrappers "github.com/golang/protobuf/ptypes/wrappers"
-	_ "go.chromium.org/luci/common/proto"
-	v1 "go.chromium.org/luci/resultdb/proto/v1"
+	_ "github.com/tetrafolium/luci-go/common/proto"
+	v1 "github.com/tetrafolium/luci-go/resultdb/proto/v1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

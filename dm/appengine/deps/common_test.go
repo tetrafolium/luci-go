@@ -19,15 +19,15 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	dm "go.chromium.org/luci/dm/api/service/v1"
-	"go.chromium.org/luci/dm/appengine/distributor/fake"
-	"go.chromium.org/luci/dm/appengine/model"
-	"go.chromium.org/luci/dm/appengine/mutate"
-	ds "go.chromium.org/luci/gae/service/datastore"
-	"go.chromium.org/luci/gae/service/datastore/dumper"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/auth/authtest"
-	"go.chromium.org/luci/tumble"
+	dm "github.com/tetrafolium/luci-go/dm/api/service/v1"
+	"github.com/tetrafolium/luci-go/dm/appengine/distributor/fake"
+	"github.com/tetrafolium/luci-go/dm/appengine/model"
+	"github.com/tetrafolium/luci-go/dm/appengine/mutate"
+	ds "github.com/tetrafolium/luci-go/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/service/datastore/dumper"
+	"github.com/tetrafolium/luci-go/server/auth"
+	"github.com/tetrafolium/luci-go/server/auth/authtest"
+	"github.com/tetrafolium/luci-go/tumble"
 )
 
 func testSetup() (ttest *tumble.Testing, c context.Context, dist *fake.Distributor, s testDepsServer) {

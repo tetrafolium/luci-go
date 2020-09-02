@@ -17,15 +17,15 @@ package config
 import (
 	"context"
 
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/config"
-	"go.chromium.org/luci/config/cfgclient"
-	"go.chromium.org/luci/config/validation"
+	"github.com/tetrafolium/luci-go/common/data/stringset"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/config"
+	"github.com/tetrafolium/luci-go/config/cfgclient"
+	"github.com/tetrafolium/luci-go/config/validation"
 
-	configPB "go.chromium.org/luci/machine-db/api/config/v1"
-	"go.chromium.org/luci/machine-db/appengine/model"
+	configPB "github.com/tetrafolium/luci-go/machine-db/api/config/v1"
+	"github.com/tetrafolium/luci-go/machine-db/appengine/model"
 )
 
 // platformsFilename is the name of the config file enumerating platforms.

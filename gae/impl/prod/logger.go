@@ -17,7 +17,7 @@ package prod
 import (
 	"fmt"
 
-	"go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/common/logging"
 
 	"google.golang.org/appengine/log"
 

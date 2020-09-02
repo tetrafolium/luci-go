@@ -24,15 +24,15 @@ import (
 	"strings"
 	"time"
 
-	"go.chromium.org/luci/client/archiver"
-	"go.chromium.org/luci/client/isolated"
-	"go.chromium.org/luci/common/errors"
-	commonisolated "go.chromium.org/luci/common/isolated"
-	"go.chromium.org/luci/common/isolatedclient"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/system/environ"
-	"go.chromium.org/luci/common/system/exec2"
-	"go.chromium.org/luci/common/system/filesystem"
+	"github.com/tetrafolium/luci-go/client/archiver"
+	"github.com/tetrafolium/luci-go/client/isolated"
+	"github.com/tetrafolium/luci-go/common/errors"
+	commonisolated "github.com/tetrafolium/luci-go/common/isolated"
+	"github.com/tetrafolium/luci-go/common/isolatedclient"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/common/system/environ"
+	"github.com/tetrafolium/luci-go/common/system/exec2"
+	"github.com/tetrafolium/luci-go/common/system/filesystem"
 )
 
 const (

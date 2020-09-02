@@ -19,10 +19,10 @@ import (
 	"net/http"
 	"strconv"
 
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/server/templates"
+	"github.com/tetrafolium/luci-go/server/router"
+	"github.com/tetrafolium/luci-go/server/templates"
 
-	"go.chromium.org/luci/scheduler/appengine/engine"
+	"github.com/tetrafolium/luci-go/scheduler/appengine/engine"
 )
 
 func invocationPage(c *router.Context) {

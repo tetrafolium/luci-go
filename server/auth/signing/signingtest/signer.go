@@ -26,7 +26,7 @@ import (
 	"math/big"
 	"time"
 
-	"go.chromium.org/luci/server/auth/signing"
+	"github.com/tetrafolium/luci-go/server/auth/signing"
 )
 
 // Signer holds private key and corresponding cert and can sign blobs with

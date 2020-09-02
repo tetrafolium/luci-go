@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/server/router"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/server/router"
 )
 
 // InstallHandlers installs authentication related HTTP handlers.

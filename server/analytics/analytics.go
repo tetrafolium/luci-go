@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"html/template"
 
-	"go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/common/logging"
 )
 
 // ID returns the Google Analytics ID if it's set, and "" otherwise.

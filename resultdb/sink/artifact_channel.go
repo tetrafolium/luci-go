@@ -20,11 +20,11 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"go.chromium.org/luci/common/sync/dispatcher"
-	"go.chromium.org/luci/common/sync/dispatcher/buffer"
+	"github.com/tetrafolium/luci-go/common/sync/dispatcher"
+	"github.com/tetrafolium/luci-go/common/sync/dispatcher/buffer"
 
-	"go.chromium.org/luci/resultdb/pbutil"
-	sinkpb "go.chromium.org/luci/resultdb/sink/proto/v1"
+	"github.com/tetrafolium/luci-go/resultdb/pbutil"
+	sinkpb "github.com/tetrafolium/luci-go/resultdb/sink/proto/v1"
 )
 
 type artifactChannel struct {

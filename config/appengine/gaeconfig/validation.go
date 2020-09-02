@@ -18,17 +18,17 @@ import (
 	"context"
 	"net/http"
 
-	"go.chromium.org/luci/gae/service/info"
+	"github.com/tetrafolium/luci-go/gae/service/info"
 
-	"go.chromium.org/luci/appengine/gaeauth/server"
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/config/server/cfgmodule"
-	"go.chromium.org/luci/config/validation"
-	"go.chromium.org/luci/config/vars"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/auth/signing"
-	"go.chromium.org/luci/server/router"
+	"github.com/tetrafolium/luci-go/appengine/gaeauth/server"
+	"github.com/tetrafolium/luci-go/auth/identity"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/config/server/cfgmodule"
+	"github.com/tetrafolium/luci-go/config/validation"
+	"github.com/tetrafolium/luci-go/config/vars"
+	"github.com/tetrafolium/luci-go/server/auth"
+	"github.com/tetrafolium/luci-go/server/auth/signing"
+	"github.com/tetrafolium/luci-go/server/router"
 )
 
 func init() {

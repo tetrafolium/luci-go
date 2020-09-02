@@ -24,7 +24,7 @@ import (
 
 	taskspb "google.golang.org/genproto/googleapis/cloud/tasks/v2"
 
-	"go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/common/logging"
 )
 
 // LoopbackHTTPExecutor is an Executor that executes tasks by calling the given

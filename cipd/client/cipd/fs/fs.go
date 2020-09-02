@@ -28,9 +28,9 @@ import (
 	"sync"
 	"time"
 
-	"go.chromium.org/luci/common/logging"
+	"github.com/tetrafolium/luci-go/common/logging"
 
-	"go.chromium.org/luci/cipd/client/cipd/internal/retry"
+	"github.com/tetrafolium/luci-go/cipd/client/cipd/internal/retry"
 )
 
 // FileSystem abstracts operations that touch single file system subpath.

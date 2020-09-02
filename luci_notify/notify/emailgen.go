@@ -17,15 +17,15 @@ package notify
 import (
 	"context"
 
-	"go.chromium.org/luci/gae/service/datastore"
+	"github.com/tetrafolium/luci-go/gae/service/datastore"
 
-	"go.chromium.org/luci/common/data/caching/lru"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/server/caching"
+	"github.com/tetrafolium/luci-go/common/data/caching/lru"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/common/logging"
+	"github.com/tetrafolium/luci-go/server/caching"
 
-	"go.chromium.org/luci/luci_notify/config"
-	"go.chromium.org/luci/luci_notify/mailtmpl"
+	"github.com/tetrafolium/luci-go/luci_notify/config"
+	"github.com/tetrafolium/luci-go/luci_notify/mailtmpl"
 )
 
 // bundle is a wrapper around mailtmpl.Bundle to provide extra info

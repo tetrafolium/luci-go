@@ -15,7 +15,7 @@
 package filesystem
 
 import (
-	"go.chromium.org/luci/config"
+	"github.com/tetrafolium/luci-go/config"
 )
 
 type configList []config.Config

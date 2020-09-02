@@ -19,7 +19,7 @@ import (
 	"os"
 	"runtime"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/tetrafolium/luci-go/common/errors"
 )
 
 // config is the representation of a tsmon JSON config file.

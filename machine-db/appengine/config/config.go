@@ -18,9 +18,9 @@ import (
 	"context"
 	"net/http"
 
-	"go.chromium.org/luci/appengine/gaemiddleware"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/server/router"
+	"github.com/tetrafolium/luci-go/appengine/gaemiddleware"
+	"github.com/tetrafolium/luci-go/common/errors"
+	"github.com/tetrafolium/luci-go/server/router"
 )
 
 // importHandler handles HTTP requests to reimport the config.

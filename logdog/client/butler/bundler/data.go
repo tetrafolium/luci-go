@@ -18,7 +18,7 @@ import (
 	"sync"
 	"time"
 
-	"go.chromium.org/luci/common/data/chunkstream"
+	"github.com/tetrafolium/luci-go/common/data/chunkstream"
 )
 
 type dataPoolRegistry struct {

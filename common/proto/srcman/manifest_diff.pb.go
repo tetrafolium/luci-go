@@ -6,13 +6,13 @@
 // versions:
 // 	protoc-gen-go v1.25.0-devel
 // 	protoc        v3.12.1
-// source: go.chromium.org/luci/common/proto/srcman/manifest_diff.proto
+// source: github.com/tetrafolium/luci-go/common/proto/srcman/manifest_diff.proto
 
 package srcman
 
 import (
 	proto "github.com/golang/protobuf/proto"
-	git "go.chromium.org/luci/common/proto/git"
+	git "github.com/tetrafolium/luci-go/common/proto/git"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
