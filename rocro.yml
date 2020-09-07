@@ -1,7 +1,80 @@
 inspecode:
+  global:
+    runtime:
+      go: 1.15
+  cpd:
+    input: 'gae/**'
+    ignore:
+      - '**/*_test.go'            #  9 issues
+    options:
+      --ignore-annotations:
+      --ignore-identifiers:
+      --ignore-literals:
+      --ignore-usings:
+    thresholds: { num-issues: 1 }
 
   errcheck:
     input: 'gae/**'
     ignore:
       - '**/*_test.go'            #  51 issues
     thresholds: { num-issues: 44 }
+
+  fossology:
+    input: 'gae/**'
+    thresholds: { num-issues: 3 }
+
+  go-test:
+    input: 'gae/**'
+    thresholds: { num-issues: 0 }
+
+  go-vet:
+    input: 'gae/**'
+    thresholds: { num-issues: 0 }
+
+  gofmt:
+    input: 'gae/**'
+    auto-fix: true
+    thresholds: { num-issues: 1 }
+
+  goimports:
+    input: 'gae/**'
+    auto-fix: true
+    thresholds: { num-issues: 1 }
+
+  golint:
+    input: 'gae/**'
+    auto-fix: false   # it takes a very long time when true
+    thresholds: { num-issues: 711 }
+
+  gosec:
+    input: 'gae/**'
+    thresholds: { num-issues: 37 }
+
+  grep:
+    input: 'gae/**'
+    thresholds: { num-issues: 3 }
+
+  ineffassign:
+    input: 'gae/**'
+    thresholds: { num-issues: 19 }
+
+  jscpd:
+    input: 'gae/**'
+    thresholds: { num-issues: 32 }
+
+  misspell:
+    input: 'gae/**'
+    auto-fix: true
+    thresholds: { num-issues: 25 }
+
+  staticcheck:
+    input: 'gae/**'
+    thresholds: { num-issues: 77 }
+
+  unused:
+    input: 'gae/**'
+    ignore:
+      - '**/*_test.go'            #  82 issues
+      - '**/internal/**/*.go'     # 135 issues
+    options: [ --single-occurrence, --all-likelihoods ]
+    thresholds: { num-issues: 13 }
